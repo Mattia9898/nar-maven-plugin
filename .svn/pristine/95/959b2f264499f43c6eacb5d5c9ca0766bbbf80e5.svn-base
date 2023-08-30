@@ -1,0 +1,15 @@
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessor#parseSpecs([Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)[[Ljava/lang/String;
+java.util.Vector#<init>(I)V
+java.lang.StringBuffer#<init>(I)V
+java.lang.StringBuffer#setLength(I)V
+java.lang.NullPointerException#<init>(Ljava/lang/String;)V
+java.lang.String#charAt(I)C
+java.lang.String#indexOf(Ljava/lang/String;)I
+java.util.Vector#instance-init#
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.String#indexOf(Ljava/lang/String;I)I
+java.lang.String#length()I
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.NullPointerException#instance-init#
+java.lang.String#startsWith(Ljava/lang/String;)Z

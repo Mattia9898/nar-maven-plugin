@@ -1,0 +1,191 @@
+
+ùcom.github.maven_nar.cpptasks.gcc.cross.GppLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java◊ ◊("startingBlock*©
+2}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÊ Ê(Ê
+„
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÊ Ê(8
+%111com.github.maven_nar.cpptasks.gcc.cross.GppLinker"__id*"
+
+__unknown_file (
+"""ª
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÊ Ê(:
+8
+%111com.github.maven_nar.cpptasks.gcc.cross.GppLinker*©
+3}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‰ ‰(Ê
+„
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‰ ‰(8
+%101com.github.maven_nar.cpptasks.gcc.cross.GppLinker"__id*"
+
+__unknown_file (
+"""ª
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‰ ‰(:
+8
+%101com.github.maven_nar.cpptasks.gcc.cross.GppLinker*®
+startingBlock}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java◊ ◊(.†
+ù
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java÷ ÷(
+%13"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeÓ
+Î
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java◊) ◊(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*#
+
+__unknown_file (
+
+%13*
+11*û
+4}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java„
+ „(≈
+¬
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java„
+ „(#
+%8java.lang.String"Scom.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getMachine()Ljava/lang/String;*T
+
+__unknown_file (8"6
+4com.github.maven_nar.cpptasks.gcc.cross.GccProcessor…∆
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java„
+ „(6
+%9boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*4
+
+__unknown_file (
+
+%8java.lang.String*&
+
+__unknown_file (
+
+darwin2"contains(Ljava/lang/CharSequence;)*
+2
+3*Ã
+5}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‚ ‚(øº
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‚ ‚(
+%7boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+4
+1*ß
+6}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaﬂ ﬂ(Â
+‚
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaﬂ ﬂ(7
+%61com.github.maven_nar.cpptasks.gcc.cross.GppLinker"__id*"
+
+__unknown_file (
+"""∫
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaﬂ ﬂ(9
+7
+%61com.github.maven_nar.cpptasks.gcc.cross.GppLinker*ß
+7}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java› ›(Â
+‚
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java› ›(7
+%51com.github.maven_nar.cpptasks.gcc.cross.GppLinker"__id*"
+
+__unknown_file (
+"""∫
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java› ›( 9
+7
+%51com.github.maven_nar.cpptasks.gcc.cross.GppLinker*û
+8}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‹
+ ‹(≈
+¬
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‹
+ ‹(#
+%3java.lang.String"Scom.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getMachine()Ljava/lang/String;*T
+
+__unknown_file (8"6
+4com.github.maven_nar.cpptasks.gcc.cross.GccProcessor…∆
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java‹
+ ‹(6
+%4boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*4
+
+__unknown_file (
+
+%3java.lang.String*&
+
+__unknown_file (
+
+darwin2"contains(Ljava/lang/CharSequence;)*
+6
+7* 
+9}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java€ €(Ω∫
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java€ €(
+%2boolean"Acom.github.maven_nar.cpptasks.compiler.LinkType#isPluginModule()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isPluginModule()*
+5
+8*‘
+10}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaŸ Ÿ(é
+ã
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaŸ Ÿ(':
+%14com.github.maven_nar.cpptasks.gcc.cross.GccLibrarian"xcom.github.maven_nar.cpptasks.gcc.cross.GccLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/gcc/cross/GccLibrarian;*T
+
+__unknown_file (8"6
+4com.github.maven_nar.cpptasks.gcc.cross.GccLibrarian"Ω
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaŸ Ÿ((<
+:
+%14com.github.maven_nar.cpptasks.gcc.cross.GccLibrarian*Œ
+11}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÿ ÿ(øº
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÿ ÿ(
+%0boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isStaticLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isStaticLibrary()*
+9
+10*©
+1}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÈ È(Ê
+„
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÈ È(8
+%121com.github.maven_nar.cpptasks.gcc.cross.GppLinker"__id*"
+
+__unknown_file (
+"""ª
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.javaÈ È(:
+8
+%121com.github.maven_nar.cpptasks.gcc.cross.GppLinker:∏
+}
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GppLinker.java◊ ◊(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB53
+1com.github.maven_nar.cpptasks.gcc.cross.GppLinkerH

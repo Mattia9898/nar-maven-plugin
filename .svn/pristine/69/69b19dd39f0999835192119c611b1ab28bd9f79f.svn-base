@@ -1,0 +1,8 @@
+com.github.maven_nar.Substitution#substitute(Ljava/lang/String;)Ljava/lang/String;
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+java.io.File#<init>(Ljava/lang/String;)V
+java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+java.util.regex.Matcher#replaceAll(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.io.File#instance-init#
+java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;

@@ -1,0 +1,10 @@
+
+Wcom.github.maven_nar.cpptasks.gcc.AbstractLdLinker#getStaticLibFlag()Ljava/lang/String;~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java³ ³(#"1*”
+1~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java´ ´("Ž
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java´ ´(
+
+-BstaticB64
+2com.github.maven_nar.cpptasks.gcc.AbstractLdLinker

@@ -1,0 +1,61 @@
+
+[com.github.maven_nar.cpptasks.CUtil#substringMatch(Ljava/lang/String;IILjava/lang/String;)Zo
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÁ Á("3*Ô
+2o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÈ È("y
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÈ È(
+""*€
+3o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaË Ë(‹Ÿ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaË Ë(	
+%0int"java.lang.String#length()I*5
+
+__unknown_file (
+
+srcjava.lang.String2length()*
+2
+1*˛
+1o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÎ Î(Ã…
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÎ Î(.
+%1java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*5
+
+__unknown_file (
+
+srcjava.lang.String*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""2substring(II)Ω∫
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÎ Î(=
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%1java.lang.String*8
+
+__unknown_file (
+
+targetjava.lang.String2equals(Ljava/lang/Object;)"y
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÎ Î(>
+"":ä
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÁ Á(&
+srcjava.lang.String: 
+
+__unknown_file (
+"": 
+
+__unknown_file (
+"":ç
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CUtil.javaÁQ Á(d
+targetjava.lang.StringB'"%
+#com.github.maven_nar.cpptasks.CUtil

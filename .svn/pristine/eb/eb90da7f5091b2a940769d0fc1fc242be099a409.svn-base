@@ -1,0 +1,74 @@
+
+com.github.maven_nar.AbstractDependencyMojo#getRootNodeDependecyTree()Lorg/apache/maven/shared/dependency/graph/DependencyNode;w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaõ õ(3"6* 
+2w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaû û(_œ
+™
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaû û(_;-
++com.github.maven_nar.AbstractDependencyMojo"
+
+rootNode"__id*[
+
+__unknown_file (?
+=
+%27org.apache.maven.shared.dependency.graph.DependencyNode*
+1*Å
+5w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaûP û(^Á¾
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaû û(_=
+%27org.apache.maven.shared.dependency.graph.DependencyNode"ğorg.apache.maven.shared.dependency.graph.DependencyGraphBuilder#buildDependencyGraph(Lorg/apache/maven/project/MavenProject;Lorg/apache/maven/artifact/resolver/filter/ArtifactFilter;)Lorg/apache/maven/shared/dependency/graph/DependencyNode;*c
+
+__unknown_file (G
+E
+%0?org.apache.maven.shared.dependency.graph.DependencyGraphBuilder*I
+
+__unknown_file (-
++
+%1%org.apache.maven.project.MavenProject*h
+
+__unknown_file (L
+J
+artifactFilter8org.apache.maven.artifact.resolver.filter.ArtifactFilter2wbuildDependencyGraph(Lorg/apache/maven/project/MavenProject;Lorg/apache/maven/artifact/resolver/filter/ArtifactFilter;)*
+2*–
+6w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java÷& ÷(*ò
+ï
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java÷ ÷(+J
+artifactFilter8org.apache.maven.artifact.resolver.filter.ArtifactFilter"__id*"
+
+__unknown_file (
+""²
+¯
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaû û('E
+%0?org.apache.maven.shared.dependency.graph.DependencyGraphBuilder"__id*g
+
+__unknown_file (K*I-
++com.github.maven_nar.AbstractDependencyMojo"
+dependencyGraphBuilderèå
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaû= û(N+
+%1%org.apache.maven.project.MavenProject"]com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getMavenProject()*
+5*Ø
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java (œ
+™
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java (=
+%57org.apache.maven.shared.dependency.graph.DependencyNode"__id*Y
+
+__unknown_file (=*;-
++com.github.maven_nar.AbstractDependencyMojo"
+
+rootNode"º
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java (?
+=
+%57org.apache.maven.shared.dependency.graph.DependencyNodeB/-
++com.github.maven_nar.AbstractDependencyMojo

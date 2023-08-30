@@ -1,0 +1,3 @@
+com.github.maven_nar.NarTestCompileMojo#getArtifactScopeFilter()Lorg/apache/maven/shared/artifact/filter/collection/ScopeFilter;
+org.apache.maven.shared.artifact.filter.collection.ScopeFilter#<init>(Ljava/lang/String;Ljava/lang/String;)V
+org.apache.maven.shared.artifact.filter.collection.ScopeFilter#instance-init#

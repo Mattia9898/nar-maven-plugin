@@ -1,0 +1,6 @@
+com.github.maven_nar.NarUtil#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/String;
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+java.util.regex.Matcher#replaceAll(Ljava/lang/String;)Ljava/lang/String;
+java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+com.github.maven_nar.NarUtil#quote(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#quoteReplacement(Ljava/lang/String;)Ljava/lang/String;

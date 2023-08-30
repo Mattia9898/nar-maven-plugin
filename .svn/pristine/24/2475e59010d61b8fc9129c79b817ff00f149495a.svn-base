@@ -1,0 +1,91 @@
+
+¬com.github.maven_nar.cpptasks.openwatcom.OpenWatcomFortranLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaC C("startingBlock*ò
+2‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaH H(ƒ
+€
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaH H(F
+%3@com.github.maven_nar.cpptasks.openwatcom.OpenWatcomFortranLinker"__id*"
+
+__unknown_file (
+"""Ø
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaH H(H
+F
+%3@com.github.maven_nar.cpptasks.openwatcom.OpenWatcomFortranLinker*ê
+3‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaG G(ÎË
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaG G(
+%2boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+2
+1*Ò
+startingBlock‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaC C(.®
+«
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaB B(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeü
+ù
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaC) C(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%5*
+5*©
+4‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaE E( ¾
+»
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaE E(.B
+%1<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian"ˆcom.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian;*\
+
+__unknown_file (@">
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian"Ô
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaE E(/D
+B
+%1<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian*ê
+5‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaD D(ÎË
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaD D(
+%0boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isStaticLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isStaticLibrary()*
+3
+4*ò
+1‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaJ J(ƒ
+€
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaJ J(F
+%4@com.github.maven_nar.cpptasks.openwatcom.OpenWatcomFortranLinker"__id*"
+
+__unknown_file (
+"""Ø
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaJ J(H
+F
+%4@com.github.maven_nar.cpptasks.openwatcom.OpenWatcomFortranLinker:Ç
+‹
+€C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomFortranLinker.javaC C(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeBDB
+@com.github.maven_nar.cpptasks.openwatcom.OpenWatcomFortranLinkerH

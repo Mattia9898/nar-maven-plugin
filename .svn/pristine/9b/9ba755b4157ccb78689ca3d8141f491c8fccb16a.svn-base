@@ -1,0 +1,213 @@
+
+Tcom.github.maven_nar.NarUtil#prettyMavenString(Ljava/lang/Object;)Ljava/lang/String;h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¶ ¶(("7*ª
+2h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¹	 ¹(µ
+²
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¹	 ¹(
+fjava.lang.reflect.Field"__id*"
+
+__unknown_file (
+""ú
+÷
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¹	 ¹(
+fjava.lang.reflect.Field"
+__arrayGet*=
+
+__unknown_file (!
+
+%7java.lang.reflect.Field[]*"
+
+__unknown_file (
+""*
+5
+1*€
+3h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »(ÖÓ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »(
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*"
+
+__unknown_file (
+\t2append(Ljava/lang/String;)‚ÿ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »((
+%10java.lang.String"3java.lang.reflect.Field#getName()Ljava/lang/String;*:
+
+__unknown_file (
+
+fjava.lang.reflect.Field2	getName()êç
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »()
+%11java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%9java.lang.StringBuilder*5
+
+__unknown_file (
+
+%10java.lang.String2append(Ljava/lang/String;)×Ô
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »(5
+%12java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%11java.lang.StringBuilder*!
+
+__unknown_file (
+=2append(Ljava/lang/String;)
+š
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java»= »(M
+%13java.lang.Object"fcom.github.maven_nar.NarUtil#fieldValue(Ljava/lang/reflect/Field;Ljava/lang/Object;)Ljava/lang/Object;*<
+
+__unknown_file ( "
+com.github.maven_nar.NarUtil*:
+
+__unknown_file (
+
+fjava.lang.reflect.Field*3
+
+__unknown_file (
+
+ojava.lang.Objectëè
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »(N
+%14java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/Object;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%12java.lang.StringBuilder*5
+
+__unknown_file (
+
+%13java.lang.Object2append(Ljava/lang/Object;)ØÕ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java» »([
+%15java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*<
+
+__unknown_file ( 
+
+%14java.lang.StringBuilder*"
+
+__unknown_file (
+\n2append(Ljava/lang/String;)*
+2*ø
+5h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaº
+ º(€ı
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaº
+ º(*4
+%8.org.apache.maven.plugins.annotations.Parameter"Yjava.lang.reflect.Field#getAnnotation(Ljava/lang/Class;)Ljava/lang/annotation/Annotation;*:
+
+__unknown_file (
+
+fjava.lang.reflect.Field*"
+
+__unknown_file (
+""2 getAnnotation(Ljava/lang/Class;)*
+2
+3*‚
+6h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¹ ¹(óğ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¹ ¹(%
+%6java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*3
+
+__unknown_file (
+
+ojava.lang.Object2
+getClass()—”
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¹ ¹(9
+%7java.lang.reflect.Field[]"=java.lang.Class#getDeclaredFields()[Ljava/lang/reflect/Field;*3
+
+__unknown_file (
+
+%6java.lang.Class2getDeclaredFields()*
+2*ò
+7h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java· ·(0¥¢
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java·! ·(.
+%0java.lang.StringBuilder"java.lang.StringBuilderÓ
+Ğ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java· ·(0
+%1"!java.lang.StringBuilder#<init>()V*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderÏ
+Ì
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java· ·(1
+sbjava.lang.StringBuilder"__id*;
+
+__unknown_file (
+
+%0java.lang.StringBuilderóğ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¸ ¸(
+%2java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*3
+
+__unknown_file (
+
+ojava.lang.Object2
+getClass()òï
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¸ ¸($
+%3java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*3
+
+__unknown_file (
+
+%2java.lang.Class2	getName()èå
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¸ ¸(%
+%4java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder*4
+
+__unknown_file (
+
+%3java.lang.String2append(Ljava/lang/String;)×Ô
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¸ ¸(3
+%5java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*;
+
+__unknown_file (
+
+%4java.lang.StringBuilder*#
+
+__unknown_file (
+:\n2append(Ljava/lang/String;)*
+6*ı
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java½ ½(…‚
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java½ ½(
+%16java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+sbjava.lang.StringBuilder2
+toString()"…
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java½ ½(
+
+%16java.lang.String:
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¶) ¶(7
+ojava.lang.ObjectB "
+com.github.maven_nar.NarUtilH

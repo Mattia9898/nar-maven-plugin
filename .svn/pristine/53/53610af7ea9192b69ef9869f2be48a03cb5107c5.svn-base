@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.gcc.GccCCompiler#addImpliedArgs(Ljava/util/Vector;ZZZLcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/lang/Boolean;Lcom/github/maven_nar/cpptasks/OptimizationEnum;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.Boolean#booleanValue()Z

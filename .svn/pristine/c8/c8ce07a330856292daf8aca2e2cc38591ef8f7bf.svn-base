@@ -1,0 +1,62 @@
+
+ªcom.github.maven_nar.cpptasks.msvc.MsvcCompatibleLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java> >($"startingBlock*»	
+startingBlock„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java>$ >(\Ž
+‹
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java= =(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]Ü
+Ù
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java>4 >(<
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%1®
+«
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java= =(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumü
+ù
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java>T >([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ë
+1„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java? ?(¸µ
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java? ?(
+%0java.lang.String[]"java.lang.String[]"£
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java? ?(
+
+%0java.lang.String[]:§
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java>% >(=
+libnamesjava.lang.String[]:Ç
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java>> >([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumB><
+:com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLibrarianH

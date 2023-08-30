@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;

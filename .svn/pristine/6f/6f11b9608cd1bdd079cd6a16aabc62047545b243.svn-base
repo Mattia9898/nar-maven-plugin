@@ -1,0 +1,43 @@
+
+Ecom.github.maven_nar.cpptasks.compiler.LinkType#isSubsystemConsole()Z{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÇ Ç(#"1*Å
+1{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÉ É(ô
+ñ
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÉ É('1
+%0+com.github.maven_nar.cpptasks.SubsystemEnum"__id*^
+
+__unknown_file (B*@1
+/com.github.maven_nar.cpptasks.compiler.LinkType"
+	subsystem¬ø
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÉ É(2
+%1java.lang.String"Korg.apache.tools.ant.types.EnumeratedAttribute#getValue()Ljava/lang/String;*O
+
+__unknown_file (3
+1
+%0+com.github.maven_nar.cpptasks.SubsystemEnum2
+getValue()◊
+‘
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÉ É(3
+valuejava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringª∏
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÑ Ñ("
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*7
+
+__unknown_file (
+
+valuejava.lang.String*'
+
+__unknown_file (	
+console2equals(Ljava/lang/Object;)"Ö
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/LinkType.javaÑ Ñ(#
+""B31
+/com.github.maven_nar.cpptasks.compiler.LinkTypeH

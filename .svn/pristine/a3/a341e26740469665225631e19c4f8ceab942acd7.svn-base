@@ -1,0 +1,358 @@
+
+Lcom.github.maven_nar.cpptasks.gcc.GccProcessor#getSpecs()[Ljava/lang/String;z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java‡ ‡(!"18*™
+13z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž
+ ž(Vä
+á
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž
+ ž(V 
+readerjava.io.BufferedReader"__id*;
+
+__unknown_file (
+
+%12java.io.BufferedReaderª§
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaŸ# Ÿ()
+%14java.util.Vector"java.util.Vectorü
+ù
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaŸ Ÿ(.
+%15"java.util.Vector#<init>(I)V*5
+
+__unknown_file (
+
+%14java.util.Vector* 
+
+__unknown_file (2d*
+12*ð
+14z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž( ž(U¶³
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž, ž(:
+%12java.io.BufferedReader"java.io.BufferedReader®
+«
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž( ž(U
+%13"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*;
+
+__unknown_file (
+
+%12java.io.BufferedReader*7
+
+__unknown_file (
+
+%10java.io.FileReader*
+13*Þ
+15z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javažJ ž(S®«
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž? ž(I
+%10java.io.FileReader"java.io.FileReader¤
+¡
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaž; ž(T
+%11"*java.io.FileReader#<init>(Ljava/io/File;)V*7
+
+__unknown_file (
+
+%10java.io.FileReader*7
+
+__unknown_file (
+
+	specsFilejava.io.File*
+14*î
+16z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ ’(5¶
+³
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’8 ’(D
+%2java.lang.String"Mcom.github.maven_nar.cpptasks.gcc.GccProcessor#getMachine()Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessorÎ
+Ë
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ ’(D
+%3java.lang.String"__concat*‘
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ ’(5
+../lib/gcc-lib/*–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’8 ’(D
+
+%2java.lang.StringÀ
+½
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ “(
+%4java.lang.String"__concat*–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ ’(D
+
+%3java.lang.String*ƒ
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java“ “(
+/¶
+³
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java” ”(
+%5java.lang.String"Mcom.github.maven_nar.cpptasks.gcc.GccProcessor#getVersion()Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessorÓ
+Ð
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ ”(
+%6java.lang.String"__concat*–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ “(
+
+%4java.lang.String*–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java” ”(
+
+%5java.lang.StringÅ
+Â
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ •(
+%7java.lang.String"__concat*–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’$ ”(
+
+%6java.lang.String*ˆ
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java• •(
+
+/specsÝ
+Ú
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java’ •( 
+relativePathjava.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String¡ž
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java–# –('
+%8java.io.File"java.io.Fileè
+å
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java– –(@
+%9"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%8java.io.File*7
+
+__unknown_file (
+
+	gccParentjava.io.File*>
+
+__unknown_file ("
+ 
+relativePathjava.lang.StringÒ
+Ï
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java– –(A
+	specsFilejava.io.File"__id*0
+
+__unknown_file (
+
+%8java.io.File*
+15*¿
+17z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java‰ ‰("Þ
+Û
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java‰ ‰(C
+%1java.io.File"[com.github.maven_nar.cpptasks.CUtil#getExecutableLocation(Ljava/lang/String;)Ljava/io/File;*C
+
+__unknown_file ('"%
+#com.github.maven_nar.cpptasks.CUtil*'
+
+__unknown_file (	
+gcc.exeÒ
+Ï
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java‰ ‰(D
+	gccParentjava.io.File"__id*0
+
+__unknown_file (
+
+%1java.io.File*
+3
+16*†
+18z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaˆ ˆ(ú
+÷
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaˆ ˆ(
+%0java.lang.String[]"__id*Y
+
+__unknown_file (=*;0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor"
+specs*
+3
+17*™
+1z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java® ®(û
+ø
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java® ®(
+%25java.lang.String[]"__id*Y
+
+__unknown_file (=*;0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor"
+specs"™
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java® ®(
+
+%25java.lang.String[]*³
+2z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¬ ¬(®«
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¬ ¬(
+%24java.lang.String[]"java.lang.String[]û
+ø
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¬ ¬(;0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor"
+specs"__id*7
+
+__unknown_file (
+
+%24java.lang.String[]*
+1*…
+3z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java« «(û
+ø
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java« «(
+%23java.lang.String[]"__id*Y
+
+__unknown_file (=*;0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor"
+specs*
+2
+1*‚	
+5z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¥ ¥(*®«
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¥ ¥(*
+%20java.lang.String[]"java.lang.String[]û
+ø
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¥
+ ¥(*;0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor"
+specs"__id*7
+
+__unknown_file (
+
+%20java.lang.String[]û
+ø
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¦ ¦(
+%21java.lang.String[]"__id*Y
+
+__unknown_file (=*;0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor"
+specsÎË
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¦
+ ¦(
+%22void"/java.util.Vector#copyInto([Ljava/lang/Object;)V*7
+
+__unknown_file (
+
+linesjava.util.Vector*7
+
+__unknown_file (
+
+%21java.lang.String[]2copyInto([Ljava/lang/Object;)*
+3*í
+6z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¥ ¥("æã
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¥ ¥()
+
+%19int"java.util.Vector#size()I*7
+
+__unknown_file (
+
+linesjava.util.Vector2size()*
+5*à
+7z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java£ £($Ö
+Ó
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java£ £($
+linejava.lang.String"__id*5
+
+__unknown_file (
+
+%18java.lang.String*
+6
+9* 
+8z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java£ £(™–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java£ £($
+%18java.lang.String"3java.io.BufferedReader#readLine()Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+readerjava.io.BufferedReader2
+readLine()*
+7*Ö
+9z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¢ ¢(ÏÌ
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java¢ ¢("
+%17void"0java.util.Vector#addElement(Ljava/lang/Object;)V*7
+
+__unknown_file (
+
+linesjava.util.Vector*6
+
+__unknown_file (
+
+linejava.lang.String2addElement(Ljava/lang/Object;)*
+8*á
+11z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java 
+  (*Ö
+Ó
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java 
+  (*
+linejava.lang.String"__id*5
+
+__unknown_file (
+
+%16java.lang.String*
+6
+9*ü
+12z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaŸ
+ Ÿ(/×
+Ô
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.javaŸ
+ Ÿ(/
+linesjava.util.Vector"__id*5
+
+__unknown_file (
+
+%14java.util.Vector™–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccProcessor.java   ()
+%16java.lang.String"3java.io.BufferedReader#readLine()Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+readerjava.io.BufferedReader2
+readLine()*
+11B2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessorH

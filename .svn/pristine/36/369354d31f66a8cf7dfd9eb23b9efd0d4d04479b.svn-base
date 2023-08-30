@@ -1,0 +1,110 @@
+
+­com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getBaseCompilerConfiguration(Ljava/util/Map;)Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java˜+ ˜(G"7*è
+2‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java 	  (É
+Æ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java 	  (
+ojava.lang.Object"__id*"
+
+__unknown_file (
+""‰
+†
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java 	  (
+ojava.lang.Object"
+__arrayGet*8
+
+__unknown_file (
+
+%0java.util.Collection*"
+
+__unknown_file (
+""*
+5
+1*í
+3‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java© ©("â
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java©
+ ©( [
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration*¶
+4‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java§< §(BÐ
+Í
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java§ §(BY
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration"__id*e
+
+__unknown_file (I
+G
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfigurationÐÍ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¨ ¨((5
+%2/com.github.maven_nar.cpptasks.compiler.Compiler"†com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;*w
+
+__unknown_file ([
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration2getCompiler()*
+2
+3*	
+5‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¡1 ¡(2û
+ø
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¡ ¡(36
+
+targetInfo(com.github.maven_nar.cpptasks.TargetInfo"__id*3
+
+__unknown_file (
+
+ojava.lang.Object³°
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¢, ¢(IC
+%1=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration"zcom.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;*T
+
+__unknown_file (8
+6
+
+targetInfo(com.github.maven_nar.cpptasks.TargetInfo2getConfiguration()º
+·
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¢ ¢(JG
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration"__id*a
+
+__unknown_file (E
+C
+%1=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration*
+2
+4*¤
+6‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java   (!”‘
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java   (*
+%0java.util.Collection",java.util.Map#values()Ljava/util/Collection;*6
+
+__unknown_file (
+
+targetsjava.util.Map2values()*
+2*
+7‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaœ œ(4
+Š
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaœ œ(4Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration"__id*"
+
+__unknown_file (
+""*
+6*˜
+1‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java­ ­("
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java­ ­(
+"":Ÿ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java˜H ˜(Y
+targetsjava.util.MapB:8
+6com.github.maven_nar.cpptasks.apple.XcodeProjectWriter

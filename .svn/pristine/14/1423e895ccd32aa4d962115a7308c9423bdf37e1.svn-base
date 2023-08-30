@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#setClassname(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.CompilerDef#setClassname(Ljava/lang/String;)V

@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeBoolean(Ljava/lang/Boolean;Lorg/xml/sax/ContentHandler;)V
+org.xml.sax.helpers.AttributesImpl#instance-init#
+java.lang.Boolean#booleanValue()Z
+org.xml.sax.helpers.AttributesImpl#<init>()V

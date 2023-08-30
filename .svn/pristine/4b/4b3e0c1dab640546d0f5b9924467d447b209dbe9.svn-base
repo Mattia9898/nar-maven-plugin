@@ -1,0 +1,2 @@
+com.github.maven_nar.Msvc#addWindowsPaths()V
+com.github.maven_nar.Msvc#addPath(Ljava/io/File;Ljava/lang/String;)Z

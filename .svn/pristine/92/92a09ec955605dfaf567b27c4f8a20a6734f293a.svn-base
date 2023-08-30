@@ -1,0 +1,15 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#writeCompilerElement(Lorg/xml/sax/ContentHandler;ZLjava/lang/String;Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)V
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getUsePrecompiledHeader(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+org.xml.sax.helpers.AttributesImpl#instance-init#
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getPrecompiledHeaderFile(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getAdditionalIncludeDirectories(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getDetect64BitPortabilityProblems(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getRuntimeLibrary(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Z)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getOptimization(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getWarningLevel(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getPreprocessorDefinitions(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Z)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getBasicRuntimeChecks(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getDebugInformationFormat(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#addAttribute(Lorg/xml/sax/helpers/AttributesImpl;Ljava/lang/String;Ljava/lang/String;)V
+org.xml.sax.helpers.AttributesImpl#<init>()V

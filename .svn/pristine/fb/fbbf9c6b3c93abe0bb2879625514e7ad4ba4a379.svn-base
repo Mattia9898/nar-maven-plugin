@@ -1,0 +1,47 @@
+
+Ücom.github.maven_nar.cpptasks.openwatcom.OpenWatcomCCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaM M("startingBlock*Å
+startingBlockÜ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaM M(/à
+Ö
+Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaL L(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+sourcejava.io.File÷
+”
+Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaM( M(.
+sourcejava.io.File"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ﬁ
+1Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaN N(ÓÎ
+Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaN N(2
+%0,com.github.maven_nar.cpptasks.parser.CParser",com.github.maven_nar.cpptasks.parser.CParserú
+ô
+Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaN N(
+%1"6com.github.maven_nar.cpptasks.parser.CParser#<init>()V*P
+
+__unknown_file (4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser"ø
+Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaN N(4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser:°
+Ü
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCCompiler.javaM M(.
+sourcejava.io.FileB@>
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCCompilerH

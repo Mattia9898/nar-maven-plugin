@@ -1,0 +1,87 @@
+
+7com.github.maven_nar.cpptasks.PrecompileDef#isActive()Zw
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaÑ Ñ("4*•
+2w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaâ â(¢ü
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaâ â(
+%5boolean"7com.github.maven_nar.cpptasks.PrecompileDef#isActive()Z*P
+
+__unknown_file (4
+2
+ref+com.github.maven_nar.cpptasks.PrecompileDef2
+isActive()"Å
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaâ â(
+""*
+3w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaá  á(&ﬂ
+‹
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaá  á((1
+%4+com.github.maven_nar.cpptasks.PrecompileDef"acom.github.maven_nar.cpptasks.PrecompileDef#getRef()Lcom/github/maven_nar/cpptasks/PrecompileDef;*K
+
+__unknown_file (/-
++com.github.maven_nar.cpptasks.PrecompileDefá
+Ñ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaá á()2
+ref+com.github.maven_nar.cpptasks.PrecompileDef"__id*O
+
+__unknown_file (3
+1
+%4+com.github.maven_nar.cpptasks.PrecompileDef*
+2
+1*∏
+4w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaÖ Ö("Õ 
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaÖ, Ö(8"
+%0org.apache.tools.ant.Project"Porg.apache.tools.ant.ProjectComponent#getProject()Lorg/apache/tools/ant/Project;*K
+
+__unknown_file (/-
++com.github.maven_nar.cpptasks.PrecompileDef2getProject()Û
+
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaÖ: Ö(E
+%1java.lang.String"__id*W
+
+__unknown_file (;*9-
++com.github.maven_nar.cpptasks.PrecompileDef"
+ifCond˜
+Ù
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaÖG Ö(V
+%2java.lang.String"__id*[
+
+__unknown_file (?*=-
++com.github.maven_nar.cpptasks.PrecompileDef"
+
+unlessCondÒ
+Ó
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaÖ Ö(W
+%3boolean"qcom.github.maven_nar.cpptasks.CUtil#isActive(Lorg/apache/tools/ant/Project;Ljava/lang/String;Ljava/lang/String;)Z*C
+
+__unknown_file ('"%
+#com.github.maven_nar.cpptasks.CUtil*@
+
+__unknown_file ($
+"
+%0org.apache.tools.ant.Project*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String*
+3
+1*Ä
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaå å("Å
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/PrecompileDef.javaå å(
+""B/-
++com.github.maven_nar.cpptasks.PrecompileDefH

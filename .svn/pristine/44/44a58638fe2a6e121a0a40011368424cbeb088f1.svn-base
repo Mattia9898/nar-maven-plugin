@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.sun.C89Processor#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.String#indexOf(I)I

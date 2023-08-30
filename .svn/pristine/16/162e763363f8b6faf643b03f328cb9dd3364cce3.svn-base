@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandCCompiler#getEnvironmentIncludePath()[Ljava/io/File;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#getEnvironmentPath(Ljava/lang/String;C[Ljava/lang/String;)[Ljava/io/File;

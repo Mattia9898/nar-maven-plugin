@@ -1,0 +1,123 @@
+
+qcom.github.maven_nar.cpptasks.types.DefineSet#getDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java[ [(&"5*ô
+2w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javaa= a(A˘
+ˆ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javaa= a(L
+%4java.util.Vector"__id*]
+
+__unknown_file (A*?/
+-com.github.maven_nar.cpptasks.types.DefineSet"
+
+defineListﬂ‹
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javaa= a(S	
+%5int"java.util.Vector#size()I*4
+
+__unknown_file (
+
+%4java.util.Vector2size()ÚÔ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javaa( a(T<
+%66com.github.maven_nar.cpptasks.types.UndefineArgument[]"6com.github.maven_nar.cpptasks.types.UndefineArgument[]û
+õ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javaa a(U>
+defs6com.github.maven_nar.cpptasks.types.UndefineArgument[]"__id*Z
+
+__unknown_file (>
+<
+%66com.github.maven_nar.cpptasks.types.UndefineArgument[]˘
+ˆ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javab b(
+%7java.util.Vector"__id*]
+
+__unknown_file (A*?/
+-com.github.maven_nar.cpptasks.types.DefineSet"
+
+defineListÏÈ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javab b(&
+
+%8void"/java.util.Vector#copyInto([Ljava/lang/Object;)V*4
+
+__unknown_file (
+
+%7java.util.Vector*\
+
+__unknown_file (@
+>
+defs6com.github.maven_nar.cpptasks.types.UndefineArgument[]2copyInto([Ljava/lang/Object;)"ª
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javac c(@
+>
+defs6com.github.maven_nar.cpptasks.types.UndefineArgument[]*®
+3w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java`
+ `(°û
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java`
+ `(
+%3boolean"9com.github.maven_nar.cpptasks.types.DefineSet#isActive()Z*M
+
+__unknown_file (1/
+-com.github.maven_nar.cpptasks.types.DefineSet2
+isActive()*
+2
+1*Œ
+4w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java]+ ](8ÌÍ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java]+ ](V3
+%1-com.github.maven_nar.cpptasks.types.DefineSet"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*M
+
+__unknown_file (1/
+-com.github.maven_nar.cpptasks.types.DefineSet*"
+
+__unknown_file (
+""*)
+
+__unknown_file (
+	DefineSet22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)é
+ã
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java] ](W7
+defset-com.github.maven_nar.cpptasks.types.DefineSet"__id*Q
+
+__unknown_file (5
+3
+%1-com.github.maven_nar.cpptasks.types.DefineSetíè
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java^ ^( <
+%26com.github.maven_nar.cpptasks.types.UndefineArgument[]"qcom.github.maven_nar.cpptasks.types.DefineSet#getDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;*U
+
+__unknown_file (9
+7
+defset-com.github.maven_nar.cpptasks.types.DefineSet2getDefines()"π
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java^ ^(!>
+<
+%26com.github.maven_nar.cpptasks.types.UndefineArgument[]*§
+5w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java\ \(ùö
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.java\ \(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*M
+
+__unknown_file (1/
+-com.github.maven_nar.cpptasks.types.DefineSet2isReference()*
+3
+4*≠
+1w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javae$ e(%ÚÔ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javae e(&<
+%96com.github.maven_nar.cpptasks.types.UndefineArgument[]"6com.github.maven_nar.cpptasks.types.UndefineArgument[]"π
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/DefineSet.javae e('>
+<
+%96com.github.maven_nar.cpptasks.types.UndefineArgument[]B1/
+-com.github.maven_nar.cpptasks.types.DefineSetH

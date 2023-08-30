@@ -1,0 +1,38 @@
+
+¢com.github.maven_nar.cpptasks.mozilla.XpidlCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaŸ Ÿ($"startingBlock*—
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaŸ$ Ÿ(Y—
+”
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaž ž(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentå
+â
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaŸU Ÿ(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%0*
+1*Á
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java   ("º
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java   (75
+3com.github.maven_nar.cpptasks.mozilla.XpidlCompiler: 
+
+__unknown_file (
+"":°
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaŸC Ÿ(X-
+env&org.apache.tools.ant.types.EnvironmentB75
+3com.github.maven_nar.cpptasks.mozilla.XpidlCompilerH

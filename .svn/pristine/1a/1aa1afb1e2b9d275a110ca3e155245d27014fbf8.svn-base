@@ -1,0 +1,9 @@
+com.github.maven_nar.SysLib#getSysLibSet(Lorg/apache/tools/ant/Project;)Lcom/github/maven_nar/cpptasks/types/SystemLibrarySet;
+com.github.maven_nar.cpptasks.types.SystemLibrarySet#instance-init#
+com.github.maven_nar.cpptasks.types.LibraryTypeEnum#<init>()V
+com.github.maven_nar.cpptasks.types.LibraryTypeEnum#instance-init#
+com.github.maven_nar.cpptasks.types.SystemLibrarySet#<init>()V
+org.apache.maven.plugin.MojoFailureException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#instance-init#
+org.apache.maven.plugin.MojoFailureException#instance-init#
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#<init>(Ljava/lang/String;)V

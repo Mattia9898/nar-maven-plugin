@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#writeConfigurationStartTag(Lorg/xml/sax/ContentHandler;ZLcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)V
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getConfigurationType(Lcom/github/maven_nar/cpptasks/CCTask;)Ljava/lang/String;
+org.xml.sax.helpers.AttributesImpl#instance-init#
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#addAttribute(Lorg/xml/sax/helpers/AttributesImpl;Ljava/lang/String;Ljava/lang/String;)V
+org.xml.sax.helpers.AttributesImpl#<init>()V
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getCharacterSet(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;

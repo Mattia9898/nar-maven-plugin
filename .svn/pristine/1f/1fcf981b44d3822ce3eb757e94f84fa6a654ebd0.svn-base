@@ -1,0 +1,5 @@
+com.github.maven_nar.Msvc#configureLinker(Lcom/github/maven_nar/cpptasks/LinkerDef;)V
+com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getArchitecture()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.Msvc#isMSVC(Lcom/github/maven_nar/AbstractNarMojo;)Z

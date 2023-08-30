@@ -1,0 +1,66 @@
+
+ecom.github.maven_nar.Msvc#addIncludePathToTask(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;)Ze
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÉ É(&"7*Û
+4e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÎ Î("o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÎ Î(
+""*ª
+5e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÌ Ì(6Ä
+Á
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÌ Ì(6
+fullPathjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.Stringñî
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÍ Í(#
+
+%2void"<org.apache.tools.ant.types.Path#setPath(Ljava/lang/String;)V*b
+
+__unknown_file (F
+D
+includePath5com.github.maven_nar.cpptasks.types.SystemIncludePath*:
+
+__unknown_file (
+
+fullPathjava.lang.String2setPath(Ljava/lang/String;)*
+4*ƒ
+6e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaË Ë(H‘
+Ž
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaË Ë(HD
+includePath5com.github.maven_nar.cpptasks.types.SystemIncludePath"__id*Y
+
+__unknown_file (=
+;
+%05com.github.maven_nar.cpptasks.types.SystemIncludePathýú
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÌ Ì(5
+%1java.lang.String"1java.io.File#getCanonicalPath()Ljava/lang/String;*2
+
+__unknown_file (
+
+filejava.io.File2getCanonicalPath()*
+5*ñ
+7e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaË, Ë(0ÿü
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaË, Ë(G;
+%05com.github.maven_nar.cpptasks.types.SystemIncludePath"rcom.github.maven_nar.cpptasks.CCTask#createSysIncludePath()Lcom/github/maven_nar/cpptasks/types/SystemIncludePath;*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTask2createSysIncludePath()*
+6:•
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÉ' É(9,
+task$com.github.maven_nar.cpptasks.CCTask:}
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÉ: É(I
+filejava.io.FileB
+com.github.maven_nar.Msvc

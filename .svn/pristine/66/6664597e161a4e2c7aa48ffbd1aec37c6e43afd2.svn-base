@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#setOptimize(Lcom/github/maven_nar/cpptasks/OptimizationEnum;)V
+com.github.maven_nar.cpptasks.CompilerDef#setOptimize(Lcom/github/maven_nar/cpptasks/OptimizationEnum;)V

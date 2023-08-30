@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.sun.C89Linker#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.sun.C89Processor#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;

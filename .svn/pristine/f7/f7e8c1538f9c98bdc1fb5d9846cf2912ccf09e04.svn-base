@@ -1,0 +1,74 @@
+
+©com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLinker#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java” ”(*"startingBlock*¿	
+startingBlockÖ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java”* ”(bè
+å
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java“ “(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]›
+⁄
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java”: ”(B
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%1Ø
+¨
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java“ “(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum˝
+˙
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java”Z ”(a>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%2*
+1*É
+1Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java‘ ‘(Œ
+À
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java‘ ‘(D
+%0java.lang.String[]"¨com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;*\
+
+__unknown_file (@">
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"§
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java‘ ‘(E
+
+%0java.lang.String[]:®
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java”+ ”(C
+libnamesjava.lang.String[]:»
+Ö
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLinker.java”D ”(a>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumB=;
+9com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLinkerH

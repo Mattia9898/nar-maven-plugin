@@ -1,0 +1,63 @@
+
+¥com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaZ Z($"startingBlock*’
+2€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java\% \(3üù
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java\ \($<
+%06com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler"6com.github.maven_nar.cpptasks.msvc.MsvcMessageCompilerÄ
+Á
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java\ \(9
+%1"icom.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V*Z
+
+__unknown_file (>
+<
+%06com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"Ã
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java\ \(:>
+<
+%06com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler* 
+startingBlock€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaZ$ Z(Y™
+–
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaY Y(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentç
+ä
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaZU Z(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*È
+1€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java^ ^("¿
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java^ ^(:8
+6com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler: 
+
+__unknown_file (
+"":²
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaZC Z(X-
+env&org.apache.tools.ant.types.EnvironmentB:8
+6com.github.maven_nar.cpptasks.msvc.MsvcMessageCompilerH

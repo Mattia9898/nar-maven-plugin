@@ -1,0 +1,2 @@
+com.github.maven_nar.AbstractNarMojo#getLibraries()Ljava/util/List;
+java.util.Collections#emptyList()Ljava/util/List;

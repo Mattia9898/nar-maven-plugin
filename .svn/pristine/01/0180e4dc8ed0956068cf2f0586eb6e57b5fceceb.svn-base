@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

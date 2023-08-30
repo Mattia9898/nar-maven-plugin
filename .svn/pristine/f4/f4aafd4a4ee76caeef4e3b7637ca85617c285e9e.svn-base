@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.parser.WhitespaceOrCaseInsensitiveLetterState#<init>(Lcom/github/maven_nar/cpptasks/parser/AbstractParser;CLcom/github/maven_nar/cpptasks/parser/AbstractParserState;)V
+java.lang.Character#toUpperCase(C)C
+java.lang.Character#toLowerCase(C)C

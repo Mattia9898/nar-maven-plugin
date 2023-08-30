@@ -1,0 +1,32 @@
+
+¥com.github.maven_nar.cpptasks.msvc.Assembler64bitCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javac c("1*Š
+
+1ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javad d(ù
+ö
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javad d('3
+%0-com.github.maven_nar.cpptasks.msvc.MsvcLinker"jcom.github.maven_nar.cpptasks.msvc.MsvcLinker#getInstance()Lcom/github/maven_nar/cpptasks/msvc/MsvcLinker;*M
+
+__unknown_file (1"/
+-com.github.maven_nar.cpptasks.msvc.MsvcLinkerÂ¿
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javad d(73
+%1-com.github.maven_nar.cpptasks.compiler.Linker"™com.github.maven_nar.cpptasks.msvc.MsvcLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*Q
+
+__unknown_file (5
+3
+%0-com.github.maven_nar.cpptasks.msvc.MsvcLinker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"½
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javad d(85
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:¿
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javac c()7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB=;
+9com.github.maven_nar.cpptasks.msvc.Assembler64bitCompilerH

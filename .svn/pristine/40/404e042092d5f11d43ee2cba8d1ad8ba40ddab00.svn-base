@@ -1,0 +1,233 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar.cpptasks.borland;
+
+import java.io.File;
+
+import java.util.ArrayList;
+
+import org.apache.tools.ant.types.Environment;
+
+import com.github.maven_nar.cpptasks.CCTask;
+import com.github.maven_nar.cpptasks.OptimizationEnum;
+import com.github.maven_nar.cpptasks.ProcessorDef;
+import com.github.maven_nar.cpptasks.TargetDef;
+import com.github.maven_nar.cpptasks.VersionInfo;
+import com.github.maven_nar.cpptasks.compiler.CommandLineCompiler;
+
+import com.github.maven_nar.cpptasks.compiler.LinkType;
+
+import com.github.maven_nar.cpptasks.compiler.Linker;
+
+import com.github.maven_nar.cpptasks.compiler.Processor;
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+import com.github.maven_nar.cpptasks.parser.CParser;
+
+import com.github.maven_nar.cpptasks.parser.Parser;
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+/**
+ * Adapter for the Borland(r) brc32 Resource compiler.
+ *
+ * @author Curt Arnold
+ */
+public class BorlandResourceCompiler extends CommandLineCompiler {
+	
+  private static final BorlandResourceCompiler instance = new BorlandResourceCompiler();
+  private static Environment env;
+
+  public static BorlandResourceCompiler getInstance() {
+    return instance;
+  }
+
+  private BorlandResourceCompiler() {
+    super("brc32", "c:\\__bogus\\__bogus.rc", new String[] {
+      ".rc"
+    }, new String[]{".res"}, false, null, env);
+  }
+
+  
+  protected void addImpliedArgs(final ArrayList<String> args) {
+	  
+    //
+    // compile only
+    //
+    args.add("-r");
+    
+  }
+
+  
+  //inizio del metodo
+  //argomenti in input validi
+  protected void addWarningSwitch1(final ArrayList<String> args, final int level) {
+	  //implementazione mancante
+	  //implementazione necessaria con fine di raggiungere lo scopo del metodo
+  }
+  //fine del metodo
+  //esecuzione metodo riuscita, ma fuorviante
+
+  @Override
+  public Processor changeEnvironment(final boolean newEnvironment, final Environment env) {
+    if (newEnvironment || env != null) {
+      return new BorlandResourceCompiler();
+    }
+    return this;
+  }
+
+  /**
+   * The include parser for C will work just fine, but we didn't want to
+   * inherit from CommandLineCCompiler
+   */
+  protected Parser createParser() {
+    return new CParser();
+  }
+
+  @Override
+  protected int getArgumentCountPerInputFile() {
+    return 2;
+  }
+
+  
+  protected void getDefineSwitch1(final StringBuilder buffer, final String define, final String value) {
+    buffer.append("-d");
+    buffer.append(define);
+    if (value != null && value.length() > 0) {
+      buffer.append('=');
+      buffer.append(value);
+    }
+  }
+
+  @Override
+  protected File[] getEnvironmentIncludePath() {
+    return BorlandProcessor.getEnvironmentPath("brc32", 'i', new String[] {
+      "..\\include"
+    });
+  }
+
+  @Override
+  protected String getIncludeDirSwitch(final String includeDir) {
+    return BorlandProcessor.getIncludeDirSwitch("-i", includeDir);
+  }
+
+  public String getInputFileArgument(final File outputDir, final String filename, final int index) {
+    if (index == 0) {
+      final String[] outputFileNames = getOutputFileNames(filename, null);
+      final String fullOutputName = new File(outputDir, outputFileNames[0]).toString();
+      return "-fo" + fullOutputName;
+    }
+    return filename;
+  }
+
+  @Override
+  public Linker getLinker(final LinkType type) {
+    return BorlandLinker.getInstance().getLinker(type);
+  }
+
+  @Override
+  public int getMaximumCommandLength() {
+    return 1024;
+  }
+
+  @Override
+  protected int getMaximumInputFilesPerCommand() {
+    return 1;
+  }
+
+  //inizio del metodo
+  //argomenti in input validi
+  
+  public void getUndefineSwitch1(final StringBuilder buffer, final String define) {
+	  //implementazione mancante
+	  //implementazione necessaria con fine di raggiungere lo scopo del metodo
+  }
+  //fine del metodo
+  //esecuzione metodo riuscita, ma fuorviante
+
+  @Override
+  public String getIdentifier() {
+
+	return getCommand();
+  }
+
+@Override
+protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+		LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+
+	
+}
+
+@Override
+protected void addWarningSwitch(ArrayList<String> args, int warnings) {
+
+	
+}
+
+@Override
+public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+		ArrayList<String> endargs) {
+
+	return addLibrarySets(task, libsets, preargs, midargs, endargs);
+}
+
+@Override
+protected void getDefineSwitch(StringBuilder buffer, String define, String value) {
+
+	
+}
+
+@Override
+public void getUndefineSwitch(StringBuilder buf, String define) {
+
+	
+}
+
+@Override
+public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+		ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+
+	ProcessorConfiguration processorConfiguration = null;
+	return processorConfiguration;
+}
+
+@Override
+protected String getOutputSuffix() {
+
+	return getIdentifier();
+}
+
+@Override
+protected String getBaseOutputName(String inputFile) {
+
+	return getInputFileArgument(getObjDir(), inputFile, DEFAULT_DISCARD_BID);
+}
+  
+}

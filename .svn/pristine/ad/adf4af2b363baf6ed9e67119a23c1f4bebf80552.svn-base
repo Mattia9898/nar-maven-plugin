@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.CUtil#isActive(Lorg/apache/tools/ant/Project;Ljava/lang/String;Ljava/lang/String;)Z
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+org.apache.tools.ant.BuildException#instance-init#

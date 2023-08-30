@@ -1,0 +1,2 @@
+com.github.maven_nar.Library#toString()Ljava/lang/String;
+com.github.maven_nar.Library#getType()Ljava/lang/String;

@@ -1,0 +1,11 @@
+com.github.maven_nar.cpptasks.borland.BorlandCfgParser#<init>(C)V
+com.github.maven_nar.cpptasks.borland.CfgFilenameState#instance-init#
+com.github.maven_nar.cpptasks.borland.QuoteBranchState#instance-init#
+com.github.maven_nar.cpptasks.borland.CfgFilenameState#<init>(Lcom/github/maven_nar/cpptasks/parser/AbstractParser;[C)V
+com.github.maven_nar.cpptasks.borland.ConsumeToSpaceOrNewLine#instance-init#
+com.github.maven_nar.cpptasks.parser.LetterState#instance-init#
+com.github.maven_nar.cpptasks.borland.QuoteBranchState#<init>(Lcom/github/maven_nar/cpptasks/parser/AbstractParser;Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;)V
+com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterState#<init>(Lcom/github/maven_nar/cpptasks/parser/AbstractParser;CLcom/github/maven_nar/cpptasks/parser/AbstractParserState;)V
+com.github.maven_nar.cpptasks.borland.ConsumeToSpaceOrNewLine#<init>(Lcom/github/maven_nar/cpptasks/parser/AbstractParser;)V
+com.github.maven_nar.cpptasks.parser.LetterState#<init>(Lcom/github/maven_nar/cpptasks/parser/AbstractParser;CLcom/github/maven_nar/cpptasks/parser/AbstractParserState;Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;)V
+com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterState#instance-init#

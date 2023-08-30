@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.types.LibrarySet#instance-init#
+org.apache.tools.ant.types.FileSet#<init>()V
+org.apache.tools.ant.types.FileSet#instance-init#

@@ -1,0 +1,12 @@
+com.github.maven_nar.Linker#getVersion(Lcom/github/maven_nar/AbstractNarMojo;)Ljava/lang/String;
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+com.github.maven_nar.StringTextStream#<init>()V
+com.github.maven_nar.StringTextStream#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#isEmpty()Z
+java.util.regex.Matcher#find()Z
+org.apache.maven.plugin.MojoFailureException#<init>(Ljava/lang/String;)V
+java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+java.util.regex.Matcher#group(I)Ljava/lang/String;
+org.apache.maven.plugin.MojoFailureException#instance-init#
+com.github.maven_nar.NarUtil#runCommand(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;[Ljava/lang/String;Lcom/github/maven_nar/TextStream;Lcom/github/maven_nar/TextStream;Lcom/github/maven_nar/TextStream;Lorg/apache/maven/plugin/logging/Log;)I

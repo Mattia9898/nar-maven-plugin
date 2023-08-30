@@ -1,0 +1,58 @@
+
+9com.github.maven_nar.cpptasks.ProcessorDef#hasFileSets()Zv
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java« «("3*‘
+2v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java­ ­(*éæ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java­ ­(N0
+%1*com.github.maven_nar.cpptasks.ProcessorDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*J
+
+__unknown_file (.,
+*com.github.maven_nar.cpptasks.ProcessorDef*"
+
+__unknown_file (
+""*,
+
+__unknown_file (
+ProcessorDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)¤¡
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java­ ­(]
+%2boolean"9com.github.maven_nar.cpptasks.ProcessorDef#hasFileSets()Z*N
+
+__unknown_file (2
+0
+%1*com.github.maven_nar.cpptasks.ProcessorDef2hasFileSets()"€
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java­ ­(^
+""*Ÿ
+3v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¬ ¬(™–
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¬ ¬(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*J
+
+__unknown_file (.,
+*com.github.maven_nar.cpptasks.ProcessorDef2isReference()*
+2
+1*Ô
+1v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¯ ¯(ò
+ï
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¯ ¯(
+%3java.util.Vector"__id*W
+
+__unknown_file (;*9,
+*com.github.maven_nar.cpptasks.ProcessorDef"	
+srcSetsÞÛ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¯ ¯(	
+%4int"java.util.Vector#size()I*4
+
+__unknown_file (
+
+%3java.util.Vector2size()"€
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¯ ¯(#
+""B.,
+*com.github.maven_nar.cpptasks.ProcessorDefH

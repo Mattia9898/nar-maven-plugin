@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.CCTask#collectExplicitObjectFiles(Ljava/util/Vector;Ljava/util/Vector;Lcom/github/maven_nar/cpptasks/VersionInfo;)Lcom/github/maven_nar/cpptasks/compiler/LinkerConfiguration;
+com.github.maven_nar.cpptasks.CCTask$SystemLibraryCollector#<init>(Lcom/github/maven_nar/cpptasks/compiler/Linker;Ljava/util/Hashtable;)V
+com.github.maven_nar.cpptasks.ObjectFileCollector#instance-init#
+com.github.maven_nar.cpptasks.ObjectFileCollector#<init>(Lcom/github/maven_nar/cpptasks/compiler/Linker;Ljava/util/Vector;)V
+com.github.maven_nar.cpptasks.CCTask$SystemLibraryCollector#instance-init#
+java.util.Hashtable#instance-init#
+java.util.Hashtable#<init>()V
+com.github.maven_nar.cpptasks.ProcessorDef#getInherit()Z

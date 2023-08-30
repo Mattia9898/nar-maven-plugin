@@ -1,0 +1,2 @@
+com.github.maven_nar.NarDownloadMojo#narExecute()V
+com.github.maven_nar.AbstractDependencyMojo#downloadAttachedNars(Ljava/util/List;)V

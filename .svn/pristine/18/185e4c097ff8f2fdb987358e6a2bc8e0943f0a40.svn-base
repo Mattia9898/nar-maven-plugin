@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker#addVersionFiles(Lcom/github/maven_nar/cpptasks/VersionInfo;Lcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/io/File;ZLjava/io/File;Lcom/github/maven_nar/cpptasks/TargetMatcher;)V
+com.github.maven_nar.cpptasks.platforms.WindowsPlatform#addVersionFiles(Lcom/github/maven_nar/cpptasks/VersionInfo;Lcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/io/File;ZLjava/io/File;Lcom/github/maven_nar/cpptasks/TargetMatcher;)V

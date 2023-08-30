@@ -1,0 +1,74 @@
+
+scom.github.maven_nar.cpptasks.gcc.GccCompatibleCCompiler#getIncludeDirSwitch(Ljava/lang/String;Z)Ljava/lang/String;„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÄ Ä(#"startingBlock*¡
+2„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÆ Æ(ð
+í
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÆ Æ($
+%0java.lang.String"__concat*•
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÆ Æ(
+
+-isystem*©
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÆ Æ($ 
+
+
+includeDirjava.lang.String"¡
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÆ Æ(%
+
+%0java.lang.String*Ž
+startingBlock„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÄ# Ä(TŽ
+‹
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÃ Ã(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.StringÜ
+Ù
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÄ1 Ä(;
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*›
+1„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÈ È(ê
+ç
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÈ È(
+%1java.lang.String"__concat*
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÈ È(
+-I*©
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÈ È( 
+
+
+includeDirjava.lang.String"¡
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÈ È(
+
+%1java.lang.String:§
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCompatibleCCompiler.javaÄ$ Ä(<
+
+includeDirjava.lang.String: 
+
+__unknown_file (
+""B<:
+8com.github.maven_nar.cpptasks.gcc.GccCompatibleCCompilerH

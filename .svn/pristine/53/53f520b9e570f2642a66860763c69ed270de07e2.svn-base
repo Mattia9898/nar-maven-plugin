@@ -1,0 +1,8 @@
+com.github.maven_nar.AbstractDependencyMojo#getNarManager()Lcom/github/maven_nar/NarManager;
+com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;
+com.github.maven_nar.NarManager#<init>(Lorg/apache/maven/plugin/logging/Log;Lorg/apache/maven/artifact/repository/ArtifactRepository;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;)V
+com.github.maven_nar.AbstractNarMojo#getArchitecture()Ljava/lang/String;
+com.github.maven_nar.AbstractDependencyMojo#getLocalRepository()Lorg/apache/maven/artifact/repository/ArtifactRepository;
+com.github.maven_nar.AbstractNarMojo#getLinker()Lcom/github/maven_nar/Linker;
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+com.github.maven_nar.NarManager#instance-init#

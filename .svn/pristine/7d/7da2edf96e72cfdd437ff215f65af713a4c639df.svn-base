@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.types.FlexLong#toString()Ljava/lang/String;
+java.lang.Long#toString()Ljava/lang/String;

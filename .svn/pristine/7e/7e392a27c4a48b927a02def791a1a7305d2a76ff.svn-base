@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.gcc.AbstractArLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;

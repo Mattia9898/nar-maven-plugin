@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#instance-init#
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V

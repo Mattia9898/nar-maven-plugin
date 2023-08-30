@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GppLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccLibrarian;
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessor#getMachine()Ljava/lang/String;

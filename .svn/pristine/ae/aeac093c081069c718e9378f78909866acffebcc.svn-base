@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractCompileMojo#getOutput(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getOutput(Z)Ljava/lang/String;
+com.github.maven_nar.NarInfo#getOutput(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z

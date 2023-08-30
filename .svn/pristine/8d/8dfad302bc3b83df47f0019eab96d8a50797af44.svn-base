@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.arm.ADSCCompiler#quoteFile(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.String#indexOf(I)I

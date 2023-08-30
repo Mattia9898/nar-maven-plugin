@@ -1,0 +1,6 @@
+com.github.maven_nar.AbstractDependencyMojo#getBindings(Ljava/util/List;Lcom/github/maven_nar/NarArtifact;)[Ljava/lang/String;
+java.util.HashSet#<init>()V
+com.github.maven_nar.NarInfo#getBinding(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+com.github.maven_nar.NarArtifact#getNarInfo()Lcom/github/maven_nar/NarInfo;
+java.util.HashSet#instance-init#

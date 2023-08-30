@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.ide.ProjectDef#setOutfile(Ljava/io/File;)V
+java.lang.String#length()I

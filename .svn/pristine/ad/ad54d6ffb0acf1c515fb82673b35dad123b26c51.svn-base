@@ -1,0 +1,47 @@
+
+wcom.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÏ Ï(%"startingBlock*‘
+startingBlockˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÏ% Ï(;
+Œ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÎ Î(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+outFilejava.lang.StringÝ
+Ú
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÏ3 Ï(:
+outFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*õ
+1ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÐ Ð(º
+·
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÐ Ð(;
+%0java.lang.String[]"wcom.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;*\
+
+__unknown_file (@">
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor*9
+
+__unknown_file (
+
+outFilejava.lang.String"§
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÐ Ð(<
+
+%0java.lang.String[]:¨
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaÏ& Ï(:
+outFilejava.lang.StringB@>
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarianH

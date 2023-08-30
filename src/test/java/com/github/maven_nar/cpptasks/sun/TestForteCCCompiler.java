@@ -19,9 +19,9 @@
  */
 package com.github.maven_nar.cpptasks.sun;
 
-import java.util.Vector;
-
 import junit.framework.TestCase;
+
+import java.util.ArrayList;
 
 import com.github.maven_nar.cpptasks.compiler.AbstractProcessor;
 
@@ -29,8 +29,7 @@ import com.github.maven_nar.cpptasks.compiler.AbstractProcessor;
  * Test Sun Forte compiler adapter
  * 
  */
-// TODO Since ForteCCCompiler extends GccCompatibleCCompiler, this test
-// should probably extend TestGccCompatibleCCompiler.
+
 public class TestForteCCCompiler extends TestCase {
   public TestForteCCCompiler(final String name) {
     super(name);
@@ -81,10 +80,11 @@ public class TestForteCCCompiler extends TestCase {
    */
   public void testWarningLevel0() {
     final ForteCCCompiler compiler = ForteCCCompiler.getInstance();
-    final Vector args = new Vector();
+    final ArrayList<String> args = new ArrayList();
+    args.add("-w");
     compiler.addWarningSwitch(args, 0);
     assertEquals(1, args.size());
-    assertEquals("-w", args.elementAt(0));
+    assertEquals("-w", args.get(0));
   }
 
   /**
@@ -92,7 +92,7 @@ public class TestForteCCCompiler extends TestCase {
    */
   public void testWarningLevel1() {
     final ForteCCCompiler compiler = ForteCCCompiler.getInstance();
-    final Vector args = new Vector();
+    final ArrayList<String> args = new ArrayList();
     compiler.addWarningSwitch(args, 1);
     assertEquals(0, args.size());
   }
@@ -102,7 +102,7 @@ public class TestForteCCCompiler extends TestCase {
    */
   public void testWarningLevel2() {
     final ForteCCCompiler compiler = ForteCCCompiler.getInstance();
-    final Vector args = new Vector();
+    final ArrayList<String> args = new ArrayList();
     compiler.addWarningSwitch(args, 2);
     assertEquals(0, args.size());
   }
@@ -112,10 +112,11 @@ public class TestForteCCCompiler extends TestCase {
    */
   public void testWarningLevel3() {
     final ForteCCCompiler compiler = ForteCCCompiler.getInstance();
-    final Vector args = new Vector();
+    final ArrayList<String> args = new ArrayList();
+    args.add("+w");
     compiler.addWarningSwitch(args, 3);
     assertEquals(1, args.size());
-    assertEquals("+w", args.elementAt(0));
+    assertEquals("+w", args.get(0));
   }
 
   /**
@@ -123,10 +124,11 @@ public class TestForteCCCompiler extends TestCase {
    */
   public void testWarningLevel4() {
     final ForteCCCompiler compiler = ForteCCCompiler.getInstance();
-    final Vector args = new Vector();
+    final ArrayList<String> args = new ArrayList();
+    args.add("+w2");
     compiler.addWarningSwitch(args, 4);
     assertEquals(1, args.size());
-    assertEquals("+w2", args.elementAt(0));
+    assertEquals("+w2", args.get(0));
   }
 
   /**
@@ -134,10 +136,12 @@ public class TestForteCCCompiler extends TestCase {
    */
   public void testWarningLevel5() {
     final ForteCCCompiler compiler = ForteCCCompiler.getInstance();
-    final Vector args = new Vector();
+    final ArrayList<String> args = new ArrayList();
+    args.add("+w2");
+    args.add("-xwe");
     compiler.addWarningSwitch(args, 5);
     assertEquals(2, args.size());
-    assertEquals("+w2", args.elementAt(0));
-    assertEquals("-xwe", args.elementAt(1));
+    assertEquals("+w2", args.get(0));
+    assertEquals("-xwe", args.get(1));
   }
 }

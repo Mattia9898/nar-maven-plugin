@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getBaseCompilerConfiguration(Ljava/util/Map;)Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;
+com.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;

@@ -1,0 +1,117 @@
+
+˜com.github.maven_nar.cpptasks.CompilerDef#getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Lcom/github/maven_nar/cpptasks/OptimizationEnum;u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaš  š(/"8*É	
+2u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java¢ ¢(º
+·
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java¢ ¢(&/
+%5)com.github.maven_nar.cpptasks.CompilerDef"
+__arrayGet*]
+
+__unknown_file (A
+?
+defaultProviders+com.github.maven_nar.cpptasks.CompilerDef[]*"
+
+__unknown_file (
+""ÝÚ
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java¢ ¢(S4
+%6.com.github.maven_nar.cpptasks.OptimizationEnum"˜com.github.maven_nar.cpptasks.CompilerDef#getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Lcom/github/maven_nar/cpptasks/OptimizationEnum;*M
+
+__unknown_file (1
+/
+%5)com.github.maven_nar.cpptasks.CompilerDef*]
+
+__unknown_file (A
+?
+defaultProviders+com.github.maven_nar.cpptasks.CompilerDef[]*"
+
+__unknown_file (
+""2>getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)"¯
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java¢ ¢(T6
+4
+%6.com.github.maven_nar.cpptasks.OptimizationEnum*Â
+5u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaŸ Ÿ(“
+
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaŸ Ÿ(4
+%4.com.github.maven_nar.cpptasks.OptimizationEnum"__id*[
+
+__unknown_file (?*=+
+)com.github.maven_nar.cpptasks.CompilerDef"
+optimization"¯
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaŸ Ÿ(6
+4
+%4.com.github.maven_nar.cpptasks.OptimizationEnum*›
+6u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaž ž(“
+
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaž ž(4
+%3.com.github.maven_nar.cpptasks.OptimizationEnum"__id*[
+
+__unknown_file (?*=+
+)com.github.maven_nar.cpptasks.CompilerDef"
+optimization*	
+2
+5
+1*ô
+
+7u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaœ œ()åâ
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaœ œ(K/
+%1)com.github.maven_nar.cpptasks.CompilerDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*I
+
+__unknown_file (-+
+)com.github.maven_nar.cpptasks.CompilerDef*"
+
+__unknown_file (
+""*+
+
+__unknown_file (
+CompilerDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)ÝÚ
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaœ œ(u4
+%2.com.github.maven_nar.cpptasks.OptimizationEnum"˜com.github.maven_nar.cpptasks.CompilerDef#getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Lcom/github/maven_nar/cpptasks/OptimizationEnum;*M
+
+__unknown_file (1
+/
+%1)com.github.maven_nar.cpptasks.CompilerDef*]
+
+__unknown_file (A
+?
+defaultProviders+com.github.maven_nar.cpptasks.CompilerDef[]*"
+
+__unknown_file (
+""2>getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)"¯
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaœ œ(v6
+4
+%2.com.github.maven_nar.cpptasks.OptimizationEnum*œ
+8u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java› ›(—”
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java› ›(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*I
+
+__unknown_file (-+
+)com.github.maven_nar.cpptasks.CompilerDef2isReference()*
+6
+7*û
+1u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java¥ ¥("
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.java¥ ¥(
+"":¸
+u
+iC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/CompilerDef.javaš0 š(U?
+defaultProviders+com.github.maven_nar.cpptasks.CompilerDef[]: 
+
+__unknown_file (
+""B-+
+)com.github.maven_nar.cpptasks.CompilerDefH

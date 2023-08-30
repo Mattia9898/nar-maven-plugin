@@ -1,0 +1,55 @@
+
+¥com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.java‰ ‰("startingBlock*À
+startingBlock…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.java‰ ‰(.¨
+¥
+…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaˆ ˆ(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeö
+ó
+…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.java‰) ‰(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*†
+
+1…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaŠ Š(ó
+ð
+…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaŠ Š("1
+%0+com.github.maven_nar.cpptasks.gcc.GccLinker"fcom.github.maven_nar.cpptasks.gcc.GccLinker#getInstance()Lcom/github/maven_nar/cpptasks/gcc/GccLinker;*K
+
+__unknown_file (/"-
++com.github.maven_nar.cpptasks.gcc.GccLinkerÀ½
+…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaŠ Š(23
+%1-com.github.maven_nar.cpptasks.compiler.Linker"—com.github.maven_nar.cpptasks.gcc.GccLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*O
+
+__unknown_file (3
+1
+%0+com.github.maven_nar.cpptasks.gcc.GccLinker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"¿
+…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaŠ Š(35
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:Á
+…
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.java‰ ‰(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB=;
+9com.github.maven_nar.cpptasks.gcc.WindresResourceCompilerH

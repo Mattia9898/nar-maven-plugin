@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.types.UndefineArgument#merge([Lcom/github/maven_nar/cpptasks/types/UndefineArgument;[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;)[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+java.util.Vector#<init>(I)V
+java.util.Vector#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+com.github.maven_nar.cpptasks.types.UndefineArgument#getName()Ljava/lang/String;

@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.DependencyTable#needsRebuild(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/TargetInfo;I)Z
+com.github.maven_nar.cpptasks.TargetInfo#getOutput()Ljava/io/File;
+com.github.maven_nar.cpptasks.DependencyTable$TimestampChecker#instance-init#
+com.github.maven_nar.cpptasks.DependencyTable#walkDependencies(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/DependencyInfo;Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;[Lcom/github/maven_nar/cpptasks/DependencyInfo;Lcom/github/maven_nar/cpptasks/DependencyTable$DependencyVisitor;)V
+com.github.maven_nar.cpptasks.TargetInfo#getSources()[Ljava/io/File;
+com.github.maven_nar.cpptasks.DependencyTable#parseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;Ljava/io/File;)Lcom/github/maven_nar/cpptasks/DependencyInfo;
+com.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;
+com.github.maven_nar.cpptasks.CUtil#getRelativePath(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyTable#getDependencyInfo(Ljava/lang/String;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/DependencyInfo;
+com.github.maven_nar.cpptasks.DependencyTable$TimestampChecker#<init>(Lcom/github/maven_nar/cpptasks/DependencyTable;JZ)V

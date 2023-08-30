@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.sun.C89CCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.sun.C89Processor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;

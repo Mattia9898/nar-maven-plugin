@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter#writeSource(Ljava/io/Writer;Ljava/lang/String;Ljava/io/File;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+com.github.maven_nar.cpptasks.CUtil#getRelativePath(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.CUtil#toWindowsPath(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z

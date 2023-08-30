@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getParam(Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/CompilerParam;
+java.lang.String#equals(Ljava/lang/Object;)Z

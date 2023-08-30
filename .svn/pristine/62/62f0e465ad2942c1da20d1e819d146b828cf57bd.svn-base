@@ -1,0 +1,72 @@
+
+`com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter#getSources(Ljava/util/List;)[Ljava/io/File;€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java£ £("1*Õ
+1€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¤* ¤(4íê
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¤* ¤(;	
+%0int"java.util.List#size()I*:
+
+__unknown_file (
+
+
+sourceListjava.util.List2size()¬©
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¤! ¤(<
+%1java.io.File[]"java.io.File[]á
+Þ
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¤ ¤(=
+sortedSourcesjava.io.File[]"__id*2
+
+__unknown_file (
+
+%1java.io.File[]õò
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¥ ¥(%
+%2java.io.File[]">java.util.List#toArray([Ljava/lang/Object;)[Ljava/lang/Object;*:
+
+__unknown_file (
+
+
+sourceListjava.util.List*=
+
+__unknown_file (!
+
+sortedSourcesjava.io.File[]2toArray([Ljava/lang/Object;)üù
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¦# ¦(3<
+%36com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter$1"6com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter$1„
+
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¦ «(
+%4"java.lang.Object#<init>()V*Z
+
+__unknown_file (>
+<
+%36com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter$1¢
+Ÿ
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¦ «(
+
+%5void"Ajava.util.Arrays#sort([Ljava/lang/Object;Ljava/util/Comparator;)V*0
+
+__unknown_file ("
+java.util.Arrays*=
+
+__unknown_file (!
+
+sortedSourcesjava.io.File[]*Z
+
+__unknown_file (>
+<
+%36com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter$1"¦
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¬ ¬(!
+
+sortedSourcesjava.io.File[]:¡
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java£ £(7
+
+sourceListjava.util.ListB86
+4com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter

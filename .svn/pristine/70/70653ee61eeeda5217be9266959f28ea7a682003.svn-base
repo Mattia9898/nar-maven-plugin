@@ -1,0 +1,31 @@
+
+:com.github.maven_nar.Linker#getVersion()Ljava/lang/String;g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java° °( "1*¡
+1g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java¢ ¢(ºπ
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java¢ ¢(()
+%0#com.github.maven_nar.NarCompileMojo"#com.github.maven_nar.NarCompileMojoÍ
+Á
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java¢ ¢(*
+%1"-com.github.maven_nar.NarCompileMojo#<init>()V*G
+
+__unknown_file (+
+)
+%0#com.github.maven_nar.NarCompileMojo†ù
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java¢ ¢(+
+%2java.lang.String"`com.github.maven_nar.Linker#getVersion(Lcom/github/maven_nar/AbstractNarMojo;)Ljava/lang/String;*;
+
+__unknown_file (
+com.github.maven_nar.Linker*G
+
+__unknown_file (+
+)
+%0#com.github.maven_nar.NarCompileMojo22getVersion(Lcom/github/maven_nar/AbstractNarMojo;)"É
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java¢ ¢(,
+
+%2java.lang.StringB
+com.github.maven_nar.LinkerH

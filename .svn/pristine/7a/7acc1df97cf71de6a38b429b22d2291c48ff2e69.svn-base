@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#createPBXProject(Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#<init>(Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#instance-init#
+java.util.HashMap#instance-init#
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#getID()Ljava/lang/String;

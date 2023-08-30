@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.ti.ClxxCCompiler#getEnvironmentIncludePath()[Ljava/io/File;
+com.github.maven_nar.cpptasks.CUtil#getPathFromEnvironment(Ljava/lang/String;Ljava/lang/String;)[Ljava/io/File;
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

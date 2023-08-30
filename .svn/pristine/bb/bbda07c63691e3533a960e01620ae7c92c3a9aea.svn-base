@@ -1,0 +1,4 @@
+com.github.maven_nar.Linker#getVersion()Ljava/lang/String;
+com.github.maven_nar.NarCompileMojo#<init>()V
+com.github.maven_nar.Linker#getVersion(Lcom/github/maven_nar/AbstractNarMojo;)Ljava/lang/String;
+com.github.maven_nar.NarCompileMojo#instance-init#

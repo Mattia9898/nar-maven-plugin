@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#<init>(Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinker;Ljava/lang/String;[[Ljava/lang/String;[Lcom/github/maven_nar/cpptasks/ProcessorParam;ZZZ[Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#<init>(Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinker;Ljava/lang/String;[[Ljava/lang/String;[Lcom/github/maven_nar/cpptasks/ProcessorParam;ZZZ[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

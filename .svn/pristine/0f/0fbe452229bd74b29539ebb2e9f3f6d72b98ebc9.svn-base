@@ -1,0 +1,85 @@
+
+Rcom.github.maven_nar.NarInfo#getLibs(Lcom/github/maven_nar/AOL;)Ljava/lang/String;f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javar r("1*É
+1f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat t(×
+Ô
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat9 t(H
+%0java.lang.String"__id*L
+
+__unknown_file (0*.
+com.github.maven_nar.NarInfo"
+
+artifactIdƒ
+€
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat9 t(N
+%1java.lang.String"__concat*‚
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat9 t(H
+
+%0java.lang.String*o
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javatK t(N
+-Ô
+Ñ
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javatQ t(]
+%2java.lang.String"__id*I
+
+__unknown_file (-*+
+com.github.maven_nar.NarInfo"	
+version—
+”
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat9 t(]
+%3java.lang.String"__concat*‚
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat9 t(N
+
+%1java.lang.String*‚
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javatQ t(]
+
+%2java.lang.String×Ô
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat* t(^
+%4java.lang.String"fcom.github.maven_nar.NarInfo#getOutput(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+com.github.maven_nar.NarInfo*=
+
+__unknown_file (!
+
+aolcom.github.maven_nar.AOL*4
+
+__unknown_file (
+
+%3java.lang.String27getOutput(Lcom/github/maven_nar/AOL;Ljava/lang/String;)«¨
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat t(_
+%5java.lang.String"zcom.github.maven_nar.NarInfo#getProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+com.github.maven_nar.NarInfo*=
+
+__unknown_file (!
+
+aolcom.github.maven_nar.AOL**
+
+__unknown_file (
+
+libs.names*4
+
+__unknown_file (
+
+%4java.lang.String2KgetProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)"‚
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javat t(`
+
+%5java.lang.String:‰
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javar r(+
+aolcom.github.maven_nar.AOLB 
+com.github.maven_nar.NarInfoH

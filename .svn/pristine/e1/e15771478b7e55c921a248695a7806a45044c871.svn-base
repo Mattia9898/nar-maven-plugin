@@ -1,0 +1,63 @@
+
+¢com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaH H($"startingBlock*ó
+2}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaJ" J(0òï
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaJ J(!9
+%03com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler"3com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompilerº
+·
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaJ J(6
+%1"fcom.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V*W
+
+__unknown_file (;
+9
+%03com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"¼
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaJ J(7;
+9
+%03com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler*”
+startingBlock}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaH$ H(Y•
+’
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaG G(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentã
+à
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaHU H(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*½
+1}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaL L("¸
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaL L(75
+3com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler: 
+
+__unknown_file (
+"":®
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaHC H(X-
+env&org.apache.tools.ant.types.EnvironmentB75
+3com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompilerH

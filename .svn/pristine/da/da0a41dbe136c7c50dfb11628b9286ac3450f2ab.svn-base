@@ -1,0 +1,62 @@
+
+•com.github.maven_nar.cpptasks.gcc.AbstractArLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java< <($"startingBlock*ù	
+startingBlock
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java<$ <(\à
+Ö
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java; ;(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]÷
+”
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java<4 <(<
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%1®
+•
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java; ;(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumˆ
+Û
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java<T <([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ÿ
+1
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java= =(≤Ø
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java= =(
+%0java.lang.String[]"java.lang.String[]"ù
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java= =(
+
+%0java.lang.String[]:°
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java<% <(=
+libnamesjava.lang.String[]:¡
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.java<> <([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumB97
+5com.github.maven_nar.cpptasks.gcc.AbstractArLibrarianH

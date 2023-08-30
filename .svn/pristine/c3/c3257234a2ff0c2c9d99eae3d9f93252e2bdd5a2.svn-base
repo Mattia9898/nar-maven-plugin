@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.AbstractProcessor#getOSArch()Ljava/lang/String;
+java.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;

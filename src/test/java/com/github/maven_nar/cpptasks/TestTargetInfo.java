@@ -38,9 +38,6 @@ public class TestTargetInfo extends TestCase {
       return 1;
     }
 
-    public void close() {
-    }
-
     @Override
     public void compile(final CCTask task, final File workingDir, final String[] source, final boolean relentless,
         final ProgressMonitor monitor) throws BuildException {
@@ -55,10 +52,6 @@ public class TestTargetInfo extends TestCase {
     @Override
     public String getIdentifier() {
       return "dummy";
-    }
-
-    public String[] getIncludeDirectories() {
-      return new String[0];
     }
 
     @Override

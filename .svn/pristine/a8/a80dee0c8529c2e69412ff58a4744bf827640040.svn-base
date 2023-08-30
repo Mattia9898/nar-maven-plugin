@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.CompilerDef#getActivePrecompile(Lcom/github/maven_nar/cpptasks/CompilerDef;)Lcom/github/maven_nar/cpptasks/PrecompileDef;
+com.github.maven_nar.cpptasks.PrecompileDef#isActive()Z
+com.github.maven_nar.cpptasks.ProcessorDef#getInherit()Z
+com.github.maven_nar.cpptasks.CompilerDef#getActivePrecompile(Lcom/github/maven_nar/cpptasks/CompilerDef;)Lcom/github/maven_nar/cpptasks/PrecompileDef;

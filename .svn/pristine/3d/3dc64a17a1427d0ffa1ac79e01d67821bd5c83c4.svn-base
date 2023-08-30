@@ -1,0 +1,24 @@
+
+Ècom.github.maven_nar.cpptasks.compiler.CommandLineLinker#addLibrarySets(Lcom/github/maven_nar/cpptasks/CCTask;[Lcom/github/maven_nar/cpptasks/types/LibrarySet;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)[Ljava/lang/String;Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javav v(#"1*ò
+1Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javax x("ç
+Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javax x(
+"":≥
+Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javav$ v(6,
+task$com.github.maven_nar.cpptasks.CCTask:¬
+Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javav7 v(R;
+libsets0com.github.maven_nar.cpptasks.types.LibrarySet[]:¢
+Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javavS v(p
+preargsjava.util.Vector:¢
+Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javaw w(#
+midargsjava.util.Vector:¢
+Ç
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinker.javaw$ w(@
+endargsjava.util.VectorB<:
+8com.github.maven_nar.cpptasks.compiler.CommandLineLinker

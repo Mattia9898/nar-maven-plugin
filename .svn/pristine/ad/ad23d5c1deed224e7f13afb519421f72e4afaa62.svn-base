@@ -1,0 +1,9 @@
+
+Xcom.github.maven_nar.cpptasks.gcc.AbstractLdLinker#getDynamicLibFlag()Ljava/lang/String;~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.javaﬁ ﬁ($"1*ï
+1~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.javaﬂ ﬂ("è
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.javaﬂ ﬂ(
+	-BdynamicB64
+2com.github.maven_nar.cpptasks.gcc.AbstractLdLinker

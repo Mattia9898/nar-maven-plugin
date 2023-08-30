@@ -1,0 +1,11 @@
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serialize(Ljava/util/Map;Ljava/util/List;Ljava/io/File;)V
+java.io.FileOutputStream#instance-init#
+java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;
+org.xml.sax.helpers.AttributesImpl#instance-init#
+java.io.FileOutputStream#<init>(Ljava/io/File;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeMap(Ljava/util/Map;Lorg/xml/sax/ContentHandler;)V
+javax.xml.transform.stream.StreamResult#instance-init#
+javax.xml.transform.stream.StreamResult#<init>(Ljava/io/OutputStream;)V
+javax.xml.transform.TransformerFactory#newInstance()Ljavax/xml/transform/TransformerFactory;
+java.lang.String#toCharArray()[C
+org.xml.sax.helpers.AttributesImpl#<init>()V

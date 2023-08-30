@@ -1,0 +1,24 @@
+
+ocom.github.maven_nar.cpptasks.compiler.AbstractCompiler#getBaseOutputName(Ljava/lang/String;)Ljava/lang/String;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractCompiler.java\ \($"1*£
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractCompiler.java] ](¯
+ı
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractCompiler.java] ](/
+%0java.lang.String"Uorg.apache.commons.io.FilenameUtils#getBaseName(Ljava/lang/String;)Ljava/lang/String;*C
+
+__unknown_file ('"%
+#org.apache.commons.io.FilenameUtils*;
+
+__unknown_file (
+
+	inputFilejava.lang.String"û
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractCompiler.java] ](0
+
+%0java.lang.String:£
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractCompiler.java\% \(;
+	inputFilejava.lang.StringB;9
+7com.github.maven_nar.cpptasks.compiler.AbstractCompiler

@@ -20,6 +20,7 @@
 package com.github.maven_nar.cpptasks.trolltech;
 
 import com.github.maven_nar.cpptasks.compiler.AbstractProcessor;
+
 import com.github.maven_nar.cpptasks.compiler.TestAbstractCompiler;
 
 /**
@@ -80,5 +81,7 @@ public class TestMetaObjectCompiler extends TestAbstractCompiler {
    */
   @Override
   public void testGetIdentfier() {
+	  final AbstractProcessor compiler = MetaObjectCompiler.getInstance();
+	  assertEquals(null, compiler.getIdentifier());  
   }
 }

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandCCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#getIncludeDirSwitch(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

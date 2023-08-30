@@ -1,0 +1,34 @@
+
+Dcom.github.maven_nar.cpptasks.compiler.AbstractProcessor#isDarwin()ZÑ
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javaé é("1*Ø	
+1Ñ
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javaè è(#·ﬁ
+Ñ
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javaè è(%
+%0java.lang.String"Vcom.github.maven_nar.cpptasks.compiler.AbstractProcessor#getOSName()Ljava/lang/String;*X
+
+__unknown_file (<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessor2getOSName()‚
+ﬂ
+Ñ
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javaè è(&
+osNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String«ƒ
+Ñ
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javaê ê($
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*(
+
+__unknown_file (
+
+Mac OS X*8
+
+__unknown_file (
+
+osNamejava.lang.String2equals(Ljava/lang/Object;)"è
+Ñ
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javaê ê(%
+""B<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessor

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

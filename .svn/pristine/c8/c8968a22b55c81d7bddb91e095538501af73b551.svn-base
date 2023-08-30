@@ -1,0 +1,113 @@
+
+¥com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getUsePrecompiledHeader(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaí í(("8*á
+2ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaï	 ï(‘
+—
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaï	 ï(
+argjava.lang.String"__id*"
+
+__unknown_file (
+""î
+ë
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaï	 ï(
+argjava.lang.String"
+__arrayGet*8
+
+__unknown_file (
+
+argsjava.lang.String[]*"
+
+__unknown_file (
+""*
+6
+1*Ô
+3ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaö ö(÷
+”
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaö ö(
+usePCHjava.lang.String"__id*!
+
+__unknown_file (
+2*
+2*‚
+4ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaô
+ ô(∆√
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaô
+ ô(
+%2boolean",java.lang.String#equals(Ljava/lang/Object;)Z*#
+
+__unknown_file (
+/Yu*5
+
+__unknown_file (
+
+argjava.lang.String2equals(Ljava/lang/Object;)*
+2
+3*Ô
+5ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaó ó(÷
+”
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaó ó(
+usePCHjava.lang.String"__id*!
+
+__unknown_file (
+1*
+4*‚
+6ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javañ
+ ñ(∆√
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javañ
+ ñ(
+%1boolean",java.lang.String#equals(Ljava/lang/Object;)Z*#
+
+__unknown_file (
+/Yc*5
+
+__unknown_file (
+
+argjava.lang.String2equals(Ljava/lang/Object;)*
+4
+5*Ö
+8ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaì ì(÷
+”
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaì ì(
+usePCHjava.lang.String"__id*!
+
+__unknown_file (
+0•¢
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaî î(:
+%0java.lang.String[]"lcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getPreArguments()[Ljava/lang/String;*w
+
+__unknown_file ([
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration2getPreArguments()Î
+Ë
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaî î(;
+argsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%0java.lang.String[]*
+2*¿
+1ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaù ù("¨
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaù ù(
+
+usePCHjava.lang.String:È
+ã
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaí) í(^Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfigurationBCA
+?com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter

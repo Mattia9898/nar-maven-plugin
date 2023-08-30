@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.CCTask#getTargetsToBuildByConfiguration(Ljava/util/Map;)Ljava/util/Map;
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#
+java.util.HashMap#<init>()V
+java.util.HashMap#instance-init#
+com.github.maven_nar.cpptasks.TargetInfo#getRebuild()Z
+com.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;

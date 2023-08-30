@@ -1,0 +1,2 @@
+com.github.maven_nar.Compiler#toString()Ljava/lang/String;
+com.github.maven_nar.NarUtil#prettyMavenString(Ljava/lang/Object;)Ljava/lang/String;

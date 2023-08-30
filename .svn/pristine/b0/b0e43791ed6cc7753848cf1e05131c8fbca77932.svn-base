@@ -1,0 +1,58 @@
+
+Mcom.github.maven_nar.cpptasks.parser.CParser#getIncludes()[Ljava/lang/String;v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaS S("1*¹
+1v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaT' T(+õ
+ò
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaT' T(4
+%0java.util.Vector"__id*Z
+
+__unknown_file (>*<.
+,com.github.maven_nar.cpptasks.parser.CParser"
+
+includesÞÛ
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaT' T(;	
+%1int"java.util.Vector#size()I*4
+
+__unknown_file (
+
+%0java.util.Vector2size()©¦
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaT T(<
+%2java.lang.String[]"java.lang.String[]×
+Ô
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaT T(=
+retvaljava.lang.String[]"__id*6
+
+__unknown_file (
+
+%2java.lang.String[]õ
+ò
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaU U(
+%3java.util.Vector"__id*Z
+
+__unknown_file (>*<.
+,com.github.maven_nar.cpptasks.parser.CParser"
+
+includesÉÆ
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaU U("
+
+%4void"/java.util.Vector#copyInto([Ljava/lang/Object;)V*4
+
+__unknown_file (
+
+%3java.util.Vector*:
+
+__unknown_file (
+
+retvaljava.lang.String[]2copyInto([Ljava/lang/Object;)"˜
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CParser.javaV V(
+
+retvaljava.lang.String[]B0.
+,com.github.maven_nar.cpptasks.parser.CParserH

@@ -1,0 +1,208 @@
+
+Âcom.github.maven_nar.NarIntegrationTestMojo#resolveArtifact(Lorg/apache/maven/artifact/Artifact;Lorg/apache/maven/artifact/Artifact;)Lorg/apache/maven/artifact/resolver/ArtifactResolutionResult;w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaë# ë(2"3*ˆ
+2w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaï* ï(5»¸
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaïD ï(a
+%0java.lang.String"Aorg.apache.maven.artifact.Artifact#getGroupId()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+filteredArtifact"org.apache.maven.artifact.Artifact2getGroupId()·
+´
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaïD ï(g
+%1java.lang.String"__concat*“
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaïD ï(a
+
+%0java.lang.String*€
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaïd ï(g
+:Á¾
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javað ð(,
+%2java.lang.String"Dorg.apache.maven.artifact.Artifact#getArtifactId()Ljava/lang/String;*T
+
+__unknown_file (8
+6
+filteredArtifact"org.apache.maven.artifact.Artifact2getArtifactId()Ê
+Ç
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaïD ð(,
+%3java.lang.String"__concat*“
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaïD ï(g
+
+%1java.lang.String*“
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javað ð(,
+
+%2java.lang.StringÈ
+Å
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaï* ð(-
+%4java.util.List"Gjava.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collections*4
+
+__unknown_file (
+
+%3java.lang.String†ƒ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaï ï()F
+%5@org.apache.maven.artifact.resolver.filter.ExcludesArtifactFilter"@org.apache.maven.artifact.resolver.filter.ExcludesArtifactFilterø
+õ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaï ð(.
+%6"Zorg.apache.maven.artifact.resolver.filter.ExcludesArtifactFilter#<init>(Ljava/util/List;)V*d
+
+__unknown_file (H
+F
+%5@org.apache.maven.artifact.resolver.filter.ExcludesArtifactFilter*2
+
+__unknown_file (
+
+%4java.util.List¬
+©
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaï ð(.B
+filter8org.apache.maven.artifact.resolver.filter.ArtifactFilter"__id*d
+
+__unknown_file (H
+F
+%5@org.apache.maven.artifact.resolver.filter.ExcludesArtifactFilter*
+1*ñ
+3w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaí í( ê
+ç
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaí í(!B
+filter8org.apache.maven.artifact.resolver.filter.ArtifactFilter"__id*"
+
+__unknown_file (
+""*
+2
+1*³$
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaó) ó(-
+š
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaó) ó(=7
+%71org.apache.maven.artifact.factory.ArtifactFactory"__id*`
+
+__unknown_file (D*B-
++com.github.maven_nar.NarIntegrationTestMojo"
+artifactFactoryª§
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaó) ó(q(
+%8"org.apache.maven.artifact.Artifact"³org.apache.maven.artifact.factory.ArtifactFactory#createBuildArtifact(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/apache/maven/artifact/Artifact;*U
+
+__unknown_file (9
+7
+%71org.apache.maven.artifact.factory.ArtifactFactory*%
+
+__unknown_file (	
+dummy*%
+
+__unknown_file (	
+dummy*#
+
+__unknown_file (
+1.0*#
+
+__unknown_file (
+jar2]createBuildArtifact(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)…
+‚
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaó ó(r9
+originatingArtifact"org.apache.maven.artifact.Artifact"__id*F
+
+__unknown_file (*
+(
+%8"org.apache.maven.artifact.Artifact 
+
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaö ö( 9
+%93org.apache.maven.artifact.resolver.ArtifactResolver"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+artifactResolverã
+à
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaö5 ö(\
+%10java.util.Set"Bjava.util.Collections#singleton(Ljava/lang/Object;)Ljava/util/Set;*5
+
+__unknown_file ("
+java.util.Collections*T
+
+__unknown_file (8
+6
+providerArtifact"org.apache.maven.artifact.Artifactš—
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java÷ ÷(>
+%117org.apache.maven.artifact.repository.ArtifactRepository"ycom.github.maven_nar.AbstractDependencyMojo#getLocalRepository()Lorg/apache/maven/artifact/repository/ArtifactRepository;*K
+
+__unknown_file (/-
++com.github.maven_nar.NarIntegrationTestMojo2getLocalRepository()ÎË
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java÷ ÷(5
+%12java.util.List"Scom.github.maven_nar.AbstractDependencyMojo#getRemoteRepositories()Ljava/util/List;*K
+
+__unknown_file (/-
++com.github.maven_nar.NarIntegrationTestMojo2getRemoteRepositories()¥
+¢
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java÷7 ÷(J@
+%139org.apache.maven.artifact.metadata.ArtifactMetadataSource"__id*_
+
+__unknown_file (C*A-
++com.github.maven_nar.NarIntegrationTestMojo"
+metadataSourceþ
+û
+
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaö ÷(SB
+%14;org.apache.maven.artifact.resolver.ArtifactResolutionResult"÷org.apache.maven.artifact.resolver.ArtifactResolver#resolveTransitively(Ljava/util/Set;Lorg/apache/maven/artifact/Artifact;Lorg/apache/maven/artifact/repository/ArtifactRepository;Ljava/util/List;Lorg/apache/maven/artifact/metadata/ArtifactMetadataSource;Lorg/apache/maven/artifact/resolver/filter/ArtifactFilter;)Lorg/apache/maven/artifact/resolver/ArtifactResolutionResult;*W
+
+__unknown_file (;
+9
+%93org.apache.maven.artifact.resolver.ArtifactResolver*2
+
+__unknown_file (
+
+%10java.util.Set*W
+
+__unknown_file (;
+9
+originatingArtifact"org.apache.maven.artifact.Artifact*\
+
+__unknown_file (@
+>
+%117org.apache.maven.artifact.repository.ArtifactRepository*3
+
+__unknown_file (
+
+%12java.util.List*^
+
+__unknown_file (B
+@
+%139org.apache.maven.artifact.metadata.ArtifactMetadataSource*`
+
+__unknown_file (D
+B
+filter8org.apache.maven.artifact.resolver.filter.ArtifactFilter2†resolveTransitively(Ljava/util/Set;Lorg/apache/maven/artifact/Artifact;Lorg/apache/maven/artifact/repository/ArtifactRepository;Ljava/util/List;Lorg/apache/maven/artifact/metadata/ArtifactMetadataSource;Lorg/apache/maven/artifact/resolver/filter/ArtifactFilter;)"¿
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaö ÷(TD
+B
+%14;org.apache.maven.artifact.resolver.ArtifactResolutionResult:±
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaë3 ë(S6
+filteredArtifact"org.apache.maven.artifact.Artifact:±
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaëT ë(s6
+providerArtifact"org.apache.maven.artifact.ArtifactB/-
++com.github.maven_nar.NarIntegrationTestMojo

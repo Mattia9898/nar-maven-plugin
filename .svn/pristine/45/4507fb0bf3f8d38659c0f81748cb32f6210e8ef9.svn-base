@@ -1,0 +1,448 @@
+
+∆com.github.maven_nar.NarLayout21#attachNars(Ljava/io/File;Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Lorg/apache/maven/project/MavenProjectHelper;Lorg/apache/maven/project/MavenProject;)Vj
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaC C("startingBlock*Ω
+2j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java[  [('ı
+Ú
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java[) [(3
+%21java.lang.String"
+__arrayGet*;
+
+__unknown_file (
+
+subDirsjava.lang.String[]*"
+
+__unknown_file (
+""íè
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java[ [(
+%22java.io.File"java.io.Fileœ
+Ã
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java[ [(4
+%23"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%22java.io.File*5
+
+__unknown_file (
+
+baseDirjava.io.File*5
+
+__unknown_file (
+
+%21java.lang.StringΩ
+∫
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java[ [(5
+dirjava.io.File"__id*1
+
+__unknown_file (
+
+%22java.io.File§°
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java\ \(Q
+%24void"Ôcom.github.maven_nar.AbstractNarLayout#attachNar(Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Lorg/apache/maven/project/MavenProjectHelper;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarLayout21*e
+
+__unknown_file (I
+G
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManager*Z
+
+__unknown_file (>
+<
+projectHelper+org.apache.maven.project.MavenProjectHelper*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject*<
+
+__unknown_file ( 
+
+
+classifierjava.lang.String*1
+
+__unknown_file (
+
+dirjava.io.File*$
+
+__unknown_file (
+*/**2«attachNar(Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Lorg/apache/maven/project/MavenProjectHelper;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)*
+6
+0*ï
+startingBlockj
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaC D(IÌ
+Í
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaB B(
+%25"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+baseDirjava.io.Fileª
+∏
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaC* C(1
+baseDirjava.io.File"__annotation*#
+
+__unknown_file (
+
+%25ù
+ö
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaB B(
+%26"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*e
+
+__unknown_file (I
+G
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManagerÎ
+Ë
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaCI C(XG
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManager"__annotation*#
+
+__unknown_file (
+
+%26í
+è
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaB B(
+%27"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Z
+
+__unknown_file (>
+<
+projectHelper+org.apache.maven.project.MavenProjectHelper‡
+›
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaD D(,<
+projectHelper+org.apache.maven.project.MavenProjectHelper"__annotation*#
+
+__unknown_file (
+
+%27Ü
+É
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaB B(
+%28"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject‘
+—
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaDA D(H0
+project%org.apache.maven.project.MavenProject"__annotation*#
+
+__unknown_file (
+
+%28*
+11*≈
+4j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaT  T('ı
+Ú
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaT  T(*
+%16java.lang.String"
+__arrayGet*;
+
+__unknown_file (
+
+subDirsjava.lang.String[]*"
+
+__unknown_file (
+""Ê„
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaT5 T(O
+
+%17int"java.lang.String#length()I*C
+
+__unknown_file ('
+%
+artifactIdVersionjava.lang.String2length()¢ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaT  T(T
+%18java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*5
+
+__unknown_file (
+
+%16java.lang.String*"
+
+__unknown_file (
+""2substring(I)Ã
+…
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaT T(U
+
+classifierjava.lang.String"__id*5
+
+__unknown_file (
+
+%18java.lang.String≤
+Ø
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaW W(4
+%19java.lang.String"__id*"
+
+__unknown_file (
+""æª
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaW
+ W(5
+%20boolean",java.lang.String#equals(Ljava/lang/Object;)Z*<
+
+__unknown_file ( 
+
+
+classifierjava.lang.String*5
+
+__unknown_file (
+
+%19java.lang.String2equals(Ljava/lang/Object;)*	
+2
+6
+0*π
+6j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM' M(.≤Ø
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM' M(>
+%10java.lang.String"Gorg.apache.maven.project.MavenProject#getArtifactId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getArtifactId()ë
+é
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM' M(D
+%11java.lang.String"__concat*á
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM' M(>
+
+%10java.lang.String*s
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaMA M(D
+-¨©
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaMG M([
+%12java.lang.String"Dorg.apache.maven.project.MavenProject#getVersion()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getVersion()¶
+£
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM' M([
+%13java.lang.String"__concat*á
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM' M(D
+
+%11java.lang.String*á
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaMG M([
+
+%12java.lang.String”
+–
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaM M(\%
+artifactIdVersionjava.lang.String"__id*5
+
+__unknown_file (
+
+%13java.lang.Stringı
+Ú
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaP P(
+%14java.lang.String"
+__arrayGet*;
+
+__unknown_file (
+
+subDirsjava.lang.String[]*"
+
+__unknown_file (
+""Õ 
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaP P(3
+%15boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*5
+
+__unknown_file (
+
+%14java.lang.String*C
+
+__unknown_file ('
+%
+artifactIdVersionjava.lang.String2startsWith(Ljava/lang/String;)*	
+4
+6
+0*π
+9j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaK K($Ì
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaK K(+
+%9java.lang.String[]"&java.io.File#list()[Ljava/lang/String;*5
+
+__unknown_file (
+
+baseDirjava.io.File2list()Ã
+…
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaK K(,
+subDirsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%9java.lang.String[]*
+6
+0*“
+10j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaF F(±
+Æ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaF9 F(Q
+%4java.lang.String"__id*"
+
+__unknown_file (
+""±Æ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaG& G(=
+%5java.lang.String"Gorg.apache.maven.project.MavenProject#getArtifactId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getArtifactId()´®
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaG? G(S
+%6java.lang.String"Dorg.apache.maven.project.MavenProject#getVersion()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getVersion()ß§
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaG
+ G(T
+%7java.io.File"ucom.github.maven_nar.NarLayout21#getNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarLayout21*5
+
+__unknown_file (
+
+baseDirjava.io.File*4
+
+__unknown_file (
+
+%5java.lang.String*4
+
+__unknown_file (
+
+%6java.lang.String2FgetNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)öó
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaF G(]
+
+%8void"Ôcom.github.maven_nar.AbstractNarLayout#attachNar(Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Lorg/apache/maven/project/MavenProjectHelper;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)V*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarLayout21*e
+
+__unknown_file (I
+G
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManager*Z
+
+__unknown_file (>
+<
+projectHelper+org.apache.maven.project.MavenProjectHelper*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject*4
+
+__unknown_file (
+
+%4java.lang.String*0
+
+__unknown_file (
+
+%7java.io.File*$
+
+__unknown_file (
+*/**2«attachNar(Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Lorg/apache/maven/project/MavenProjectHelper;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/io/File;Ljava/lang/String;)*
+9*â
+0 "Å
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java^ ^(
+implicit return*⁄
+11j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaE E(±Æ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaE$ E(;
+%0java.lang.String"Gorg.apache.maven.project.MavenProject#getArtifactId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getArtifactId()´®
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaE= E(Q
+%1java.lang.String"Dorg.apache.maven.project.MavenProject#getVersion()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getVersion()ß§
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaE E(R
+%2java.io.File"ucom.github.maven_nar.NarLayout21#getNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarLayout21*5
+
+__unknown_file (
+
+baseDirjava.io.File*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2FgetNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)“œ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaE E([
+%3boolean"java.io.File#exists()Z*0
+
+__unknown_file (
+
+%2java.io.File2exists()*
+9
+10:Ö
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaC C(2
+baseDirjava.io.File:µ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaC3 C(YG
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManager:™
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaD D(-<
+projectHelper+org.apache.maven.project.MavenProjectHelper:û
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaD. D(H0
+project%org.apache.maven.project.MavenProjectB$"
+ com.github.maven_nar.NarLayout21H

@@ -1,0 +1,159 @@
+
+™com.github.maven_nar.cpptasks.ProcessorDef#getDefaultProviders(Lcom/github/maven_nar/cpptasks/ProcessorDef;)[Lcom/github/maven_nar/cpptasks/ProcessorDef;v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java§! §(4"8*ê
+2v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¯ ¯(çä
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¯ ¯(
+
+%7void"0java.util.Vector#addElement(Ljava/lang/Object;)V*7
+
+__unknown_file (
+
+chainjava.util.Vector*S
+
+__unknown_file (7
+5
+baseDef*com.github.maven_nar.cpptasks.ProcessorDef2addElement(Ljava/lang/Object;)*
+1*¤
+3v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java® ®(%ž›
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java® ®('
+%6boolean"8com.github.maven_nar.cpptasks.ProcessorDef#getInherit()Z*J
+
+__unknown_file (.,
+*com.github.maven_nar.cpptasks.ProcessorDef2getInherit()*
+2
+1*ü
+5v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java« «(êç
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java« «("
+
+%4void"0java.util.Vector#addElement(Ljava/lang/Object;)V*7
+
+__unknown_file (
+
+chainjava.util.Vector*V
+
+__unknown_file (:
+8
+
+extendsDef*com.github.maven_nar.cpptasks.ProcessorDef2addElement(Ljava/lang/Object;)øõ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¬ ¬(*0
+%5*com.github.maven_nar.cpptasks.ProcessorDef"ccom.github.maven_nar.cpptasks.ProcessorDef#getExtends()Lcom/github/maven_nar/cpptasks/ProcessorDef;*V
+
+__unknown_file (:
+8
+
+extendsDef*com.github.maven_nar.cpptasks.ProcessorDef2getExtends()‹
+ˆ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¬ ¬(*8
+
+extendsDef*com.github.maven_nar.cpptasks.ProcessorDef"__id*N
+
+__unknown_file (2
+0
+%5*com.github.maven_nar.cpptasks.ProcessorDef*	
+3
+6
+1*ò
+6v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.javaª" ª('éæ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.javaª" ª(<
+%3boolean".java.util.Vector#contains(Ljava/lang/Object;)Z*7
+
+__unknown_file (
+
+chainjava.util.Vector*V
+
+__unknown_file (:
+8
+
+extendsDef*com.github.maven_nar.cpptasks.ProcessorDef2contains(Ljava/lang/Object;)*	
+3
+5
+1*Ö
+
+8v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¨ ¨((ìé
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¨ ¨(*0
+%0*com.github.maven_nar.cpptasks.ProcessorDef"ccom.github.maven_nar.cpptasks.ProcessorDef#getExtends()Lcom/github/maven_nar/cpptasks/ProcessorDef;*J
+
+__unknown_file (.,
+*com.github.maven_nar.cpptasks.ProcessorDef2getExtends()‹
+ˆ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java¨ ¨(+8
+
+extendsDef*com.github.maven_nar.cpptasks.ProcessorDef"__id*N
+
+__unknown_file (2
+0
+%0*com.github.maven_nar.cpptasks.ProcessorDef¥¢
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java© ©(#
+%1java.util.Vector"java.util.VectorÓ
+Ð
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java© ©(%
+%2"java.util.Vector#<init>()V*4
+
+__unknown_file (
+
+%1java.util.VectorÒ
+Ï
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java© ©(&
+chainjava.util.Vector"__id*4
+
+__unknown_file (
+
+%1java.util.Vector*	
+3
+6
+1*Š
+1v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java±= ±(BáÞ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java±= ±(I	
+%8int"java.util.Vector#size()I*7
+
+__unknown_file (
+
+chainjava.util.Vector2size()ÝÚ
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java±, ±(J2
+%9,com.github.maven_nar.cpptasks.ProcessorDef[]",com.github.maven_nar.cpptasks.ProcessorDef[]•
+’
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java± ±(K@
+defaultProviders,com.github.maven_nar.cpptasks.ProcessorDef[]"__id*P
+
+__unknown_file (4
+2
+%9,com.github.maven_nar.cpptasks.ProcessorDef[]ñî
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java² ²($
+%10void"/java.util.Vector#copyInto([Ljava/lang/Object;)V*7
+
+__unknown_file (
+
+chainjava.util.Vector*^
+
+__unknown_file (B
+@
+defaultProviders,com.github.maven_nar.cpptasks.ProcessorDef[]2copyInto([Ljava/lang/Object;)"¼
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java³ ³(B
+@
+defaultProviders,com.github.maven_nar.cpptasks.ProcessorDef[]:¯
+v
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ProcessorDef.java§5 §(O5
+baseDef*com.github.maven_nar.cpptasks.ProcessorDefB.,
+*com.github.maven_nar.cpptasks.ProcessorDef

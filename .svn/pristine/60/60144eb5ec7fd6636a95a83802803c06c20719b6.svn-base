@@ -1,0 +1,54 @@
+
+pcom.github.maven_nar.cpptasks.gcc.AbstractArLibrarian#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaQ Q(%"startingBlock*ù
+startingBlock
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaQ% Q(>ˆ
+…
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaP P(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+outputFilejava.lang.StringÖ
+Ó
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaQ3 Q(=
+
+outputFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*õ
+1
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaR R(Î
+Ë
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaR R(>
+%0java.lang.String[]"{com.github.maven_nar.cpptasks.gcc.GccProcessor#getOutputFileSwitch(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor*#
+
+__unknown_file (
+rvs*<
+
+__unknown_file ( 
+
+
+outputFilejava.lang.String"
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaR R(?
+
+%0java.lang.String[]:¡
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractArLibrarian.javaQ& Q(=
+
+outputFilejava.lang.StringB97
+5com.github.maven_nar.cpptasks.gcc.AbstractArLibrarianH

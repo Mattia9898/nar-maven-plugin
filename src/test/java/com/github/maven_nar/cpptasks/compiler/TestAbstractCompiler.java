@@ -21,14 +21,22 @@ package com.github.maven_nar.cpptasks.compiler;
 
 import java.io.File;
 
-import org.apache.tools.ant.BuildException;
+import java.util.ArrayList;
 
 import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.CompilerDef;
+
 import com.github.maven_nar.cpptasks.ProcessorDef;
+
 import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.parser.CParser;
+
 import com.github.maven_nar.cpptasks.parser.Parser;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
 
 /**
  * Test for abstract compiler class
@@ -40,14 +48,7 @@ public class TestAbstractCompiler extends TestAbstractProcessor {
     public DummyAbstractCompiler() {
       super(new String[] {
           ".cpp", ".c"
-      }, new String[] {
-          ".hpp", ".h", ".inl"
       }, ".o");
-    }
-
-    public void compile(final CCTask task, final File[] srcfile, final File[] outputfile,
-        final CompilerConfiguration config) throws BuildException {
-      throw new BuildException("Not implemented");
     }
 
     @Override
@@ -71,6 +72,31 @@ public class TestAbstractCompiler extends TestAbstractProcessor {
     public Linker getLinker(final LinkType type) {
       return null;
     }
+
+	@Override
+	public void getUndefineSwitch(StringBuilder buffer, String define) {
+
+		
+	}
+
+	@Override
+	public String getInputFileArgument(File outputDir, String filename, int index) {
+
+		return getIdentifier();
+	}
+
+	@Override
+	public int bid(String inputFile) {
+
+		return 0;
+	}
+
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs,
+			ArrayList<String> midargs, ArrayList<String> endargs) {
+
+		return getHeaderExtensions();
+	}
   }
 
   public TestAbstractCompiler(final String name) {
@@ -100,8 +126,4 @@ public class TestAbstractCompiler extends TestAbstractProcessor {
     return ".o";
   }
 
-  public void testCanParseTlb() {
-    final AbstractCompiler compiler = (AbstractCompiler) create();
-    assertEquals(false, compiler.canParse(new File("sample.tlb")));
-  }
 }

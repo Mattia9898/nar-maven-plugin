@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.ti.ClxxCCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.ti.ClxxLinker#getCl6xInstance()Lcom/github/maven_nar/cpptasks/ti/ClxxLinker;
+com.github.maven_nar.cpptasks.ti.ClxxLibrarian#getCl6xInstance()Lcom/github/maven_nar/cpptasks/ti/ClxxLibrarian;
+com.github.maven_nar.cpptasks.ti.ClxxLinker#getCl6xDllInstance()Lcom/github/maven_nar/cpptasks/ti/ClxxLinker;
+com.github.maven_nar.cpptasks.ti.ClxxLinker#getCl55DllInstance()Lcom/github/maven_nar/cpptasks/ti/ClxxLinker;
+com.github.maven_nar.cpptasks.ti.ClxxLinker#getCl55Instance()Lcom/github/maven_nar/cpptasks/ti/ClxxLinker;
+com.github.maven_nar.cpptasks.ti.ClxxLibrarian#getCl55Instance()Lcom/github/maven_nar/cpptasks/ti/ClxxLibrarian;

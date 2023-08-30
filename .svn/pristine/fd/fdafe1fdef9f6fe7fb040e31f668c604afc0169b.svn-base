@@ -1,0 +1,55 @@
+
+Scom.github.maven_nar.AbstractCompileMojo#getMessage()Lcom/github/maven_nar/Message;t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.javaŠ Š($"4*¾
+2t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.javaŒ Œ(»¸
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.javaŒ Œ("
+%1com.github.maven_nar.Message"com.github.maven_nar.Messageé
+æ
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.javaŒ Œ(
+%2"&com.github.maven_nar.Message#<init>()V*@
+
+__unknown_file ($
+"
+%1com.github.maven_nar.Message“
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.javaŒ Œ(
+
+%3void"Tcom.github.maven_nar.AbstractCompileMojo#setMessage(Lcom/github/maven_nar/Message;)V*H
+
+__unknown_file (,*
+(com.github.maven_nar.AbstractCompileMojo*@
+
+__unknown_file ($
+"
+%1com.github.maven_nar.Message2*setMessage(Lcom/github/maven_nar/Message;)*
+1*ş
+4t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java‹ ‹(ú
+÷
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java‹ ‹("
+%0com.github.maven_nar.Message"__id*U
+
+__unknown_file (9*7*
+(com.github.maven_nar.AbstractCompileMojo"	
+message*
+2
+1*•
+1t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java (ú
+÷
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java ("
+%4com.github.maven_nar.Message"__id*U
+
+__unknown_file (9*7*
+(com.github.maven_nar.AbstractCompileMojo"	
+message"œ
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java ($
+"
+%4com.github.maven_nar.MessageB,*
+(com.github.maven_nar.AbstractCompileMojo

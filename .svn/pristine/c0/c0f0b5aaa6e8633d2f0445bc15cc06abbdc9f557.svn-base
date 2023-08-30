@@ -1,0 +1,83 @@
+
+hcom.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter$1#compare(Ljava/io/File;Ljava/io/File;)I‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.java× ×("startingBlock*î
+startingBlock‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.java× ×(6‰
+†
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaÖ Ö(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*0
+
+__unknown_file (
+
+o1java.io.File×
+Ô
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.java×$ ×(&
+o1java.io.File"__annotation*"
+
+__unknown_file (
+
+%3‰
+†
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaÖ Ö(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*0
+
+__unknown_file (
+
+o2java.io.File×
+Ô
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.java×3 ×(5
+o2java.io.File"__annotation*"
+
+__unknown_file (
+
+%4*
+1*«	
+1‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaØ Ø(
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaØ Ø(
+%0java.lang.String"(java.io.File#getName()Ljava/lang/String;*0
+
+__unknown_file (
+
+o1java.io.File2	getName()
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaØ& Ø(2
+%1java.lang.String"(java.io.File#getName()Ljava/lang/String;*0
+
+__unknown_file (
+
+o2java.io.File2	getName()ØÕ
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaØ Ø(3	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2compareTo(Ljava/lang/String;)"–
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.javaØ Ø(4
+"":¢
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.java× ×('
+o1java.io.File:¢
+‹
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/VisualStudioNETProjectWriter.java×( ×(5
+o2java.io.FileBEC
+Acom.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter$1H

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.ide.ProjectDef#setType(Lcom/github/maven_nar/cpptasks/ide/ProjectWriterEnum;)V
+com.github.maven_nar.cpptasks.ide.ProjectWriterEnum#getProjectWriter()Lcom/github/maven_nar/cpptasks/ide/ProjectWriter;

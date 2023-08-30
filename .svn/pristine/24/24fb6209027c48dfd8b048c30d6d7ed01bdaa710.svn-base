@@ -1,0 +1,41 @@
+
+€com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getFileType(Lcom/github/maven_nar/cpptasks/TargetInfo;)Ljava/lang/String;‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java° °("1*°
+2‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¶ ·(,"¥
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java· ·(,
+compiled.mach-o.executable*«
+3‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java´ µ('" 
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaµ µ('
+compiled.mach-o.dylib* 
+4‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java² ³("•
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java³ ³(
+
+archive.ar*Ð
+1‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java± ±(º
+·
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java± ±(+	
+%0int"wcom.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getProductTypeIndex(Lcom/github/maven_nar/cpptasks/TargetInfo;)I*V
+
+__unknown_file (:8
+6com.github.maven_nar.cpptasks.apple.XcodeProjectWriter*T
+
+__unknown_file (8
+6
+
+linkTarget(com.github.maven_nar.cpptasks.TargetInfo*	
+2
+3
+4:½
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java° °(86
+
+linkTarget(com.github.maven_nar.cpptasks.TargetInfoB:8
+6com.github.maven_nar.cpptasks.apple.XcodeProjectWriter

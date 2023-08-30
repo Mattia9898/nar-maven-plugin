@@ -27,8 +27,8 @@ import com.github.maven_nar.cpptasks.compiler.AbstractProcessor;
  * Test IBM Visual Age compiler adapter
  * 
  */
-// TODO Since VisualAgeCCompiler extends GccCompatibleCCompiler, this test
-// should probably extend TestGccCompatibleCCompiler.
+
+
 public class TestVisualAgeCCompiler extends TestCase {
   public TestVisualAgeCCompiler(final String name) {
     super(name);

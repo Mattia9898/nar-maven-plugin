@@ -1,0 +1,4 @@
+com.github.maven_nar.NarIntegrationTestMojo#convertTestNGParameters()V
+java.util.Properties#instance-init#
+java.lang.Integer#toString(I)Ljava/lang/String;
+java.util.Properties#<init>()V

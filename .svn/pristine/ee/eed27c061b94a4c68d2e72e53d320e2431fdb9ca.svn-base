@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#getStartupObject(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Ljava/lang/String;

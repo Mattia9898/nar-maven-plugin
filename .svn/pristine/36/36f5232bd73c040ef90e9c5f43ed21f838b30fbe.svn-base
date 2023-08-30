@@ -1,0 +1,53 @@
+
+]com.github.maven_nar.cpptasks.SourceHistory#getAbsolutePath(Ljava/io/File;)Ljava/lang/String;u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java- -("5*é
+3u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(E"ë
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(E
+
+%3java.lang.String*ç
+4u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(Dãà
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(D
+%3java.lang.String"1java.io.File#getCanonicalPath()Ljava/lang/String;*0
+
+__unknown_file (
+
+%1java.io.File2getCanonicalPath()*
+3*Ú
+5u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(˜
+Ù
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(0
+%0java.lang.String"__id*]
+
+__unknown_file (A*?-
++com.github.maven_nar.cpptasks.SourceHistory"
+relativePathúô
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(
+%1java.io.File"java.io.File◊
+‘
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java/ /(1
+%2"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%1java.io.File*5
+
+__unknown_file (
+
+baseDirjava.io.File*4
+
+__unknown_file (
+
+%0java.lang.String*
+4:ê
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/SourceHistory.java-  -(2
+baseDirjava.io.FileB/-
++com.github.maven_nar.cpptasks.SourceHistoryH

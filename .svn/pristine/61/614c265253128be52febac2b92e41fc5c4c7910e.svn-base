@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.sun.C89CCompiler#addWarningSwitch(Ljava/util/Vector;I)V
+com.github.maven_nar.cpptasks.sun.C89Processor#addWarningSwitch(Ljava/util/Vector;I)V

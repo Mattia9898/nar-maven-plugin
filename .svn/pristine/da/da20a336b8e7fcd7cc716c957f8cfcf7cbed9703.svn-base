@@ -1,0 +1,349 @@
+
+Ùcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLinkOptions(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Lcom/github/maven_nar/cpptasks/TargetInfo;)Vˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÉ É("9"0*™
+2ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÝ Ý(ƒ€
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÝ Ý(=
+%12void"Šcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*0
+
+__unknown_file (
+param.objfiles.1*9
+
+__unknown_file (
+
+startupjava.lang.String2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+0*ž
+3ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÛ! Û(+š—
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÛ! Û(>
+%11java.lang.String"jcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getStartupObject()Ljava/lang/String;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getStartupObject()è
+å
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÛ
+ Û(?
+startupjava.lang.String"__id*5
+
+__unknown_file (
+
+%11java.lang.String*
+2
+0*Š
+4ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(#Õ
+Ò
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(#
+libNamejava.lang.String"__id*"
+
+__unknown_file (
+""™
+–
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(#
+libNamejava.lang.String"
+__arrayGet*<
+
+__unknown_file ( 
+
+libNamesjava.lang.String[]*"
+
+__unknown_file (
+""*
+3
+5*‰
+
+5ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÙ Ù(é
+æ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÙ! Ù(?
+%9java.lang.String"__concat* 
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÙ! Ù(2
+param.libfiles.*“
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÙ5 Ù(?
+""‡„
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÙ Ù(I
+%10void"Šcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String*9
+
+__unknown_file (
+
+libNamejava.lang.String2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+4*†#
+7ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÑ  Ñ(Bò
+ï
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÑ
+ Ñ(C
+linkIDjava.lang.String"__id*@
+
+__unknown_file ($"
+ win32.Debug_Build.win32b.ilink32š—
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÒ) Ò(E
+%2java.lang.String[]"jcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getPreArguments()[Ljava/lang/String;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getPreArguments()¢
+Ÿ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÒ
+ Ò(F
+
+%3void"Àcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeIlinkArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V*\
+
+__unknown_file (@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*6
+
+__unknown_file (
+
+%2java.lang.String[]š—
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÓ) Ó(E
+%4java.lang.String[]"jcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getEndArguments()[Ljava/lang/String;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getEndArguments()¢
+Ÿ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÓ
+ Ó(F
+
+%5void"Àcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeIlinkArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V*\
+
+__unknown_file (@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*6
+
+__unknown_file (
+
+%4java.lang.String[]óð
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÔ
+ Ô(@
+
+%6void"Šcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*0
+
+__unknown_file (
+param.libfiles.1**
+
+__unknown_file (
+
+cw32mt.lib2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)õò
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÕ
+ Õ(B
+
+%7void"Šcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*0
+
+__unknown_file (
+param.libfiles.2*,
+
+__unknown_file (
+import32.lib2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)š—
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java×$ ×(@
+%8java.lang.String[]"jcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getLibraryNames()[Ljava/lang/String;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getLibraryNames()ì
+é
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java×
+ ×(A
+libNamesjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%8java.lang.String[]*
+4*²
+8ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÎ[ Î(aÐ
+Í
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÎ Î(bS
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration"__id*e
+
+__unknown_file (I
+G
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfigurationÆÃ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÐ Ð("3
+%1-com.github.maven_nar.cpptasks.compiler.Linker"€com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getLinker()Lcom/github/maven_nar/cpptasks/compiler/Linker;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getLinker()*
+7
+1*•
+9ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÌ, Ì(6¹¶
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÌ, Ì(IC
+%0=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration"zcom.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;*T
+
+__unknown_file (8
+6
+
+linkTarget(com.github.maven_nar.cpptasks.TargetInfo2getConfiguration()À
+½
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÌ Ì(JG
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration"__id*a
+
+__unknown_file (E
+C
+%0=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration*
+8
+0*¨
+0 " 
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaæ æ(
+implicit return*Œ
+1ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaà  à(Bò
+ï
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaà
+ à(C
+linkIDjava.lang.String"__id*@
+
+__unknown_file ($"
+ linux.Debug_Build.gnuc++.g++link›˜
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaá& á(B
+%13java.lang.String[]"jcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getPreArguments()[Ljava/lang/String;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getPreArguments()¡
+ž
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaá
+ á(C
+%14void"½com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLdArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V*\
+
+__unknown_file (@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*7
+
+__unknown_file (
+
+%13java.lang.String[]›˜
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaâ& â(B
+%15java.lang.String[]"jcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getEndArguments()[Ljava/lang/String;*q
+
+__unknown_file (U
+S
+
+linkConfigEcom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration2getEndArguments()¡
+ž
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaâ
+ â(C
+%16void"½com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLdArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V*\
+
+__unknown_file (@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*7
+
+__unknown_file (
+
+%15java.lang.String[]*
+0:¨
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÉ  É(5
+baseDirjava.lang.String:â
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÉ6 É(RU
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter:Ã
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÉS É(n6
+
+linkTarget(com.github.maven_nar.cpptasks.TargetInfoB@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter

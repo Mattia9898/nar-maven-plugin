@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLinker#getInstance()Lcom/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLinker;

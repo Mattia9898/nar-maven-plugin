@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractGnuMojo#getGnuAOLTargetDirectory()Ljava/io/File;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.AbstractGnuMojo#getGnuAOLDirectory()Ljava/io/File;

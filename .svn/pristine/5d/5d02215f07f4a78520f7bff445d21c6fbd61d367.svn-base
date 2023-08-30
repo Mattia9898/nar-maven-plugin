@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeObject(Ljava/lang/Object;Lorg/xml/sax/ContentHandler;)V
+java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeMap(Ljava/util/Map;Lorg/xml/sax/ContentHandler;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeInteger(Ljava/lang/Number;Lorg/xml/sax/ContentHandler;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeBoolean(Ljava/lang/Boolean;Lorg/xml/sax/ContentHandler;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeString(Ljava/lang/String;Lorg/xml/sax/ContentHandler;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeList(Ljava/util/List;Lorg/xml/sax/ContentHandler;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeReal(Ljava/lang/Number;Lorg/xml/sax/ContentHandler;)V

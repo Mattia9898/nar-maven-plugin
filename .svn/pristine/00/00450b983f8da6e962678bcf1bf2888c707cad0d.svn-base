@@ -1,0 +1,14 @@
+com.github.maven_nar.Linker#addLibraries(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/LinkerDef;Lorg/apache/tools/ant/Project;Z)V
+com.github.maven_nar.cpptasks.types.LibrarySet#instance-init#
+com.github.maven_nar.cpptasks.types.LibraryTypeEnum#<init>()V
+java.io.File#instance-init#
+java.lang.String#split(Ljava/lang/String;I)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.types.LibrarySet#<init>()V
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#<init>(Ljava/lang/String;)V
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.io.File#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.types.SystemLibrarySet#instance-init#
+com.github.maven_nar.cpptasks.types.LibraryTypeEnum#instance-init#
+com.github.maven_nar.cpptasks.types.SystemLibrarySet#<init>()V
+java.lang.String#trim()Ljava/lang/String;
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#instance-init#

@@ -1,0 +1,1292 @@
+
+-com.github.maven_nar.Msvc#initVisualStudio()Ve
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaõ õ("36*≤
+24e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java… …(2√
+¿
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java…3 …(g-
+%33&com.sun.jna.platform.win32.WinReg$HKEY"__id*"
+
+__unknown_file (
+""—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java 9  (@
+%34java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+version§
+°
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java…  (A
+%35java.lang.String"ícom.github.maven_nar.Msvc#registryGet32StringValue(Lcom/sun/jna/platform/win32/WinReg$HKEY;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*9
+
+__unknown_file ("
+com.github.maven_nar.Msvc*K
+
+__unknown_file (/
+-
+%33&com.sun.jna.platform.win32.WinReg$HKEY*K
+
+__unknown_file (/-
++SOFTWARE\\Microsoft\\VisualStudio\\SxS\\VS7*5
+
+__unknown_file (
+
+%34java.lang.String*
+23*¬
+26e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≈
+ ≈( 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≈
+ ≈(
+%32java.io.File"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+home*
+24
+20*º
+27e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java√) √(l—Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java√ √((5
+%30.org.apache.maven.plugin.MojoExecutionException".org.apache.maven.plugin.MojoExecutionExceptionı
+Ú
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java√ √(m
+%31"Jorg.apache.maven.plugin.MojoExecutionException#<init>(Ljava/lang/String;)V*S
+
+__unknown_file (7
+5
+%30.org.apache.maven.plugin.MojoExecutionException*a
+
+__unknown_file (EC
+Amsvc.version must be the internal version in the form 10.0 or 120*
+0*Ì
+28e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿ ¿(!•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿ ¿(*
+%23java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿- ¿(=
+%24java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)ó
+î
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿ ¿(=
+%25java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿ ¿(*
+
+%23java.lang.String*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿- ¿(=
+
+%24java.lang.StringÃ
+…
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¿ ¿(=#
+internalVersionjava.lang.String"__id*5
+
+__unknown_file (
+
+%25java.lang.String•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡ ¡("
+%26java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)Ç
+ˇ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡ ¡((
+%27java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡ ¡("
+
+%26java.lang.String*n
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡% ¡((
+.•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡+ ¡(;
+%28java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)ó
+î
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡ ¡(;
+%29java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡ ¡((
+
+%27java.lang.String*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡+ ¡(;
+
+%28java.lang.String—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¡ ¡(;(
+com.github.maven_nar.Msvc"	
+version"__id*5
+
+__unknown_file (
+
+%29java.lang.String*
+26*Õ
+29e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaº º(π
+∂
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaº º(#
+internalVersionjava.lang.String"__id*"
+
+__unknown_file (
+""¬
+ø
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaΩ Ω(4
+%19java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*7
+
+__unknown_file ("
+java.util.regex.Pattern*/
+
+__unknown_file (
+(\\d+)\\.*(\\d)Ã
+…
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaΩ Ω(5
+rjava.util.regex.Pattern"__id*<
+
+__unknown_file ( 
+
+%19java.util.regex.Pattern—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaæ" æ()
+%20java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+versionÙÒ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaæ æ(*
+%21java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*:
+
+__unknown_file (
+
+rjava.util.regex.Pattern*5
+
+__unknown_file (
+
+%20java.lang.String2!matcher(Ljava/lang/CharSequence;)“
+œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaæ æ(+"
+matcherjava.util.regex.Matcher"__id*<
+
+__unknown_file ( 
+
+%21java.util.regex.MatcherÂ‚
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaø
+ ø(
+%22boolean"java.util.regex.Matcher#find()Z*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher2find()*
+27
+28*è
+30e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaª ª("—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaª ª("
+%16java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+versionÌÍ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaª ª()
+%17java.lang.String")java.lang.String#trim()Ljava/lang/String;*5
+
+__unknown_file (
+
+%16java.lang.String2trim()”–
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaª ª(2
+
+%18int"java.lang.String#length()I*5
+
+__unknown_file (
+
+%17java.lang.String2length()*
+13
+29*Œ
+31e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(·
+ﬁ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(*
+%9$com.github.maven_nar.AbstractNarMojo"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+mojoæª
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(*
+%10#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*H
+
+__unknown_file (,
+*
+%9$com.github.maven_nar.AbstractNarMojo2getLog()—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫< ∫(C
+%11java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+version°
+û
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(C
+%12java.lang.String"__concat*å
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(9#!
+Requested Linker version is  \"*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫< ∫(C
+
+%11java.lang.StringÉ
+Ä
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(J
+%13java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(C
+
+%12java.lang.String*o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫F ∫(J
+\"ﬂ‹
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∫ ∫(K
+%14void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*H
+
+__unknown_file (,
+*
+%10#org.apache.maven.plugin.logging.Log*5
+
+__unknown_file (
+
+%13java.lang.String2debug(Ljava/lang/CharSequence;)—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaª ª(
+%15java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+version*
+13
+30*ÿ
+32e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∑ ∑(-‰
+·
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∑ ∑(-(
+com.github.maven_nar.Msvc"	
+version"__id*H
+
+__unknown_file (,
+*
+envVisualStudioVersionjava.lang.String*
+31*™
+10e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java„, „(1çä
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java„' „(+
+%70java.io.File"java.io.Fileá
+Ñ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java„# „(2
+%71"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%70java.io.File*7
+
+__unknown_file (
+
+valuejava.lang.String¿
+Ω
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java„
+ „(3
+vsDirectoryjava.io.File"__id*1
+
+__unknown_file (
+
+%70java.io.File◊‘
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‰ ‰("
+%72boolean"java.io.File#exists()Z*9
+
+__unknown_file (
+
+vsDirectoryjava.io.File2exists()*
+8
+9*›
+33e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∂, ∂(BÂ‚
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java∂, ∂(K	
+%8int"java.lang.String#length()I*H
+
+__unknown_file (,
+*
+envVisualStudioVersionjava.lang.String2length()*
+31
+32*•
+11e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaﬂ% ﬂ(*˘ˆ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaﬂ% ﬂ(3
+%60java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*:
+
+__unknown_file (
+
+entryjava.util.Map$Entry2getKey() 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaﬂ ﬂ(4!
+newestVersionjava.lang.String"__id*5
+
+__unknown_file (
+
+%60java.lang.String˝˙
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‡ ‡(-
+%61java.lang.Object"0java.util.Map$Entry#getValue()Ljava/lang/Object;*:
+
+__unknown_file (
+
+entryjava.util.Map$Entry2
+getValue()ıÚ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‡ ‡(8
+%62java.lang.String"-java.lang.Object#toString()Ljava/lang/String;*5
+
+__unknown_file (
+
+%61java.lang.Object2
+toString()¬
+ø
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‡ ‡(9
+valuejava.lang.String"__id*5
+
+__unknown_file (
+
+%62java.lang.String‚
+ﬂ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java· ·(+
+%63$com.github.maven_nar.AbstractNarMojo"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+mojoøº
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java· ·(*
+%64#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*I
+
+__unknown_file (-
++
+%63$com.github.maven_nar.AbstractNarMojo2getLog()√
+¿
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java· ·(c
+%65java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*@
+
+__unknown_file ($"
+  VisualStudio %1s found SxS %3s *?
+
+__unknown_file (#
+!
+newestVersionjava.lang.String*7
+
+__unknown_file (
+
+valuejava.lang.Stringﬂ‹
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java· ·(d
+%66void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*H
+
+__unknown_file (,
+*
+%64#org.apache.maven.plugin.logging.Log*5
+
+__unknown_file (
+
+%65java.lang.String2debug(Ljava/lang/CharSequence;)Â
+‚
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‚ ‚(#
+%67java.util.Comparator"__id*V
+
+__unknown_file (:*8
+com.github.maven_nar.Msvc"
+versionStringComparator—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‚; ‚(G
+%68java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+versionùö
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‚ ‚(H
+
+%69int"Cjava.util.Comparator#compare(Ljava/lang/Object;Ljava/lang/Object;)I*9
+
+__unknown_file (
+
+%67java.util.Comparator*?
+
+__unknown_file (#
+!
+newestVersionjava.lang.String*5
+
+__unknown_file (
+
+%68java.lang.String2-compare(Ljava/lang/Object;Ljava/lang/Object;)*
+8
+10*ı
+34e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaµ& µ(,®
+•
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaµ& µ(J
+%7java.lang.String"=java.lang.System#getenv(Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*3
+
+__unknown_file (
+VisualStudioVersion“
+œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaµ µ(K*
+envVisualStudioVersionjava.lang.String"__id*4
+
+__unknown_file (
+
+%7java.lang.String*
+31
+33*É
+12e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java›/ ›(A√
+¿
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java›B ›(v-
+%57&com.sun.jna.platform.win32.WinReg$HKEY"__id*"
+
+__unknown_file (
+""÷
+”
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java›/ ﬁ(8
+%58java.util.TreeMap"{com.github.maven_nar.Msvc#visualStudioVS7SxS(Lcom/sun/jna/platform/win32/WinReg$HKEY;Ljava/lang/String;)Ljava/util/TreeMap;*9
+
+__unknown_file ("
+com.github.maven_nar.Msvc*K
+
+__unknown_file (/
+-
+%57&com.sun.jna.platform.win32.WinReg$HKEY*K
+
+__unknown_file (/-
++SOFTWARE\\Microsoft\\VisualStudio\\SxS\\VS7ÒÓ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java›/ ﬁ(C
+%59java.util.Set"+java.util.TreeMap#entrySet()Ljava/util/Set;*6
+
+__unknown_file (
+
+%58java.util.TreeMap2
+entrySet()*
+8*ä
+35e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≥ ≥("–
+Õ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≥ ≥("
+%4java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+versionÎË
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≥ ≥()
+%5java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%4java.lang.String2trim()—Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≥ ≥(2	
+%6int"java.lang.String#length()I*4
+
+__unknown_file (
+
+%5java.lang.String2length()*
+31
+34*Æ
+13e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java€ €(∫
+∑
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java€ €((
+com.github.maven_nar.Msvc"	
+version"__id*
+
+__unknown_file ( *
+12*›	
+36e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaú ú(·
+ﬁ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaú ú(*
+%0$com.github.maven_nar.AbstractNarMojo"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+mojoΩ∫
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaú ú()
+%1#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*H
+
+__unknown_file (,
+*
+%0$com.github.maven_nar.AbstractNarMojo2getLog()ÓÎ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaú ú(A
+
+%2void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*G
+
+__unknown_file (+
+)
+%1#org.apache.maven.plugin.logging.Log*F
+
+__unknown_file (*(
+& -- Searching for usable VisualStudio 2debug(Ljava/lang/CharSequence;)–
+Õ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java≥ ≥(
+%3java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+version*
+35
+34*ï
+14e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿ ÿ(
+‚
+ﬂ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿ ÿ(
++
+%51$com.github.maven_nar.AbstractNarMojo"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+mojoøº
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿ ÿ(*
+%52#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*I
+
+__unknown_file (-
++
+%51$com.github.maven_nar.AbstractNarMojo2getLog()—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿN ÿ(U
+%53java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+version 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿh ÿ(l
+%54java.io.File"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+home¯
+ı
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿ ÿ(m
+%55java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*B
+
+__unknown_file (&$
+" VisualStudio %1s (%2s) found %3s *5
+
+__unknown_file (
+
+%53java.lang.String*A
+
+__unknown_file (%
+#
+internalVersionjava.lang.String*1
+
+__unknown_file (
+
+%54java.io.Fileﬂ‹
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÿ ÿ(n
+%56void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*H
+
+__unknown_file (,
+*
+%52#org.apache.maven.plugin.logging.Log*5
+
+__unknown_file (
+
+%55java.lang.String2debug(Ljava/lang/CharSequence;)*
+0*≥
+15e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‘ ‘('Ä˝
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‘ ‘(7
+%49java.io.File"*java.io.File#getParentFile()Ljava/io/File;*B
+
+__unknown_file (&
+$
+commonToolsDirectoryjava.io.File2getParentFile()ÔÏ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‘ ‘(G
+%50java.io.File"*java.io.File#getParentFile()Ljava/io/File;*1
+
+__unknown_file (
+
+%49java.io.File2getParentFile() 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java‘ ‘(G%
+com.github.maven_nar.Msvc"
+home"__id*1
+
+__unknown_file (
+
+%50java.io.File*
+14*»
+16e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java“5 “(Dçä
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java“0 “(4
+%46java.io.File"java.io.Fileë
+é
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java“, “(E
+%47"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%46java.io.File*A
+
+__unknown_file (%
+#
+commontToolsVarjava.lang.String…
+∆
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java“
+ “(F$
+commonToolsDirectoryjava.io.File"__id*1
+
+__unknown_file (
+
+%46java.io.File‡›
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java” ”(+
+%48boolean"java.io.File#exists()Z*B
+
+__unknown_file (&
+$
+commonToolsDirectoryjava.io.File2exists()*
+14
+15*«
+17e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java—' —(6˘ˆ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java—' —(=
+%44java.lang.String")java.lang.String#trim()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+commontToolsVarjava.lang.String2trim()”–
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java—' —(F
+
+%45int"java.lang.String#length()I*5
+
+__unknown_file (
+
+%44java.lang.String2length()*
+14
+16*ë
+18e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–' –(-è
+å
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–5 –(K
+%41java.lang.String"__concat*o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–5 –(9
+VS*é
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–< –(K%
+#
+internalVersionjava.lang.Stringä
+á
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–5 –(Y
+%42java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–5 –(K
+
+%41java.lang.String*v
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–N –(Y
+	COMNTOOLS´
+®
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java–' –(Z
+%43java.lang.String"=java.lang.System#getenv(Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*5
+
+__unknown_file (
+
+%42java.lang.StringÃ
+…
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java– –([#
+commontToolsVarjava.lang.String"__id*5
+
+__unknown_file (
+
+%43java.lang.String*
+14
+17*î
+19e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaœ œ( 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaœ œ(
+%39java.io.File"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+homeœÃ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaœ œ((
+%40boolean"java.io.File#exists()Z*1
+
+__unknown_file (
+
+%39java.io.File2exists()*
+14
+18*É
+0 "|
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java˛ ˛(
+implicit return*ñ
+1e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÏ Ï(,≤
+Ø
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÏ Ï(,
+entryjava.util.Map$Entry"__id*"
+
+__unknown_file (
+""Ï
+È
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÏ Ï(,
+entryjava.util.Map$Entry"
+__arrayGet*2
+
+__unknown_file (
+
+%75java.util.Set*"
+
+__unknown_file (
+""*
+5
+0*è
+2e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java˜ ˜(*€
+ÿ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java˜ ˜(*(
+com.github.maven_nar.Msvc"	
+version"__id*?
+
+__unknown_file (#
+!
+newestVersionjava.lang.StringÄ˝
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¯ ¯(9
+%97java.io.File"*java.io.File#getParentFile()Ljava/io/File;*B
+
+__unknown_file (&
+$
+commonToolsDirectoryjava.io.File2getParentFile()ÔÏ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¯ ¯(I
+%98java.io.File"*java.io.File#getParentFile()Ljava/io/File;*1
+
+__unknown_file (
+
+%97java.io.File2getParentFile() 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java¯ ¯(I%
+com.github.maven_nar.Msvc"
+home"__id*1
+
+__unknown_file (
+
+%98java.io.File*
+1*ª
+3e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaı7 ı(<çä
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaı2 ı(6
+%94java.io.File"java.io.Fileá
+Ñ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaı. ı(=
+%95"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%94java.io.File*7
+
+__unknown_file (
+
+valuejava.lang.String…
+∆
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaı ı(>$
+commonToolsDirectoryjava.io.File"__id*1
+
+__unknown_file (
+
+%94java.io.File‡›
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaˆ ˆ(-
+%96boolean"java.io.File#exists()Z*B
+
+__unknown_file (&
+$
+commonToolsDirectoryjava.io.File2exists()*
+2
+1*â'
+4e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ' Ò(.•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ' Ò(7
+%80java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)Ç
+ˇ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ' Ò(=
+%81java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ' Ò(7
+
+%80java.lang.String*n
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ: Ò(=
+.•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ@ Ò(P
+%82java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)ó
+î
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ' Ò(P
+%83java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ' Ò(=
+
+%81java.lang.String*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ@ Ò(P
+
+%82java.lang.String 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÒ
+ Ò(Q!
+newestVersionjava.lang.String"__id*5
+
+__unknown_file (
+
+%83java.lang.String‚
+ﬂ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÚ
+ Ú(+
+%84$com.github.maven_nar.AbstractNarMojo"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+mojoøº
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÚ
+ Ú(*
+%85#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*I
+
+__unknown_file (-
++
+%84$com.github.maven_nar.AbstractNarMojo2getLog()•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÛ Û(
+%86java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)•¢
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÛ! Û(1
+%87java.lang.String"2java.util.regex.Matcher#group(I)Ljava/lang/String;*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher* 
+
+__unknown_file (22group(I)ó
+î
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÛ Û(1
+%88java.lang.String"__concat*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÛ Û(
+
+%86java.lang.String*Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÛ! Û(1
+
+%87java.lang.Stringâ
+Ü
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÚ Û(9
+%89java.lang.String"Pjava.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*O
+
+__unknown_file (31
+/ VisualStudio %1s (%2s) common tools found %3s *?
+
+__unknown_file (#
+!
+newestVersionjava.lang.String*5
+
+__unknown_file (
+
+%88java.lang.String*7
+
+__unknown_file (
+
+valuejava.lang.Stringﬂ‹
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÚ
+ Û(:
+%90void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*H
+
+__unknown_file (,
+*
+%85#org.apache.maven.plugin.logging.Log*5
+
+__unknown_file (
+
+%89java.lang.String2debug(Ljava/lang/CharSequence;)Â
+‚
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÙ Ù(%
+%91java.util.Comparator"__id*V
+
+__unknown_file (:*8
+com.github.maven_nar.Msvc"
+versionStringComparator—
+Œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÙ= Ù(I
+%92java.lang.String"__id*F
+
+__unknown_file (**(
+com.github.maven_nar.Msvc"	
+versionùö
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÙ Ù(J
+
+%93int"Cjava.util.Comparator#compare(Ljava/lang/Object;Ljava/lang/Object;)I*9
+
+__unknown_file (
+
+%91java.util.Comparator*?
+
+__unknown_file (#
+!
+newestVersionjava.lang.String*5
+
+__unknown_file (
+
+%92java.lang.String2-compare(Ljava/lang/Object;Ljava/lang/Object;)*
+3
+1*Ω
+5e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÌ Ì( ˘ˆ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÌ Ì()
+%76java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*:
+
+__unknown_file (
+
+entryjava.util.Map$Entry2getKey()¿
+Ω
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÌ Ì(*
+keyjava.lang.String"__id*5
+
+__unknown_file (
+
+%76java.lang.String˝˙
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÓ Ó(-
+%77java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*:
+
+__unknown_file (
+
+entryjava.util.Map$Entry2
+getValue()¬
+ø
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÓ Ó(.
+valuejava.lang.String"__id*5
+
+__unknown_file (
+
+%77java.lang.StringÅ˛
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÔ  Ô(;
+%78java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*G
+
+__unknown_file (+
+)
+versionPatternjava.util.regex.Pattern*5
+
+__unknown_file (
+
+keyjava.lang.String2!matcher(Ljava/lang/CharSequence;)“
+œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÔ Ô(<"
+matcherjava.util.regex.Matcher"__id*<
+
+__unknown_file ( 
+
+%78java.util.regex.MatcherÎË
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java (
+%79boolean""java.util.regex.Matcher#matches()Z*@
+
+__unknown_file ($
+"
+matcherjava.util.regex.Matcher2	matches()*
+4
+1*∫
+6e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÏ/ Ï(5‹
+Ÿ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÏ/ Ï(>
+%74java.util.Map"(java.lang.System#getenv()Ljava/util/Map;*0
+
+__unknown_file ("
+java.lang.SystemÈÊ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÏ/ Ï(I
+%75java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*2
+
+__unknown_file (
+
+%74java.util.Map2
+entrySet()*
+1*ó
+7e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÎ% Î(,…
+∆
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÎ% Î(N
+%73java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*7
+
+__unknown_file ("
+java.util.regex.Pattern*6
+
+__unknown_file (
+VS(\\d+)(\\d)COMNTOOLSŸ
+÷
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÎ Î(O)
+versionPatternjava.util.regex.Pattern"__id*<
+
+__unknown_file ( 
+
+%73java.util.regex.Pattern*
+6*ó
+8e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java› ›(,≤
+Ø
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java› ›(,
+entryjava.util.Map$Entry"__id*"
+
+__unknown_file (
+""Ï
+È
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java› ›(,
+entryjava.util.Map$Entry"
+__arrayGet*2
+
+__unknown_file (
+
+%59java.util.Set*"
+
+__unknown_file (
+""*
+7
+11*¢
+9e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÂ Â((€
+ÿ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÂ Â(((
+com.github.maven_nar.Msvc"	
+version"__id*?
+
+__unknown_file (#
+!
+newestVersionjava.lang.String“
+œ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÊ Ê(%
+com.github.maven_nar.Msvc"
+home"__id*9
+
+__unknown_file (
+
+vsDirectoryjava.io.File*
+8*¬
+20e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaœ
+ œ( 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaœ
+ œ(
+%38java.io.File"__id*C
+
+__unknown_file ('*%
+com.github.maven_nar.Msvc"
+home*
+18
+19*æ
+21e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java…
+  (B 
+«
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java…
+  (B%
+com.github.maven_nar.Msvc"
+home"__id*1
+
+__unknown_file (
+
+%36java.io.File*
+20*â
+23e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java…  (Bçä
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java… …(
+%36java.io.File"java.io.FileÖ
+Ç
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java…  (B
+%37"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%36java.io.File*5
+
+__unknown_file (
+
+%35java.lang.String*
+21B
+com.github.maven_nar.Msvc

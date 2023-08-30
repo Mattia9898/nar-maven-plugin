@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.DependencyTable#getIncludePaths()Ljava/util/Vector;
+java.util.Vector#<init>()V
+com.github.maven_nar.cpptasks.DependencyInfo#getIncludePathIdentifier()Ljava/lang/String;
+java.util.Vector#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z

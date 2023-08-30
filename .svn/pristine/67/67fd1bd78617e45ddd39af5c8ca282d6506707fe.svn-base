@@ -1,0 +1,5 @@
+com.github.maven_nar.Msvc#legacySDK(Ljava/io/File;)V
+com.github.maven_nar.Msvc#setKit(Ljava/io/File;)V
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.Msvc#addSDKLibs(Ljava/io/File;Ljava/io/File;)V

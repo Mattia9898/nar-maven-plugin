@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeMap(Ljava/util/Map;Lorg/xml/sax/ContentHandler;)V
+org.xml.sax.helpers.AttributesImpl#instance-init#
+java.util.Arrays#sort([Ljava/lang/Object;)V
+java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;
+java.lang.String#length()I
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeObject(Ljava/lang/Object;Lorg/xml/sax/ContentHandler;)V
+java.lang.String#toCharArray()[C
+org.xml.sax.helpers.AttributesImpl#<init>()V

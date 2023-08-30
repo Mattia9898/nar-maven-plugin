@@ -1,0 +1,73 @@
+
+£com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java- -($"startingBlock*¡
+2~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java/# /(-Ú×
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java/# /(/
+%0java.lang.String"Ycom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;*T
+
+__unknown_file (86
+4com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler2getCommand()õò
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java/ /(":
+%14com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler"4com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler…
+‚
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java/ /(E
+%2"ycom.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler#<init>(Ljava/lang/String;ZLorg/apache/tools/ant/types/Environment;)V*X
+
+__unknown_file (<
+:
+%14com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler*4
+
+__unknown_file (
+
+%0java.lang.String*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"¾
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java/ /(F<
+:
+%14com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler*—
+startingBlock~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java-$ -(Y–
+“
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java, ,(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentä
+á
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java-U -(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%3*
+2
+1*À
+1~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java1 1("º
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java1 1(86
+4com.github.maven_nar.cpptasks.msvc.Msvc2005CCompiler: 
+
+__unknown_file (
+"":¯
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Msvc2005CCompiler.java-C -(X-
+env&org.apache.tools.ant.types.EnvironmentB86
+4com.github.maven_nar.cpptasks.msvc.Msvc2005CCompilerH

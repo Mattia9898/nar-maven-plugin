@@ -1,0 +1,2 @@
+com.github.maven_nar.Javah#getIncludes()Ljava/util/Set;
+com.github.maven_nar.NarUtil#removeNulls(Ljava/util/Collection;)V

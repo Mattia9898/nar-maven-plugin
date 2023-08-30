@@ -1,0 +1,13 @@
+com.github.maven_nar.NarValidateMojo#narExecute()V
+com.github.maven_nar.AbstractCompileMojo#getFortran()Lcom/github/maven_nar/Fortran;
+java.lang.Object#getClass()Ljava/lang/Class;
+com.github.maven_nar.AbstractCompileMojo#getCpp()Lcom/github/maven_nar/Cpp;
+com.github.maven_nar.Compiler#getIncludes(Ljava/lang/String;)Ljava/util/Set;
+java.lang.Class#getName()Ljava/lang/String;
+org.apache.maven.plugin.MojoExecutionException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.Linker#getVersion(Lcom/github/maven_nar/AbstractNarMojo;)Ljava/lang/String;
+com.github.maven_nar.AbstractCompileMojo#getC()Lcom/github/maven_nar/C;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+com.github.maven_nar.AbstractNarMojo#getLinker()Lcom/github/maven_nar/Linker;
+org.apache.maven.plugin.MojoExecutionException#instance-init#
+com.github.maven_nar.Linker#getName()Ljava/lang/String;

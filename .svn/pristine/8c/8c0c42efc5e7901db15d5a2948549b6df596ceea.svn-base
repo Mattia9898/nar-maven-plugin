@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.CompilerDef#createIncludePath()Lcom/github/maven_nar/cpptasks/types/IncludePath;
+com.github.maven_nar.cpptasks.types.IncludePath#instance-init#
+com.github.maven_nar.cpptasks.types.IncludePath#<init>(Lorg/apache/tools/ant/Project;)V
+java.lang.IllegalStateException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V

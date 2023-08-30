@@ -1,0 +1,64 @@
+
+Xcom.github.maven_nar.NarInfo#getProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Z)Zh
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaè è(""1*∆
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaê ê(ä
+á
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaê1 ê(M
+%0java.lang.String"-java.lang.String#valueOf(Z)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*"
+
+__unknown_file (
+""∏µ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaê ê(N
+%1java.lang.String"zcom.github.maven_nar.NarInfo#getProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( 
+com.github.maven_nar.NarInfo*=
+
+__unknown_file (!
+
+aolcom.github.maven_nar.AOL*5
+
+__unknown_file (
+
+keyjava.lang.String*4
+
+__unknown_file (
+
+%0java.lang.String2KgetProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)±
+Æ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaê ê(O
+%2java.lang.Boolean"@java.lang.Boolean#valueOf(Ljava/lang/String;)Ljava/lang/Boolean;*1
+
+__unknown_file ("
+java.lang.Boolean*4
+
+__unknown_file (
+
+%1java.lang.StringÊ„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaê ê(^
+%3boolean"!java.lang.Boolean#booleanValue()Z*5
+
+__unknown_file (
+
+%2java.lang.Boolean2booleanValue()"r
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaê ê(_
+"":ã
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaè# è(1
+aolcom.github.maven_nar.AOL:É
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.javaè2 è(C
+keyjava.lang.String: 
+
+__unknown_file (
+""B 
+com.github.maven_nar.NarInfoH

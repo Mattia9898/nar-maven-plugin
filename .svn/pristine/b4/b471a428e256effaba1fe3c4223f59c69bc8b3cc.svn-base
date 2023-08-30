@@ -1,0 +1,8 @@
+com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;
+java.io.File#<init>(Ljava/lang/String;)V
+com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;
+com.github.maven_nar.NarProperties#<init>(Lorg/apache/maven/project/MavenProject;Ljava/io/File;Ljava/lang/String;)V
+java.lang.System#getProperties()Ljava/util/Properties;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+com.github.maven_nar.NarProperties#instance-init#
+java.io.File#instance-init#

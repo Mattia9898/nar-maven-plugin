@@ -1,0 +1,9 @@
+com.github.maven_nar.NarVcprojMojo#narExecute()V
+com.github.maven_nar.AbstractCompileMojo#getAntProject()Lorg/apache/tools/ant/Project;
+com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.NarUtil#collectActiveProfiles(Lorg/apache/maven/project/MavenProject;)Ljava/util/List;
+com.github.maven_nar.AbstractNarMojo#getLibraries()Ljava/util/List;
+com.github.maven_nar.NarVcprojMojo#createVcProjFile(Lorg/apache/tools/ant/Project;Lcom/github/maven_nar/Library;)V
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

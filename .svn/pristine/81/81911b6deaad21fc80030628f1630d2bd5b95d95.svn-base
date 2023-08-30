@@ -1,0 +1,63 @@
+
+acom.github.maven_nar.cpptasks.TargetDef#getOsfamily()Lcom/github/maven_nar/cpptasks/OSFamilyEnum;q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javak k(!"3*ı
+
+2q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javam0 m(=€ÿ
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javam0 m([-
+%1'com.github.maven_nar.cpptasks.TargetDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.TargetDef*"
+
+__unknown_file (
+""*)
+
+__unknown_file (
+	TargetDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Å
+˛
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javam m(\6
+refPlatform'com.github.maven_nar.cpptasks.TargetDef"__id*K
+
+__unknown_file (/
+-
+%1'com.github.maven_nar.cpptasks.TargetDefÌ
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javan n(&0
+%2*com.github.maven_nar.cpptasks.OSFamilyEnum"acom.github.maven_nar.cpptasks.TargetDef#getOsfamily()Lcom/github/maven_nar/cpptasks/OSFamilyEnum;*T
+
+__unknown_file (8
+6
+refPlatform'com.github.maven_nar.cpptasks.TargetDef2getOsfamily()"ß
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javan n('2
+0
+%2*com.github.maven_nar.cpptasks.OSFamilyEnum*í
+3q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javal l(ëé
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javal l(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.TargetDef2isReference()*
+2
+1*®
+1q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javap p(Ö
+Ç
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javap p(0
+%3*com.github.maven_nar.cpptasks.OSFamilyEnum"__id*U
+
+__unknown_file (9*7)
+'com.github.maven_nar.cpptasks.TargetDef"
+
+osFamily"ß
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javap p(2
+0
+%3*com.github.maven_nar.cpptasks.OSFamilyEnumB+)
+'com.github.maven_nar.cpptasks.TargetDefH

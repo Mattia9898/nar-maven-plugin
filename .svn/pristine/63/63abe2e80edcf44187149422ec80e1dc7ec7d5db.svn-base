@@ -1,0 +1,63 @@
+
+¶com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaI I($"startingBlock*õ
+2Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaK& K(4ˇ¸
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaK K(%=
+%07com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler"7com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler«
+ƒ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaK K(:
+%1"jcom.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V*[
+
+__unknown_file (?
+=
+%07com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"≈
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaK K(;?
+=
+%07com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler*£
+startingBlockÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaI$ I(Yö
+ó
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaH H(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.EnvironmentË
+Â
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaIU I(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*À
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaM M("¡
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaM M(;9
+7com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler: 
+
+__unknown_file (
+"":≥
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaIC I(X-
+env&org.apache.tools.ant.types.EnvironmentB;9
+7com.github.maven_nar.cpptasks.msvc.MsvcResourceCompilerH

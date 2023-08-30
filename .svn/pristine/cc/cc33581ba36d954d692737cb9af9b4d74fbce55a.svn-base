@@ -1,0 +1,354 @@
+
+…com.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompiler#createPrecompileConfigurations(Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;Ljava/io/File;[Ljava/lang/String;)[Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaE! E(?"startingBlock*š
+13‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaK^ K(dÝ
+Ú
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaK K(eX
+cmdLineConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration"__id*d
+
+__unknown_file (H
+F
+config<com.github.maven_nar.cpptasks.compiler.CompilerConfigurationŠ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaO O(11
+%0+com.github.maven_nar.cpptasks.parser.Parser"com.github.maven_nar.cpptasks.compiler.AbstractCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;*f
+
+__unknown_file (JH
+Fcom.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompiler*7
+
+__unknown_file (
+
+	prototypejava.io.File2createParser(Ljava/io/File;)¥
+¢
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaO O(25
+parser+com.github.maven_nar.cpptasks.parser.Parser"__id*O
+
+__unknown_file (3
+1
+%0+com.github.maven_nar.cpptasks.parser.Parserá
+Þ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaP P(
+includesjava.lang.String[]"__id*"
+
+__unknown_file (
+""*
+12*ì
+2‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ Z(? 
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZB Z(V
+%14java.lang.String")java.io.File#toString()Ljava/lang/String;*7
+
+__unknown_file (
+
+	prototypejava.io.File2
+toString()§
+¤
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ Z(V
+%15java.lang.String"__concat*¸
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ Z(?" 
+Precompiled header prototype: *¯
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZB Z(V
+
+%14java.lang.String²
+¯
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ [(7
+%16java.lang.String"__concat*¯
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ Z(V
+
+%15java.lang.String*Ã
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java[ [(7-+
+) does not contain any include directives.èå
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ Z(*
+%17#org.apache.tools.ant.BuildException"#org.apache.tools.ant.BuildExceptionà
+Ý
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaZ [(8
+%18"?org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+%17#org.apache.tools.ant.BuildException*5
+
+__unknown_file (
+
+%16java.lang.String*
+0*™
+startingBlock‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaE? F(7Ä
+Á
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaD D(
+%26"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*d
+
+__unknown_file (H
+F
+config<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration’
+
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaE\ E(bF
+config<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration"__annotation*#
+
+__unknown_file (
+
+%26—
+”
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaD D(
+%27"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+	prototypejava.io.Fileå
+â
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaF F(
+	prototypejava.io.File"__annotation*#
+
+__unknown_file (
+
+%27Ÿ
+œ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaD D(
+%28"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+exceptFilesjava.lang.String[]í
+ê
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaF+ F(6!
+exceptFilesjava.lang.String[]"__annotation*#
+
+__unknown_file (
+
+%28*
+13*—
+4‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaT T(%õ
+ò
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaT T(%
+includesjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%6java.lang.String[]*
+2
+1*‚
+9‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaT T(ãà
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaT T(%
+%6java.lang.String[]"Lcom.github.maven_nar.cpptasks.parser.Parser#getIncludes()[Ljava/lang/String;*S
+
+__unknown_file (7
+5
+parser+com.github.maven_nar.cpptasks.parser.Parser2getIncludes()*
+4*¥
+10‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR R(Jó
+ð
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR R(J
+readerjava.io.Reader"__id*:
+
+__unknown_file (
+
+%3java.io.BufferedReaderŒ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaS S(
+
+%5void"Dcom.github.maven_nar.cpptasks.parser.Parser#parse(Ljava/io/Reader;)V*S
+
+__unknown_file (7
+5
+parser+com.github.maven_nar.cpptasks.parser.Parser*6
+
+__unknown_file (
+
+readerjava.io.Reader2parse(Ljava/io/Reader;)*
+9*´
+11‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR R(IÍÊ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR  R(.
+%3java.io.BufferedReader"java.io.BufferedReaderÃ
+À
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR R(I
+%4"0java.io.BufferedReader#<init>(Ljava/io/Reader;)V*:
+
+__unknown_file (
+
+%3java.io.BufferedReader*6
+
+__unknown_file (
+
+%1java.io.FileReader*
+10*±
+0 "©
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaa a(
+implicit return*£
+12‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR> R(GÅÂ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR3 R(=
+%1java.io.FileReader"java.io.FileReaderº
+·
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaR/ R(H
+%2"*java.io.FileReader#<init>(Ljava/io/File;)V*6
+
+__unknown_file (
+
+%1java.io.FileReader*7
+
+__unknown_file (
+
+	prototypejava.io.File*
+11*×"
+1‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java]F ](Gž›
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java], ](HE
+%19>com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]">com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]Í
+Ê
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java] ](II
+configs>com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]"__id*c
+
+__unknown_file (G
+E
+%19>com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]š
+—
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java^L ^(W
+%20java.lang.String"
+__arrayGet*<
+
+__unknown_file ( 
+
+includesjava.lang.String[]*
+
+__unknown_file (2 ÍÊ
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java^ ^(XC
+%21<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration"com.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompiler#createPrecompileGeneratingConfig(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Ljava/io/File;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;*f
+
+__unknown_file (JH
+Fcom.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompiler*v
+
+__unknown_file (Z
+X
+cmdLineConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration*7
+
+__unknown_file (
+
+	prototypejava.io.File*5
+
+__unknown_file (
+
+%20java.lang.String2‹createPrecompileGeneratingConfig(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Ljava/io/File;Ljava/lang/String;)–
+“
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java^ ^(X
+%22"
+__arraySet*g
+
+__unknown_file (K
+I
+configs>com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]*
+
+__unknown_file (2 *a
+
+__unknown_file (E
+C
+%21<com.github.maven_nar.cpptasks.compiler.CompilerConfigurationš
+—
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java_G _(R
+%23java.lang.String"
+__arrayGet*<
+
+__unknown_file ( 
+
+includesjava.lang.String[]*
+
+__unknown_file (2 ª§
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java_ _(`C
+%24<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration"žcom.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompiler#createPrecompileUsingConfig(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;*f
+
+__unknown_file (JH
+Fcom.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompiler*v
+
+__unknown_file (Z
+X
+cmdLineConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration*7
+
+__unknown_file (
+
+	prototypejava.io.File*5
+
+__unknown_file (
+
+%23java.lang.String*?
+
+__unknown_file (#
+!
+exceptFilesjava.lang.String[]2™createPrecompileUsingConfig(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Ljava/io/File;Ljava/lang/String;[Ljava/lang/String;)˜
+•
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java_ _(`
+%25"
+__arraySet*g
+
+__unknown_file (K
+I
+configs>com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]* 
+
+__unknown_file (2*a
+
+__unknown_file (E
+C
+%24<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration"á
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.java` `(K
+I
+configs>com.github.maven_nar.cpptasks.compiler.CompilerConfiguration[]:Ü
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaE@ E(cF
+config<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration:¯
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaF F(
+	prototypejava.io.File:·
+‘
+†C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/PrecompilingCommandLineCompiler.javaF F(6!
+exceptFilesjava.lang.String[]BJH
+Fcom.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCompilerH

@@ -1,0 +1,4 @@
+com.github.maven_nar.NarUtil#parseOctalPermission(Ljava/lang/String;)Ljava/util/Set;
+java.util.HashSet#<init>()V
+java.lang.Short#parseShort(Ljava/lang/String;I)S
+java.util.HashSet#instance-init#

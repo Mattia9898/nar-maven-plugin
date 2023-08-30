@@ -1,0 +1,5 @@
+com.github.maven_nar.NarSystemMojo#getJniExtractorCreationStatement()Ljava/lang/String;
+java.lang.AssertionError#<init>(Ljava/lang/Object;)V
+java.lang.String#matches(Ljava/lang/String;)Z
+com.github.maven_nar.NarSystemMojo#getNativeLibLoaderVersion()Ljava/lang/String;
+java.lang.AssertionError#instance-init#

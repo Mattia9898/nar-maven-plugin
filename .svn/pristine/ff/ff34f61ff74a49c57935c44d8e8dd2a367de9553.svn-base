@@ -1,0 +1,4 @@
+com.github.maven_nar.NarPackageMojo#narExecute()V
+com.github.maven_nar.AbstractNarMojo#getTargetDirectory()Ljava/io/File;
+com.github.maven_nar.AbstractNarMojo#getLayout()Lcom/github/maven_nar/NarLayout;
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;

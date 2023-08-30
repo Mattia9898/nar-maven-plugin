@@ -1,0 +1,4 @@
+com.github.maven_nar.Linker#getTestLinker(Lcom/github/maven_nar/AbstractCompileMojo;Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/github/maven_nar/cpptasks/LinkerDef;
+com.github.maven_nar.cpptasks.types.LinkerArgument#instance-init#
+com.github.maven_nar.cpptasks.types.LinkerArgument#<init>()V
+com.github.maven_nar.Linker#getLinker(Lcom/github/maven_nar/AbstractCompileMojo;Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/github/maven_nar/cpptasks/LinkerDef;

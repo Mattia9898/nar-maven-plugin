@@ -1,0 +1,6 @@
+com.github.maven_nar.Msvc#instance-init#
+java.util.ArrayList#<init>()V
+com.google.common.collect.Sets#newHashSet([Ljava/lang/Object;)Ljava/util/HashSet;
+java.util.ArrayList#instance-init#
+java.util.LinkedHashSet#instance-init#
+java.util.LinkedHashSet#<init>()V

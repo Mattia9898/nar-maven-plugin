@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.CUtil#substringMatch(Ljava/lang/String;IILjava/lang/String;)Z
+java.lang.String#length()I
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#substring(II)Ljava/lang/String;

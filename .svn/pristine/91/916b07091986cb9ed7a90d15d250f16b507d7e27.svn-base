@@ -1,0 +1,4 @@
+com.github.maven_nar.NarIntegrationTestMojo#addReporters(Lorg/apache/maven/surefire/booter/SurefireBooter;Z)V
+java.lang.Class#getName()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.Boolean#valueOf(Z)Ljava/lang/Boolean;

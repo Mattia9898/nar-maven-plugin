@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeCompileOptions(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)V
+java.lang.String#substring(I)Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getPreArguments()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getIncludePath()[Ljava/io/File;
+com.github.maven_nar.cpptasks.CUtil#getRelativePath(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;
+java.lang.String#startsWith(Ljava/lang/String;)Z

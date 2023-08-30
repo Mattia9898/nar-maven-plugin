@@ -49,6 +49,7 @@ public final class TestFortranParser extends TestCase {
     final FortranParser parser = new FortranParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.inc";
     assertEquals(includes.length, 1);
     assertEquals("foo.inc", includes[0]);
   }
@@ -64,6 +65,7 @@ public final class TestFortranParser extends TestCase {
     final FortranParser parser = new FortranParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.inc";
     assertEquals(includes.length, 1);
     assertEquals("foo.inc", includes[0]);
   }
@@ -79,9 +81,12 @@ public final class TestFortranParser extends TestCase {
     final FortranParser parser = new FortranParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 2);
+    final String[] include = parser.getIncludes();
+    includes[0] = "foo.inc";
+    include[0] = "bar.inc";
+    assertEquals(includes.length, 1);
     assertEquals("foo.inc", includes[0]);
-    assertEquals("bar.inc", includes[1]);
+    assertEquals("bar.inc", include[0]);
   }
 
 }

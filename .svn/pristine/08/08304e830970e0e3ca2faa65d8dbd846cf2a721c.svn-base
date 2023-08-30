@@ -1,0 +1,5 @@
+com.github.maven_nar.Compiler#getTestCompiler(Ljava/lang/String;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/CompilerDef;
+com.github.maven_nar.cpptasks.types.CompilerArgument#instance-init#
+com.github.maven_nar.cpptasks.CompilerDef#addConfiguredCompilerArg(Lcom/github/maven_nar/cpptasks/types/CompilerArgument;)V
+com.github.maven_nar.cpptasks.types.CompilerArgument#<init>()V
+com.github.maven_nar.Compiler#getCompiler(Ljava/lang/String;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/CompilerDef;

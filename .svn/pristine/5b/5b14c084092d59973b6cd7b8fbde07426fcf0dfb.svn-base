@@ -1,0 +1,4 @@
+#maven plugin help mojo generation informations
+#Mon Jan 02 13:31:11 CET 2023
+destinationDirectory=C\:\\Users\\readytouse\\Desktop\\nar-maven-plugin\\target\\generated-sources\\plugin
+helpPackageName=com.github.maven_nar

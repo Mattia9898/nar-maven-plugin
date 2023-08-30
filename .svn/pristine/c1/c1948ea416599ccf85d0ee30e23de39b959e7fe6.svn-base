@@ -1,0 +1,47 @@
+
+}com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java[ [("startingBlock*„
+startingBlock}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java[ [(2˛
+˚
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.javaZ Z(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+sourcejava.io.FileÃ
+…
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java[+ [(1
+sourcejava.io.File"__annotation*"
+
+__unknown_file (
+
+%2*
+1*∂
+1}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java\ \(‰·
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java\ \(2
+%0,com.github.maven_nar.cpptasks.parser.CParser",com.github.maven_nar.cpptasks.parser.CParserí
+è
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java\ \(
+%1"6com.github.maven_nar.cpptasks.parser.CParser#<init>()V*P
+
+__unknown_file (4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser"µ
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java\ \(4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser:ó
+}
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMIDLCompiler.java[  [(1
+sourcejava.io.FileB75
+3com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler

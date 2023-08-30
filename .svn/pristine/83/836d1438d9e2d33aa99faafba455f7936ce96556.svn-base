@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CompilerDef#setName(Lcom/github/maven_nar/cpptasks/CompilerEnum;)V
+com.github.maven_nar.cpptasks.CompilerDef#setProcessor(Lcom/github/maven_nar/cpptasks/compiler/Processor;)V

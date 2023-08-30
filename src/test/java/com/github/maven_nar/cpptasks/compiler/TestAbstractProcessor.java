@@ -21,9 +21,12 @@ package com.github.maven_nar.cpptasks.compiler;
 
 import junit.framework.TestCase;
 
+import java.util.ArrayList;
+
 import com.github.maven_nar.cpptasks.CCTask;
 import com.github.maven_nar.cpptasks.ProcessorDef;
 import com.github.maven_nar.cpptasks.VersionInfo;
+import com.github.maven_nar.cpptasks.types.LibrarySet;
 
 /**
  * Test for abstract compiler class
@@ -35,8 +38,6 @@ public class TestAbstractProcessor extends TestCase {
     public DummyAbstractProcessor() {
       super(new String[] {
           ".cpp", ".c"
-      }, new String[] {
-          ".hpp", ".h", ".inl"
       });
     }
 
@@ -62,9 +63,18 @@ public class TestAbstractProcessor extends TestCase {
       return new String[0];
     }
 
-    public String[][] getRuntimeLibraries(final boolean debug, final boolean multithreaded, final boolean staticLink) {
-      return new String[2][0];
-    }
+    @Override
+	public int bid(String inputFile) {
+
+		return 0;
+	}
+
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs,
+			ArrayList<String> midargs, ArrayList<String> endargs) {
+
+		return getSourceExtensions();
+	}
   }
 
   public TestAbstractProcessor(final String name) {

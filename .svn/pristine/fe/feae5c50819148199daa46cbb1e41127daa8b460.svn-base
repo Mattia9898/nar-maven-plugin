@@ -1,0 +1,81 @@
+
+\com.github.maven_nar.AbstractDependencyMojo#getNarManager()Lcom/github/maven_nar/NarManager;w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java› ›(*"1*×
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ( ÒÏ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(")
+%0#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getLog()™–
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ$ œ(8=
+%17org.apache.maven.artifact.repository.ArtifactRepository"ycom.github.maven_nar.AbstractDependencyMojo#getLocalRepository()Lorg/apache/maven/artifact/repository/ArtifactRepository;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getLocalRepository()èå
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ: œ(K+
+%2%org.apache.maven.project.MavenProject"]com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getMavenProject()¾»
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœM œ(^
+%3java.lang.String"Hcom.github.maven_nar.AbstractNarMojo#getArchitecture()Ljava/lang/String;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getArchitecture()ª§
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ` œ(g
+%4java.lang.String">com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getOS()ÈÅ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœi œ(t!
+%5com.github.maven_nar.Linker"Mcom.github.maven_nar.AbstractNarMojo#getLinker()Lcom/github/maven_nar/Linker;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getLinker()ÄÁ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(%
+%6com.github.maven_nar.NarManager"com.github.maven_nar.NarManager×
+Ô
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(u
+%7"ïcom.github.maven_nar.NarManager#<init>(Lorg/apache/maven/plugin/logging/Log;Lorg/apache/maven/artifact/repository/ArtifactRepository;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;)V*C
+
+__unknown_file ('
+%
+%6com.github.maven_nar.NarManager*G
+
+__unknown_file (+
+)
+%0#org.apache.maven.plugin.logging.Log*[
+
+__unknown_file (?
+=
+%17org.apache.maven.artifact.repository.ArtifactRepository*I
+
+__unknown_file (-
++
+%2%org.apache.maven.project.MavenProject*4
+
+__unknown_file (
+
+%3java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String*?
+
+__unknown_file (#
+!
+%5com.github.maven_nar.Linker"¢
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(v'
+%
+%6com.github.maven_nar.NarManagerB/-
++com.github.maven_nar.AbstractDependencyMojo

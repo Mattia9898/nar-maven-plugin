@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os400.IccLinker#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;
+java.lang.String#length()I

@@ -1,0 +1,168 @@
+
+Scom.github.maven_nar.NarUtil#quoteReplacement(Ljava/lang/String;)Ljava/lang/String;h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‡ ‡(("12*¶
+3h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÓ Ó(
+±Æ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÓ Ó(
+%10java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*:
+
+__unknown_file (
+
+sbjava.lang.StringBuffer*"
+
+__unknown_file (
+""2	append(C)*
+8*◊
+4h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÎ Î(
+∞≠
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÎ Î(
+%8java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*:
+
+__unknown_file (
+
+sbjava.lang.StringBuffer*"
+
+__unknown_file (
+\\2	append(C)Ø¨
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÏ Ï(
+%9java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*:
+
+__unknown_file (
+
+sbjava.lang.StringBuffer*!
+
+__unknown_file (
+$2	append(C)*
+8*ÿ
+6h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaË Ë(
+∞≠
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaË Ë(
+%6java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*:
+
+__unknown_file (
+
+sbjava.lang.StringBuffer*"
+
+__unknown_file (
+\\2	append(C)∞≠
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÈ È(
+%7java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*:
+
+__unknown_file (
+
+sbjava.lang.StringBuffer*"
+
+__unknown_file (
+\\2	append(C)*
+8*ı
+7h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÊ Ê(˙˜
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÊ Ê( 
+
+%5char"java.lang.String#charAt(I)C*3
+
+__unknown_file (
+
+sjava.lang.String*"
+
+__unknown_file (
+""2	charAt(I)*	
+3
+4
+6*À
+8h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÂ Â(”–
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÂ Â("	
+%4int"java.lang.String#length()I*3
+
+__unknown_file (
+
+sjava.lang.String2length()*
+7
+1*º
+9h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‰ ‰(.£†
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‰  ‰(,
+%2java.lang.StringBuffer"java.lang.StringBuffer—
+Œ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‰ ‰(.
+%3" java.lang.StringBuffer#<init>()V*:
+
+__unknown_file (
+
+%2java.lang.StringBufferÕ
+ 
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‰ ‰(/
+sbjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%2java.lang.StringBuffer*
+8*Ù
+10h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‚ ‚("É
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‚ ‚(
+
+sjava.lang.String*Ù
+11h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java·! ·("˙˜
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java·! ·(/	
+%1int"java.lang.String#indexOf(I)I*3
+
+__unknown_file (
+
+sjava.lang.String*!
+
+__unknown_file (
+$2
+indexOf(I)*
+9
+10*ı
+12h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java· ·(	˚¯
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java· ·(	
+%0int"java.lang.String#indexOf(I)I*3
+
+__unknown_file (
+
+sjava.lang.String*"
+
+__unknown_file (
+\\2
+indexOf(I)*
+9
+11*˚
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÒ Ò(ÉÄ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÒ Ò(
+%11java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*:
+
+__unknown_file (
+
+sbjava.lang.StringBuffer2
+toString()"Ö
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaÒ Ò(
+
+%11java.lang.String:Å
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java‡) ‡(7
+sjava.lang.StringB "
+com.github.maven_nar.NarUtil

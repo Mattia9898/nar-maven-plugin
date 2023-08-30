@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.DistributerDef#createMap()Lcom/github/maven_nar/cpptasks/DistributerMap;
+com.github.maven_nar.cpptasks.DistributerMap#<init>()V
+com.github.maven_nar.cpptasks.DistributerMap#instance-init#

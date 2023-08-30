@@ -1,0 +1,10 @@
+com.github.maven_nar.AbstractDependencyMojo#unpackAttachedNars(Ljava/util/List;)V
+com.github.maven_nar.AbstractDependencyMojo#getNarManager()Lcom/github/maven_nar/NarManager;
+com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#isSkipRanlib()Z
+com.github.maven_nar.NarManager#getNarFile(Lorg/apache/maven/artifact/Artifact;)Ljava/io/File;
+com.github.maven_nar.AbstractNarMojo#getLinker()Lcom/github/maven_nar/Linker;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+com.github.maven_nar.AbstractNarMojo#getLayout()Lcom/github/maven_nar/NarLayout;
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+com.github.maven_nar.Linker#getName()Ljava/lang/String;

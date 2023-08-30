@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#quoteFilename(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.String#indexOf(I)I

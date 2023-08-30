@@ -1,0 +1,23 @@
+
+Ocom.github.maven_nar.cpptasks.os390.OS390Linker#getLibraryPath()[Ljava/io/File;{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java™ ™("1*¯
+1{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.javaš š(”
+‘
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.javaš š(3
+%0java.io.File[]"ocom.github.maven_nar.cpptasks.CUtil#getPathFromEnvironment(Ljava/lang/String;Ljava/lang/String;)[Ljava/io/File;*C
+
+__unknown_file ('"%
+#com.github.maven_nar.cpptasks.CUtil*#
+
+__unknown_file (
+LIB*!
+
+__unknown_file (
+;"•
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.javaš š(4
+
+%0java.io.File[]B31
+/com.github.maven_nar.cpptasks.os390.OS390LinkerH

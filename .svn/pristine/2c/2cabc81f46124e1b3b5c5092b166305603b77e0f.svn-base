@@ -1,0 +1,83 @@
+
+_com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$1#compare(Ljava/io/File;Ljava/io/File;)IÇ
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÉ É("startingBlock*¡
+startingBlockÇ
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÉ É(6Ä
+˝
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÇ Ç(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*0
+
+__unknown_file (
+
+o1java.io.FileŒ
+À
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÉ$ É(&
+o1java.io.File"__annotation*"
+
+__unknown_file (
+
+%3Ä
+˝
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÇ Ç(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*0
+
+__unknown_file (
+
+o2java.io.FileŒ
+À
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÉ3 É(5
+o2java.io.File"__annotation*"
+
+__unknown_file (
+
+%4*
+1*˛
+1Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÑ Ñ(áÑ
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÑ Ñ(
+%0java.lang.String"(java.io.File#getName()Ljava/lang/String;*0
+
+__unknown_file (
+
+o1java.io.File2	getName()áÑ
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÑ& Ñ(2
+%1java.lang.String"(java.io.File#getName()Ljava/lang/String;*0
+
+__unknown_file (
+
+o2java.io.File2	getName()œÃ
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÑ Ñ(3	
+%2int"/java.lang.String#compareTo(Ljava/lang/String;)I*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String2compareTo(Ljava/lang/String;)"ç
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÑ Ñ(4
+"":ô
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÉ É('
+o1java.io.File:ô
+Ç
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÉ( É(5
+o2java.io.FileB<:
+8com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$1H

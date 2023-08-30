@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractDependencyMojo#getBinding(Lcom/github/maven_nar/Executable;Lcom/github/maven_nar/NarArtifact;)Ljava/lang/String;
+com.github.maven_nar.NarInfo#getBinding(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+com.github.maven_nar.NarArtifact#getNarInfo()Lcom/github/maven_nar/NarInfo;

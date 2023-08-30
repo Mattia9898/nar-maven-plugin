@@ -1,0 +1,51 @@
+
+lcom.github.maven_nar.cpptasks.os390.OS390CCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java“ “(&"startingBlock*ö
+startingBlock~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java“& “(?‡
+„
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java’ ’(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.StringÕ
+Ò
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java“4 “(>
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¾
+1~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java” ”(›
+˜
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java” ”(9
+%0java.lang.String"lcom.github.maven_nar.cpptasks.os390.OS390Processor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;*R
+
+__unknown_file (6"4
+2com.github.maven_nar.cpptasks.os390.OS390Processor*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String"š
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java” ”(:
+
+%0java.lang.String: 
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390CCompiler.java“' “(>
+
+includeDirjava.lang.StringB64
+2com.github.maven_nar.cpptasks.os390.OS390CCompiler

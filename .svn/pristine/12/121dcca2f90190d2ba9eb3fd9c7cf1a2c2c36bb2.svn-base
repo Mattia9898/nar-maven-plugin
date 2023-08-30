@@ -1,0 +1,106 @@
+
+icom.github.maven_nar.cpptasks.sun.C89Processor#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java< <(+"4*ˇ
+2x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.javaC C(	˙˜
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.javaC C(
+%6java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*9
+
+__unknown_file (
+
+cmdFilejava.lang.String2append(Ljava/lang/String;)*
+1*á	
+3x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java? ?(	¡æ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java? ?(
+%3java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*"
+
+__unknown_file (
+\"2	append(C)˙˜
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java@ @(
+%4java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*9
+
+__unknown_file (
+
+cmdFilejava.lang.String2append(Ljava/lang/String;)¡æ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.javaA A(
+%5java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*"
+
+__unknown_file (
+\"2	append(C)*
+1*»
+4x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java=. =(1≥∞
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java=! =(-
+%0java.lang.StringBuffer"java.lang.StringBufferñ
+ì
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java= =(2
+%1"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%0java.lang.StringBuffer*!
+
+__unknown_file (
+@ﬁ
+€
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java= =(3
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%0java.lang.StringBufferêç
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java> >(	
+%2int"java.lang.String#indexOf(I)I*9
+
+__unknown_file (
+
+cmdFilejava.lang.String*!
+
+__unknown_file (
+ 2
+indexOf(I)*
+2
+3*™
+1x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.javaE E(ìê
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.javaE E(
+%7java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer2
+toString()"î
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.javaE E(
+
+%7java.lang.String:ó
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Processor.java<, <(@
+cmdFilejava.lang.StringB2"0
+.com.github.maven_nar.cpptasks.sun.C89ProcessorH

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.gcc.cross.GccLinker#getInstance()Lcom/github/maven_nar/cpptasks/gcc/cross/GccLinker;

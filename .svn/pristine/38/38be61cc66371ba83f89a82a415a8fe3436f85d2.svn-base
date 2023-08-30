@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.Assembler64bitCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.MsvcProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;

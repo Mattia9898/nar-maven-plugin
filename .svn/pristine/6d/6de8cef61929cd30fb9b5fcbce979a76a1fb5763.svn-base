@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os400.IccCompiler#addWarningSwitch(Ljava/util/Vector;I)V
+com.github.maven_nar.cpptasks.os400.IccProcessor#addWarningSwitch(Ljava/util/Vector;I)V

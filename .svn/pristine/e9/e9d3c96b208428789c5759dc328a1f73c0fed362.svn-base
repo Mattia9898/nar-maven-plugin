@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.TargetInfo#getAllSources()[Ljava/io/File;
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

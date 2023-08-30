@@ -1,0 +1,94 @@
+
+Ocom.github.maven_nar.cpptasks.TargetInfo#getSysSourcePaths()[Ljava/lang/String;r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java| |(#"5*˙
+3r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java (Ì
+Í
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java ( 
+%3java.io.File[]"__id*X
+
+__unknown_file (<*:*
+(com.github.maven_nar.cpptasks.TargetInfo"
+
+sysSourcesÔ
+Ï
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java (#
+%4java.io.File"
+__arrayGet*2
+
+__unknown_file (
+
+%3java.io.File[]*"
+
+__unknown_file (
+""¯ı
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java (.
+%5java.lang.String")java.io.File#toString()Ljava/lang/String;*0
+
+__unknown_file (
+
+%4java.io.File2
+toString()û
+õ
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java (.
+%6"
+__arraySet*9
+
+__unknown_file (
+
+pathsjava.lang.String[]*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%5java.lang.String*
+4*Ô
+4r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java~ ~(Ì
+Í
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java~ ~('
+%2java.io.File[]"__id*X
+
+__unknown_file (<*:*
+(com.github.maven_nar.cpptasks.TargetInfo"
+
+sysSources*
+3
+1*È
+5r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java}& }(*Ì
+Í
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java}& }(5
+%0java.io.File[]"__id*X
+
+__unknown_file (<*:*
+(com.github.maven_nar.cpptasks.TargetInfo"
+
+sysSources•¢
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java} }(=
+%1java.lang.String[]"java.lang.String[]“
+œ
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.java} }(>
+pathsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%1java.lang.String[]*
+4*ë
+1t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javaÅ Å("ï
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javaÅ Å(
+
+pathsjava.lang.String[]B,*
+(com.github.maven_nar.cpptasks.TargetInfoH

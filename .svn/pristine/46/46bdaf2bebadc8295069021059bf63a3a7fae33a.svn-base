@@ -1,0 +1,102 @@
+
+€com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler#getInputFileArgument(Ljava/io/File;Ljava/lang/String;I)Ljava/lang/String;‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‰ ‰('"startingBlock*Ë
+3‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‘ ’(+ž›
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java’ ’(*
+%1java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*7
+
+__unknown_file (
+
+	outputDirjava.io.File2getAbsolutePath()"Ÿ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java’ ’(+
+
+%1java.lang.String*ï
+startingBlock‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‰' ‰(e‡
+„
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaˆ ˆ(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+	outputDirjava.io.FileÕ
+Ò
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‰3 ‰(<
+	outputDirjava.io.File"__annotation*"
+
+__unknown_file (
+
+%2Š
+‡
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaˆ ˆ(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+filenamejava.lang.StringØ
+Õ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‰K ‰(S
+filenamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+3
+4
+5
+6
+1*˜
+4‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java ("
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java (
+-h*Ë
+5‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java Ž(+ž›
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaŽ Ž(*
+%0java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*7
+
+__unknown_file (
+
+	outputDirjava.io.File2getAbsolutePath()"Ÿ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaŽ Ž(+
+
+%0java.lang.String*˜
+6‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‹ Œ("
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaŒ Œ(
+-r*°
+1‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java” ”("¥
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java” ”(
+
+filenamejava.lang.String: 
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‰( ‰(=
+	outputDirjava.io.File:£
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.java‰> ‰(T
+filenamejava.lang.String: 
+
+__unknown_file (
+""B:8
+6com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler

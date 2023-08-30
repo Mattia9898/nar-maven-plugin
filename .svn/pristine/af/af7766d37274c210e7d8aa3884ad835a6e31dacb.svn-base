@@ -1,0 +1,2 @@
+com.github.maven_nar.NarUtil#collectActiveProfiles(Lorg/apache/maven/project/MavenProject;)Ljava/util/List;
+com.github.maven_nar.NarUtil#collectActiveProfiles(Lorg/apache/maven/project/MavenProject;)Ljava/util/List;

@@ -1,0 +1,115 @@
+
+Jcom.github.maven_nar.Msvc$1#compare(Ljava/lang/String;Ljava/lang/String;)Ie
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ Å( "startingBlock*ª
+startingBlocke
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ  Å(6Ê
+„
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ Å(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+o1java.lang.String¥
+±
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ( Å(*
+o1java.lang.String"__annotation*"
+
+__unknown_file (
+
+%5Ê
+„
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ Å(
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+o2java.lang.String¥
+±
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ3 Å(5
+o2java.lang.String"__annotation*"
+
+__unknown_file (
+
+%6*
+1*æ
+1e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÇC Ç(EÍÁ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÇ, Ç(BA
+%0;org.apache.maven.artifact.versioning.DefaultArtifactVersion";org.apache.maven.artifact.versioning.DefaultArtifactVersion‡
+›
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÇ( Ç(F
+%1"Worg.apache.maven.artifact.versioning.DefaultArtifactVersion#<init>(Ljava/lang/String;)V*_
+
+__unknown_file (C
+A
+%0;org.apache.maven.artifact.versioning.DefaultArtifactVersion*4
+
+__unknown_file (
+
+o1java.lang.Stringö
+ó
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÇ Ç(GG
+version1;org.apache.maven.artifact.versioning.DefaultArtifactVersion"__id*_
+
+__unknown_file (C
+A
+%0;org.apache.maven.artifact.versioning.DefaultArtifactVersionÍÁ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÉ, É(BA
+%2;org.apache.maven.artifact.versioning.DefaultArtifactVersion";org.apache.maven.artifact.versioning.DefaultArtifactVersion‡
+›
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÉ( É(F
+%3"Worg.apache.maven.artifact.versioning.DefaultArtifactVersion#<init>(Ljava/lang/String;)V*_
+
+__unknown_file (C
+A
+%2;org.apache.maven.artifact.versioning.DefaultArtifactVersion*4
+
+__unknown_file (
+
+o2java.lang.Stringö
+ó
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÉ É(GG
+version2;org.apache.maven.artifact.versioning.DefaultArtifactVersion"__id*_
+
+__unknown_file (C
+A
+%2;org.apache.maven.artifact.versioning.DefaultArtifactVersionÜÉ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÑ Ñ()	
+%4int"~org.apache.maven.artifact.versioning.DefaultArtifactVersion#compareTo(Lorg/apache/maven/artifact/versioning/ArtifactVersion;)I*e
+
+__unknown_file (I
+G
+version1;org.apache.maven.artifact.versioning.DefaultArtifactVersion*e
+
+__unknown_file (I
+G
+version2;org.apache.maven.artifact.versioning.DefaultArtifactVersion2AcompareTo(Lorg/apache/maven/artifact/versioning/ArtifactVersion;)"o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÑ Ñ(*
+"":
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ! Å(+
+o1java.lang.String:
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÅ, Å(5
+o2java.lang.StringB
+com.github.maven_nar.Msvc$1H

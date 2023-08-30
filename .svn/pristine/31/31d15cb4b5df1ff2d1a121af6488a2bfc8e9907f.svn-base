@@ -1,0 +1,2 @@
+com.github.maven_nar.NarIntegrationTestMojo#addArtifact(Lorg/apache/maven/surefire/booter/SurefireBooter;Lorg/apache/maven/artifact/Artifact;)V
+com.github.maven_nar.NarIntegrationTestMojo#resolveArtifact(Lorg/apache/maven/artifact/Artifact;Lorg/apache/maven/artifact/Artifact;)Lorg/apache/maven/artifact/resolver/ArtifactResolutionResult;

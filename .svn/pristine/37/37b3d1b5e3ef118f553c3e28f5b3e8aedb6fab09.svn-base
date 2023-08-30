@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.TargetMatcher#visit(Ljava/io/File;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.TargetInfo#getSources()[Ljava/io/File;
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.TargetInfo#instance-init#
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+org.apache.tools.ant.BuildException#instance-init#
+java.io.File#instance-init#
+com.github.maven_nar.cpptasks.TargetInfo#<init>(Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;[Ljava/io/File;[Ljava/io/File;Ljava/io/File;Z)V

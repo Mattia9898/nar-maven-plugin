@@ -1,0 +1,2 @@
+com.github.maven_nar.NarInfo#setIncludesType(Lcom/github/maven_nar/AOL;Ljava/lang/String;)V
+com.github.maven_nar.NarInfo#setProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,3 @@
+com.github.maven_nar.NarLayout21#<init>(Lorg/apache/maven/plugin/logging/Log;)V
+com.github.maven_nar.NarFileLayout10#<init>()V
+com.github.maven_nar.NarFileLayout10#instance-init#

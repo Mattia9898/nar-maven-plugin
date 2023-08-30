@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.sun.C89CCompiler#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.sun.C89Processor#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V

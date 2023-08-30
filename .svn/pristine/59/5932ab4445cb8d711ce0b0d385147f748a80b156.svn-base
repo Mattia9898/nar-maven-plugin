@@ -1,0 +1,47 @@
+
+ucom.github.maven_nar.cpptasks.msvc.MsvcCompatibleLibrarian#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java4 4('"startingBlock*…
+startingBlock„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java4' 4(=‹
+ˆ
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java3 3(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+cmdFilejava.lang.StringÙ
+Ö
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java45 4(<
+cmdFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*—
+1„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java5 5(æ
+ã
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java5 5(
+%0java.lang.String"__concat*Ž
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java5 5(
+@*¦
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java5 5(
+
+cmdFilejava.lang.String"¡
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java5 5(
+
+%0java.lang.String:¤
+„
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLibrarian.java4( 4(<
+cmdFilejava.lang.StringB><
+:com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLibrarian

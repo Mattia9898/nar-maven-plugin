@@ -1,0 +1,195 @@
+
+Pcom.github.maven_nar.cpptasks.gcc.GccCCompiler#getIdentifier()Ljava/lang/String;z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaÖ Ö("6*‡
+2z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaç ç(	–Õ
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaç ç(
+%6java.lang.String"Ycom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;*N
+
+__unknown_file (20
+.com.github.maven_nar.cpptasks.gcc.GccCCompiler2getCommand()˜Ù
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaç ç(
+%7java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*4
+
+__unknown_file (
+
+%6java.lang.String2append(Ljava/lang/String;)¬ø
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaé é(
+%8java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*!
+
+__unknown_file (
+ 2	append(C)∂
+≥
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaè è(*
+%9java.lang.String"Mcom.github.maven_nar.cpptasks.gcc.GccProcessor#getVersion()Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor¯ı
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaè è(+
+%10java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*4
+
+__unknown_file (
+
+%9java.lang.String2append(Ljava/lang/String;)√¿
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaê ê(
+%11java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*!
+
+__unknown_file (
+ 2	append(C)∑
+¥
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaë ë(*
+%12java.lang.String"Mcom.github.maven_nar.cpptasks.gcc.GccProcessor#getMachine()Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor˘ˆ
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaë ë(+
+%13java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*5
+
+__unknown_file (
+
+%12java.lang.String2append(Ljava/lang/String;)ñì
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaí í(&
+%14java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer2
+toString()˛
+˚
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaí í(&@0
+.com.github.maven_nar.cpptasks.gcc.GccCCompiler"
+
+identifier"__id*5
+
+__unknown_file (
+
+%14java.lang.String*
+1*∫
+3z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaã ã("µ≤
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaã ã(
+%4java.lang.StringBuffer"java.lang.StringBufferò
+ï
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaã ã(#
+%5"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%4java.lang.StringBuffer*!
+
+__unknown_file (
+ ‡
+›
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaã ã(#
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%4java.lang.StringBuffer*
+2*¡
+4z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaâ â()µ≤
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaâ â(
+%2java.lang.StringBuffer"java.lang.StringBufferü
+ú
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaâ â(*
+%3"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%2java.lang.StringBuffer*(
+
+__unknown_file (
+
+libtool ‡
+›
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaâ â(*
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%2java.lang.StringBuffer*
+2*ã
+5z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaá á(»
+≈
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaá á(
+bufjava.lang.StringBuffer"__id*"
+
+__unknown_file (
+""∂≥
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaà
+ à(
+%1boolean"Hcom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtool()Z*N
+
+__unknown_file (20
+.com.github.maven_nar.cpptasks.gcc.GccCCompiler2getLibtool()*
+3
+4*á
+6z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaÜ Ü(˝
+˙
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaÜ Ü(
+%0java.lang.String"__id*^
+
+__unknown_file (B*@0
+.com.github.maven_nar.cpptasks.gcc.GccCCompiler"
+
+identifier*
+5
+1*ö
+1z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaî î(˛
+˚
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaî î(
+%15java.lang.String"__id*^
+
+__unknown_file (B*@0
+.com.github.maven_nar.cpptasks.gcc.GccCCompiler"
+
+identifier"ó
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/GccCCompiler.javaî î(
+
+%15java.lang.StringB20
+.com.github.maven_nar.cpptasks.gcc.GccCCompilerH

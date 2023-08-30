@@ -1,0 +1,27 @@
+
+@com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#isCygwin()Z€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccProcessor.java½ ½( "1*ž
+1€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccProcessor.java¾ ¾(É
+Æ
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccProcessor.java¾ ¾(
+%0java.lang.String"Scom.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getMachine()Ljava/lang/String;*T
+
+__unknown_file (8"6
+4com.github.maven_nar.cpptasks.gcc.cross.GccProcessor»¸
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccProcessor.java¾ ¾()	
+%1int"-java.lang.String#indexOf(Ljava/lang/String;)I*4
+
+__unknown_file (
+
+%0java.lang.String*&
+
+__unknown_file (
+
+cygwin2indexOf(Ljava/lang/String;)"‹
+€
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccProcessor.java¾ ¾(.
+""B8"6
+4com.github.maven_nar.cpptasks.gcc.cross.GccProcessorH

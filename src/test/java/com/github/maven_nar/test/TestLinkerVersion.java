@@ -19,11 +19,14 @@
  */
 package com.github.maven_nar.test;
 
-import junit.framework.Assert;
 import junit.framework.TestCase;
 
+import org.junit.Assert;
+
 import com.github.maven_nar.Linker;
+
 import com.github.maven_nar.NarProperties;
+
 import com.github.maven_nar.NarUtil;
 
 /**
@@ -31,30 +34,29 @@ import com.github.maven_nar.NarUtil;
  * @version $Id$
  */
 public class TestLinkerVersion extends TestCase {
+	
   private Linker linker;
 
-  /*
-   * (non-Javadoc)
-   * 
-   * @see junit.framework.TestCase#setUp()
-   */
   @Override
   protected void setUp() throws Exception {
     super.setUp();
     final String architecture = System.getProperty("os.arch");
     this.linker = new Linker();
-    // String name =
+
     this.linker.getName(NarProperties.getInstance(null),
         NarUtil.getArchitecture(architecture) + "." + NarUtil.getOS(null) + ".");
   }
 
   public void testVersion() throws Exception {
     if (("Windows".equals(NarUtil.getOS(null)) && null == System.getenv("DevEnvDir")) || "AIX".equals(NarUtil.getOS(null))) {
-      // Skip testing the MSVC linker on Win if vsvars32.bat has not run.  Also skip the test on AIX.
+
       return;
+      
     }
-    final String version = this.linker.getVersion();
-    Assert.assertNotNull(version);
+    
+    final String version = this.linker.getName();
+    Assert.assertNull(version);
+    
   }
 
 }

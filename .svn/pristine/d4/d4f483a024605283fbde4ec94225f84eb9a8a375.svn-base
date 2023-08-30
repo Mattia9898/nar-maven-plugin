@@ -1,0 +1,4 @@
+com.github.maven_nar.NarInfo#getProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+com.github.maven_nar.NarInfo#getProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.io.File#<init>(Ljava/lang/String;)V
+java.io.File#instance-init#

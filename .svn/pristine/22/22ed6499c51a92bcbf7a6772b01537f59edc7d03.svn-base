@@ -1,0 +1,84 @@
+
+Ocom.github.maven_nar.Javah#getToolchain()Lorg/apache/maven/toolchain/Toolchain;f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaß ß( "3*â
+2f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java¨ ¨("„
+‡
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java¨W ¨(`*
+%2$com.github.maven_nar.AbstractNarMojo"__id*D
+
+__unknown_file ((*&
+com.github.maven_nar.Javah"
+mojoÀ»
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java¨G ¨(n-
+%3'org.apache.maven.execution.MavenSession"Wcom.github.maven_nar.NarJavahMojo#getSession()Lorg/apache/maven/execution/MavenSession;*H
+
+__unknown_file (,
+*
+%2$com.github.maven_nar.AbstractNarMojo2getSession()ÒÓ
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java¨ ¨(o*
+%4$org.apache.maven.toolchain.Toolchain"´org.apache.maven.toolchain.ToolchainManager#getToolchainFromBuildContext(Ljava/lang/String;Lorg/apache/maven/execution/MavenSession;)Lorg/apache/maven/toolchain/Toolchain;*]
+
+__unknown_file (A
+?
+toolchainManager+org.apache.maven.toolchain.ToolchainManager*#
+
+__unknown_file (
+jdk*K
+
+__unknown_file (/
+-
+%3'org.apache.maven.execution.MavenSession2YgetToolchainFromBuildContext(Ljava/lang/String;Lorg/apache/maven/execution/MavenSession;)Ó
+Î
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java¨ ¨(o1
+	toolChain$org.apache.maven.toolchain.Toolchain"__id*H
+
+__unknown_file (,
+*
+%4$org.apache.maven.toolchain.Toolchain*
+1*í	
+3f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java® ®(»
+≈
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java® ®(1
+	toolChain$org.apache.maven.toolchain.Toolchain"__id*"
+
+__unknown_file (
+""„
+‡
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java©> ©(G*
+%0$com.github.maven_nar.AbstractNarMojo"__id*D
+
+__unknown_file ((*&
+com.github.maven_nar.Javah"
+mojoÂ‚
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java©. ©(^1
+%1+org.apache.maven.toolchain.ToolchainManager"dcom.github.maven_nar.NarJavahMojo#getToolchainManager()Lorg/apache/maven/toolchain/ToolchainManager;*H
+
+__unknown_file (,
+*
+%0$com.github.maven_nar.AbstractNarMojo2getToolchainManager()É
+Ä
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.java© ©(_?
+toolchainManager+org.apache.maven.toolchain.ToolchainManager"__id*O
+
+__unknown_file (3
+1
+%1+org.apache.maven.toolchain.ToolchainManager*
+2
+1*ã
+1f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaÆ Æ("ù
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaÆ Æ(3
+1
+	toolChain$org.apache.maven.toolchain.ToolchainB
+com.github.maven_nar.Javah

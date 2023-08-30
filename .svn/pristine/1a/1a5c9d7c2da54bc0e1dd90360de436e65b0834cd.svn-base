@@ -1,0 +1,43 @@
+
+¦com.github.maven_nar.cpptasks.trolltech.MetaObjectCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.javaÿ ÿ("startingBlock*Ã
+startingBlock†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.javaÿ ÿ(.©
+¦
+†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.javaþ þ(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType÷
+ô
+†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.javaÿ) ÿ(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%1*
+1*¿
+1†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.java€ €(ð
+í
+†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.java€ €(!0
+%0*com.github.maven_nar.cpptasks.gcc.LdLinker"dcom.github.maven_nar.cpptasks.gcc.LdLinker#getInstance()Lcom/github/maven_nar/cpptasks/gcc/LdLinker;*J
+
+__unknown_file (.",
+*com.github.maven_nar.cpptasks.gcc.LdLinker"½
+†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.java€ €("2
+0
+%0*com.github.maven_nar.cpptasks.gcc.LdLinker:Â
+†
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/trolltech/MetaObjectCompiler.javaÿ ÿ(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB><
+:com.github.maven_nar.cpptasks.trolltech.MetaObjectCompilerH

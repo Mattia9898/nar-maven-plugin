@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.types.DefineSet#setDefine(Lcom/github/maven_nar/cpptasks/CUtil$StringArrayBuilder;)V
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#getValue()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.types.DefineSet#addDefines([Ljava/lang/String;Z)V

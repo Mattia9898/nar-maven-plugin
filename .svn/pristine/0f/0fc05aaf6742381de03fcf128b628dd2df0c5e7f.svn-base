@@ -1,0 +1,39 @@
+
+jcom.github.maven_nar.cpptasks.msvc.MsvcProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaI I(*"1*¸
+1z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaJ J(ÙÖ
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaJ J(/
+%0java.lang.String".java.lang.String#replace(CC)Ljava/lang/String;*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String*!
+
+__unknown_file (
+/*"
+
+__unknown_file (
+\\2replace(CC)Á
+¾
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaJ J(/
+%1java.lang.String"__concat*„
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaJ J(
+/I*–
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaJ J(/
+
+%0java.lang.String"–
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaJ J(0
+
+%1java.lang.String:œ
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProcessor.javaI+ I(B
+
+includeDirjava.lang.StringB4"2
+0com.github.maven_nar.cpptasks.msvc.MsvcProcessorH

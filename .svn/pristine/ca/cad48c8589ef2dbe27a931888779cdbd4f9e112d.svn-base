@@ -1,0 +1,2 @@
+com.github.maven_nar.Msvc#getTempPath()Ljava/lang/String;
+java.lang.System#getenv(Ljava/lang/String;)Ljava/lang/String;

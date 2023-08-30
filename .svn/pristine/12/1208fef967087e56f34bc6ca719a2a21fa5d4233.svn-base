@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#addWarningSwitch(Ljava/util/Vector;I)V
+com.github.maven_nar.cpptasks.os390.OS390Processor#addWarningSwitch(Ljava/util/Vector;I)V

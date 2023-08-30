@@ -1,0 +1,33 @@
+
+scom.github.maven_nar.cpptasks.platforms.WindowsPlatform#hasSameContent(Ljava/io/InputStream;Ljava/io/InputStream;)Zƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java• •('"4*…
+4ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java™ ™(÷ô
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java™ ™(	
+%0int"java.io.InputStream#read()I*<
+
+__unknown_file ( 
+
+stream1java.io.InputStream2read()÷ô
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaš š(	
+%1int"java.io.InputStream#read()I*<
+
+__unknown_file ( 
+
+stream2java.io.InputStream2read()*
+4
+1*š
+1ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java ("Ž
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java (
+"":¦
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java•( •(B
+stream1java.io.InputStream:¦
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java•C •(\
+stream2java.io.InputStreamB;"9
+7com.github.maven_nar.cpptasks.platforms.WindowsPlatform

@@ -1,0 +1,5 @@
+com.github.maven_nar.NarGnuProcess#narExecute()V
+com.github.maven_nar.AOL#toString()Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+com.github.maven_nar.AbstractGnuMojo#getGnuAOLTargetDirectory()Ljava/io/File;
+com.github.maven_nar.AbstractResourcesMojo#copyResources(Ljava/io/File;Ljava/lang/String;)V

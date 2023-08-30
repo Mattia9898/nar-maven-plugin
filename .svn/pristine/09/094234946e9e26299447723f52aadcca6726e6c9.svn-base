@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.AbstractCompiler#getBaseOutputName(Ljava/lang/String;)Ljava/lang/String;
+org.apache.commons.io.FilenameUtils#getBaseName(Ljava/lang/String;)Ljava/lang/String;

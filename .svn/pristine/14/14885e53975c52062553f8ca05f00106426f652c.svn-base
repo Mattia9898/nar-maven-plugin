@@ -1,0 +1,803 @@
+
+}com.github.maven_nar.NARVersionInfo#getVersionInfo(Lorg/apache/tools/ant/Project;)Lcom/github/maven_nar/cpptasks/VersionInfo;o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaä ä(+"55*
+24o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaœ œ(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaœ) œ(5
+%37java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+internalNameÖÇ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaœ œ(6
+%38void"Ncom.github.maven_nar.cpptasks.VersionInfo#setInternalname(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%37java.lang.String2#setInternalname(Ljava/lang/String;)*
+23*Ï
+25o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÕ Õ(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÕ Õ(
+%36java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+internalName*
+24
+23*˘
+26o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÀ À('Ì
+Í
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÀ; À(J
+%34java.lang.String"__id*X
+
+__unknown_file (<*:%
+#com.github.maven_nar.NARVersionInfo"
+fileDescriptionãà
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÀ À(K
+%35void"Qcom.github.maven_nar.cpptasks.VersionInfo#setFiledescription(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%34java.lang.String2&setFiledescription(Ljava/lang/String;)*
+25*Ô
+27o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java… …(Ì
+Í
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java… …(
+%33java.lang.String"__id*X
+
+__unknown_file (<*:%
+#com.github.maven_nar.NARVersionInfo"
+fileDescription*
+25
+26*Ì
+28o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java« «(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java«( «(3
+%31java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+companyNameÉÄ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java« «(4
+%32void"Mcom.github.maven_nar.cpptasks.VersionInfo#setCompanyname(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%31java.lang.String2"setCompanyname(Ljava/lang/String;)*
+27*Î
+29o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≈ ≈(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≈ ≈(
+%30java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+companyName*
+27
+28*
+30o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¬ ¬(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¬) ¬(5
+%28java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+fileCommentsÖÇ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¬ ¬(6
+%29void"Ncom.github.maven_nar.cpptasks.VersionInfo#setFilecomments(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%28java.lang.String2#setFilecomments(Ljava/lang/String;)*
+29*Ï
+31o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¿ ¿(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¿ ¿(
+%27java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+fileComments*
+29
+30*‰
+32o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaΩ Ω(Ê
+„
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaΩ% Ω(-
+%25java.lang.String"__id*Q
+
+__unknown_file (5*3%
+#com.github.maven_nar.NARVersionInfo"
+
+language˝˙
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaΩ Ω(.
+%26void"Jcom.github.maven_nar.cpptasks.VersionInfo#setLanguage(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%25java.lang.String2setLanguage(Ljava/lang/String;)*
+31*Ë
+33o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaª ª(Ê
+„
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaª ª(
+%24java.lang.String"__id*Q
+
+__unknown_file (5*3%
+#com.github.maven_nar.NARVersionInfo"
+
+language*
+31
+32*ˆ
+34o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java∏ ∏(Ï
+È
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java∏+ ∏(9
+%22java.lang.String"__id*W
+
+__unknown_file (;*9%
+#com.github.maven_nar.NARVersionInfo"
+productVersionâÜ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java∏ ∏(:
+%23void"Pcom.github.maven_nar.cpptasks.VersionInfo#setProductversion(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%22java.lang.String2%setProductversion(Ljava/lang/String;)*
+33*Ó
+35o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java∂ ∂(Ï
+È
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java∂ ∂(
+%21java.lang.String"__id*W
+
+__unknown_file (;*9%
+#com.github.maven_nar.NARVersionInfo"
+productVersion*
+33
+34*Ì
+36o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≥ ≥(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≥( ≥(3
+%19java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+fileVersionÉÄ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≥ ≥(4
+%20void"Mcom.github.maven_nar.cpptasks.VersionInfo#setFileversion(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%19java.lang.String2"setFileversion(Ljava/lang/String;)*
+35*Î
+37o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java± ±(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java± ±(
+%18java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+fileVersion*
+35
+36*Ÿ
+38o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≠" ≠(3—Œ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≠& ≠(10
+%16)com.github.maven_nar.cpptasks.VersionInfo")com.github.maven_nar.cpptasks.VersionInfoÄ
+˝
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≠" ≠(3
+%17"3com.github.maven_nar.cpptasks.VersionInfo#<init>()V*N
+
+__unknown_file (2
+0
+%16)com.github.maven_nar.cpptasks.VersionInfoÑ
+Å
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java≠ ≠(48
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo"__id*N
+
+__unknown_file (2
+0
+%16)com.github.maven_nar.cpptasks.VersionInfo*
+37*
+39o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java´ ´("y
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java´ ´( 
+""*Ë
+40o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java® ®(Ê
+„
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java® ®(
+%15java.lang.Boolean"__id*P
+
+__unknown_file (4*2%
+#com.github.maven_nar.NARVersionInfo"	
+patched*
+38
+39*Î
+41o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaß ß(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaß ß(
+%14java.lang.Boolean"__id*S
+
+__unknown_file (7*5%
+#com.github.maven_nar.NARVersionInfo"
+
+prerelease*
+38
+40*Ù
+42o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¶ ¶((Ú
+Ô
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¶ ¶((
+%13java.lang.String"__id*]
+
+__unknown_file (A*?%
+#com.github.maven_nar.NARVersionInfo"
+compatibilityVersion*
+38
+41*Ï
+43o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java• •( Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java• •( 
+%12java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+specialBuild*
+38
+42*Î
+44o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java§ §( È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java§ §( 
+%11java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+productName*
+38
+43*Ï
+45o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java£ £( Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java£ £( 
+%10java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+privateBuild*
+38
+44*Ô
+46o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¢ ¢($Ì
+Í
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¢ ¢($
+%9java.lang.String"__id*Y
+
+__unknown_file (=*;%
+#com.github.maven_nar.NARVersionInfo"
+originalFilename*
+38
+45*Ó
+47o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java° °(#Ï
+È
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java° °(#
+%8java.lang.String"__id*X
+
+__unknown_file (<*:%
+#com.github.maven_nar.NARVersionInfo"
+legalTrademarks*
+46
+38*Ì
+48o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java† †("Î
+Ë
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java† †("
+%7java.lang.String"__id*W
+
+__unknown_file (;*9%
+#com.github.maven_nar.NARVersionInfo"
+legalCopyright*
+47
+38*Î
+49o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaü ü( È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaü ü( 
+%6java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+internalName*
+48
+38*Ó
+50o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaû û(#Ï
+È
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaû û(#
+%5java.lang.String"__id*X
+
+__unknown_file (<*:%
+#com.github.maven_nar.NARVersionInfo"
+fileDescription*
+38
+49*Í
+51o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaù ù(Ë
+Â
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaù ù(
+%4java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+companyName*
+38
+50*Î
+52o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaú ú( È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaú ú( 
+%3java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+fileComments*
+38
+51*Á
+53o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaõ õ(Â
+‚
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaõ õ(
+%2java.lang.String"__id*Q
+
+__unknown_file (5*3%
+#com.github.maven_nar.NARVersionInfo"
+
+language*
+38
+52*Ì
+54o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaö ö(!Î
+Ë
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaö ö(!
+%1java.lang.String"__id*W
+
+__unknown_file (;*9%
+#com.github.maven_nar.NARVersionInfo"
+productVersion*
+38
+53*á
+10o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÚ Ú(Ú
+Ô
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÚ1 Ú(E
+%58java.lang.String"__id*]
+
+__unknown_file (A*?%
+#com.github.maven_nar.NARVersionInfo"
+compatibilityVersionïí
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÚ Ú(F
+%59void"Vcom.github.maven_nar.cpptasks.VersionInfo#setCompatibilityversion(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%58java.lang.String2+setCompatibilityversion(Ljava/lang/String;)*
+9*Í
+55o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaô ô(Ë
+Â
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaô ô(
+%0java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+fileVersion*
+38
+54*Û
+11o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java ("Ú
+Ô
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java ("
+%57java.lang.String"__id*]
+
+__unknown_file (A*?%
+#com.github.maven_nar.NARVersionInfo"
+compatibilityVersion*
+9
+10*
+12o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÌ Ì(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÌ) Ì(5
+%55java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+specialBuildÖÇ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÌ Ì(6
+%56void"Ncom.github.maven_nar.cpptasks.VersionInfo#setSpecialbuild(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%55java.lang.String2#setSpecialbuild(Ljava/lang/String;)*
+11*Ï
+13o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÎ Î(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÎ Î(
+%54java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+specialBuild*
+11
+12*Ì
+14o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaË Ë(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaË( Ë(3
+%52java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+productNameÉÄ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaË Ë(4
+%53void"Mcom.github.maven_nar.cpptasks.VersionInfo#setProductname(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%52java.lang.String2"setProductname(Ljava/lang/String;)*
+13*Î
+15o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÊ Ê(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaÊ Ê(
+%51java.lang.String"__id*T
+
+__unknown_file (8*6%
+#com.github.maven_nar.NARVersionInfo"
+productName*
+13
+14*
+16o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java„ „(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java„) „(5
+%49java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+privateBuildÖÇ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java„ „(6
+%50void"Ncom.github.maven_nar.cpptasks.VersionInfo#setPrivatebuild(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%49java.lang.String2#setPrivatebuild(Ljava/lang/String;)*
+15*Ï
+17o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java· ·(Í
+Á
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java· ·(
+%48java.lang.String"__id*U
+
+__unknown_file (9*7%
+#com.github.maven_nar.NARVersionInfo"
+privateBuild*
+15
+16*¸
+18o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaﬁ ﬁ(Ó
+Î
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaﬁ- ﬁ(=
+%46java.lang.String"__id*Y
+
+__unknown_file (=*;%
+#com.github.maven_nar.NARVersionInfo"
+originalFilenameçä
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaﬁ ﬁ(>
+%47void"Rcom.github.maven_nar.cpptasks.VersionInfo#setOriginalfilename(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%46java.lang.String2'setOriginalfilename(Ljava/lang/String;)*
+17*
+19o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java‹ ‹(Ó
+Î
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java‹ ‹(
+%45java.lang.String"__id*Y
+
+__unknown_file (=*;%
+#com.github.maven_nar.NARVersionInfo"
+originalFilename*
+17
+18*§
+1o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaã ã("≠
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaã ã(:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*Ã
+4o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¸ ¸(;–Õ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¸ ¸(;
+%67void"8com.github.maven_nar.cpptasks.VersionInfo#setPatched(Z)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*,
+
+__unknown_file (
+
+%66boolean2setPatched(Z)*
+1*‘
+5o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¸ ¸(Ê
+„
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¸$ ¸(+
+%65java.lang.Boolean"__id*P
+
+__unknown_file (4*2%
+#com.github.maven_nar.NARVersionInfo"	
+patchedÔÏ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java¸$ ¸(:
+%66boolean"!java.lang.Boolean#booleanValue()Z*6
+
+__unknown_file (
+
+%65java.lang.Boolean2booleanValue()*
+4*Â
+6o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˙ ˙(Ê
+„
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˙ ˙(
+%64java.lang.Boolean"__id*P
+
+__unknown_file (4*2%
+#com.github.maven_nar.NARVersionInfo"	
+patched*
+5
+1*“
+7o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˜ ˜(A÷”
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˜ ˜(A
+%63void";com.github.maven_nar.cpptasks.VersionInfo#setPrerelease(Z)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*,
+
+__unknown_file (
+
+%62boolean2setPrerelease(Z)*
+6*◊
+8o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˜ ˜(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˜' ˜(1
+%61java.lang.Boolean"__id*S
+
+__unknown_file (7*5%
+#com.github.maven_nar.NARVersionInfo"
+
+prereleaseÔÏ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java˜' ˜(@
+%62boolean"!java.lang.Boolean#booleanValue()Z*6
+
+__unknown_file (
+
+%61java.lang.Boolean2booleanValue()*
+7*Ë
+9o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaı ı(È
+Ê
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaı ı(
+%60java.lang.Boolean"__id*S
+
+__unknown_file (7*5%
+#com.github.maven_nar.NARVersionInfo"
+
+prerelease*
+6
+8*˘
+20o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaŸ Ÿ(Ì
+Í
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaŸ, Ÿ(;
+%43java.lang.String"__id*X
+
+__unknown_file (<*:%
+#com.github.maven_nar.NARVersionInfo"
+legalTrademarksãà
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaŸ Ÿ(<
+%44void"Qcom.github.maven_nar.cpptasks.VersionInfo#setLegaltrademarks(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%43java.lang.String2&setLegaltrademarks(Ljava/lang/String;)*
+19*Ô
+21o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java◊ ◊(Ì
+Í
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java◊ ◊(
+%42java.lang.String"__id*X
+
+__unknown_file (<*:%
+#com.github.maven_nar.NARVersionInfo"
+legalTrademarks*
+19
+20*ˆ
+22o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java‘ ‘(Ï
+È
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java‘+ ‘(9
+%40java.lang.String"__id*W
+
+__unknown_file (;*9%
+#com.github.maven_nar.NARVersionInfo"
+legalCopyrightâÜ
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java‘ ‘(:
+%41void"Pcom.github.maven_nar.cpptasks.VersionInfo#setLegalcopyright(Ljava/lang/String;)V*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo*5
+
+__unknown_file (
+
+%40java.lang.String2%setLegalcopyright(Ljava/lang/String;)*
+21*Ó
+23o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java“ “(Ï
+È
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.java“ “(
+%39java.lang.String"__id*W
+
+__unknown_file (;*9%
+#com.github.maven_nar.NARVersionInfo"
+legalCopyright*
+21
+22:ù
+o
+cC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NARVersionInfo.javaä- ä(?*
+
+antProjectorg.apache.tools.ant.ProjectB'%
+#com.github.maven_nar.NARVersionInfoH

@@ -1,0 +1,63 @@
+
+¥com.github.maven_nar.cpptasks.borland.BorlandCCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javag g($"startingBlock*’
+2€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javai" i(0üù
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javai i(!<
+%06com.github.maven_nar.cpptasks.borland.BorlandCCompiler"6com.github.maven_nar.cpptasks.borland.BorlandCCompilerÄ
+Á
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javai i(6
+%1"icom.github.maven_nar.cpptasks.borland.BorlandCCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V*Z
+
+__unknown_file (>
+<
+%06com.github.maven_nar.cpptasks.borland.BorlandCCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"Ã
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javai i(7>
+<
+%06com.github.maven_nar.cpptasks.borland.BorlandCCompiler* 
+startingBlock€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javag$ g(Y™
+–
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javaf f(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentç
+ä
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javagU g(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*È
+1€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javak k("¿
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javak k(:8
+6com.github.maven_nar.cpptasks.borland.BorlandCCompiler: 
+
+__unknown_file (
+"":²
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandCCompiler.javagC g(X-
+env&org.apache.tools.ant.types.EnvironmentB:8
+6com.github.maven_nar.cpptasks.borland.BorlandCCompilerH

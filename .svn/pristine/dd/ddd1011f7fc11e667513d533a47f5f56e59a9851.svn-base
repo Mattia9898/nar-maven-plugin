@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.TargetDef#getOsfamily()Lcom/github/maven_nar/cpptasks/OSFamilyEnum;
+com.github.maven_nar.cpptasks.TargetDef#getOsfamily()Lcom/github/maven_nar/cpptasks/OSFamilyEnum;

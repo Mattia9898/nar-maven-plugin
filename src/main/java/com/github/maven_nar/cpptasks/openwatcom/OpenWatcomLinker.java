@@ -1,35 +1,57 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.openwatcom;
 
 import java.io.File;
+
 import java.io.IOException;
-import java.util.Vector;
+
+import java.util.ArrayList;
 
 import com.github.maven_nar.cpptasks.CUtil;
+
 import com.github.maven_nar.cpptasks.TargetMatcher;
+
 import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.compiler.CommandLineLinker;
+
 import com.github.maven_nar.cpptasks.compiler.LinkType;
+
 import com.github.maven_nar.cpptasks.platforms.WindowsPlatform;
+
 import com.github.maven_nar.cpptasks.types.LibraryTypeEnum;
+
 
 /**
  * Adapter for the OpenWatcom linker.
@@ -37,6 +59,8 @@ import com.github.maven_nar.cpptasks.types.LibraryTypeEnum;
  * @author Curt Arnold
  */
 public abstract class OpenWatcomLinker extends CommandLineLinker {
+	
+	
   /**
    * Constructor.
    * 
@@ -46,12 +70,13 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    *          String output suffix
    */
   protected OpenWatcomLinker(final String command, final String outputSuffix) {
+	  
     super(command, "-r", new String[] {
         ".obj", ".lib", ".res"
-    }, new String[] {
-        ".map", ".pdb", ".lnk"
     }, outputSuffix, false, null);
+    
   }
+  
 
   /**
    * Add specified base address to linker options.
@@ -61,8 +86,10 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          Vector command options
    */
-  protected final void addBase(final long base, final Vector<String> args) {
+  protected final void addBase(final long base, final ArrayList<String> args) {
+	  
   }
+  
 
   /**
    * Adds non-default entry point.
@@ -72,8 +99,10 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          command line parameters
    */
-  protected final void addEntry(final String entry, final Vector<String> args) {
+  protected final void addEntry(final String entry, final ArrayList<String> args) {
+	  
   }
+  
 
   /**
    * Adds fixed option.
@@ -83,8 +112,10 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          command line parameters
    */
-  protected final void addFixed(final Boolean fixed, final Vector<String> args) {
+  protected final void addFixed(final Boolean fixed, final ArrayList<String> args) {
+	  
   }
+  
 
   /**
    * Adds other command line parameters.
@@ -96,20 +127,34 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          Vector command line arguments
    */
-  protected final void addImpliedArgs(final boolean debug, final LinkType linkType, final Vector<String> args) {
+  protected final void addImpliedArgs(final LinkType linkType, final ArrayList<String> args) {
+	  
     if (linkType.isExecutable()) {
+    	
       if (linkType.isSubsystemConsole()) {
-        args.addElement("/bc");
+    	  
+        args.add("/bc");
+        
       } else {
+    	  
         if (linkType.isSubsystemGUI()) {
-          args.addElement("/bg");
+        	
+          args.add("/bg");
+          
         }
+        
       }
+      
     }
+    
     if (linkType.isSharedLibrary()) {
-      args.addElement("/bd");
+    	
+      args.add("/bd");
+      
     }
+    
   }
+  
 
   /**
    * Add command line switch to force incremental linking.
@@ -119,8 +164,11 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          Vector command line arguments
    */
-  protected final void addIncremental(final boolean incremental, final Vector<String> args) {
+  @Override
+  protected final void addIncremental(final boolean incremental, final ArrayList<String> args) {
+	  
   }
+  
 
   /**
    * Add command line switch to force map generation.
@@ -130,11 +178,16 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          Vector command line arguments
    */
-  protected final void addMap(final boolean map, final Vector<String> args) {
+  protected final void addMap(final boolean map, final ArrayList<String> args) {
+	  
     if (map) {
-      args.addElement("/fm");
+    	
+      args.add("/fm");
+      
     }
+    
   }
+  
 
   /**
    * Add command line switch for stack reservation.
@@ -144,12 +197,18 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @param args
    *          Vector command line arguments.
    */
-  protected final void addStack(final int stack, final Vector<String> args) {
+  protected final void addStack(final int stack, final ArrayList<String> args) {
+	  
     if (stack >= 0) {
+    	
       final String stackStr = Integer.toString(stack);
-      args.addElement("/k" + stackStr);
+      
+      args.add("/k" + stackStr);
+      
     }
+    
   }
+  
 
   /**
    * Adds source or object files to the bidded fileset to
@@ -173,8 +232,11 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
   @Override
   public final void addVersionFiles(final VersionInfo versionInfo, final LinkType linkType, final File outputFile,
       final boolean isDebug, final File objDir, final TargetMatcher matcher) throws IOException {
-    WindowsPlatform.addVersionFiles(versionInfo, linkType, outputFile, isDebug, objDir, matcher);
+	  
+    WindowsPlatform.addVersionFiles(versionInfo, linkType, outputFile, objDir, matcher);
+    
   }
+  
 
   /**
    * Get command file switch.
@@ -185,8 +247,11 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    */
   @Override
   public final String getCommandFileSwitch(final String commandFile) {
+	  
     return "@" + commandFile;
+    
   }
+  
 
   /**
    * Get search path for libraries.
@@ -194,9 +259,12 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @return File[] library path
    */
   @Override
-  public final File[] getLibraryPath() {
-    return CUtil.getPathFromEnvironment("LIB", ";");
+  public File[] getLibraryPath() {
+	  
+    return CUtil.getPathFromEnvironment();
+    
   }
+  
 
   /**
    * Get file selectors for libraries.
@@ -209,8 +277,11 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    */
   @Override
   public final String[] getLibraryPatterns(final String[] libnames, final LibraryTypeEnum libType) {
-    return OpenWatcomProcessor.getLibraryPatterns(libnames, libType);
+	  
+    return OpenWatcomProcessor.getLibraryPatterns(libnames);
+    
   }
+  
 
   /**
    * Get maximum command line length.
@@ -219,8 +290,11 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    */
   @Override
   public final int getMaximumCommandLength() {
+	  
     return 1024;
+    
   }
+  
 
   /**
    * Get output file switch.
@@ -230,9 +304,12 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @return String[] command line switches
    */
   @Override
-  public final String[] getOutputFileSwitch(final String outFile) {
+  public String[] getOutputFileSwitch(final String outFile) {
+	  
     return OpenWatcomProcessor.getOutputFileSwitch(outFile);
+    
   }
+  
 
   /**
    * Gets file name sensitivity of processors.
@@ -240,8 +317,10 @@ public abstract class OpenWatcomLinker extends CommandLineLinker {
    * @return boolean true if case sensitive.
    */
   @Override
-  public final boolean isCaseSensitive() {
-    return OpenWatcomProcessor.isCaseSensitive();
+  public boolean isCaseSensitive() {
+	  
+    return OpenWatcomProcessor.TYPE_BOOLEAN;
+    
   }
 
 }

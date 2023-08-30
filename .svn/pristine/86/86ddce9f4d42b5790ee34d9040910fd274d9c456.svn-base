@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractDependencyMojo#cleanToBeTokenizedString(Ljava/lang/String;)Ljava/lang/String;
+org.codehaus.plexus.util.StringUtils#isEmpty(Ljava/lang/String;)Z
+java.lang.String#replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#trim()Ljava/lang/String;

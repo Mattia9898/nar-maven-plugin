@@ -1,0 +1,8 @@
+com.github.maven_nar.Msvc#addNewSDKLibraries(Ljava/io/File;)V
+com.github.maven_nar.Msvc#setKit(Ljava/io/File;)V
+java.util.Collections#sort(Ljava/util/List;Ljava/util/Comparator;)V
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;
+com.github.maven_nar.Msvc#addSDKLibs(Ljava/io/File;Ljava/io/File;)V
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

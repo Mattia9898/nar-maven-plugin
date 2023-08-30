@@ -1,0 +1,104 @@
+
+Ýcom.github.maven_nar.cpptasks.DependencyTable#parseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;Ljava/io/File;)Lcom/github/maven_nar/cpptasks/DependencyInfo;y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaº º(%"1*¹
+1y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java»& »(.ô
+ñ
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java»C »(O
+%0java.io.File"__id*Z
+
+__unknown_file (>*</
+-com.github.maven_nar.cpptasks.DependencyTable"	
+baseDiràÝ
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java»& »(X2
+%1,com.github.maven_nar.cpptasks.DependencyInfo"¼com.github.maven_nar.cpptasks.compiler.CompilerConfiguration#parseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;Ljava/io/File;)Lcom/github/maven_nar/cpptasks/DependencyInfo;*f
+
+__unknown_file (J
+H
+compiler<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTask*0
+
+__unknown_file (
+
+%0java.io.File*4
+
+__unknown_file (
+
+sourcejava.io.File2QparseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;Ljava/io/File;)’
+
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java» »(Y:
+
+dependInfo,com.github.maven_nar.cpptasks.DependencyInfo"__id*P
+
+__unknown_file (4
+2
+%1,com.github.maven_nar.cpptasks.DependencyInfoü
+ù
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java¼8 ¼(H
+%2java.lang.String"__id*^
+
+__unknown_file (B*@/
+-com.github.maven_nar.cpptasks.DependencyTable"
+baseDirPath°
+­
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java¼" ¼(Q
+%3java.lang.String"gcom.github.maven_nar.cpptasks.CUtil#getRelativePath(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;*C
+
+__unknown_file ('"%
+#com.github.maven_nar.cpptasks.CUtil*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+sourcejava.io.FileÞ
+Û
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java¼ ¼(R"
+relativeSourcejava.lang.String"__id*4
+
+__unknown_file (
+
+%3java.lang.Stringú
+÷
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java½ ½(1
+
+%4void"‚com.github.maven_nar.cpptasks.DependencyTable#putDependencyInfo(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/DependencyInfo;)V*M
+
+__unknown_file (1/
+-com.github.maven_nar.cpptasks.DependencyTable*@
+
+__unknown_file ($
+"
+relativeSourcejava.lang.String*X
+
+__unknown_file (<
+:
+
+dependInfo,com.github.maven_nar.cpptasks.DependencyInfo"¹
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.java¾ ¾(<
+:
+
+dependInfo,com.github.maven_nar.cpptasks.DependencyInfo:©
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaº& º(8,
+task$com.github.maven_nar.cpptasks.CCTask:Å
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaº9 º(^H
+compiler<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration:“
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaº_ º(p
+sourcejava.io.FileB1/
+-com.github.maven_nar.cpptasks.DependencyTableH

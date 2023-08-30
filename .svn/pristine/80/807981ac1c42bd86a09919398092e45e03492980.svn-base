@@ -1,0 +1,20 @@
+
+Vcom.github.maven_nar.cpptasks.compiler.AbstractProcessor#getOSArch()Ljava/lang/String;‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javax x("1*ì
+1‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javay y(¿
+¼
+‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javay y((
+%0java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*'
+
+__unknown_file (	
+os.arch"Ÿ
+‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javay y()
+
+%0java.lang.StringB<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessor

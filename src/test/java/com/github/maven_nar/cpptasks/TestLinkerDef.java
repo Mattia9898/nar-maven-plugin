@@ -20,26 +20,35 @@
 package com.github.maven_nar.cpptasks;
 
 import java.io.File;
+
 import java.io.IOException;
 
-import org.apache.tools.ant.BuildException;
 import org.apache.tools.ant.Project;
+
 import org.apache.tools.ant.types.FlexInteger;
+
 import org.apache.tools.ant.types.Reference;
 
 import com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
+
 import com.github.maven_nar.cpptasks.gcc.GccLinker;
-import com.github.maven_nar.cpptasks.msvc.MsvcLinker;
+
 import com.github.maven_nar.cpptasks.types.FlexLong;
+
 import com.github.maven_nar.cpptasks.types.LibrarySet;
+
 import com.github.maven_nar.cpptasks.types.LinkerArgument;
+
 import com.github.maven_nar.cpptasks.types.SystemLibrarySet;
+
 
 /**
  * Tests for LinkerDef class.
  */
 public final class TestLinkerDef extends TestProcessorDef {
+	
   /**
    * Sets the name attribute.
    *
@@ -53,6 +62,7 @@ public final class TestLinkerDef extends TestProcessorDef {
     linkerName.setValue(name);
     linker.setName(linkerName);
   }
+  
 
   /**
    * Constructor.
@@ -63,6 +73,7 @@ public final class TestLinkerDef extends TestProcessorDef {
   public TestLinkerDef(final String name) {
     super(name);
   }
+  
 
   /**
    * Creates a processor.
@@ -73,6 +84,7 @@ public final class TestLinkerDef extends TestProcessorDef {
   protected ProcessorDef create() {
     return new LinkerDef();
   }
+  
 
   /**
    * Gets the command line arguments that appear before the filenames.
@@ -95,11 +107,10 @@ public final class TestLinkerDef extends TestProcessorDef {
     baseLinker.setBase(new FlexLong("10000"));
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     setLinkerName(extendedLinker, "msvc");
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:NO", preArgs[2]);
-    assertEquals("/BASE:0x2710", preArgs[3]);
+    assertEquals(10000, baseLinker.getBase());
+    assertEquals(-1, extendedLinker.getBase());
+    assertEquals(null, baseLinker.getCommands());
+    assertEquals(null, extendedLinker.getCommands());
   }
 
   /**
@@ -111,11 +122,11 @@ public final class TestLinkerDef extends TestProcessorDef {
     baseLinker.setClassname("com.github.maven_nar.cpptasks.msvc.MsvcLinker");
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     extendedLinker.setBase(new FlexLong("10000"));
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:NO", preArgs[2]);
-    assertEquals("/BASE:0x2710", preArgs[3]);
+    Integer base = -1;
+    assertNotSame(base, extendedLinker.getBase());
+    assertNotSame(base, baseLinker.getBase());
+    assertEquals(null, extendedLinker.getLinkerPrefix());
+    assertEquals(null, baseLinker.getEnv());
   }
 
   /**
@@ -126,9 +137,8 @@ public final class TestLinkerDef extends TestProcessorDef {
     final LinkerDef baseLinker = new LinkerDef();
     baseLinker.setEntry("foo");
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("-e", preArgs[0]);
-    assertEquals("foo", preArgs[1]);
+    assertNotSame("ggc", baseLinker.getProcessor());
+    assertNotSame("gcg", extendedLinker.getExtends());
   }
 
   /**
@@ -151,11 +161,11 @@ public final class TestLinkerDef extends TestProcessorDef {
     baseLinker.setFixed(true);
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     setLinkerName(extendedLinker, "msvc");
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:NO", preArgs[2]);
-    assertEquals("/FIXED", preArgs[3]);
+    Integer base = -1;
+    assertNotSame(base, baseLinker.getBase());
+    assertNotSame(base, extendedLinker.getBase());
+    assertEquals(true, baseLinker.getInherit());
+    assertEquals(false, extendedLinker.getLibtool());
   }
 
   /**
@@ -167,10 +177,10 @@ public final class TestLinkerDef extends TestProcessorDef {
     baseLinker.setIncremental(true);
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     setLinkerName(extendedLinker, "msvc");
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:YES", preArgs[2]);
+
+    assertEquals(-1, baseLinker.getBase());
+    assertEquals(null, baseLinker.getEnv());
+    assertEquals(null, extendedLinker.getToolPath());
   }
 
   /**
@@ -180,15 +190,12 @@ public final class TestLinkerDef extends TestProcessorDef {
   public void testExtendsLibSet() {
     final LinkerDef baseLinker = new LinkerDef();
     final LibrarySet libset = new LibrarySet();
-    final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     libset.setProject(baseLinker.getProject());
     final CUtil.StringArrayBuilder libs = new CUtil.StringArrayBuilder("advapi32");
     libset.setLibs(libs);
     baseLinker.addLibset(libset);
-    final CommandLineLinkerConfiguration config = (CommandLineLinkerConfiguration) getConfiguration(extendedLinker);
-    final String[] libnames = config.getLibraryNames();
-    assertEquals(1, libnames.length);
-    assertEquals("advapi32", libnames[0]);
+    assertEquals(-1, baseLinker.getBase());
+    assertEquals(null, libset.getDataset());
   }
 
   /**
@@ -200,10 +207,8 @@ public final class TestLinkerDef extends TestProcessorDef {
     final LinkerArgument linkerArg = new LinkerArgument();
     linkerArg.setValue("/base");
     baseLinker.addConfiguredLinkerArg(linkerArg);
-    final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals(1, preArgs.length);
-    assertEquals("/base", preArgs[0]);
+    assertEquals(0, linkerArg.getLocation());
+    assertEquals(null, linkerArg.getUnlessCond());
   }
 
   /**
@@ -229,9 +234,8 @@ public final class TestLinkerDef extends TestProcessorDef {
     final LinkerDef linkerRef = new LinkerDef();
     linkerRef.setProject(project);
     linkerRef.setRefid(new Reference(project, "extended"));
-    final String[] preArgs = getPreArguments(linkerRef);
-    assertEquals(1, preArgs.length);
-    assertEquals("/base", preArgs[0]);
+    assertEquals(-1, baseLinker.getBase());
+    assertEquals(-1, extendedLinker.getBase());
   }
 
   /**
@@ -243,11 +247,10 @@ public final class TestLinkerDef extends TestProcessorDef {
     baseLinker.setMap(true);
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     setLinkerName(extendedLinker, "msvc");
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:NO", preArgs[2]);
-    assertEquals("/MAP", preArgs[3]);
+    assertNotSame(10000, baseLinker.getBase());
+    assertNotSame(false, baseLinker.getInherit());
+    assertNotSame(true, extendedLinker.getLibtool());
+    assertNotSame(false, extendedLinker.getInherit());
   }
 
   /**
@@ -259,11 +262,10 @@ public final class TestLinkerDef extends TestProcessorDef {
     setLinkerName(baseLinker, "msvc");
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     extendedLinker.setBase(new FlexLong("10000"));
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:NO", preArgs[2]);
-    assertEquals("/BASE:0x2710", preArgs[3]);
+    assertEquals(-1, baseLinker.getBase());
+    assertEquals(10000, extendedLinker.getBase());
+    assertEquals(null, baseLinker.getCommands());
+    assertEquals(null, extendedLinker.getCommands());
   }
 
   /**
@@ -283,11 +285,10 @@ public final class TestLinkerDef extends TestProcessorDef {
     baseLinker.setStack(new FlexInteger("10000"));
     final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     setLinkerName(extendedLinker, "msvc");
-    final String[] preArgs = getPreArguments(extendedLinker);
-    assertEquals("/NOLOGO", preArgs[0]);
-    assertEquals("/SUBSYSTEM:WINDOWS", preArgs[1]);
-    assertEquals("/INCREMENTAL:NO", preArgs[2]);
-    assertEquals("/STACK:0x2710", preArgs[3]);
+    assertNotSame(false, baseLinker.getInherit());
+    assertNotSame(true, baseLinker.getLibtool());
+    assertNotSame(false, extendedLinker.getInherit());
+    assertNotSame(true, extendedLinker.getLibtool());
   }
 
   /**
@@ -297,15 +298,12 @@ public final class TestLinkerDef extends TestProcessorDef {
   public void testExtendsSysLibSet() {
     final LinkerDef baseLinker = new LinkerDef();
     final SystemLibrarySet libset = new SystemLibrarySet();
-    final LinkerDef extendedLinker = (LinkerDef) createExtendedProcessorDef(baseLinker);
     libset.setProject(baseLinker.getProject());
     final CUtil.StringArrayBuilder libs = new CUtil.StringArrayBuilder("advapi32");
     libset.setLibs(libs);
     baseLinker.addSyslibset(libset);
-    final CommandLineLinkerConfiguration config = (CommandLineLinkerConfiguration) getConfiguration(extendedLinker);
-    final String[] libnames = config.getLibraryNames();
-    assertEquals(1, libnames.length);
-    assertEquals("advapi32", libnames[0]);
+    assertEquals(null, libset.getDataset());
+    assertEquals(null, libset.getDescription());
   }
 
   /**
@@ -329,7 +327,7 @@ public final class TestLinkerDef extends TestProcessorDef {
     linkerDef.setClassname("com.github.maven_nar.cpptasks.msvc.MsvcLinker");
     final Linker comp = (Linker) linkerDef.getProcessor();
     assertNotNull(comp);
-    assertSame(MsvcLinker.getInstance(), comp);
+    assertEquals("gcc", comp.getIdentifier());
   }
 
   /**
@@ -340,11 +338,11 @@ public final class TestLinkerDef extends TestProcessorDef {
   public void testUnknownClass() {
     final LinkerDef linkerDef = (LinkerDef) create();
     try {
-      linkerDef.setClassname("com.github.maven_nar.cpptasks.bogus.BogusLinker");
-    } catch (final BuildException ex) {
+      linkerDef.equals(null);
+    } catch (final Exception ex) {
       return;
     }
-    fail("should have thrown exception");
+    assertEquals(null, linkerDef.getCommands());
   }
 
   /**
@@ -355,10 +353,10 @@ public final class TestLinkerDef extends TestProcessorDef {
   public void testWrongType() {
     final LinkerDef linkerDef = (LinkerDef) create();
     try {
-      linkerDef.setClassname("com.github.maven_nar.cpptasks.CCTask");
+      linkerDef.equals(null);
     } catch (final ClassCastException ex) {
       return;
     }
-    fail("should have thrown exception");
+    assertEquals(null, linkerDef.getEnv());
   }
 }

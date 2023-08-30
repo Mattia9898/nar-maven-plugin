@@ -1,0 +1,4 @@
+com.github.maven_nar.NarLayout20#getNarUnpackDirectory(Ljava/io/File;Ljava/io/File;)Ljava/io/File;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+org.codehaus.plexus.util.FileUtils#basename(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

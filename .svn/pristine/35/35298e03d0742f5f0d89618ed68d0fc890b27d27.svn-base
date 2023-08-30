@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.intel.IntelLinux32Linker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.gcc.GccLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/gcc/GccLibrarian;

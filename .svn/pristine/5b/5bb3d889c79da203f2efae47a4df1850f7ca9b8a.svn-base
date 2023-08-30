@@ -1,0 +1,63 @@
+
+Mcom.github.maven_nar.cpptasks.types.LibrarySet#getDataset()Ljava/lang/String;x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaI I("3*È
+
+2x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaK- K(:ÒÓ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaK- K(Z4
+%1.com.github.maven_nar.cpptasks.types.LibrarySet"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*N
+
+__unknown_file (20
+.com.github.maven_nar.cpptasks.types.LibrarySet*"
+
+__unknown_file (
+""**
+
+__unknown_file (
+
+LibrarySet22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)ë
+é
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaK K([8
+master.com.github.maven_nar.cpptasks.types.LibrarySet"__id*R
+
+__unknown_file (6
+4
+%1.com.github.maven_nar.cpptasks.types.LibrarySet «
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaL L( 
+%2java.lang.String"Mcom.github.maven_nar.cpptasks.types.LibrarySet#getDataset()Ljava/lang/String;*V
+
+__unknown_file (:
+8
+master.com.github.maven_nar.cpptasks.types.LibrarySet2getDataset()"î
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaL L(!
+
+%2java.lang.String*ß
+3x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaJ J(üú
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaJ J(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*N
+
+__unknown_file (20
+.com.github.maven_nar.cpptasks.types.LibrarySet2isReference()*
+2
+1*è
+1x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaN N(¯
+ı
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaN N(
+%3java.lang.String"__id*[
+
+__unknown_file (?*=0
+.com.github.maven_nar.cpptasks.types.LibrarySet"	
+dataset"î
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaN N(
+
+%3java.lang.StringB20
+.com.github.maven_nar.cpptasks.types.LibrarySetH

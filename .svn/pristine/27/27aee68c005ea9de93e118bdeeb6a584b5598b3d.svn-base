@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.DependencyTable#putDependencyInfo(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/DependencyInfo;)V
+com.github.maven_nar.cpptasks.DependencyInfo#getIncludePathIdentifier()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

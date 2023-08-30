@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeElement(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/ContentHandler;)V
+org.xml.sax.helpers.AttributesImpl#instance-init#
+java.lang.String#length()I
+java.lang.String#toCharArray()[C
+org.xml.sax.helpers.AttributesImpl#<init>()V

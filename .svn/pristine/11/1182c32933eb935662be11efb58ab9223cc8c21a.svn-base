@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.msvc.MsvcProcessor#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.ide.DependencyDef#getID()Ljava/lang/String;
+com.github.maven_nar.cpptasks.ide.DependencyDef#getName()Ljava/lang/String;

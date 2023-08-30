@@ -1,0 +1,127 @@
+
+}com.github.maven_nar.cpptasks.borland.BorlandLinker#prepareResponseFile(Ljava/io/File;[Ljava/lang/String;)[Ljava/lang/String;
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaø ø(("startingBlock*Õ
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaø( ø(TÑ
+Å
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaæ æ(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+
+outputFilejava.io.File“
+œ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaø4 ø(>
+
+outputFilejava.io.File"__annotation*"
+
+__unknown_file (
+
+%4Ñ
+Å
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaæ æ(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+argsjava.lang.String[]“
+œ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaøO ø(S
+argsjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%5*
+1*∂
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¿ ¿(-¶
+£
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¿ ¿(\
+%0java.lang.String[]"ícom.github.maven_nar.cpptasks.borland.BorlandProcessor#prepareResponseFile(Ljava/io/File;[Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;*V
+
+__unknown_file (:"8
+6com.github.maven_nar.cpptasks.borland.BorlandProcessor*8
+
+__unknown_file (
+
+
+outputFilejava.io.File*8
+
+__unknown_file (
+
+argsjava.lang.String[]*%
+
+__unknown_file (	
+ + \n·
+ﬁ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¿ ¿(]
+cmdargsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%0java.lang.String[]â
+Ü
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¡7 ¡(R
+%1java.lang.String"
+__arrayGet*;
+
+__unknown_file (
+
+cmdargsjava.lang.String[]*"
+
+__unknown_file (
+""¡æ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¡" ¡(S
+%2java.lang.String"ncom.github.maven_nar.cpptasks.borland.BorlandLinker#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;*S
+
+__unknown_file (75
+3com.github.maven_nar.cpptasks.borland.BorlandLinker*4
+
+__unknown_file (
+
+%1java.lang.String2(getCommandFileSwitch(Ljava/lang/String;)≠
+™
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¡ ¡(S
+%3"
+__arraySet*;
+
+__unknown_file (
+
+cmdargsjava.lang.String[]*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%2java.lang.String"¢
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¬ ¬(
+
+cmdargsjava.lang.String[]:ù
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaø) ø(?
+
+outputFilejava.io.File:ù
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaø@ ø(S
+argsjava.lang.String[]B75
+3com.github.maven_nar.cpptasks.borland.BorlandLinker

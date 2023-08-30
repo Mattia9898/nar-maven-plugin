@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.sun.C89Linker#addLibrarySets(Lcom/github/maven_nar/cpptasks/CCTask;[Lcom/github/maven_nar/cpptasks/types/LibrarySet;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)[Ljava/lang/String;
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

@@ -1,0 +1,63 @@
+
+¨com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaG G($"startingBlock*­
+2ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaI) I(7…‚
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaI I((?
+%09com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler"9com.github.maven_nar.cpptasks.gcc.WindresResourceCompilerÍ
+Ê
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaI I(=
+%1"lcom.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V*]
+
+__unknown_file (A
+?
+%09com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"É
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaI I(>A
+?
+%09com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler*©
+startingBlockƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaG$ G(Yœ
+™
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaF F(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentê
+ç
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaGU G(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*Ñ
+1ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaK K("Å
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaK K(=;
+9com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler: 
+
+__unknown_file (
+"":µ
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaGC G(X-
+env&org.apache.tools.ant.types.EnvironmentB=;
+9com.github.maven_nar.cpptasks.gcc.WindresResourceCompilerH

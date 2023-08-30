@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.LinkerDef#isSkipDepLink()Z
+java.lang.Boolean#booleanValue()Z

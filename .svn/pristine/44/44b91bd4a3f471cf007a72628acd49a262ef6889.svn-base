@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.trolltech.MetaObjectCompiler#getInputFileArgument(Ljava/io/File;Ljava/lang/String;I)Ljava/lang/String;
+com.github.maven_nar.cpptasks.trolltech.MetaObjectCompiler#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#

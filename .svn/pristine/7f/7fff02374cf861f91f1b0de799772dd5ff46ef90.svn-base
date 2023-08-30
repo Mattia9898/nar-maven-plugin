@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getParam(Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/LinkerParam;
+java.lang.String#equals(Ljava/lang/Object;)Z

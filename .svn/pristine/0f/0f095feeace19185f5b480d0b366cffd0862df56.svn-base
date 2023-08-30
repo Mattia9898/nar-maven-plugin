@@ -1,0 +1,40 @@
+
+ƒcom.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getProductType(Lcom/github/maven_nar/cpptasks/TargetInfo;)Ljava/lang/String;‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java» »("1*±
+2‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÁ Â(-"¦
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÂ Â(-
+com.apple.product-type.tool*¼
+3‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¿ À(8"±
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaÀ À(8*(
+&com.apple.product-type.library.dynamic*»
+4‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java½ ¾(7"°
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¾ ¾(7)'
+%com.apple.product-type.library.static*Ð
+1‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¼ ¼(º
+·
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java¼ ¼(+	
+%0int"wcom.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getProductTypeIndex(Lcom/github/maven_nar/cpptasks/TargetInfo;)I*V
+
+__unknown_file (:8
+6com.github.maven_nar.cpptasks.apple.XcodeProjectWriter*T
+
+__unknown_file (8
+6
+
+linkTarget(com.github.maven_nar.cpptasks.TargetInfo*	
+2
+3
+4:½
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java»  »(;6
+
+linkTarget(com.github.maven_nar.cpptasks.TargetInfoB:8
+6com.github.maven_nar.cpptasks.apple.XcodeProjectWriter

@@ -1,0 +1,7 @@
+com.github.maven_nar.Msvc#initPath(Lcom/github/maven_nar/Msvc$CrossCompilers;)V
+org.apache.maven.plugin.MojoExecutionException#<init>(Ljava/lang/String;)V
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.lang.Enum#name()Ljava/lang/String;
+java.io.File#instance-init#
+com.github.maven_nar.Msvc#addPath(Ljava/io/File;Ljava/lang/String;)Z
+org.apache.maven.plugin.MojoExecutionException#instance-init#

@@ -1,0 +1,328 @@
+
+Gcom.github.maven_nar.NarIntegrationTestMojo#processSystemProperties(Z)Vw
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java∆ ∆(("6*≥
+2w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‚$ ‚(%–
+Õ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‚ ‚(&
+keyjava.lang.String"__id*3
+
+__unknown_file (
+
+ojava.lang.ObjectÇ
+ˇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‰ ‰(2
+%24java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemPropertiesÌ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‰ ‰(C
+%25java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*9
+
+__unknown_file (
+
+%24java.util.Properties*5
+
+__unknown_file (
+
+keyjava.lang.String2getProperty(Ljava/lang/String;)‘
+—
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‰ ‰(D
+valuejava.lang.String"__id*5
+
+__unknown_file (
+
+%25java.lang.Stringç
+ä
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÊ Ê(&
+%26java.lang.String"Tjava.lang.System#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*5
+
+__unknown_file (
+
+keyjava.lang.String*7
+
+__unknown_file (
+
+valuejava.lang.String*
+1*é
+3w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java· ·( Ç
+ˇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java· ·(1
+%22java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemPropertiesÖÇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java· ·(:
+%23java.util.Set",java.util.Properties#keySet()Ljava/util/Set;*9
+
+__unknown_file (
+
+%22java.util.Properties2keySet()*
+1*Ä3
+4w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÀ1 À(7Ç
+ˇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÀ1 À(G
+%3java.util.Properties"6java.lang.System#getProperties()Ljava/util/Properties;*0
+
+__unknown_file ("
+java.lang.SystemáÑ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÀ1 À(O
+%4java.lang.Object".java.util.Properties#clone()Ljava/lang/Object;*8
+
+__unknown_file (
+
+%3java.util.Properties2clone()Ö
+Ç
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÀ À(OK-
++com.github.maven_nar.NarIntegrationTestMojo"
+originalSystemProperties"__id*4
+
+__unknown_file (
+
+%4java.lang.Objectã
+à
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‘< ‘(H-
+%5'org.apache.maven.execution.MavenSession"__id*X
+
+__unknown_file (<*:-
++com.github.maven_nar.NarIntegrationTestMojo"	
+session◊‘
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‘< ‘(a
+%6java.util.Properties"Vorg.apache.maven.execution.MavenSession#getExecutionProperties()Ljava/util/Properties;*K
+
+__unknown_file (/
+-
+%5'org.apache.maven.execution.MavenSession2getExecutionProperties()áÑ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‘< ‘(i
+%7java.lang.Object".java.util.Properties#clone()Ljava/lang/Object;*8
+
+__unknown_file (
+
+%6java.util.Properties2clone()È
+Ê
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‘ ‘(j/
+userSpecifiedPropertiesjava.util.Properties"__id*4
+
+__unknown_file (
+
+%7java.lang.ObjectÅ
+˛
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java’# ’(8
+%8java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemPropertiesû
+õ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java’ ’(9
+
+%9void"__mapSetAll*M
+
+__unknown_file (1
+/
+userSpecifiedPropertiesjava.util.Properties*8
+
+__unknown_file (
+
+%8java.util.PropertiesÇ
+ˇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÿ ÿ(
+%10java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemPropertiesÒ
+Ó
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÿ1 ÿ(=
+%11java.io.File"__id*X
+
+__unknown_file (<*:-
++com.github.maven_nar.NarIntegrationTestMojo"	
+basedirçä
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÿ1 ÿ(O
+%12java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*1
+
+__unknown_file (
+
+%11java.io.File2getAbsolutePath()Ω∫
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÿ ÿ(P
+%13java.lang.Object"Xjava.util.Properties#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*9
+
+__unknown_file (
+
+%10java.util.Properties*'
+
+__unknown_file (	
+basedir*5
+
+__unknown_file (
+
+%12java.lang.String21setProperty(Ljava/lang/String;Ljava/lang/String;)Ç
+ˇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŸ Ÿ(
+%14java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemProperties˙
+˜
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŸ2 Ÿ(G
+%15java.io.File"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+workingDirectoryçä
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŸ2 Ÿ(Y
+%16java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*1
+
+__unknown_file (
+
+%15java.io.File2getAbsolutePath()æª
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŸ Ÿ(Z
+%17java.lang.Object"Xjava.util.Properties#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*9
+
+__unknown_file (
+
+%14java.util.Properties*(
+
+__unknown_file (
+
+user.dir*5
+
+__unknown_file (
+
+%16java.lang.String21setProperty(Ljava/lang/String;Ljava/lang/String;)Ç
+ˇ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‹ ‹(
+%18java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemPropertiesöó
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‹9 ‹(M>
+%197org.apache.maven.artifact.repository.ArtifactRepository"ycom.github.maven_nar.AbstractDependencyMojo#getLocalRepository()Lorg/apache/maven/artifact/repository/ArtifactRepository;*K
+
+__unknown_file (/-
++com.github.maven_nar.NarIntegrationTestMojo2getLocalRepository()Ÿ÷
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‹9 ‹(Z
+%20java.lang.String"Vorg.apache.maven.artifact.repository.ArtifactRepository#getBasedir()Ljava/lang/String;*\
+
+__unknown_file (@
+>
+%197org.apache.maven.artifact.repository.ArtifactRepository2getBasedir()≈¬
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‹ ‹([
+%21java.lang.Object"Xjava.util.Properties#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/Object;*9
+
+__unknown_file (
+
+%18java.util.Properties*/
+
+__unknown_file (
+localRepository*5
+
+__unknown_file (
+
+%20java.lang.String21setProperty(Ljava/lang/String;Ljava/lang/String;)*
+3
+0*ï
+5w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java» »(.Æ´
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java»" »(,
+%1java.util.Properties"java.util.Properties‹
+Ÿ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java» »(.
+%2"java.util.Properties#<init>()V*8
+
+__unknown_file (
+
+%1java.util.PropertiesÅ
+˛
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java» »(.C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemProperties"__id*8
+
+__unknown_file (
+
+%1java.util.Properties*
+4*à
+6w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java« «(Å
+˛
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java« «(
+%0java.util.Properties"__id*a
+
+__unknown_file (E*C-
++com.github.maven_nar.NarIntegrationTestMojo"
+systemProperties*
+4
+5*ñ
+0 "é
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaÈ È(
+implicit return*æ
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java· ·(Ω
+∫
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java· ·(
+ojava.lang.Object"__id*"
+
+__unknown_file (
+""˜
+Ù
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java· ·(
+ojava.lang.Object"
+__arrayGet*2
+
+__unknown_file (
+
+%23java.util.Set*"
+
+__unknown_file (
+""*
+2
+0: 
+
+__unknown_file (
+""B/-
++com.github.maven_nar.NarIntegrationTestMojo

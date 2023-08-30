@@ -1,0 +1,74 @@
+
+£com.github.maven_nar.cpptasks.borland.BorlandLinker#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaì ì($"startingBlock*ù	
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaì$ ì(\à
+Ö
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaí í(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]÷
+”
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaì4 ì(<
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%1®
+•
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaí í(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumˆ
+Û
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaìT ì([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%2*
+1*‚
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaî î(ª
+∏
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaî î(A
+%0java.lang.String[]"¶com.github.maven_nar.cpptasks.borland.BorlandProcessor#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;*V
+
+__unknown_file (:"8
+6com.github.maven_nar.cpptasks.borland.BorlandProcessor*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"ù
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaî î(B
+
+%0java.lang.String[]:°
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaì% ì(=
+libnamesjava.lang.String[]:¡
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaì> ì([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumB75
+3com.github.maven_nar.cpptasks.borland.BorlandLinkerH

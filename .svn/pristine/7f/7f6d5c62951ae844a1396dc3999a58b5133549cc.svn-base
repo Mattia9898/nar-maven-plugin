@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GppLinker#decorateLinkerOption(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#length()I
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#charAt(I)C
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

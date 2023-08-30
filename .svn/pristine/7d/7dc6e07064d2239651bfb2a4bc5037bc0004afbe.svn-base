@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.os400.IccLinker#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;
+java.lang.StringBuffer#<init>()V
+java.lang.StringBuffer#instance-init#
+com.github.maven_nar.cpptasks.os400.IccLinker#addLibraryPatterns([Ljava/lang/String;Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;I)I

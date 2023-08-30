@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os400.IccCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.os400.IccProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,3 @@
+com.github.maven_nar.NarInfo#writeToFile(Ljava/io/File;)V
+java.io.FileOutputStream#instance-init#
+java.io.FileOutputStream#<init>(Ljava/io/File;)V

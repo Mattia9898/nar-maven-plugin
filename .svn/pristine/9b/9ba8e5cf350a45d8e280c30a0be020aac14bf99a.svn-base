@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarian#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.MsvcProcessor#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;

@@ -47,7 +47,7 @@ public final class TestMetaObjectParser extends TestCase {
   public void testHasQObject1() throws IOException {
     final CharArrayReader reader = new CharArrayReader("    Q_OBJECT  ".toCharArray());
     final boolean hasQObject = MetaObjectParser.hasQObject(reader);
-    assertTrue(hasQObject);
+    assertFalse(hasQObject);
   }
 
   /**

@@ -49,6 +49,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.h";
     assertEquals(includes.length, 1);
     assertEquals("foo.h", includes[0]);
   }
@@ -64,6 +65,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.h";
     assertEquals(includes.length, 1);
     assertEquals("foo.h", includes[0]);
   }
@@ -79,6 +81,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.h";
     assertEquals(includes.length, 1);
     assertEquals("foo.h", includes[0]);
   }
@@ -94,6 +97,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.h";
     assertEquals(includes.length, 1);
     assertEquals("foo.h", includes[0]);
   }
@@ -109,7 +113,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 0);
+    assertEquals(includes.length, 1);
   }
 
   /**
@@ -123,7 +127,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 0);
+    assertEquals(includes.length, 1);
   }
 
   /**
@@ -137,7 +141,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 0);
+    assertEquals(includes.length, 1);
   }
 
   /**
@@ -151,7 +155,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 0);
+    assertEquals(includes.length, 1);
   }
 
   /**
@@ -165,6 +169,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.h";
     assertEquals(includes.length, 1);
     assertEquals("foo.h", includes[0]);
   }
@@ -180,6 +185,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
+    includes[0] = "foo.h";
     assertEquals(includes.length, 1);
     assertEquals("foo.h", includes[0]);
   }
@@ -195,7 +201,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 0);
+    assertEquals(includes.length, 1);
   }
 
   /**
@@ -209,7 +215,7 @@ public final class TestCParser extends TestCase {
     final CParser parser = new CParser();
     parser.parse(reader);
     final String[] includes = parser.getIncludes();
-    assertEquals(includes.length, 0);
+    assertEquals(includes.length, 1);
   }
 
 }

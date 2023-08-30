@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CompilerDef#getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Lcom/github/maven_nar/cpptasks/OptimizationEnum;
+com.github.maven_nar.cpptasks.CompilerDef#getOptimization([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Lcom/github/maven_nar/cpptasks/OptimizationEnum;

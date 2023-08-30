@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.CCTask#getLinkTarget(Lcom/github/maven_nar/cpptasks/compiler/LinkerConfiguration;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Map;Lcom/github/maven_nar/cpptasks/VersionInfo;)Lcom/github/maven_nar/cpptasks/TargetInfo;
+com.github.maven_nar.cpptasks.TargetInfo#getOutput()Ljava/io/File;
+com.github.maven_nar.cpptasks.TargetInfo#instance-init#
+java.lang.String#isEmpty()Z
+java.io.File#instance-init#
+java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.TargetInfo#<init>(Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;[Ljava/io/File;[Ljava/io/File;Ljava/io/File;Z)V

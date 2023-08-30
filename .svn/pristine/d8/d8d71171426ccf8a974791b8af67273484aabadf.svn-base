@@ -1,0 +1,58 @@
+
+ycom.github.maven_nar.cpptasks.mozilla.XpidlCompiler#getTotalArgumentLengthForInputFile(Ljava/io/File;Ljava/lang/String;)I
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaí í(2"startingBlock*—
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaí2 í(`É
+Ä
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaë ë(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*7
+
+__unknown_file (
+
+	outputDirjava.io.File—
+Œ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaí> í(G
+	outputDirjava.io.File"__annotation*"
+
+__unknown_file (
+
+%0á
+Ñ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaë ë(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	inputFilejava.lang.String’
+“
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaíV í(_
+	inputFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ê
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaì ì("â
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaì ì(
+"":ú
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaí3 í(H
+	outputDirjava.io.File:†
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaíI í(_
+	inputFilejava.lang.StringB75
+3com.github.maven_nar.cpptasks.mozilla.XpidlCompiler

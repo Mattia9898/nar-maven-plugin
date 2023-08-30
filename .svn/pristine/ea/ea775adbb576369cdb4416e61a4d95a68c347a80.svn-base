@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractDependencyMojo#depLevelOrderList(Lorg/apache/maven/shared/dependency/graph/DependencyNode;)Ljava/util/List;
+java.util.LinkedList#<init>()V
+com.github.maven_nar.AbstractDependencyMojo#levelTraverseTreeList(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
+java.util.LinkedList#instance-init#

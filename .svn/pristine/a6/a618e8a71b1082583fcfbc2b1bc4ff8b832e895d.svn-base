@@ -1,0 +1,49 @@
+
+Ccom.github.maven_nar.AbstractNarMojo#getLibraries()Ljava/util/List;p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.java¶  ¶(,"3*Û
+2p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.java¸ ¸("õ
+ò
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.java¸ ¸(.
+%1java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collectionsæ
+ã
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.java¸ ¸(.5&
+$com.github.maven_nar.AbstractNarMojo"
+	libraries"__id*2
+
+__unknown_file (
+
+%1java.util.List*
+1*æ
+3p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.java· ·(æ
+ã
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.java· ·(
+%0java.util.List"__id*S
+
+__unknown_file (7*5&
+$com.github.maven_nar.AbstractNarMojo"
+	libraries*
+2
+1*ë
+1p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javaº º(æ
+ã
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javaº º(
+%2java.util.List"__id*S
+
+__unknown_file (7*5&
+$com.github.maven_nar.AbstractNarMojo"
+	libraries"Š
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javaº º(
+
+%2java.util.ListB(&
+$com.github.maven_nar.AbstractNarMojo

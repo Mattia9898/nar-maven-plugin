@@ -1,22 +1,35 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.compiler;
 
 import java.io.File;
@@ -24,8 +37,11 @@ import java.io.File;
 import org.apache.tools.ant.BuildException;
 
 import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.CompilerParam;
+
 import com.github.maven_nar.cpptasks.DependencyInfo;
+
 
 /**
  * A configuration for a compiler
@@ -35,6 +51,7 @@ import com.github.maven_nar.cpptasks.DependencyInfo;
 public interface CompilerConfiguration extends ProcessorConfiguration {
   void compile(CCTask task, File outputDir, String[] sourceFiles, boolean relentless, ProgressMonitor monitor)
       throws BuildException;
+  
 
   /**
    * 
@@ -56,6 +73,7 @@ public interface CompilerConfiguration extends ProcessorConfiguration {
    * 
    */
   CompilerConfiguration[] createPrecompileConfigurations(File prototype, String[] nonPrecompiledFiles);
+  
 
   /**
    * Returns an digest for the include path for the configuration.
@@ -64,10 +82,12 @@ public interface CompilerConfiguration extends ProcessorConfiguration {
    * because the include paths have changed
    */
   String getIncludePathIdentifier();
+  
 
   CompilerParam getParam(String name);
 
   boolean isPrecompileGeneration();
 
   DependencyInfo parseIncludes(CCTask task, File baseDir, File source);
+  
 }

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarian#getMaximumCommandLength()I
+com.github.maven_nar.cpptasks.msvc.MsvcLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/msvc/MsvcLibrarian;

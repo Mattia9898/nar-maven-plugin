@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.CUtil#isSystemPath(Ljava/io/File;)Z
+java.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+java.util.Objects#equals(Ljava/lang/Object;Ljava/lang/Object;)Z

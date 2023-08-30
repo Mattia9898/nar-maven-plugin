@@ -1,0 +1,55 @@
+
+£com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java} }("startingBlock*¥
+startingBlockÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java} }(.§
+°
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java| |(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeÚ
+Ô
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java}) }(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ç
+
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java~ ~(˜
+Ù
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java~ ~(#3
+%0-com.github.maven_nar.cpptasks.msvc.MsvcLinker"jcom.github.maven_nar.cpptasks.msvc.MsvcLinker#getInstance()Lcom/github/maven_nar/cpptasks/msvc/MsvcLinker;*M
+
+__unknown_file (1"/
+-com.github.maven_nar.cpptasks.msvc.MsvcLinker¿Ω
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java~ ~(33
+%1-com.github.maven_nar.cpptasks.compiler.Linker"ôcom.github.maven_nar.cpptasks.msvc.MsvcLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*Q
+
+__unknown_file (5
+3
+%0-com.github.maven_nar.cpptasks.msvc.MsvcLinker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"ª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java~ ~(45
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:Ω
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.java} }(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB;9
+7com.github.maven_nar.cpptasks.msvc.MsvcResourceCompilerH

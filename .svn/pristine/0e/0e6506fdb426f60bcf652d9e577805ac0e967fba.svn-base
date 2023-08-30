@@ -1,0 +1,35 @@
+
+com.github.maven_nar.NarTestUnpackMojo#getArtifactScopeFilter()Lorg/apache/maven/shared/artifact/filter/collection/ScopeFilter;p
+fC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarTestUnpackMojo.java7 7(."1*”	
+1p
+fC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarTestUnpackMojo.java8 8($·
+´
+p
+fC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarTestUnpackMojo.java8 8(/
+%0java.lang.String"__id*"
+
+__unknown_file (
+""ûø
+p
+fC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarTestUnpackMojo.java8 8(D
+%1>org.apache.maven.shared.artifact.filter.collection.ScopeFilter">org.apache.maven.shared.artifact.filter.collection.ScopeFilter§
+¤
+p
+fC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarTestUnpackMojo.java8 8(7
+%2"lorg.apache.maven.shared.artifact.filter.collection.ScopeFilter#<init>(Ljava/lang/String;Ljava/lang/String;)V*b
+
+__unknown_file (F
+D
+%1>org.apache.maven.shared.artifact.filter.collection.ScopeFilter*4
+
+__unknown_file (
+
+%0java.lang.String*"
+
+__unknown_file (
+"""º
+p
+fC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarTestUnpackMojo.java8 8(8F
+D
+%1>org.apache.maven.shared.artifact.filter.collection.ScopeFilterB*(
+&com.github.maven_nar.NarTestUnpackMojo

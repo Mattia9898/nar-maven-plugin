@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getFileType(Lcom/github/maven_nar/cpptasks/TargetInfo;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getProductTypeIndex(Lcom/github/maven_nar/cpptasks/TargetInfo;)I

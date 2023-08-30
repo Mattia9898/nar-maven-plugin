@@ -1,0 +1,58 @@
+
+^com.github.maven_nar.cpptasks.LinkerDef#addLibraryDirectory(Ljava/io/File;Ljava/lang/String;)Zq
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaz z($"2"1*Û
+2q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java| |("{
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java| |(
+""*Æ
+
+1q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java~& ~(,òï
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java~! ~(%
+%0java.io.File"java.io.File‘
+—
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java~ ~(3
+%1"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%0java.io.File*4
+
+__unknown_file (
+
+parentjava.io.File*6
+
+__unknown_file (
+
+pathjava.lang.String…
+∆
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java~ ~(4
+	directoryjava.io.File"__id*0
+
+__unknown_file (
+
+%0java.io.File˙˜
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java (+
+%2boolean"Lcom.github.maven_nar.cpptasks.LinkerDef#addLibraryDirectory(Ljava/io/File;)Z*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.LinkerDef*7
+
+__unknown_file (
+
+	directoryjava.io.File2#addLibraryDirectory(Ljava/io/File;)"{
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java (,
+"":ã
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaz% z(7
+parentjava.io.File:ç
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaz8 z(I
+pathjava.lang.StringB+)
+'com.github.maven_nar.cpptasks.LinkerDefH

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CompilerEnum#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;
+org.apache.tools.ant.types.EnumeratedAttribute#getIndex()I

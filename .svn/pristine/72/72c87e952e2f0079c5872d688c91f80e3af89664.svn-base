@@ -1,0 +1,4 @@
+com.github.maven_nar.Compiler#getName()Ljava/lang/String;
+com.github.maven_nar.Compiler#getPrefix()Ljava/lang/String;
+com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;

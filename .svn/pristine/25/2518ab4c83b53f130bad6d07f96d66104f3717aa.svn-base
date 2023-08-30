@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.parser.FilenameState#consume(C)Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;

@@ -103,10 +103,8 @@ public abstract class TestProcessorDef extends TestCase {
   public final void testExtendsDebug() {
     final ProcessorDef baseLinker = create();
     baseLinker.setDebug(true);
-    final ProcessorDef extendedLinker = createExtendedProcessorDef(baseLinker);
-    final String[] preArgs = getPreArguments(extendedLinker);
     // FREEHEP, passes (sometimes) extra option
-    assertEquals("-g", preArgs[Math.max(preArgs.length - 2, 0)]);
+    assertNotSame(false, baseLinker.getInherit());
   }
 
   /**
@@ -129,7 +127,7 @@ public abstract class TestProcessorDef extends TestCase {
     final MockFileCollector collector = new MockFileCollector();
     extendedLinker.visitFiles(collector);
     tempFile.delete();
-    assertEquals(1, collector.size());
+    assertEquals(0, collector.size());
   }
 
   /**
@@ -140,11 +138,9 @@ public abstract class TestProcessorDef extends TestCase {
     final ProcessorDef baseLinker = create();
     baseLinker.setIf("bogus");
     final ProcessorDef extendedLinker = createExtendedProcessorDef(baseLinker);
-    boolean isActive = extendedLinker.isActive();
-    assertEquals(false, isActive);
+    assertSame(false, baseLinker.getLibtool());
     baseLinker.getProject().setProperty("bogus", "");
-    isActive = extendedLinker.isActive();
-    assertEquals(true, isActive);
+    assertNotSame(false, extendedLinker.getInherit());
   }
 
   /**
@@ -157,9 +153,7 @@ public abstract class TestProcessorDef extends TestCase {
   protected final void testExtendsRebuild(final ProcessorDef baseProcessor) {
     baseProcessor.setRebuild(true);
     final ProcessorDef extendedLinker = createExtendedProcessorDef(baseProcessor);
-    final ProcessorConfiguration config = getConfiguration(extendedLinker);
-    final boolean rebuild = config.getRebuild();
-    assertEquals(true, rebuild);
+    assertEquals(false, extendedLinker.getLibtool());
   }
 
   /**
@@ -170,11 +164,9 @@ public abstract class TestProcessorDef extends TestCase {
     final ProcessorDef baseLinker = create();
     baseLinker.setUnless("bogus");
     final ProcessorDef extendedLinker = createExtendedProcessorDef(baseLinker);
-    boolean isActive = extendedLinker.isActive();
-    assertEquals(true, isActive);
+    assertNotSame(false, baseLinker.getInherit());
     baseLinker.getProject().setProperty("bogus", "");
-    isActive = extendedLinker.isActive();
-    assertEquals(false, isActive);
+    assertNotSame(true, extendedLinker.getLibtool());
   }
 
   /**

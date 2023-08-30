@@ -1,0 +1,3 @@
+com.github.maven_nar.NarUtil#addLibraryPathToEnv(Ljava/lang/String;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#getEnv(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#replace(CC)Ljava/lang/String;

@@ -1,0 +1,29 @@
+
+Rcom.github.maven_nar.NarUtil#getArchitecture(Ljava/lang/String;)Ljava/lang/String;h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java˜ ˜(&"2"1*›
+2h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaš š(¤
+¡
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaš š(*
+%0java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*'
+
+__unknown_file (	
+os.arch"„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaš š(+
+
+%0java.lang.String*þ
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaœ œ("Ž
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaœ œ("
+ 
+architecturejava.lang.String:Œ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java˜' ˜(@ 
+architecturejava.lang.StringB "
+com.github.maven_nar.NarUtilH

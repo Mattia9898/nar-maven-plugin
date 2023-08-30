@@ -1,0 +1,2 @@
+com.github.maven_nar.AbstractCompileMojo#setFortran(Lcom/github/maven_nar/Fortran;)V
+com.github.maven_nar.Compiler#setAbstractCompileMojo(Lcom/github/maven_nar/AbstractCompileMojo;)V

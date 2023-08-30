@@ -1,0 +1,113 @@
+
+£com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.java ($"startingBlock*¸
+2Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅ Å((›⁄
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅ Å(*
+%0java.lang.String"Ycom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;*T
+
+__unknown_file (86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler2getCommand()Ì
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅ, Å(F
+%1java.lang.String[]"acom.github.maven_nar.cpptasks.compiler.AbstractProcessor#getSourceExtensions()[Ljava/lang/String;*T
+
+__unknown_file (86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler2getSourceExtensions()Ì
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅH Å(b
+%2java.lang.String[]"acom.github.maven_nar.cpptasks.compiler.AbstractProcessor#getHeaderExtensions()[Ljava/lang/String;*T
+
+__unknown_file (86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler2getHeaderExtensions()√¿
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅd Å(u
+%3boolean"Hcom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtool()Z*T
+
+__unknown_file (86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler2getLibtool()¬ø
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÇ Ç(2@
+%4:com.github.maven_nar.cpptasks.compiler.CommandLineCompiler"ãcom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtoolCompiler()Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompiler;*T
+
+__unknown_file (86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler2getLibtoolCompiler()¯ı
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅ Å(:
+%54com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler"4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler„
+‡
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅ Ç(H
+%6"÷com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler#<init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLcom/github/maven_nar/cpptasks/gcc/cross/GccCCompiler;ZLorg/apache/tools/ant/types/Environment;)V*X
+
+__unknown_file (<
+:
+%54com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler*4
+
+__unknown_file (
+
+%0java.lang.String*6
+
+__unknown_file (
+
+%1java.lang.String[]*6
+
+__unknown_file (
+
+%2java.lang.String[]*+
+
+__unknown_file (
+
+%3boolean*^
+
+__unknown_file (B
+@
+%4:com.github.maven_nar.cpptasks.compiler.CommandLineCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"¡
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÅ Ç(I<
+:
+%54com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler*ó
+startingBlock~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.java$ (Yñ
+ì
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.java~ ~(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment‰
+·
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaU (X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%7*
+2
+1*∆
+1Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÑ Ñ("Ω
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaÑ Ñ(86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler: 
+
+__unknown_file (
+"":Ø
+~
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/GccCCompiler.javaC (X-
+env&org.apache.tools.ant.types.EnvironmentB86
+4com.github.maven_nar.cpptasks.gcc.cross.GccCCompilerH

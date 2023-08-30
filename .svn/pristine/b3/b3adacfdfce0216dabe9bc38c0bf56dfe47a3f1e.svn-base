@@ -1,0 +1,139 @@
+
+vcom.github.maven_nar.NarLayout21#getIncludeDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaz z('"startingBlock*š
+startingBlockj
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaz' z(jì
+é
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javay y(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+baseDirjava.io.Fileº
+·
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaz3 z(:
+baseDirjava.io.File"__annotation*"
+
+__unknown_file (
+
+%5ó
+ð
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javay y(
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+artifactIdjava.lang.StringÁ
+¾
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javazI z(S
+
+artifactIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%6ð
+í
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javay y(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+versionjava.lang.String¾
+»
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javazb z(i
+versionjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%7*
+1*²
+1j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{ {(&´±
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{ {(D
+%0java.io.File"ucom.github.maven_nar.NarLayout21#getNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarLayout21*5
+
+__unknown_file (
+
+baseDirjava.io.File*<
+
+__unknown_file ( 
+
+
+artifactIdjava.lang.String*9
+
+__unknown_file (
+
+versionjava.lang.String2FgetNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)ñ
+î
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{F {(U(
+%1"com.github.maven_nar.NarFileLayout"__id*P
+
+__unknown_file (4*2"
+ com.github.maven_nar.NarLayout21"
+
+fileLayout²¯
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{F {(k
+%2java.lang.String"Jcom.github.maven_nar.NarFileLayout#getIncludeDirectory()Ljava/lang/String;*F
+
+__unknown_file (*
+(
+%1"com.github.maven_nar.NarFileLayout2getIncludeDirectory()‘Ž
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{ {(
+%3java.io.File"java.io.FileÇ
+Ä
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{ {(l
+%4"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%3java.io.File*0
+
+__unknown_file (
+
+%0java.io.File*4
+
+__unknown_file (
+
+%2java.lang.String"‚
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.java{ {(m
+
+%3java.io.File:…
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaz( z(;
+baseDirjava.io.File:Œ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javaz< z(T
+
+artifactIdjava.lang.String:‰
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout21.javazU z(i
+versionjava.lang.StringB$"
+ com.github.maven_nar.NarLayout21H

@@ -1,0 +1,318 @@
+
+ocom.github.maven_nar.AbstractDependencyMojo#getVerboseDependencyTree()Lorg/eclipse/aether/graph/DependencyNode;w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∞4 ∞(L"9*™
+4w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(L"´
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(L0
+.
+%29'org.eclipse.aether.graph.DependencyNode*Ì
+5w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(KÈÊ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(K.
+%29'org.eclipse.aether.graph.DependencyNode"^org.eclipse.aether.collection.CollectResult#getRoot()Lorg/eclipse/aether/graph/DependencyNode;*P
+
+__unknown_file (4
+2
+%28+org.eclipse.aether.collection.CollectResult2	getRoot()*
+4*ˆ
+6w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(ã
+à
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(*
+%27#org.eclipse.aether.RepositorySystem"__id*[
+
+__unknown_file (?*=-
++com.github.maven_nar.AbstractDependencyMojo"
+
+repoSystem‰·
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaœ œ(A2
+%28+org.eclipse.aether.collection.CollectResult"¿org.eclipse.aether.RepositorySystem#collectDependencies(Lorg/eclipse/aether/RepositorySystemSession;Lorg/eclipse/aether/collection/CollectRequest;)Lorg/eclipse/aether/collection/CollectResult;*H
+
+__unknown_file (,
+*
+%27#org.eclipse.aether.RepositorySystem*Z
+
+__unknown_file (>
+<
+session1org.eclipse.aether.DefaultRepositorySystemSession*X
+
+__unknown_file (<
+:
+
+collectReq,org.eclipse.aether.collection.CollectRequest2ocollectDependencies(Lorg/eclipse/aether/RepositorySystemSession;Lorg/eclipse/aether/collection/CollectRequest;)*
+5*ò
+8w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java H  (hâÜ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java L  (fH
+%20Aorg.eclipse.aether.util.graph.selector.OptionalDependencySelector"Aorg.eclipse.aether.util.graph.selector.OptionalDependencySelector∏
+µ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java H  (h
+%21"Korg.eclipse.aether.util.graph.selector.OptionalDependencySelector#<init>()V*f
+
+__unknown_file (J
+H
+%20Aorg.eclipse.aether.util.graph.selector.OptionalDependencySelectorÑÅ
+x
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java n  (ÖE
+%22>org.eclipse.aether.util.graph.selector.ScopeDependencySelector">org.eclipse.aether.util.graph.selector.ScopeDependencySelectorÍ
+Á
+x
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java j  (ã
+%23"[org.eclipse.aether.util.graph.selector.ScopeDependencySelector#<init>([Ljava/lang/String;)V*c
+
+__unknown_file (G
+E
+%22>org.eclipse.aether.util.graph.selector.ScopeDependencySelector*"
+
+__unknown_file (
+""ˇ¸
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java 2  (GC
+%24<org.eclipse.aether.util.graph.selector.AndDependencySelector"<org.eclipse.aether.util.graph.selector.AndDependencySelectorØ
+¨
+x
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java .  (å
+%25"yorg.eclipse.aether.util.graph.selector.AndDependencySelector#<init>([Lorg/eclipse/aether/collection/DependencySelector;)V*a
+
+__unknown_file (E
+C
+%24<org.eclipse.aether.util.graph.selector.AndDependencySelector*f
+
+__unknown_file (J
+H
+%20Aorg.eclipse.aether.util.graph.selector.OptionalDependencySelector*c
+
+__unknown_file (G
+E
+%22>org.eclipse.aether.util.graph.selector.ScopeDependencySelectorÆ
+´
+x
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java   (çF
+dependencySelector0org.eclipse.aether.collection.DependencySelector"__id*a
+
+__unknown_file (E
+C
+%24<org.eclipse.aether.util.graph.selector.AndDependencySelectorÙÒ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÀ À(78
+%261org.eclipse.aether.DefaultRepositorySystemSession"Æorg.eclipse.aether.DefaultRepositorySystemSession#setDependencySelector(Lorg/eclipse/aether/collection/DependencySelector;)Lorg/eclipse/aether/DefaultRepositorySystemSession;*Z
+
+__unknown_file (>
+<
+session1org.eclipse.aether.DefaultRepositorySystemSession*d
+
+__unknown_file (H
+F
+dependencySelector0org.eclipse.aether.collection.DependencySelector2IsetDependencySelector(Lorg/eclipse/aether/collection/DependencySelector;)*
+6*˙?
+9w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java≥  ≥(4ﬁ€
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java≥$ ≥(22
+%0,org.eclipse.aether.collection.CollectRequest",org.eclipse.aether.collection.CollectRequestå
+â
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java≥  ≥(4
+%1"6org.eclipse.aether.collection.CollectRequest#<init>()V*P
+
+__unknown_file (4
+2
+%0,org.eclipse.aether.collection.CollectRequestê
+ç
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java≥ ≥(5:
+
+collectReq,org.eclipse.aether.collection.CollectRequest"__id*P
+
+__unknown_file (4
+2
+%0,org.eclipse.aether.collection.CollectRequestËÂ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∂ ∂($+
+%2%org.apache.maven.project.MavenProject"]com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getMavenProject()Ÿ÷
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∂ ∂(2(
+%3"org.apache.maven.artifact.Artifact"Worg.apache.maven.project.MavenProject#getArtifact()Lorg/apache/maven/artifact/Artifact;*I
+
+__unknown_file (-
++
+%2%org.apache.maven.project.MavenProject2getArtifact()ı
+Ú
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∂ ∂(3)
+art"org.apache.maven.artifact.Artifact"__id*F
+
+__unknown_file (*
+(
+%3"org.apache.maven.artifact.Artifactí
+è
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∏P ∏([0
+%4*org.eclipse.aether.RepositorySystemSession"__id*\
+
+__unknown_file (@*>-
++com.github.maven_nar.AbstractDependencyMojo"
+repoSessionËÂ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∏1 ∏(O7
+%51org.eclipse.aether.DefaultRepositorySystemSession"1org.eclipse.aether.DefaultRepositorySystemSessioní
+è
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∏- ∏(\
+%6"gorg.eclipse.aether.DefaultRepositorySystemSession#<init>(Lorg/eclipse/aether/RepositorySystemSession;)V*U
+
+__unknown_file (9
+7
+%51org.eclipse.aether.DefaultRepositorySystemSession*N
+
+__unknown_file (2
+0
+%4*org.eclipse.aether.RepositorySystemSessionó
+î
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java∏ ∏(]<
+session1org.eclipse.aether.DefaultRepositorySystemSession"__id*U
+
+__unknown_file (9
+7
+%51org.eclipse.aether.DefaultRepositorySystemSessionñì
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaª. ª(LN
+%7Horg.eclipse.aether.util.graph.transformer.NoopDependencyGraphTransformer"Horg.eclipse.aether.util.graph.transformer.NoopDependencyGraphTransformerƒ
+¡
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaª* ª(N
+%8"Rorg.eclipse.aether.util.graph.transformer.NoopDependencyGraphTransformer#<init>()V*l
+
+__unknown_file (P
+N
+%7Horg.eclipse.aether.util.graph.transformer.NoopDependencyGraphTransformerõò
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaª ª(O7
+%91org.eclipse.aether.DefaultRepositorySystemSession"æorg.eclipse.aether.DefaultRepositorySystemSession#setDependencyGraphTransformer(Lorg/eclipse/aether/collection/DependencyGraphTransformer;)Lorg/eclipse/aether/DefaultRepositorySystemSession;*Z
+
+__unknown_file (>
+<
+session1org.eclipse.aether.DefaultRepositorySystemSession*l
+
+__unknown_file (P
+N
+%7Horg.eclipse.aether.util.graph.transformer.NoopDependencyGraphTransformer2YsetDependencyGraphTransformer(Lorg/eclipse/aether/collection/DependencyGraphTransformer;)Ø¨
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaø6 ø(F
+%10java.lang.String"Aorg.apache.maven.artifact.Artifact#getGroupId()Ljava/lang/String;*G
+
+__unknown_file (+
+)
+art"org.apache.maven.artifact.Artifact2getGroupId()µ≤
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaøH ø(\
+%11java.lang.String"Dorg.apache.maven.artifact.Artifact#getArtifactId()Ljava/lang/String;*G
+
+__unknown_file (+
+)
+art"org.apache.maven.artifact.Artifact2getArtifactId()Ø¨
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaød ø(t
+%12java.lang.String"Aorg.apache.maven.artifact.Artifact#getVersion()Ljava/lang/String;*G
+
+__unknown_file (+
+)
+art"org.apache.maven.artifact.Artifact2getVersion()›⁄
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaø
+ ø(52
+%13+org.eclipse.aether.artifact.DefaultArtifact"+org.eclipse.aether.artifact.DefaultArtifactù
+ö
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaø ø(u
+%14"}org.eclipse.aether.artifact.DefaultArtifact#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+%13+org.eclipse.aether.artifact.DefaultArtifact*5
+
+__unknown_file (
+
+%10java.lang.String*5
+
+__unknown_file (
+
+%11java.lang.String*"
+
+__unknown_file (
+""*5
+
+__unknown_file (
+
+%12java.lang.StringÕ 
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaæ2 æ(U*
+%15#org.eclipse.aether.graph.Dependency"#org.eclipse.aether.graph.Dependency™
+ß
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaæ. ø(|
+%16"eorg.eclipse.aether.graph.Dependency#<init>(Lorg/eclipse/aether/artifact/Artifact;Ljava/lang/String;)V*H
+
+__unknown_file (,
+*
+%15#org.eclipse.aether.graph.Dependency*P
+
+__unknown_file (4
+2
+%13+org.eclipse.aether.artifact.DefaultArtifact*"
+
+__unknown_file (
+""¯
+ı
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaæ ø(}*
+dep#org.eclipse.aether.graph.Dependency"__id*H
+
+__unknown_file (,
+*
+%15#org.eclipse.aether.graph.Dependencyëé
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java¬ ¬(3
+%17,org.eclipse.aether.collection.CollectRequest"âorg.eclipse.aether.collection.CollectRequest#setRoot(Lorg/eclipse/aether/graph/Dependency;)Lorg/eclipse/aether/collection/CollectRequest;*X
+
+__unknown_file (<
+:
+
+collectReq,org.eclipse.aether.collection.CollectRequest*H
+
+__unknown_file (,
+*
+dep#org.eclipse.aether.graph.Dependency2.setRoot(Lorg/eclipse/aether/graph/Dependency;)¯
+ı
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java≈ ≈(+
+%18java.util.List"__id*]
+
+__unknown_file (A*?-
++com.github.maven_nar.AbstractDependencyMojo"
+projectRepos·ﬁ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.java≈ ≈(,3
+%19,org.eclipse.aether.collection.CollectRequest"|org.eclipse.aether.collection.CollectRequest#setRepositories(Ljava/util/List;)Lorg/eclipse/aether/collection/CollectRequest;*X
+
+__unknown_file (<
+:
+
+collectReq,org.eclipse.aether.collection.CollectRequest*3
+
+__unknown_file (
+
+%18java.util.List2!setRepositories(Ljava/util/List;)*
+6
+8B/-
++com.github.maven_nar.AbstractDependencyMojo

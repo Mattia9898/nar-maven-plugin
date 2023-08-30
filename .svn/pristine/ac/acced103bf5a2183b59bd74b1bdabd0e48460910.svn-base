@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.TargetMatcher#<init>(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;[Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;Lcom/github/maven_nar/cpptasks/compiler/LinkerConfiguration;Ljava/util/Vector;Ljava/util/Map;Lcom/github/maven_nar/cpptasks/VersionInfo;)V

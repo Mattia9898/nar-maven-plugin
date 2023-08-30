@@ -1,0 +1,9 @@
+
+Wcom.github.maven_nar.cpptasks.ibm.VisualAgeLinker#getDynamicLibFlag()Ljava/lang/String;{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaC C($"1*è
+1{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaD D("å
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaD D(
+	-bdynamicB53
+1com.github.maven_nar.cpptasks.ibm.VisualAgeLinker

@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getPrecompiledHeaderFile(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+java.lang.String#substring(I)Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getPreArguments()[Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z

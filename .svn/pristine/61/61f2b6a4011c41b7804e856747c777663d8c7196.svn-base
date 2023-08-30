@@ -1,0 +1,54 @@
+
+wcom.github.maven_nar.cpptasks.borland.BorlandResourceCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaw w(&"startingBlock*”
+startingBlock‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaw& w(?‘
+Ž
+‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javav v(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.Stringß
+Ü
+‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaw4 w(>
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*›
+1‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javax x(ä
+á
+‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javax x(A
+%0java.lang.String"‚com.github.maven_nar.cpptasks.borland.BorlandProcessor#getIncludeDirSwitch(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;*V
+
+__unknown_file (:"8
+6com.github.maven_nar.cpptasks.borland.BorlandProcessor*"
+
+__unknown_file (
+-i*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String"¤
+‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javax x(B
+
+%0java.lang.String:ª
+‡
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaw' w(>
+
+includeDirjava.lang.StringBA?
+=com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler

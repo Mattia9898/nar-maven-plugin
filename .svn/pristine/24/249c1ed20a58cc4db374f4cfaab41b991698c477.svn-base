@@ -1,0 +1,2 @@
+com.github.maven_nar.NarInfo#read(Ljava/util/jar/JarFile;)V
+com.github.maven_nar.NarInfo#getNarPropertiesEntry(Ljava/util/jar/JarFile;)Ljava/util/jar/JarEntry;

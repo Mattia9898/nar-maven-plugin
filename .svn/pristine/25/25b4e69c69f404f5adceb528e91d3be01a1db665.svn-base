@@ -1,0 +1,55 @@
+
+¢com.github.maven_nar.cpptasks.borland.BorlandLibrarian#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaW W("startingBlock*±
+startingBlock€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaW W(.£
+ 
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaV V(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeñ
+î
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaW) W(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*¢
+
+1€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaX X(Ž
+‹
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaX X(&9
+%03com.github.maven_nar.cpptasks.borland.BorlandLinker"vcom.github.maven_nar.cpptasks.borland.BorlandLinker#getInstance()Lcom/github/maven_nar/cpptasks/borland/BorlandLinker;*S
+
+__unknown_file (7"5
+3com.github.maven_nar.cpptasks.borland.BorlandLinkerËÈ
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaX X(63
+%1-com.github.maven_nar.cpptasks.compiler.Linker"Ÿcom.github.maven_nar.cpptasks.borland.BorlandLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*W
+
+__unknown_file (;
+9
+%03com.github.maven_nar.cpptasks.borland.BorlandLinker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"º
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaX X(75
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:¼
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaW W(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB:8
+6com.github.maven_nar.cpptasks.borland.BorlandLibrarianH

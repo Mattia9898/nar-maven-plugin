@@ -1,0 +1,5 @@
+com.github.maven_nar.NarUtil#runCommand(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;[Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)I
+java.lang.StringBuilder#instance-init#
+java.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+java.lang.StringBuilder#<init>()V
+com.github.maven_nar.NarUtil#runCommand(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;[Ljava/lang/String;Lcom/github/maven_nar/TextStream;Lcom/github/maven_nar/TextStream;Lcom/github/maven_nar/TextStream;Lorg/apache/maven/plugin/logging/Log;)I

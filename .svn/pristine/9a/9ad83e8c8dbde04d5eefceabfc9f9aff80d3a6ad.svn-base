@@ -1,0 +1,49 @@
+
+Ccom.github.maven_nar.AbstractCompileMojo#getTests()Ljava/util/List;t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java   ("3*ç
+2t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¢ ¢(ù
+ö
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¢ ¢(*
+%1java.util.List"1java.util.Collections#emptyList()Ljava/util/List;*5
+
+__unknown_file ("
+java.util.Collectionsê
+ç
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¢ ¢(*5*
+(com.github.maven_nar.AbstractCompileMojo"
+tests"__id*2
+
+__unknown_file (
+
+%1java.util.List*
+1*î
+3t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¡ ¡(ê
+ç
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¡ ¡(
+%0java.util.List"__id*S
+
+__unknown_file (7*5*
+(com.github.maven_nar.AbstractCompileMojo"
+tests*
+2
+1*÷
+1t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¤ ¤(ê
+ç
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¤ ¤(
+%2java.util.List"__id*S
+
+__unknown_file (7*5*
+(com.github.maven_nar.AbstractCompileMojo"
+tests"Ž
+t
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractCompileMojo.java¤ ¤(
+
+%2java.util.ListB,*
+(com.github.maven_nar.AbstractCompileMojo

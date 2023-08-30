@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.ProcessorDef#setDebug(Z)V
+com.github.maven_nar.cpptasks.ProcessorDef#booleanValueOf(Z)Ljava/lang/Boolean;

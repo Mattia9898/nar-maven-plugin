@@ -1,0 +1,91 @@
+
+™com.github.maven_nar.cpptasks.os400.IccLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¨ ¨("startingBlock*“
+2y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java­ ­(Ý
+Ú
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java­ ­(3
+%3-com.github.maven_nar.cpptasks.os400.IccLinker"__id*"
+
+__unknown_file (
+"""²
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java­ ­(5
+3
+%3-com.github.maven_nar.cpptasks.os400.IccLinker*È
+3y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¬ ¬(¿¼
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¬ ¬("
+%2boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+2
+1*¡
+startingBlocky
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¨ ¨(2Ÿ
+œ
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java§ §(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeí
+ê
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¨) ¨(1;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%5*
+5*“
+4y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.javaª ª(Ý
+Ú
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.javaª ª(3
+%1-com.github.maven_nar.cpptasks.os400.IccLinker"__id*"
+
+__unknown_file (
+"""²
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.javaª ª(5
+3
+%1-com.github.maven_nar.cpptasks.os400.IccLinker*æ
+5y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java© ©(Ý
+Ú
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java© ©(3
+%0-com.github.maven_nar.cpptasks.os400.IccLinker"__id*"
+
+__unknown_file (
+""*
+3
+4*“
+1y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¯ ¯(Ý
+Ú
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¯ ¯(3
+%4-com.github.maven_nar.cpptasks.os400.IccLinker"__id*"
+
+__unknown_file (
+"""²
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¯ ¯(5
+3
+%4-com.github.maven_nar.cpptasks.os400.IccLinker:¸
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os400/IccLinker.java¨ ¨(1;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeB1/
+-com.github.maven_nar.cpptasks.os400.IccLinkerH

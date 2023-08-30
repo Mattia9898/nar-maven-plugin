@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.TargetHistoryTable#update(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)V
+java.io.File#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.SourceHistory#<init>(Ljava/lang/String;J)V
+com.github.maven_nar.cpptasks.TargetHistory#<init>(Ljava/lang/String;Ljava/lang/String;J[Lcom/github/maven_nar/cpptasks/SourceHistory;)V
+com.github.maven_nar.cpptasks.CUtil#isSignificantlyBefore(JJ)Z
+com.github.maven_nar.cpptasks.TargetHistory#instance-init#
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.cpptasks.CUtil#getRelativePath(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.SourceHistory#instance-init#

@@ -1,0 +1,150 @@
+
+ecom.github.maven_nar.cpptasks.msvc.MsvcProjectWriter#isGroupMember(Ljava/lang/String;Ljava/io/File;)ZÄ
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java∏ ∏("4*Ü
+2Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº º("Ω∫
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº% º(D
+%3java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*:
+
+__unknown_file (
+
+fileNamejava.lang.String*"
+
+__unknown_file (
+""2substring(I)ïí
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº% º(R
+%4java.lang.String"0java.lang.String#toLowerCase()Ljava/lang/String;*4
+
+__unknown_file (
+
+%3java.lang.String2toLowerCase()’
+“
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº º(R
+%5java.lang.String"__concat*ä
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº º("
+;*ù
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº% º(R
+
+%4java.lang.String’
+“
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº º(X
+%6java.lang.String"__concat*ù
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº º(R
+
+%5java.lang.String*ä
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaºU º(X
+;·
+ﬁ
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaº º(Y
+	extensionjava.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.StringŸ
+÷
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ  Ω(,
+%7java.lang.String"__concat*ä
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ  Ω(#
+;*°
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ& Ω(,
+
+filterjava.lang.String’
+“
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ  Ω(2
+%8java.lang.String"__concat*ù
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ  Ω(,
+
+%7java.lang.String*ä
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ/ Ω(2
+;‚
+ﬂ
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaΩ Ω(3
+
+semiFilterjava.lang.String"__id*4
+
+__unknown_file (
+
+%8java.lang.StringÍÁ
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaæ æ(+
+%9boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*<
+
+__unknown_file ( 
+
+
+semiFilterjava.lang.String*;
+
+__unknown_file (
+
+	extensionjava.lang.String2"contains(Ljava/lang/CharSequence;)"ã
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaæ æ(,
+""*Ñ
+3Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaª ª(Û
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaª" ª(3	
+%2int"java.lang.String#length()I*:
+
+__unknown_file (
+
+fileNamejava.lang.String2length()*
+2
+1*•
+4Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaπ π(%åâ
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaπ π(/
+%0java.lang.String"(java.io.File#getName()Ljava/lang/String;*7
+
+__unknown_file (
+
+	candidatejava.io.File2	getName()‡
+›
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.javaπ π(0
+fileNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String¢ü
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java∫ ∫(1	
+%1int" java.lang.String#lastIndexOf(I)I*:
+
+__unknown_file (
+
+fileNamejava.lang.String*!
+
+__unknown_file (
+.2lastIndexOf(I)*
+3
+1*î
+1Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¿ ¿("ã
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java¿ ¿(
+"":ü
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java∏  ∏(4
+filterjava.lang.String:û
+Ä
+tC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcProjectWriter.java∏5 ∏(I
+	candidatejava.io.FileB86
+4com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter

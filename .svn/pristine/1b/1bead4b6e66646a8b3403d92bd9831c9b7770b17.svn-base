@@ -1,0 +1,51 @@
+
+„com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState#consume(C)Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaO O($"2"4"1*‰
+2‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaT T(³°
+‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaT T(9
+%13com.github.maven_nar.cpptasks.parser.AbstractParser"ycom.github.maven_nar.cpptasks.parser.AbstractParserState#getParser()Lcom/github/maven_nar/cpptasks/parser/AbstractParser;*_
+
+__unknown_file (CA
+?com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState2getParser()¼¹
+‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaT T(#>
+%28com.github.maven_nar.cpptasks.parser.AbstractParserState"com.github.maven_nar.cpptasks.parser.AbstractParser#getNewLineState()Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;*W
+
+__unknown_file (;
+9
+%13com.github.maven_nar.cpptasks.parser.AbstractParser2getNewLineState()*
+1*¨
+4‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaQ Q(Å
+Â
+‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaQ Q(>
+%08com.github.maven_nar.cpptasks.parser.AbstractParserState"__id*n
+
+__unknown_file (R*PA
+?com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState"
+	nextState"Î
+‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaQ Q(@
+>
+%08com.github.maven_nar.cpptasks.parser.AbstractParserState*«
+1‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaV V(È
+Å
+‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaV V(>
+%38com.github.maven_nar.cpptasks.parser.AbstractParserState"__id*q
+
+__unknown_file (U*SA
+?com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterState"
+noMatchState"Î
+‰
+C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/CaseInsensitiveLetterState.javaV V(@
+>
+%38com.github.maven_nar.cpptasks.parser.AbstractParserState: 
+
+__unknown_file (
+""BCA
+?com.github.maven_nar.cpptasks.parser.CaseInsensitiveLetterStateH

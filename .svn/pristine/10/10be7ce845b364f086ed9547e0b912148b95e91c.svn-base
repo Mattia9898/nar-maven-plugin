@@ -1,0 +1,205 @@
+
+çcom.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler#createConfiguration(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/LinkType;[Lcom/github/maven_nar/cpptasks/ProcessorDef;Lcom/github/maven_nar/cpptasks/CompilerDef;Lcom/github/maven_nar/cpptasks/TargetDef;Lcom/github/maven_nar/cpptasks/VersionInfo;)Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javai" i(5"startingBlock*Ø
+startingBlockÄ
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javai5 k($ò
+ï
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javah h(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTaskÊ
+„
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaiC i(G,
+task$com.github.maven_nar.cpptasks.CCTask"__annotation*"
+
+__unknown_file (
+
+%3ß
+§
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javah h(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeı
+Ú
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaiX i(`;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%4§
+°
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javah h(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*V
+
+__unknown_file (:
+8
+baseDefs,com.github.maven_nar.cpptasks.ProcessorDef[]Ú
+Ô
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaj j(#8
+baseDefs,com.github.maven_nar.cpptasks.ProcessorDef[]"__annotation*"
+
+__unknown_file (
+
+%5§
+°
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javah h(
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*V
+
+__unknown_file (:
+8
+specificDef)com.github.maven_nar.cpptasks.CompilerDefÚ
+Ô
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaj7 j(B8
+specificDef)com.github.maven_nar.cpptasks.CompilerDef"__annotation*"
+
+__unknown_file (
+
+%6•
+¢
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javah h(
+%7"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*W
+
+__unknown_file (;
+9
+targetPlatform'com.github.maven_nar.cpptasks.TargetDefÛ
+
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javajT j(b9
+targetPlatform'com.github.maven_nar.cpptasks.TargetDef"__annotation*"
+
+__unknown_file (
+
+%7§
+°
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javah h(
+%8"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfoÚ
+Ô
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javak k(#8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo"__annotation*"
+
+__unknown_file (
+
+%8*
+1*ö
+1Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javalR l(Wã	
+à	
+Å
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javalR l(ØB
+%0<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration"ëcom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#createConfiguration(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/LinkType;[Lcom/github/maven_nar/cpptasks/ProcessorDef;Lcom/github/maven_nar/cpptasks/CompilerDef;Lcom/github/maven_nar/cpptasks/TargetDef;Lcom/github/maven_nar/cpptasks/VersionInfo;)Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;*"
+
+__unknown_file (
+""*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTask*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType*V
+
+__unknown_file (:
+8
+baseDefs,com.github.maven_nar.cpptasks.ProcessorDef[]*V
+
+__unknown_file (:
+8
+specificDef)com.github.maven_nar.cpptasks.CompilerDef*W
+
+__unknown_file (;
+9
+targetPlatform'com.github.maven_nar.cpptasks.TargetDef*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfoûõ
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javal l(/M
+%1Gcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration"Gcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfigurationä
+á
+Å
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javal l(¬
+%2"¡com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#<init>(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;[Ljava/lang/String;[Ljava/lang/String;Z)V*k
+
+__unknown_file (O
+M
+%1Gcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration*`
+
+__unknown_file (D
+B
+%0<com.github.maven_nar.cpptasks.compiler.CompilerConfiguration*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""* 
+
+__unknown_file (2"’
+Å
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javal l(√O
+M
+%1Gcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration:±
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javai6 i(H,
+task$com.github.maven_nar.cpptasks.CCTask:¿
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaiI i(a;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType:Ω
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaj j($8
+baseDefs,com.github.maven_nar.cpptasks.ProcessorDef[]:Ω
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javaj% j(C8
+specificDef)com.github.maven_nar.cpptasks.CompilerDef:æ
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javajD j(c9
+targetPlatform'com.github.maven_nar.cpptasks.TargetDef:Ω
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcMessageCompiler.javak k(#8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfoB:8
+6com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler

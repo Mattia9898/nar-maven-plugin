@@ -1,0 +1,200 @@
+
+icom.github.maven_nar.cpptasks.DistributerMap#toRemote(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÒ Ò("15*Õ
+13x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ: Ó(>ô
+ñ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ: Ó(D
+%2java.lang.String"__id*W
+
+__unknown_file (;*9.
+,com.github.maven_nar.cpptasks.DistributerMap"
+hostsÔÑ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ: Ó(S
+%3boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*4
+
+__unknown_file (
+
+%2java.lang.String*6
+
+__unknown_file (
+
+hostjava.lang.String2"contains(Ljava/lang/CharSequence;)*
+11
+1*ÿ
+14x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ$ Ó((ô
+ñ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ$ Ó(.
+%1java.lang.String"__id*W
+
+__unknown_file (;*9.
+,com.github.maven_nar.cpptasks.DistributerMap"
+hosts*
+13
+11*ç
+3x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.java× Ø(tÏ
+Ì
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.java× Ø(t
+%14java.lang.String"__concat*”
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.java× ×("
+
+%8java.lang.String*•
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØ Ø(t
+
+%13java.lang.String"•
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.java× Ø(u
+
+%14java.lang.String*ƒ
+15x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ Ó(ù
+ö
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÓ Ó(
+%0java.lang.String"__id*\
+
+__unknown_file (@*>.
+,com.github.maven_nar.cpptasks.DistributerMap"
+
+remoteName*
+14
+1*•
+4x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØK Ø(O´
+±
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØK Ø(]
+%12char"__id*"
+
+__unknown_file (
+""ÙÖ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØ Ø(t
+%13java.lang.String".java.lang.String#replace(CC)Ljava/lang/String;*5
+
+__unknown_file (
+
+%11java.lang.String*)
+
+__unknown_file (
+
+%12char*"
+
+__unknown_file (
+""2replace(CC)*
+3*Á
+5x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØ Ø(B¼¹
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØ Ø(B
+%11java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*;
+
+__unknown_file (
+
+	canonicaljava.lang.String*(
+
+__unknown_file (
+
+
+%10int2substring(I)*
+4*å
+6x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.java× ×(ù
+ö
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.java× ×("
+%8java.lang.String"__id*\
+
+__unknown_file (@*>.
+,com.github.maven_nar.cpptasks.DistributerMap"
+
+remoteNameü
+ù
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØ& Ø(8
+%9java.lang.String"__id*_
+
+__unknown_file (C*A.
+,com.github.maven_nar.cpptasks.DistributerMap"
+canonicalPathåâ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaØ& Ø(A
+
+%10int"java.lang.String#length()I*4
+
+__unknown_file (
+
+%9java.lang.String2length()*
+5*¨
+8x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÖ8 Ö(@ 
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÖ8 Ö(B
+%7boolean"8com.github.maven_nar.cpptasks.DistributerMap#isActive()Z*L
+
+__unknown_file (0.
+,com.github.maven_nar.cpptasks.DistributerMap2
+isActive()*
+6
+1*´
+10x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÕ Õ(>Ø
+Õ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÕ Õ(>
+	canonicaljava.lang.String"__id*4
+
+__unknown_file (
+
+%4java.lang.Stringü
+ù
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÖ! Ö(3
+%5java.lang.String"__id*_
+
+__unknown_file (C*A.
+,com.github.maven_nar.cpptasks.DistributerMap"
+canonicalPathÑÎ
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÖ Ö(4
+%6boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*;
+
+__unknown_file (
+
+	canonicaljava.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String2startsWith(Ljava/lang/String;)*
+8
+1*œ
+11x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÕ! Õ(*•’
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÕ! Õ(=
+%4java.lang.String"1java.io.File#getCanonicalPath()Ljava/lang/String;*7
+
+__unknown_file (
+
+	localFilejava.io.File2getCanonicalPath()*
+10*‚
+1x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÞ Þ("‚
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÞ Þ(
+"":”
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÒ Ò(+
+hostjava.lang.String:•
+x
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerMap.javaÒ, Ò(@
+	localFilejava.io.FileB0.
+,com.github.maven_nar.cpptasks.DistributerMapH

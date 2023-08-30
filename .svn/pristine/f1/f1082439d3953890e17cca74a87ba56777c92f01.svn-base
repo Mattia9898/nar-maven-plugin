@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.borland.BorlandCCompiler#addImpliedArgs(Ljava/util/Vector;ZZZLcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/lang/Boolean;Lcom/github/maven_nar/cpptasks/OptimizationEnum;)V
+com.github.maven_nar.cpptasks.OptimizationEnum#isSpeed()Z
+java.lang.Boolean#booleanValue()Z
+com.github.maven_nar.cpptasks.OptimizationEnum#isNoOptimization()Z

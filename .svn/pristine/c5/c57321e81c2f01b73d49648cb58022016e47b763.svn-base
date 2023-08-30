@@ -1,0 +1,16 @@
+com.github.maven_nar.cpptasks.borland.BorlandLibrarian#prepareArguments(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration;)[Ljava/lang/String;
+java.util.Vector#<init>(I)V
+java.lang.StringBuffer#<init>()V
+java.io.File#instance-init#
+java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#toLowerCase()Ljava/lang/String;
+java.util.Vector#instance-init#
+java.io.File#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getEndArguments()[Ljava/lang/String;
+java.lang.String#length()I
+java.lang.String#substring(I)Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#getCommand()Ljava/lang/String;
+java.lang.Integer#toString(I)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.StringBuffer#instance-init#
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getPreArguments()[Ljava/lang/String;

@@ -1,0 +1,40 @@
+
+Ecom.github.maven_nar.cpptasks.compiler.AbstractProcessor#isWindows()Z„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java” ”("3*à
+2„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java– –(#ÎË
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java– –(9
+%1boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*8
+
+__unknown_file (
+
+osNamejava.lang.String*'
+
+__unknown_file (	
+Windows2startsWith(Ljava/lang/String;)*
+1*Û
+3„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java• •(#áÞ
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java• •(%
+%0java.lang.String"Vcom.github.maven_nar.cpptasks.compiler.AbstractProcessor#getOSName()Ljava/lang/String;*X
+
+__unknown_file (<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessor2getOSName()â
+ß
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java• •(&
+osNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%0java.lang.String*
+2
+1*œ
+1„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java– –(:"
+„
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.java– –(:
+""B<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessor

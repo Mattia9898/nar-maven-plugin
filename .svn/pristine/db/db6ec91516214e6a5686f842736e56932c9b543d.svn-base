@@ -1,0 +1,47 @@
+
+rcom.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java® ®($"startingBlock*ä
+startingBlockÉ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java®$ ®(>é
+ã
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaß ß(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*=
+
+__unknown_file (!
+
+commandFilejava.lang.String‹
+Ÿ
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java®2 ®(=
+commandFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ñ
+1É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java© ©(Á
+‰
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java© ©(
+%0java.lang.String"__concat*ç
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java© ©(
+@*©
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java© ©(!
+
+commandFilejava.lang.String"†
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java© ©(
+
+%0java.lang.String:ß
+É
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java®% ®(=
+commandFilejava.lang.StringB;9
+7com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinkerH

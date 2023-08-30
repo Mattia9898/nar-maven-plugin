@@ -1,37 +1,71 @@
 /*
  * #%L
+ *
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.msvc;
 
 import java.io.File;
-import java.util.Vector;
+
+import java.util.ArrayList;
 
 import org.apache.tools.ant.types.Environment;
 
+import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.CUtil;
+
 import com.github.maven_nar.cpptasks.OptimizationEnum;
+
+import com.github.maven_nar.cpptasks.ProcessorDef;
+
+import com.github.maven_nar.cpptasks.TargetDef;
+
+import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.compiler.CommandLineCompiler;
+
 import com.github.maven_nar.cpptasks.compiler.LinkType;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
+
 import com.github.maven_nar.cpptasks.compiler.Processor;
+
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+
 import com.github.maven_nar.cpptasks.parser.CParser;
+
 import com.github.maven_nar.cpptasks.parser.Parser;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
 
 /**
  * Adapter for the Microsoft (r) Windows 32 Resource Compiler
@@ -39,106 +73,263 @@ import com.github.maven_nar.cpptasks.parser.Parser;
  * @author Curt Arnold
  */
 public final class MsvcResourceCompiler extends CommandLineCompiler {
-  private static final MsvcResourceCompiler instance = new MsvcResourceCompiler(false, null);
+	
+  private static final MsvcResourceCompiler instance = new MsvcResourceCompiler(null);
 
+  private static final ProcessorConfiguration PROCESSOR_CONFIGURATION = null;
+
+  
   public static MsvcResourceCompiler getInstance() {
+	  
     return instance;
+    
   }
+  
 
-  private String identifier;
-
-  private MsvcResourceCompiler(final boolean newEnvironment, final Environment env) {
-    super("rc", null, new String[] {
-      ".rc"
-    }, new String[] {
-        ".h", ".hpp", ".inl"
-    }, ".res", false, null, newEnvironment, env);
+  private MsvcResourceCompiler(final Environment env) {
+	  
+    super("rc", null, false, null, env);
+    
   }
+  
 
-  @Override
-  protected void addImpliedArgs(final Vector<String> args, final boolean debug, final boolean multithreaded,
-      final boolean exceptions, final LinkType linkType, final Boolean rtti, final OptimizationEnum optimization) {
+  protected void addImpliedArgs(final ArrayList<String> args, final boolean debug) {
+	  
     if (debug) {
-      args.addElement("/D_DEBUG");
+    	
+      args.add("/D_DEBUG");
+      
     } else {
-      args.addElement("/DNDEBUG");
+    	
+      args.add("/DNDEBUG");
+      
     }
+    
   }
 
-  @Override
-  protected void addWarningSwitch(final Vector<String> args, final int level) {
+  
+  /*inizio del metodo: addWarningSwitch
+  presenza corretta di parametri in input*/
+  protected void addWarningSwitch() {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: addWarningSwitch*/
+	  
   }
+  /*fine del metodo: addWarningSwitch
+  esecuzione del metodo: addWarningSwitch corretta, ma fuorviante*/
+  
 
   @Override
   public Processor changeEnvironment(final boolean newEnvironment, final Environment env) {
+	  
     if (newEnvironment || env != null) {
-      return new MsvcResourceCompiler(newEnvironment, env);
+    	
+      return new MsvcResourceCompiler(env);
+      
     }
+    
     return this;
+    
   }
+  
 
   /**
    * The include parser for C will work just fine, but we didn't want to
    * inherit from CommandLineCCompiler
    */
-  @Override
-  protected Parser createParser(final File source) {
+  protected Parser createParser() {
+	  
     return new CParser();
+    
   }
 
-  @Override
-  protected int getArgumentCountPerInputFile() {
-    return 2;
-  }
 
-  @Override
-  protected void getDefineSwitch(final StringBuffer buffer, final String define, final String value) {
+  protected void getDefineSwitch1(final StringBuilder buffer, final String define, final String value) {
+	  
     MsvcProcessor.getDefineSwitch(buffer, define, value);
+    
   }
+  
 
   @Override
   protected File[] getEnvironmentIncludePath() {
-    return CUtil.getPathFromEnvironment("INCLUDE", ";");
+	  
+    return CUtil.getPathFromEnvironment();
+    
   }
+  
 
   @Override
   public String getIdentifier() {
+	  
     return "Microsoft (R) Windows (R) Resource Compiler";
+    
   }
+  
 
   @Override
   protected String getIncludeDirSwitch(final String includeDir) {
+	  
     return MsvcProcessor.getIncludeDirSwitch(includeDir);
+    
   }
+  
 
-  @Override
-  protected String getInputFileArgument(final File outputDir, final String filename, final int index) {
+  public String getInputFileArgument(final File outputDir, final String filename, final int index) {
+	  
     if (index == 0) {
+    	
       final String outputFileName = getOutputFileNames(filename, null)[0];
+      
       final String fullOutputName = new File(outputDir, outputFileName).toString();
+      
       return "/fo" + fullOutputName;
+      
     }
+    
     return filename;
+    
   }
+  
 
   @Override
   public Linker getLinker(final LinkType type) {
+	  
     return MsvcLinker.getInstance().getLinker(type);
+    
   }
+  
 
   @Override
   public int getMaximumCommandLength() {
-    // FREEHEP stay on the safe side
-    return 32000; // 32767;
+
+    return 32000;
+    
   }
+  
 
   @Override
   protected int getMaximumInputFilesPerCommand() {
+	  
     return 1;
+    
+  }
+  
+
+  public void getUndefineSwitch1(final StringBuilder buffer, final String define) {
+	  
+    MsvcProcessor.getUndefineSwitch(buffer, define);
+    
   }
 
-  @Override
-  protected void getUndefineSwitch(final StringBuffer buffer, final String define) {
-    MsvcProcessor.getUndefineSwitch(buffer, define);
-  }
+  
+	/*inizio del metodo: addImpliedArgs
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addImpliedArgs*/			
+		
+	}
+	/*fine del metodo: addImpliedArgs
+	esecuzione del metodo: addImpliedArgs 
+	corretta, ma fuorviante*/
+
+
+	/*inizio del metodo: addWarningSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addWarningSwitch(ArrayList<String> args, int warnings) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addWarningSwitch*/		
+		
+	}
+	/*fine del metodo: addWarningSwitch
+	esecuzione del metodo: addWarningSwitch 
+	corretta, ma fuorviante*/
+	
+
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs,
+			ArrayList<String> midargs, ArrayList<String> endargs) {
+
+		return getSourceExtensions();
+		
+	}
+
+	
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/			
+		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: getDefineSwitch 
+	corretta, ma fuorviante*/
+
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/		
+		
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: getUndefineSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+
+		return PROCESSOR_CONFIGURATION;
+		
+	}
+	
+
+	@Override
+	protected String getOutputSuffix() {
+
+		return identifier;
+		
+	}
+	
+
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+
+		return inputFile;
+		
+	}
+	
+
+	@Override
+	public int bid(String inputFile) {
+		
+		return 0;
+		
+	}
+
+
+	@Override
+	public String[] getOutputFileNames(String inputFile, VersionInfo versionInfo) {
+		return getHeaderExtensions();
+	}
+	
 }

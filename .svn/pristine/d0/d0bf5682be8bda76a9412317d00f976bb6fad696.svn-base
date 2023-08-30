@@ -1,0 +1,79 @@
+
+Kcom.github.maven_nar.cpptasks.types.LibrarySet#getLibs()[Ljava/lang/String;x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaa a("3*è
+
+2x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javac- c(:ñî
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javac- c(Z4
+%1.com.github.maven_nar.cpptasks.types.LibrarySet"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*N
+
+__unknown_file (20
+.com.github.maven_nar.cpptasks.types.LibrarySet*"
+
+__unknown_file (
+""**
+
+__unknown_file (
+
+LibrarySet22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)‘
+Ž
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javac c([8
+master.com.github.maven_nar.cpptasks.types.LibrarySet"__id*R
+
+__unknown_file (6
+4
+%1.com.github.maven_nar.cpptasks.types.LibrarySetÇÄ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javad d(
+%2java.lang.String[]"Kcom.github.maven_nar.cpptasks.types.LibrarySet#getLibs()[Ljava/lang/String;*V
+
+__unknown_file (:
+8
+master.com.github.maven_nar.cpptasks.types.LibrarySet2	getLibs()"–
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javad d(
+
+%2java.lang.String[]*§
+3x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javab b(Ÿœ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javab b(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*N
+
+__unknown_file (20
+.com.github.maven_nar.cpptasks.types.LibrarySet2isReference()*
+2
+1*ü
+1x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaf f( û
+ø
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaf f()
+%3java.lang.String[]"__id*\
+
+__unknown_file (@*>0
+.com.github.maven_nar.cpptasks.types.LibrarySet"
+
+libnames…‚
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaf f(1
+%4java.lang.String[]"+java.lang.Object#clone()[Ljava/lang/String;*6
+
+__unknown_file (
+
+%3java.lang.String[]2clone()Ù
+Ö
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javaf f(2
+retvaljava.lang.String[]"__id*6
+
+__unknown_file (
+
+%4java.lang.String[]"š
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/LibrarySet.javag g(
+
+retvaljava.lang.String[]B20
+.com.github.maven_nar.cpptasks.types.LibrarySetH

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getMachine()Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CaptureStreamHandler#run([Ljava/lang/String;)[Ljava/lang/String;

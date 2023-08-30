@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os400.IccLinker#addLibrarySets(Lcom/github/maven_nar/cpptasks/CCTask;[Lcom/github/maven_nar/cpptasks/types/LibrarySet;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)[Ljava/lang/String;
+java.lang.String#startsWith(Ljava/lang/String;)Z

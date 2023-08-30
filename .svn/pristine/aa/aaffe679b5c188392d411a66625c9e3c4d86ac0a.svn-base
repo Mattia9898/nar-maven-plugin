@@ -1,0 +1,47 @@
+
+…com.github.maven_nar.cpptasks.compiler.CommandLineCCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java, ,("startingBlock*þ
+startingBlock…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java, ,(2‡
+„
+…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java+ +(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+sourcejava.io.FileÕ
+Ò
+…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java,+ ,(1
+sourcejava.io.File"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ú
+1…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java- -(íê
+…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java- -(2
+%0,com.github.maven_nar.cpptasks.parser.CParser",com.github.maven_nar.cpptasks.parser.CParser›
+˜
+…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java- -(
+%1"6com.github.maven_nar.cpptasks.parser.CParser#<init>()V*P
+
+__unknown_file (4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser"¾
+…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java- -(4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser: 
+…
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineCCompiler.java,  ,(1
+sourcejava.io.FileB?=
+;com.github.maven_nar.cpptasks.compiler.CommandLineCCompiler

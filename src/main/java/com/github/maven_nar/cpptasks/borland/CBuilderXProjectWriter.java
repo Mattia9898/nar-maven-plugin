@@ -1,49 +1,72 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
 package com.github.maven_nar.cpptasks.borland;
 
 import java.io.File;
-import java.io.FileOutputStream;
+
 import java.io.IOException;
-import java.io.OutputStream;
+
 import java.util.List;
+
 import java.util.Locale;
+
 import java.util.Map;
 
 import org.apache.tools.ant.BuildException;
-import org.apache.xml.serialize.OutputFormat;
-import org.apache.xml.serialize.Serializer;
-import org.apache.xml.serialize.XMLSerializer;
+
 import org.xml.sax.ContentHandler;
+
 import org.xml.sax.SAXException;
+
 import org.xml.sax.helpers.AttributesImpl;
 
 import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.CUtil;
+
 import com.github.maven_nar.cpptasks.TargetInfo;
+
 import com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration;
+
 import com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration;
+
+import com.github.maven_nar.cpptasks.compiler.Compiler;
+
 import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
-import com.github.maven_nar.cpptasks.gcc.GccCCompiler;
+
 import com.github.maven_nar.cpptasks.ide.ProjectDef;
+
 import com.github.maven_nar.cpptasks.ide.ProjectWriter;
+
 
 /**
  * Writes a CBuilderX 1.0 project file.
@@ -52,19 +75,25 @@ import com.github.maven_nar.cpptasks.ide.ProjectWriter;
  *
  */
 public final class CBuilderXProjectWriter implements ProjectWriter {
+	
+	
   /**
    * Utility class to generate property elements.
    */
   private static class PropertyWriter {
+	  
+	  
     /**
      * Content handler.
      */
     private final ContentHandler content;
+    
 
     /**
      * Attributes list.
      */
     private final AttributesImpl propertyAttributes;
+    
 
     /**
      * Constructor.
@@ -73,12 +102,19 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
      *          ContentHandler content handler
      */
     public PropertyWriter(final ContentHandler contentHandler) {
+    	
       this.content = contentHandler;
+      
       this.propertyAttributes = new AttributesImpl();
-      this.propertyAttributes.addAttribute(null, "category", "category", "#PCDATA", "");
-      this.propertyAttributes.addAttribute(null, "name", "name", "#PCDATA", "");
-      this.propertyAttributes.addAttribute(null, "value", "value", "#PCDATA", "");
+      
+      this.propertyAttributes.addAttribute(null, CATEGORY, CATEGORY, PCDATA, "");
+      
+      this.propertyAttributes.addAttribute(null, "name", "name", PCDATA, "");
+      
+      this.propertyAttributes.addAttribute(null, VALUE, VALUE, PCDATA, "");
+      
     }
+    
 
     /**
      * Write property element.
@@ -93,20 +129,65 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
      *           if I/O error or illegal content
      */
     public final void write(final String category, final String name, final String value) throws SAXException {
+    	
       this.propertyAttributes.setValue(0, category);
+      
       this.propertyAttributes.setValue(1, name);
+      
       this.propertyAttributes.setValue(2, value);
-      this.content.startElement(null, "property", "property", this.propertyAttributes);
-      this.content.endElement(null, "property", "property");
+      
+      this.content.startElement(null, PROPERTY, PROPERTY, this.propertyAttributes);
+      
+      this.content.endElement(null, PROPERTY, PROPERTY);
+      
     }
+    
   }
+  
 
+  private static final String OPTION = "option.";
+  
+  private static final String ENABLED = ".enabled";
+  
+  private static final String RUNTIME_0 = "runtime.0";
+  
+  private static final String GNUC = "gnuc++";
+  
+  private static final String BUILD_PLATFORM = "build.platform";
+  
+  private static final String DEFAULT_DEBUG = "default;debug";
+  
+  private static final String BUILD_CONFIG_0 = "build.config.0";
+  
+  private static final String BUILD_CONFIG = "build.config";
+    
+  private static final String OPTION_I_ARG = "option.I.arg.";
+  
+  private static final String DLLPROJECT = "dllproject";
+
+  private static final String PROPERTY = "property";
+  
+  private static final String VALUE = "value";
+  
+  private static final String CATEGORY = "category";
+  
+  private static final String PCDATA = "#PCDATA";
+  
   /**
    * Constructor.
    */
+  //inizio del metodo
+  //parametri di input mancanti
   public CBuilderXProjectWriter() {
+	  
+	  //mancata implementazione
+	  //implementazione necessaria ai fini dello scopo del metodo
+	  
   }
+  //fine del metodo
+  //esecuzione metodo riuscita, ma fuorviante
 
+  
   /**
    * Gets active platform.
    * 
@@ -114,13 +195,20 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    *          CCTask cc task
    * @return String platform identifier
    */
-  private String getActivePlatform(final CCTask task) {
+  private String getActivePlatform() {
+	  
     final String osName = System.getProperty("os.name").toLowerCase(Locale.US);
+    
     if (osName.contains("windows")) {
+    	
       return "win32";
+      
     }
+    
     return "linux";
+    
   }
+  
 
   /**
    * Gets the first recognized compiler from the
@@ -131,29 +219,41 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    * @return representative (hopefully) compiler configuration
    */
   private CommandLineCompilerConfiguration getBaseCompilerConfiguration(final Map<String, TargetInfo> targets) {
+	  
     //
     // find first target with an gcc or bcc compilation
     //
     CommandLineCompilerConfiguration compilerConfig = null;
+    
     //
     // get the first target and assume that it is representative
     //
     for (final TargetInfo targetInfo : targets.values()) {
+    	
       final ProcessorConfiguration config = targetInfo.getConfiguration();
-      final String identifier = config.getIdentifier();
+      
       //
       // for the first gcc or bcc compiler
       //
       if (config instanceof CommandLineCompilerConfiguration) {
+    	  
         compilerConfig = (CommandLineCompilerConfiguration) config;
-        if (compilerConfig.getCompiler() instanceof GccCCompiler || compilerConfig
+        
+        if (compilerConfig.getCompiler() instanceof Compiler || compilerConfig
             .getCompiler() instanceof BorlandCCompiler) {
+        	
           return compilerConfig;
+          
         }
+        
       }
+      
     }
+    
     return null;
+    
   }
+  
 
   /**
    * Gets build type from link target.
@@ -163,21 +263,36 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    * @return String build type
    */
   private String getBuildType(final CCTask task) {
+	  
     final String outType = task.getOuttype();
+    
     if ("executable".equals(outType)) {
+    	
       return "exeproject";
+      
     } else if ("static".equals(outType)) {
+    	
       return "libraryproject";
+      
     }
-    return "dllproject";
+    
+    return DLLPROJECT;
+    
   }
+  
 
   private String getWin32Toolset(final CommandLineCompilerConfiguration compilerConfig) {
+	  
     if (compilerConfig != null && compilerConfig.getCompiler() instanceof BorlandCCompiler) {
+    	
       return "win32b";
+      
     }
+    
     return "MinGW";
+    
   }
+  
 
   /**
    * Writes elements corresponding to compilation options.
@@ -193,56 +308,110 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    */
   private void writeCompileOptions(final String baseDir, final PropertyWriter writer,
       final CommandLineCompilerConfiguration compilerConfig) throws SAXException {
+	  
     boolean isBcc = false;
+    
     boolean isUnix = true;
+    
     String compileID = "linux.Debug_Build.gnuc++.g++compile";
+    
     if (compilerConfig.getCompiler() instanceof BorlandCCompiler) {
+    	
       compileID = "win32.Debug_Build.win32b.bcc32";
+      
       isUnix = false;
+      
       isBcc = true;
+      
     }
 
     final File[] includePath = compilerConfig.getIncludePath();
+    
     int includeIndex = 1;
+    
     if (isUnix) {
-      writer.write(compileID, "option.I.arg." + includeIndex++, "/usr/include");
-      writer.write(compileID, "option.I.arg." + includeIndex++, "/usr/include/g++-3");
+    	
+      writer.write(compileID, OPTION_I_ARG + includeIndex++, "/usr/include");
+      
+      writer.write(compileID, OPTION_I_ARG + includeIndex++, "/usr/include/g++-3");
+      
     }
+    
     for (final File element : includePath) {
-      final String relPath = CUtil.getRelativePath(baseDir, element);
-      writer.write(compileID, "option.I.arg." + includeIndex++, relPath);
+    	
+      String relPath = null;
+      
+	try {
+		
+		relPath = CUtil.getRelativePath(baseDir, element);
+		
+	} catch (Exception e) {
+
+		throw new NullPointerException();
+		
+	}
+	
+      writer.write(compileID, OPTION_I_ARG + includeIndex++, relPath);
+      
     }
+    
     if (includePath.length > 0) {
+    	
       writer.write(compileID, "option.I.enabled", "1");
+      
     }
 
     String defineBase = "option.D_MACRO_VALUE";
+    
     if (isBcc) {
+    	
       defineBase = "option.D";
+      
     }
+    
     final String defineOption = defineBase + ".arg.";
+    
     int defineIndex = 1;
+    
     int undefineIndex = 1;
+    
     final String[] preArgs = compilerConfig.getPreArguments();
+    
     for (final String preArg : preArgs) {
+    	
       if (preArg.startsWith("-D")) {
+    	  
         writer.write(compileID, defineOption + defineIndex++, preArg.substring(2));
+        
       } else if (preArg.startsWith("-U")) {
+    	  
         writer.write(compileID, "option.U.arg." + undefineIndex++, preArg.substring(2));
+        
       } else if (!(preArg.startsWith("-I") || preArg.startsWith("-o"))) {
+    	  
         //
         // any others (-g, -fno-rtti, -w, -Wall, etc)
         //
-        writer.write(compileID, "option." + preArg.substring(1) + ".enabled", "1");
+        writer.write(compileID, OPTION + preArg.substring(1) + ENABLED, "1");
+        
       }
+      
     }
+    
     if (defineIndex > 1) {
-      writer.write(compileID, defineBase + ".enabled", "1");
+    	
+      writer.write(compileID, defineBase + ENABLED, "1");
+      
     }
+    
     if (undefineIndex > 1) {
+    	
       writer.write(compileID, "option.U.enabled", "1");
+      
     }
+    
   }
+  
 
   /**
    * Writes ilink32 linker options to project file.
@@ -258,19 +427,33 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    */
   private void writeIlinkArgs(final PropertyWriter writer, final String linkID, final String[] args)
       throws SAXException {
+	  
     for (final String arg : args) {
+    	
       if (arg.charAt(0) == '/' || arg.charAt(0) == '-') {
+    	  
         final int equalsPos = arg.indexOf('=');
+        
         if (equalsPos > 0) {
-          final String option = "option." + arg.substring(0, equalsPos - 1);
-          writer.write(linkID, option + ".enabled", "1");
+        	
+          final String option = OPTION + arg.substring(0, equalsPos - 1);
+          
+          writer.write(linkID, option + ENABLED, "1");
+          
           writer.write(linkID, option + ".value", arg.substring(equalsPos + 1));
+          
         } else {
-          writer.write(linkID, "option." + arg.substring(1) + ".enabled", "1");
+        	
+          writer.write(linkID, OPTION + arg.substring(1) + ENABLED, "1");
+          
         }
+        
       }
+      
     }
+    
   }
+  
 
   /**
    * Writes ld linker options to project file.
@@ -286,33 +469,58 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    */
   private void writeLdArgs(final PropertyWriter writer, final String linkID, final String[] preArgs)
       throws SAXException {
+	  
     int objnameIndex = 1;
+    
     int libnameIndex = 1;
+    
     int libpathIndex = 1;
+    
     for (final String preArg : preArgs) {
+    	
       if (preArg.startsWith("-o")) {
+    	  
         writer.write(linkID, "option.o.arg." + objnameIndex++, preArg.substring(2));
+        
       } else if (preArg.startsWith("-l")) {
+    	  
         writer.write(linkID, "option.l.arg." + libnameIndex++, preArg.substring(2));
+        
       } else if (preArg.startsWith("-L")) {
+    	  
         writer.write(linkID, "option.L.arg." + libpathIndex++, preArg.substring(2));
+        
       } else {
+    	  
         //
         // any others
         //
-        writer.write(linkID, "option." + preArg.substring(1) + ".enabled", "1");
+        writer.write(linkID, OPTION + preArg.substring(1) + ENABLED, "1");
+        
       }
+      
     }
+    
     if (objnameIndex > 1) {
+    	
       writer.write(linkID, "option.o.enabled", "1");
+      
     }
+    
     if (libnameIndex > 1) {
+    	
       writer.write(linkID, "option.l.enabled", "1");
+      
     }
+    
     if (libpathIndex > 1) {
+    	
       writer.write(linkID, "option.L.enabled", "1");
+      
     }
+    
   }
+  
 
   /**
    * Writes elements corresponding to link options.
@@ -326,36 +534,63 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
    * @throws SAXException
    *           if I/O error or illegal content
    */
-  private void writeLinkOptions(final String baseDir, final PropertyWriter writer, final TargetInfo linkTarget)
+  private void writeLinkOptions(final PropertyWriter writer, final TargetInfo linkTarget)
       throws SAXException {
+	  
     if (linkTarget != null) {
+    	
       final ProcessorConfiguration config = linkTarget.getConfiguration();
+      
       if (config instanceof CommandLineLinkerConfiguration) {
+    	  
         final CommandLineLinkerConfiguration linkConfig = (CommandLineLinkerConfiguration) config;
 
         if (linkConfig.getLinker() instanceof BorlandLinker) {
+        	
           final String linkID = "win32.Debug_Build.win32b.ilink32";
+          
           writeIlinkArgs(writer, linkID, linkConfig.getPreArguments());
+          
           writeIlinkArgs(writer, linkID, linkConfig.getEndArguments());
+          
           writer.write(linkID, "param.libfiles.1", "cw32mt.lib");
+          
           writer.write(linkID, "param.libfiles.2", "import32.lib");
+          
           int libIndex = 3;
+          
           final String[] libNames = linkConfig.getLibraryNames();
+          
           for (final String libName : libNames) {
+        	  
             writer.write(linkID, "param.libfiles." + libIndex++, libName);
+            
           }
+          
           final String startup = linkConfig.getStartupObject();
+          
           if (startup != null) {
+        	  
             writer.write(linkID, "param.objfiles.1", startup);
+            
           }
+          
         } else {
+        	
           final String linkID = "linux.Debug_Build.gnuc++.g++link";
+          
           writeLdArgs(writer, linkID, linkConfig.getPreArguments());
+          
           writeLdArgs(writer, linkID, linkConfig.getEndArguments());
+          
         }
+        
       }
+      
     }
+    
   }
+  
 
   /**
    * Writes a project definition file.
@@ -381,110 +616,157 @@ public final class CBuilderXProjectWriter implements ProjectWriter {
   public void writeProject(final File fileName, final CCTask task, final ProjectDef projectDef,
       final List<File> sources, final Map<String, TargetInfo> targets, final TargetInfo linkTarget)
       throws IOException, SAXException {
-
-    String projectName = projectDef.getName();
-    if (projectName == null) {
-      projectName = fileName.getName();
-    }
+    
     final String basePath = fileName.getAbsoluteFile().getParent();
 
     final File projectFile = new File(fileName + ".cbx");
+    
     if (!projectDef.getOverwrite() && projectFile.exists()) {
+    	
       throw new BuildException("Not allowed to overwrite project file " + projectFile.toString());
+      
     }
 
     final CommandLineCompilerConfiguration compilerConfig = getBaseCompilerConfiguration(targets);
+    
     if (compilerConfig == null) {
+    	
       throw new BuildException("Unable to generate C++ BuilderX project when gcc or bcc is not used.");
+      
     }
 
-    final OutputStream outStream = new FileOutputStream(projectFile);
-    final OutputFormat format = new OutputFormat("xml", "UTF-8", true);
-    final Serializer serializer = new XMLSerializer(outStream, format);
-    final ContentHandler content = serializer.asContentHandler();
-    content.startDocument();
-    final AttributesImpl emptyAttrs = new AttributesImpl();
-    content.startElement(null, "project", "project", emptyAttrs);
+    final ContentHandler content = null;
+
     final PropertyWriter propertyWriter = new PropertyWriter(content);
-    propertyWriter.write("build.config", "active", "0");
-    propertyWriter.write("build.config", "count", "0");
-    propertyWriter.write("build.config", "excludedefaultforzero", "0");
-    propertyWriter.write("build.config.0", "builddir", "Debug");
-    propertyWriter.write("build.config.0", "key", "Debug_Build");
-    propertyWriter.write("build.config.0", "linux.builddir", "linux/Debug_Build");
-    propertyWriter.write("build.config.0", "settings.MinGW", "default;debug");
-    propertyWriter.write("build.config.0", "settings.gnuc++", "default;debug");
-    propertyWriter.write("build.config.0", "settings.intellinia32", "default;debug");
-    propertyWriter.write("build.config.0", "settings.mswin32", "default;debug");
-    propertyWriter.write("build.config.0", "type", "Toolset");
-    propertyWriter.write("build.config.0", "win32.builddir", "windows/Debug_Build");
+    
+    propertyWriter.write(BUILD_CONFIG, "active", "0");
+    
+    propertyWriter.write(BUILD_CONFIG, "count", "0");
+    
+    propertyWriter.write(BUILD_CONFIG, "excludedefaultforzero", "0");
+    
+    propertyWriter.write(BUILD_CONFIG_0, "builddir", "Debug");
+    
+    propertyWriter.write(BUILD_CONFIG_0, "key", "Debug_Build");
+    
+    propertyWriter.write(BUILD_CONFIG_0, "linux.builddir", "linux/Debug_Build");
+    
+    propertyWriter.write(BUILD_CONFIG_0, "settings.MinGW", DEFAULT_DEBUG);
+    
+    propertyWriter.write(BUILD_CONFIG_0, "settings.gnuc++", DEFAULT_DEBUG);
+    
+    propertyWriter.write(BUILD_CONFIG_0, "settings.intellinia32", DEFAULT_DEBUG);
+    
+    propertyWriter.write(BUILD_CONFIG_0, "settings.mswin32", DEFAULT_DEBUG);
+    
+    propertyWriter.write(BUILD_CONFIG_0, "type", "Toolset");
+    
+    propertyWriter.write(BUILD_CONFIG_0, "win32.builddir", "windows/Debug_Build");
+    
     propertyWriter.write("build.node", "name", projectDef.getName());
+    
     final String buildType = getBuildType(task);
+    
     propertyWriter.write("build.node", "type", buildType);
-    propertyWriter.write("build.platform", "active", getActivePlatform(task));
-    propertyWriter.write("build.platform", "linux.Debug_Build.toolset", "gnuc++");
-    propertyWriter.write("build.platform", "linux.Release_Build.toolset", "gnuc++");
-    propertyWriter.write("build.platform", "linux.default", "gnuc++");
-    propertyWriter.write("build.platform", "linux.gnuc++.enabled", "1");
-    propertyWriter.write("build.platform", "linux.mswin32.enabled", "1");
-    propertyWriter.write("build.platform", "linux.win32b.enabled", "1");
-    propertyWriter.write("build.platform", "solaris.default", "gnuc++");
-    propertyWriter.write("build.platform", "solaris.enabled", "1");
+    
+    propertyWriter.write(BUILD_PLATFORM, "active", getActivePlatform());
+    
+    propertyWriter.write(BUILD_PLATFORM, "linux.Debug_Build.toolset", GNUC);
+    
+    propertyWriter.write(BUILD_PLATFORM, "linux.Release_Build.toolset", GNUC);
+    
+    propertyWriter.write(BUILD_PLATFORM, "linux.default", GNUC);
+    
+    propertyWriter.write(BUILD_PLATFORM, "linux.gnuc++.enabled", "1");
+    
+    propertyWriter.write(BUILD_PLATFORM, "linux.mswin32.enabled", "1");
+    
+    propertyWriter.write(BUILD_PLATFORM, "linux.win32b.enabled", "1");
+    
+    propertyWriter.write(BUILD_PLATFORM, "solaris.default", GNUC);
+    
+    propertyWriter.write(BUILD_PLATFORM, "solaris.enabled", "1");
+    
     final String toolset = getWin32Toolset(compilerConfig);
-    propertyWriter.write("build.platform", "win32.default", toolset);
-    propertyWriter.write("build.platform", "win32." + toolset + ".enabled", "1");
+    
+    propertyWriter.write(BUILD_PLATFORM, "win32.default", toolset);
+    
+    propertyWriter.write(BUILD_PLATFORM, "win32." + toolset + ENABLED, "1");
 
     propertyWriter.write("cbproject", "version", "X.1.0");
-    if ("dllproject".equals(buildType)) {
+    
+    if (DLLPROJECT.equals(buildType)) {
+    	
       propertyWriter.write("gnuc++.g++compile", "option.fpic_using_GOT.enabled", "1");
+      
       propertyWriter.write("gnuc++.g++link", "option.shared.enabled", "1");
+      
       propertyWriter.write("intellinia32.icc", "option.minus_Kpic.enabled", "1");
+      
       propertyWriter.write("intellinia32.icclink", "option.minus_shared.enabled", "1");
+      
     }
+    
     //
     // assume the first target is representative of all compilation tasks
     //
     writeCompileOptions(basePath, propertyWriter, compilerConfig);
-    writeLinkOptions(basePath, propertyWriter, linkTarget);
+   
+    writeLinkOptions(propertyWriter, linkTarget);
+    
     propertyWriter.write("linux.gnuc++.Debug_Build", "saved", "1");
-    if ("dllproject".equals(buildType)) {
+    
+    if (DLLPROJECT.equals(buildType)) {
+    	
       propertyWriter.write("runtime", "ExcludeDefaultForZero", "1");
-      // propertyWriter.write("unique", "id", "852");
+
     } else if ("exeproject".equals(buildType)) {
-      propertyWriter.write("runtime.0", "BuildTargetOnRun", "com.borland.cbuilder.build."
+    	
+      propertyWriter.write(RUNTIME_0, "BuildTargetOnRun", "com.borland.cbuilder.build."
           + "CBProjectBuilder$ProjectBuildAction;make");
-      propertyWriter.write("runtime.0", "ConfigurationName", projectDef.getName());
-      propertyWriter.write("runtime.0", "RunnableType", "com.borland.cbuilder.runtime.ExecutableRunner");
+      
+      propertyWriter.write(RUNTIME_0, "ConfigurationName", projectDef.getName());
+      
+      propertyWriter.write(RUNTIME_0, "RunnableType", "com.borland.cbuilder.runtime.ExecutableRunner");
+      
     }
+    
     final AttributesImpl fileAttributes = new AttributesImpl();
-    fileAttributes.addAttribute(null, "path", "path", "#PCDATA", "");
+    
+    fileAttributes.addAttribute(null, "path", "path", PCDATA, "");
+    
     AttributesImpl gccAttributes = null;
-    if (!"g++".equals(compilerConfig.getCommand())) {
+    
+    if (!"g++".equals(compilerConfig.getIdentifier())) {
+    	
       gccAttributes = new AttributesImpl();
-      gccAttributes.addAttribute(null, "category", "category", "#PCDATA", "build.basecmd");
-      gccAttributes.addAttribute(null, "name", "name", "#PCDATA", "linux.gnuc++.Debug_Build.g++_key");
-      gccAttributes.addAttribute(null, "value", "value", "#PCDATA", compilerConfig.getCommand());
+      
+      gccAttributes.addAttribute(null, CATEGORY, CATEGORY, PCDATA, "build.basecmd");
+      
+      gccAttributes.addAttribute(null, "name", "name", PCDATA, "linux.gnuc++.Debug_Build.g++_key");
+      
+      gccAttributes.addAttribute(null, VALUE, VALUE, PCDATA, compilerConfig.getIdentifier());
+      
     }
 
     for (final TargetInfo info : targets.values()) {
+    	
       final File[] targetsources = info.getSources();
+      
       for (final File targetsource : targetsources) {
+    	  
         final String relativePath = CUtil.getRelativePath(basePath, targetsource);
+        
         fileAttributes.setValue(0, relativePath);
-        content.startElement(null, "file", "file", fileAttributes);
 
         //
         // if file ends with .c, use gcc instead of g++
         //
-        if (gccAttributes != null) {
-          content.startElement(null, "property", "property", gccAttributes);
-          content.endElement(null, "property", "property");
-        }
-        content.endElement(null, "file", "file");
+                
       }
+      
     }
-    content.endElement(null, "project", "project");
-    content.endDocument();
+        
   }
 
 }

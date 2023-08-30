@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.types.DefineSet#getDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+com.github.maven_nar.cpptasks.types.DefineSet#isActive()Z

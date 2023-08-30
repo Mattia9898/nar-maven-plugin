@@ -1,0 +1,55 @@
+
+£com.github.maven_nar.cpptasks.intel.IntelWin32Librarian#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java, ,("startingBlock*¥
+startingBlockÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java, ,(.§
+°
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java+ +(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeÚ
+Ô
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java,) ,(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*¨
+
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java- -(ì
+ê
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java- -():
+%04com.github.maven_nar.cpptasks.intel.IntelWin32Linker"xcom.github.maven_nar.cpptasks.intel.IntelWin32Linker#getInstance()Lcom/github/maven_nar/cpptasks/intel/IntelWin32Linker;*T
+
+__unknown_file (8"6
+4com.github.maven_nar.cpptasks.intel.IntelWin32LinkerŒÀ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java- -(93
+%1-com.github.maven_nar.cpptasks.compiler.Linker"†com.github.maven_nar.cpptasks.intel.IntelWin32Linker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*X
+
+__unknown_file (<
+:
+%04com.github.maven_nar.cpptasks.intel.IntelWin32Linker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"ª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java- -(:5
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:Ω
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/intel/IntelWin32Librarian.java, ,(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB;9
+7com.github.maven_nar.cpptasks.intel.IntelWin32LibrarianH

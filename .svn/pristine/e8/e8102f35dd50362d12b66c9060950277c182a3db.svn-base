@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#setRuntime(Lcom/github/maven_nar/cpptasks/RuntimeType;)V
+org.apache.tools.ant.types.EnumeratedAttribute#getIndex()I

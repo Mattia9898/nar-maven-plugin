@@ -1,0 +1,3 @@
+com.github.maven_nar.Compiler#getPrefix()Ljava/lang/String;
+com.github.maven_nar.AOL#getKey()Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;

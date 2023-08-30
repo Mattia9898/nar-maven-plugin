@@ -1,0 +1,9 @@
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#addNativeTargetConfigurationList(Ljava/util/Map;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;
+java.util.ArrayList#<init>()V
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#createXCConfigurationList(Ljava/util/List;)Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;
+java.util.HashMap#<init>()V
+java.util.ArrayList#instance-init#
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#createXCBuildConfiguration(Ljava/lang/String;Ljava/util/Map;)Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;
+java.util.HashMap#instance-init#
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#getID()Ljava/lang/String;
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#getProperties()Ljava/util/Map;

@@ -1,0 +1,23 @@
+
+Vcom.github.maven_nar.cpptasks.borland.BorlandLibrarian#getLibraryPath()[Ljava/io/File;€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaM M("1*Á
+1€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaN N(š
+—
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaN N(3
+%0java.io.File[]"ocom.github.maven_nar.cpptasks.CUtil#getPathFromEnvironment(Ljava/lang/String;Ljava/lang/String;)[Ljava/io/File;*C
+
+__unknown_file ('"%
+#com.github.maven_nar.cpptasks.CUtil*#
+
+__unknown_file (
+LIB*!
+
+__unknown_file (
+;"›
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLibrarian.javaN N(4
+
+%0java.io.File[]B:8
+6com.github.maven_nar.cpptasks.borland.BorlandLibrarianH

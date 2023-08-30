@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.CUtil#xmlAttribEncode(Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuffer#insert(ILjava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#deleteCharAt(I)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#indexOf(Ljava/lang/String;I)I

@@ -1,0 +1,6 @@
+com.github.maven_nar.NarUtil#runRanlib(Ljava/io/File;Lorg/apache/maven/plugin/logging/Log;)V
+com.github.maven_nar.NarUtil#runCommand(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;[Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)I
+org.apache.maven.plugin.MojoExecutionException#<init>(Ljava/lang/String;)V
+java.lang.String#endsWith(Ljava/lang/String;)Z
+org.apache.maven.plugin.MojoExecutionException#instance-init#
+com.github.maven_nar.NarUtil#runRanlib(Ljava/io/File;Lorg/apache/maven/plugin/logging/Log;)V

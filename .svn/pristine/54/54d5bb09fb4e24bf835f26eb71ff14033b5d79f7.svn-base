@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.LinkType#getSubsystem()Ljava/lang/String;
+org.apache.tools.ant.types.EnumeratedAttribute#getValue()Ljava/lang/String;

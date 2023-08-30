@@ -1,0 +1,2 @@
+com.github.maven_nar.AbstractDependencyMojo#nodeArtifactsMatch(Lorg/eclipse/aether/graph/DependencyNode;Lorg/eclipse/aether/graph/DependencyNode;)Z
+java.lang.String#equals(Ljava/lang/Object;)Z

@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;

@@ -1,0 +1,51 @@
+
+tcom.github.maven_nar.cpptasks.msvc.MsvcCompatibleCCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.javaµ µ(&"startingBlock*ë
+startingBlockÜ
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.javaµ& µ(?ê
+ç
+Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.java¥ ¥(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.Stringﬁ
+€
+Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.javaµ4 µ(>
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*’
+1Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.java∂ ∂(†
+ù
+Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.java∂ ∂(8
+%0java.lang.String"jcom.github.maven_nar.cpptasks.msvc.MsvcProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0com.github.maven_nar.cpptasks.msvc.MsvcProcessor*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String"£
+Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.java∂ ∂(9
+
+%0java.lang.String:©
+Ü
+zC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleCCompiler.javaµ' µ(>
+
+includeDirjava.lang.StringB><
+:com.github.maven_nar.cpptasks.msvc.MsvcCompatibleCCompiler

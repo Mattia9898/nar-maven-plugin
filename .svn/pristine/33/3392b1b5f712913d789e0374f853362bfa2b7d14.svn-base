@@ -1,0 +1,67 @@
+
+ˆcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#getActivePlatform(Lcom/github/maven_nar/cpptasks/CCTask;)Ljava/lang/String;†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javau u(""3*£
+2†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javax x("”
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javax x(	
+win32*å
+3†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javav v( Ã
+À
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javav v(7
+%0java.lang.String"Bjava.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.System*'
+
+__unknown_file (	
+os.nameÎ
+Ë
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javavD v(M
+%1java.util.Locale"__id*"
+
+__unknown_file (
+""õò
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javav v(N
+%2java.lang.String"Bjava.lang.String#toLowerCase(Ljava/util/Locale;)Ljava/lang/String;*4
+
+__unknown_file (
+
+%0java.lang.String*4
+
+__unknown_file (
+
+%1java.util.Locale2toLowerCase(Ljava/util/Locale;)ä
+á
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javav v(O
+osNamejava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.StringØÕ
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaw w("
+%3boolean"4java.lang.String#contains(Ljava/lang/CharSequence;)Z*8
+
+__unknown_file (
+
+osNamejava.lang.String*'
+
+__unknown_file (	
+windows2"contains(Ljava/lang/CharSequence;)*
+2
+1*£
+1†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaz z("”
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaz z(	
+linux:·
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javau# u(4,
+task$com.github.maven_nar.cpptasks.CCTaskB@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter

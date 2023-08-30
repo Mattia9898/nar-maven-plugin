@@ -1,0 +1,47 @@
+
+Åcom.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaU U("startingBlock*Ú
+startingBlockÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaU U(2É
+Ä
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaT T(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+sourcejava.io.File—
+Œ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaU+ U(1
+sourcejava.io.File"__annotation*"
+
+__unknown_file (
+
+%2*
+1* 
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaV V(ÈÊ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaV V(2
+%0,com.github.maven_nar.cpptasks.parser.CParser",com.github.maven_nar.cpptasks.parser.CParseró
+î
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaV V(
+%1"6com.github.maven_nar.cpptasks.parser.CParser#<init>()V*P
+
+__unknown_file (4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser"∫
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaV V(4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser:ú
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javaU  U(1
+sourcejava.io.FileB;9
+7com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler

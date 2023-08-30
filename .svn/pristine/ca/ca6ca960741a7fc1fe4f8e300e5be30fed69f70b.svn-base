@@ -1,0 +1,4 @@
+com.github.maven_nar.StringTextStream#<init>()V
+java.lang.StringBuffer#<init>()V
+java.lang.StringBuffer#instance-init#
+java.lang.System#getProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

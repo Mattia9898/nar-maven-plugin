@@ -1,0 +1,117 @@
+
+Àcom.github.maven_nar.cpptasks.apple.XcodeProjectWriter#createPBXGroup(Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaõ õ(,"1*ý
+1‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaö ö(!´±
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaö ö(
+%0java.util.HashMap"java.util.HashMapâ
+ß
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaö ö(!
+%1"java.util.HashMap#<init>()V*5
+
+__unknown_file (
+
+%0java.util.HashMapÛ
+Ø
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaö ö("
+mapjava.util.Map"__id*5
+
+__unknown_file (
+
+%0java.util.HashMap­
+ª
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.java÷ ÷(
+%2java.lang.Object"__mapSet*2
+
+__unknown_file (
+
+mapjava.util.Map*#
+
+__unknown_file (
+isa*(
+
+__unknown_file (
+
+PBXGroup¼
+¹
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaø ø(
+%3java.lang.Object"__mapSet*2
+
+__unknown_file (
+
+mapjava.util.Map*$
+
+__unknown_file (
+name*6
+
+__unknown_file (
+
+namejava.lang.StringÈ
+Å
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaù ù(%
+%4java.lang.Object"__mapSet*2
+
+__unknown_file (
+
+mapjava.util.Map**
+
+__unknown_file (
+
+sourceTree*<
+
+__unknown_file ( 
+
+
+sourceTreejava.lang.StringÂ
+¿
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaú ú(!
+%5java.lang.Object"__mapSet*2
+
+__unknown_file (
+
+mapjava.util.Map*(
+
+__unknown_file (
+
+children*8
+
+__unknown_file (
+
+childrenjava.util.List˜•
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaû û(I
+%6Ccom.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef"Ccom.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef‰
+†
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaû û( 
+%7"\com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#<init>(Ljava/util/Map;)V*g
+
+__unknown_file (K
+I
+%6Ccom.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef*2
+
+__unknown_file (
+
+mapjava.util.Map"Ò
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaû û(!K
+I
+%6Ccom.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef:Ÿ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaõ- õ(?
+namejava.lang.String:¥
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaõ@ õ(X
+
+sourceTreejava.lang.String:¡
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/apple/XcodeProjectWriter.javaõY õ(l
+childrenjava.util.ListB:"8
+6com.github.maven_nar.cpptasks.apple.XcodeProjectWriter

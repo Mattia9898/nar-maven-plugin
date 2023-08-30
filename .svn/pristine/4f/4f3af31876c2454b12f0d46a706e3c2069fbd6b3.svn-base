@@ -1,0 +1,2 @@
+com.github.maven_nar.NarUnpackDependenciesMojo#narExecute()V
+com.github.maven_nar.AbstractDependencyMojo#unpackAttachedNars(Ljava/util/List;)V

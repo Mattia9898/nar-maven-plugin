@@ -1,0 +1,3 @@
+com.github.maven_nar.NarIntegrationTestMojo#addProvider(Lorg/apache/maven/surefire/booter/SurefireBooter;Ljava/lang/String;Ljava/lang/String;Lorg/apache/maven/artifact/Artifact;)V
+com.github.maven_nar.NarIntegrationTestMojo#resolveArtifact(Lorg/apache/maven/artifact/Artifact;Lorg/apache/maven/artifact/Artifact;)Lorg/apache/maven/artifact/resolver/ArtifactResolutionResult;
+org.apache.maven.artifact.versioning.VersionRange#createFromVersion(Ljava/lang/String;)Lorg/apache/maven/artifact/versioning/VersionRange;

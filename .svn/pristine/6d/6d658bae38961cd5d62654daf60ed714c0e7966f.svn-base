@@ -1,0 +1,308 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar.cpptasks.ibm;
+
+import com.github.maven_nar.cpptasks.CCTask;
+import com.github.maven_nar.cpptasks.OptimizationEnum;
+import com.github.maven_nar.cpptasks.ProcessorDef;
+import com.github.maven_nar.cpptasks.TargetDef;
+import com.github.maven_nar.cpptasks.VersionInfo;
+import com.github.maven_nar.cpptasks.compiler.CommandLineCCompiler;
+
+import com.github.maven_nar.cpptasks.compiler.LinkType;
+
+import com.github.maven_nar.cpptasks.compiler.Linker;
+
+import com.github.maven_nar.cpptasks.compiler.Processor;
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+import org.apache.tools.ant.types.Environment;
+
+import java.io.File;
+
+import java.util.ArrayList;
+import java.util.Random;
+
+
+/**
+ * Adapter for the IBM(r) Visual Age(tm) C++ compiler for AIX(tm)
+ *
+ * @author Curt Arnold
+ */
+public final class xlC_rCompiler extends CommandLineCCompiler {
+	
+  private final static String[] sourceExtensions = new String[] {
+      ".c", ".cc", ".cxx", ".cpp", ".i", ".s"
+  };
+
+  private static final xlC_rCompiler instance = new xlC_rCompiler("xlC_r", sourceExtensions, null);
+
+private static final ProcessorConfiguration PROCESSOR_CONFIGURATION = null;
+
+  /**
+   * Gets singleton instance of this class
+   */
+  public static xlC_rCompiler getInstance() {
+    return instance;
+  }
+
+
+  /**
+   * Private constructor. Use getInstance() to get singleton instance of this
+   * class.
+   */
+  private xlC_rCompiler(final String command, final String[] sourceExtensions,
+                        final Environment env) {
+	  
+    super(command, "-help", sourceExtensions, new String[] {command}, false, null, env);
+    
+  }
+
+  
+  public void addImpliedArgs1(final ArrayList<String> args, final boolean debug,
+      final LinkType linkType, final Boolean rtti) {
+	  
+    args.add("-c");
+    
+    if (debug) {
+      args.add("-g");
+    }
+    
+    if (linkType.isSharedLibrary()) {
+      args.add("-fpic");
+    }
+    
+    if (rtti != null) {
+    	
+      if (rtti.booleanValue()) {
+        args.add("-qrtti=all");
+      } else {
+        args.add("-qnortti");
+      }
+      
+    }
+    
+  }
+
+  
+  public void addWarningSwitch1(final ArrayList<String> args, final int level) {
+	  
+    switch (level) {
+    
+      case 0:
+        args.add("-w");
+        break;
+      case 1:
+        args.add("-qflag=s:s");
+        break;
+      case 2:
+        args.add("-qflag=e:e");
+        break;
+      case 3:
+        args.add("-qflag=w:w");
+        break;
+      case 4:
+        args.add("-qflag=i:i");
+        break;
+      case 5:
+        args.add("-qhalt=w:w");
+        break;
+      default:
+    	  throw new NullPointerException();
+    	  
+    }
+    
+  }
+
+  /**
+   * Gets identifier for the compiler.
+   * 
+   * Initial attempt at extracting version information
+   * would lock up. Using a stock response.
+   */
+  @Override
+  public String getIdentifier() {
+    return "xlC_r compiler - unidentified version";
+  }
+
+  @Override
+  public Linker getLinker(final LinkType linkType) {
+    return VisualAgeLinker.getInstance().getLinker(linkType);
+  }
+
+  @Override
+  public int getMaximumCommandLength() {
+    return Integer.MAX_VALUE;
+  }
+
+
+@Override
+public int bid(String inputFile) {
+
+	return 0;
+}
+
+
+@Override
+public Processor changeEnvironment(boolean newEnvironment, Environment env) {
+
+	return null;
+}
+
+
+	/*inizio del metodo: addImpliedArgs
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addImpliedArgs*/		
+	}
+	/*fine del metodo: addImpliedArgs
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+
+
+	/*inizio del metodo: addWarningSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addWarningSwitch(ArrayList<String> args, int warnings) {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addWarningSwitch*/		
+	}
+	/*fine del metodo: addWarningSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+
+
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	protected void getDefineSwitch() {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+
+
+	@Override
+	protected File[] getEnvironmentIncludePath() {
+		
+		Random r = new Random();
+		int indice = r.nextInt(5);
+		return new File[indice];
+				
+	}
+
+
+	@Override
+	protected String getIncludeDirSwitch(String source) {
+
+		return null;
+	}
+
+
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	public void getUndefineSwitch() {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/			
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+
+	public String getInputFileArgument() {
+
+		return getOutputSuffix();
+	}
+
+
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/		
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+
+
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs,
+			ArrayList<String> midargs, ArrayList<String> endargs) {
+
+		return sourceExtensions;
+	}
+
+
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+
+		return PROCESSOR_CONFIGURATION;
+		
+	}
+
+
+	@Override
+	protected String getOutputSuffix() {
+
+		return identifier;
+	}
+
+
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+
+		return inputFile;
+	}
+
+
+}

@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.TargetHistoryTable#update(Lcom/github/maven_nar/cpptasks/TargetInfo;)V
+com.github.maven_nar.cpptasks.TargetInfo#getOutput()Ljava/io/File;
+com.github.maven_nar.cpptasks.TargetHistory#<init>(Ljava/lang/String;Ljava/lang/String;J[Lcom/github/maven_nar/cpptasks/SourceHistory;)V
+com.github.maven_nar.cpptasks.CUtil#isSignificantlyBefore(JJ)Z
+com.github.maven_nar.cpptasks.TargetHistory#instance-init#
+com.github.maven_nar.cpptasks.TargetInfo#getSourceHistories(Ljava/lang/String;)[Lcom/github/maven_nar/cpptasks/SourceHistory;
+com.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;

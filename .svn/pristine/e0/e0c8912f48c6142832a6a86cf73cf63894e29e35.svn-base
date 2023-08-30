@@ -1,0 +1,63 @@
+
+¨com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaI I($"startingBlock*—
+2á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaK) K(7ëé
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaK K((C
+%0=com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler"=com.github.maven_nar.cpptasks.borland.BorlandResourceCompilerŸ
+÷
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaK K(=
+%1"pcom.github.maven_nar.cpptasks.borland.BorlandResourceCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V*a
+
+__unknown_file (E
+C
+%0=com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler*"
+
+__unknown_file (
+""*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environment"—
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaK K(>E
+C
+%0=com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler*µ
+startingBlocká
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaI$ I(Y†
+ù
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaH H(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.EnvironmentÓ
+Î
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaIU I(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%2*
+2
+1*›
+1á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaM M("Õ
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaM M(A?
+=com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler: 
+
+__unknown_file (
+"":π
+á
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.javaIC I(X-
+env&org.apache.tools.ant.types.EnvironmentBA?
+=com.github.maven_nar.cpptasks.borland.BorlandResourceCompilerH

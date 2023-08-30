@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.msvc.Assembler64bitCompiler#getTotalArgumentLengthForInputFile(Ljava/io/File;Ljava/lang/String;)I
+java.lang.String#length()I
+com.github.maven_nar.cpptasks.msvc.Assembler64bitCompiler#getInputFileArgument(Ljava/io/File;Ljava/lang/String;I)Ljava/lang/String;

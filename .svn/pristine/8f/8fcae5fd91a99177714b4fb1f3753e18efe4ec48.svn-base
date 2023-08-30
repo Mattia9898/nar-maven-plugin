@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#getWin32Toolset(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;

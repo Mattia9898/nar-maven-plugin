@@ -1,0 +1,28 @@
+# pack-refs with: peeled
+b77a04efc014107e9128324c116f1abda36ce6a7 refs/remotes/origin/bchiodo_appveyor_fix
+54aae07839258be9e509ce149bdbb4eca0e664e3 refs/remotes/origin/bchiodo_compress_option
+d7e6ba9cf86b2a45a04e96158bc7c458f670f8c9 refs/remotes/origin/feature/I371-Apple-M1
+8e9aea2b03bdd777dea973fed4f95bade0ae5c88 refs/remotes/origin/feature_replay
+54a82ead6d252cb3924c6d46d7b56abc4a296d57 refs/remotes/origin/gh-pages
+152ec07799cb5512f9e8017530b9d1e14959e211 refs/remotes/origin/issue-156
+ad539c015c87276251458144624fc712aff3125b refs/remotes/origin/library-token
+56c574a87ac8c53a47239c089f08f56910621428 refs/remotes/origin/master
+04a6c6ee21e852c1c4977ed9217eb650379a7968 refs/remotes/origin/nar-system-template
+3faf82b97f3092437e7081ed3d197d811c42e9a0 refs/remotes/origin/syslib_from_deps
+67f3307fdd9631d65bb5ad4ad62defb638fd2e67 refs/remotes/origin/test-harness
+93dff0055ade1323c912c54c2a68a33b85d9e895 refs/tags/freehep-nar-plugin-format
+^75b9fcffc6709f9c65990f6d04d593d3bfb4743d
+a90394782770c57858f1eb80ef8c18eb99368082 refs/tags/nar-maven-plugin-3.0.0
+^f396bbb251431ed9a622a1f148b1a814e7c4220e
+1215aa00e208634227f40706f6fe6379d7121bb0 refs/tags/nar-maven-plugin-3.0.0-rc-2
+^ec169d5c9fbf10cc04fc753b0f9f676eb85be600
+bf66e59fc82cb80becf0aed6a568ff592088fb7c refs/tags/nar-maven-plugin-3.0.0-rc1
+^2e6999ae1416315212396cbff55a7fb60ff8c48d
+40f80c5bc208c9b65a7d9155f1e7b5211018c237 refs/tags/nar-maven-plugin-3.9.1
+^aa9595a4ab247bde7ed226cb8e5e95cf1a965537
+4f203592a3d41d8f2c43a6a7e72593e300349f33 refs/tags/nar-maven-plugin-3.9.2
+^3f5235bfcf46cada27dbc8972a44b60fae856505
+94eb5be3a4ebcc34a1c09123bb08b8cebd098963 refs/tags/nar-maven-plugin-3.9.3
+^ffc860a853ba671c7c3ee5c1ca9aa8882802128b
+733a82823c9bed257cf7d81712c15d3910924097 refs/tags/nar-maven-plugin-3.9.4
+^8fc78c890519baaf633280b14ac9ef8ae8fa8420

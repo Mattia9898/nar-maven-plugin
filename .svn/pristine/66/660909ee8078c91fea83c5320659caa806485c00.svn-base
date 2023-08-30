@@ -1,0 +1,88 @@
+
+^com.github.maven_nar.cpptasks.LinkerDef#getStack([Lcom/github/maven_nar/cpptasks/LinkerDef;I)Is
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaµ µ("7*ô
+2s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∫ ∫(¥
+±
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∫ ∫(&-
+%3'com.github.maven_nar.cpptasks.LinkerDef"
+__arrayGet*[
+
+__unknown_file (?
+=
+defaultProviders)com.github.maven_nar.cpptasks.LinkerDef[]*"
+
+__unknown_file (
+""ËÂ
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∫ ∫(L	
+%4int"^com.github.maven_nar.cpptasks.LinkerDef#getStack([Lcom/github/maven_nar/cpptasks/LinkerDef;I)I*K
+
+__unknown_file (/
+-
+%3'com.github.maven_nar.cpptasks.LinkerDef*[
+
+__unknown_file (?
+=
+defaultProviders)com.github.maven_nar.cpptasks.LinkerDef[]*"
+
+__unknown_file (
+""25getStack([Lcom/github/maven_nar/cpptasks/LinkerDef;I)"}
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∫ ∫(M
+""*¬	
+6s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∑ ∑('›⁄
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∑ ∑(E-
+%1'com.github.maven_nar.cpptasks.LinkerDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.LinkerDef*"
+
+__unknown_file (
+""*)
+
+__unknown_file (
+	LinkerDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)ËÂ
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∑ ∑(h	
+%2int"^com.github.maven_nar.cpptasks.LinkerDef#getStack([Lcom/github/maven_nar/cpptasks/LinkerDef;I)I*K
+
+__unknown_file (/
+-
+%1'com.github.maven_nar.cpptasks.LinkerDef*[
+
+__unknown_file (?
+=
+defaultProviders)com.github.maven_nar.cpptasks.LinkerDef[]*"
+
+__unknown_file (
+""25getStack([Lcom/github/maven_nar/cpptasks/LinkerDef;I)"}
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∑ ∑(i
+""*ô
+7s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∂ ∂(ìê
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java∂ ∂(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.LinkerDef2isReference()*	
+2
+6
+1*˜
+1s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaº º("}
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaº º(
+"":¥
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.javaµ µ(9=
+defaultProviders)com.github.maven_nar.cpptasks.LinkerDef[]: 
+
+__unknown_file (
+""B+)
+'com.github.maven_nar.cpptasks.LinkerDefH

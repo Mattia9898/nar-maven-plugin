@@ -1,0 +1,82 @@
+
+hcom.github.maven_nar.cpptasks.arm.ADSCCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.javaº º(&"startingBlock*â
+startingBlockz
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.javaº& º(;ÿ
+ü
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java¹ ¹(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*8
+
+__unknown_file (
+
+sourcejava.lang.StringÍ
+Ê
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.javaº4 º(:
+sourcejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*
+1*£
+1z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java». »(2µ²
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java»! »(-
+%0java.lang.StringBuffer"java.lang.StringBuffer™
+–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java» »(3
+%1"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%0java.lang.StringBuffer*"
+
+__unknown_file (
+-Ià
+Ý
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java» »(4
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%0java.lang.StringBuffer¹
+¶
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java¼ ¼(
+
+%2void"ecom.github.maven_nar.cpptasks.arm.ADSCCompiler#quoteFile(Ljava/lang/StringBuffer;Ljava/lang/String;)V*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.arm.ADSCCompiler*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*8
+
+__unknown_file (
+
+sourcejava.lang.String•’
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java½ ½(
+%3java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer2
+toString()"–
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.java½ ½(
+
+%3java.lang.String:˜
+z
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/arm/ADSCCompiler.javaº' º(:
+sourcejava.lang.StringB20
+.com.github.maven_nar.cpptasks.arm.ADSCCompiler

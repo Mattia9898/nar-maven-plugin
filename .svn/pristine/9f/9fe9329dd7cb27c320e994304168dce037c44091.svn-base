@@ -1,0 +1,4 @@
+com.github.maven_nar.Msvc#addIncludePath(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;Ljava/lang/String;)Z
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.Msvc#addIncludePathToTask(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;)Z

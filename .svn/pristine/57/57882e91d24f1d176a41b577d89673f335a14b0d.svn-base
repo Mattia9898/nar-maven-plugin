@@ -1,0 +1,10 @@
+com.github.maven_nar.Lib#addSingleLibSet(Lcom/github/maven_nar/cpptasks/LinkerDef;Lorg/apache/tools/ant/Project;Ljava/lang/String;Ljava/io/File;)V
+com.github.maven_nar.cpptasks.types.LibrarySet#instance-init#
+com.github.maven_nar.cpptasks.types.LibraryTypeEnum#<init>()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.cpptasks.types.LibraryTypeEnum#instance-init#
+org.apache.maven.plugin.MojoFailureException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#instance-init#
+org.apache.maven.plugin.MojoFailureException#instance-init#
+com.github.maven_nar.cpptasks.types.LibrarySet#<init>()V
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#<init>(Ljava/lang/String;)V

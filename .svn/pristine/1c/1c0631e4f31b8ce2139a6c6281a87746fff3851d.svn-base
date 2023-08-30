@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.msvc.MsvcMessageCompiler#addIncludes(Ljava/lang/String;[Ljava/io/File;Ljava/util/Vector;Ljava/util/Vector;Ljava/lang/StringBuffer;Z)V

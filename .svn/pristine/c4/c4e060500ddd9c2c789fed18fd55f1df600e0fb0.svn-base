@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.arm.ADSCCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.arm.ADSLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/arm/ADSLibrarian;
+com.github.maven_nar.cpptasks.arm.ADSLinker#getInstance()Lcom/github/maven_nar/cpptasks/arm/ADSLinker;
+com.github.maven_nar.cpptasks.arm.ADSLinker#getDllInstance()Lcom/github/maven_nar/cpptasks/arm/ADSLinker;

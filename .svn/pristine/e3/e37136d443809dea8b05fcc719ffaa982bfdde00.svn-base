@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcCompatibleCCompiler#addWarningSwitch(Ljava/util/Vector;I)V
+com.github.maven_nar.cpptasks.msvc.MsvcProcessor#addWarningSwitch(Ljava/util/Vector;I)V

@@ -1,0 +1,2 @@
+com.github.maven_nar.NarManager#getAttachedNarDependencies(Ljava/util/List;)Ljava/util/List;
+com.github.maven_nar.NarManager#getAttachedNarDependencies(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;

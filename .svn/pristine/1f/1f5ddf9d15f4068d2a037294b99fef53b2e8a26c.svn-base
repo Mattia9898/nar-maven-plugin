@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.TargetDef#getCpu()Lcom/github/maven_nar/cpptasks/CPUEnum;
+com.github.maven_nar.cpptasks.TargetDef#getCpu()Lcom/github/maven_nar/cpptasks/CPUEnum;

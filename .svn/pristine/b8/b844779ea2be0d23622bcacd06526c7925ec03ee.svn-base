@@ -1,0 +1,2 @@
+com.github.maven_nar.NarUtil#getAOLKey(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/String;

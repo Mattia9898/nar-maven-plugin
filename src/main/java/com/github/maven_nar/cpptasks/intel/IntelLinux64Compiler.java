@@ -1,61 +1,230 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 // FREEHEP
 package com.github.maven_nar.cpptasks.intel;
 
+import java.util.ArrayList;
+
 import org.apache.tools.ant.types.Environment;
 
+import com.github.maven_nar.cpptasks.CCTask;
+
+import com.github.maven_nar.cpptasks.OptimizationEnum;
+
+import com.github.maven_nar.cpptasks.ProcessorDef;
+
+import com.github.maven_nar.cpptasks.TargetDef;
+
+import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.compiler.LinkType;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
+
 import com.github.maven_nar.cpptasks.compiler.Processor;
+
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+
 import com.github.maven_nar.cpptasks.gcc.GccCompatibleCCompiler;
 
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+
 public final class IntelLinux64Compiler extends GccCompatibleCCompiler {
+	
   private static final IntelLinux64Compiler instance = new IntelLinux64Compiler(false, new IntelLinux64Compiler(true,
-      null, false, null), false, null);
+      null, null), null);
 
+  private static final ProcessorConfiguration PROCESSOR_CONFIGURATION = null;
+
+  
   public static IntelLinux64Compiler getInstance() {
+	  
     return instance;
+    
   }
 
+  
   private IntelLinux64Compiler(final boolean isLibtool, final IntelLinux64Compiler libtoolCompiler,
-      final boolean newEnvironment, final Environment env) {
-    super("ecpc", "-V", isLibtool, libtoolCompiler, newEnvironment, env);
+      final Environment env) {
+	  
+    super("ecpc", new String[]{"-V"}, isLibtool, libtoolCompiler, env);
+    
   }
 
+  
   @Override
   public Processor changeEnvironment(final boolean newEnvironment, final Environment env) {
+	  
     if (newEnvironment || env != null) {
-      return new IntelLinux64Compiler(getLibtool(), (IntelLinux64Compiler) this.getLibtoolCompiler(), newEnvironment,
-          env);
+    	
+      return new IntelLinux64Compiler(getLibtool(), (IntelLinux64Compiler) this.getLibtoolCompiler(), env);
+      
     }
+    
     return this;
+    
   }
 
+  
   @Override
   public Linker getLinker(final LinkType type) {
+	  
     return IntelLinux64Linker.getInstance().getLinker(type);
+    
   }
 
+  
   @Override
   public int getMaximumCommandLength() {
+	  
     return Integer.MAX_VALUE;
+    
   }
+
+  
+  @Override
+  public String getIdentifier() {
+
+	return getBaseOutputName(fortifyID);
+	
+  }
+
+	  
+	/*inizio del metodo: addImpliedArgs
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addImpliedArgs*/		
+		
+	}
+	/*fine del metodo: addImpliedArgs
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: addWarningSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void addWarningSwitch(ArrayList<String> args, int warnings) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addWarningSwitch*/		
+		
+	}
+	/*fine del metodo: addWarningSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+	
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+			ArrayList<String> endargs) {
+	
+		return getSourceExtensions();
+		
+	}
+	
+	
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/		
+		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/	
+		
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+	
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+	
+		return PROCESSOR_CONFIGURATION;
+		
+	}
+	
+	
+	@Override
+	protected String getOutputSuffix() {
+	
+		return getIncludeDirSwitch(identifier);
+		
+	}
+	
+	
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+	
+		return getIdentifier();
+		
+	}
+	
+	
+	@Override
+	public int bid(String inputFile) {
+	
+		return 1;
+		
+	}
+
+
+	@Override
+	public String[] getOutputFileNames(String inputFile, VersionInfo versionInfo) {
+
+		return getHeaderExtensions();
+		
+	}
+	  
 }

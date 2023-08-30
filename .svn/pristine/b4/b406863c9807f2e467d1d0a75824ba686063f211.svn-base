@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLdArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V
+java.lang.String#substring(I)Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.String#startsWith(Ljava/lang/String;)Z

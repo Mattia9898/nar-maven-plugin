@@ -1,0 +1,7 @@
+organization=2022-mmqs-team-enterprise-org
+projectKey=nar-maven-plugin
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.36164
+dashboardUrl=https://sonarcloud.io/dashboard?id=nar-maven-plugin
+ceTaskId=AYVycfqxxX9Yx5Rc9QTV
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYVycfqxxX9Yx5Rc9QTV

@@ -1,0 +1,9 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#buildDefineArguments([Lcom/github/maven_nar/cpptasks/CompilerDef;Ljava/util/Vector;)V
+com.github.maven_nar.cpptasks.types.UndefineArgument#isDefine()Z
+java.lang.StringBuffer#<init>(I)V
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+com.github.maven_nar.cpptasks.CompilerDef#getActiveDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+com.github.maven_nar.cpptasks.types.UndefineArgument#merge([Lcom/github/maven_nar/cpptasks/types/UndefineArgument;[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;)[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+com.github.maven_nar.cpptasks.types.UndefineArgument#getName()Ljava/lang/String;

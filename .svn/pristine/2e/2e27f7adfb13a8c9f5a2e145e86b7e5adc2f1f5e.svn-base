@@ -1,0 +1,2 @@
+com.github.maven_nar.AbstractNarMojo#getLayout()Lcom/github/maven_nar/NarLayout;
+com.github.maven_nar.AbstractNarLayout#getLayout(Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)Lcom/github/maven_nar/NarLayout;

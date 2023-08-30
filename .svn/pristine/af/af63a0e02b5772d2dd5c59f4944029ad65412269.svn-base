@@ -1,0 +1,5 @@
+com.github.maven_nar.NarIntegrationTestMojo#verifyParameters()Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.Boolean#booleanValue()Z
+org.apache.maven.plugin.MojoFailureException#<init>(Ljava/lang/String;)V
+org.apache.maven.plugin.MojoFailureException#instance-init#

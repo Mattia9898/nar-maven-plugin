@@ -1,0 +1,55 @@
+
+¨com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarian#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.java¹ ¹("startingBlock*É
+startingBlockˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.java¹ ¹(.«
+¨
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.java¸ ¸(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeù
+ö
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.java¹) ¹(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*í
+
+1ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaº º(³
+°
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaº º(*@
+%0:com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCLinker"„com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCLinker#getInstance()Lcom/github/maven_nar/cpptasks/openwatcom/OpenWatcomCLinker;*Z
+
+__unknown_file (>"<
+:com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCLinkeráÞ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaº º(:3
+%1-com.github.maven_nar.cpptasks.compiler.Linker"¦com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*^
+
+__unknown_file (B
+@
+%0:com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCLinker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"Â
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.javaº º(;5
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:Ä
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomLibrarian.java¹ ¹(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB@>
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomLibrarianH

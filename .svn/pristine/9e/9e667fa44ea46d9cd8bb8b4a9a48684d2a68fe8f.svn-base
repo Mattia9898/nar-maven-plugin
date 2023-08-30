@@ -1,0 +1,8 @@
+com.github.maven_nar.NarTestCompileMojo#narExecute()V
+com.github.maven_nar.AbstractCompileMojo#getAntProject()Lorg/apache/tools/ant/Project;
+com.github.maven_nar.NarUtil#writeCommandFile(Ljava/io/File;Ljava/util/List;)V
+com.github.maven_nar.AbstractNarMojo#getTestTargetDirectory()Ljava/io/File;
+com.github.maven_nar.AbstractCompileMojo#getTests()Ljava/util/List;
+com.github.maven_nar.NarTestCompileMojo#createTest(Lorg/apache/tools/ant/Project;Lcom/github/maven_nar/Test;)V
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#

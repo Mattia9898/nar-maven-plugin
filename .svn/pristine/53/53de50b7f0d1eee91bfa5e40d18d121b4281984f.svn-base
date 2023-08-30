@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.DependencyTable#writeIncludePathDependencies(Ljava/lang/String;Ljava/io/BufferedWriter;Ljava/lang/StringBuffer;)V
+com.github.maven_nar.cpptasks.DependencyInfo#getIncludePathIdentifier()Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyTable#writeDependencyInfo(Ljava/io/BufferedWriter;Ljava/lang/StringBuffer;Lcom/github/maven_nar/cpptasks/DependencyInfo;)V
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.CUtil#xmlAttribEncode(Ljava/lang/String;)Ljava/lang/String;

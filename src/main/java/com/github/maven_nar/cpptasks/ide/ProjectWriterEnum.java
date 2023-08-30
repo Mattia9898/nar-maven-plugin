@@ -1,30 +1,47 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.ide;
 
 import org.apache.tools.ant.types.EnumeratedAttribute;
 
 import com.github.maven_nar.cpptasks.apple.XcodeProjectWriter;
+
 import com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter;
+
 import com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter;
+
 import com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter;
+
 
 /**
  * Enumeration of supported project file generators.
@@ -69,12 +86,15 @@ import com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter;
  *
  */
 public final class ProjectWriterEnum extends EnumeratedAttribute {
+	
+	
   /**
    * Enumeration values.
    */
   private static String[] values = new String[] {
       "cbuilderx", "msvc5", "msvc6", "msvc7", "msvc71", "msvc8", "msvc9", "xcode"
   };
+  
 
   /**
    * Project writers associated with enumeration values.
@@ -86,6 +106,7 @@ public final class ProjectWriterEnum extends EnumeratedAttribute {
       new VisualStudioNETProjectWriter("8.00", "true", "false"),
       new VisualStudioNETProjectWriter("9.00", "true", "false"), new XcodeProjectWriter()
   };
+  
 
   /**
    * Gets ProjectWriter associated with enumeration value.
@@ -93,8 +114,11 @@ public final class ProjectWriterEnum extends EnumeratedAttribute {
    * @return project writer
    */
   public ProjectWriter getProjectWriter() {
+	  
     return writers[this.getIndex()];
+    
   }
+  
 
   /**
    * Gets acceptible values for enumeration.
@@ -103,6 +127,9 @@ public final class ProjectWriterEnum extends EnumeratedAttribute {
    */
   @Override
   public String[] getValues() {
+	  
     return values.clone();
+    
   }
+  
 }

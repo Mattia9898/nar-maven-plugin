@@ -1,0 +1,8 @@
+com.github.maven_nar.NarUtil#getAOL(Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)Lcom/github/maven_nar/AOL;
+com.github.maven_nar.AOL#<init>(Ljava/lang/String;)V
+com.github.maven_nar.AOL#instance-init#
+com.github.maven_nar.AOL#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.NarUtil#getLinkerName(Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#getOS(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#getArchitecture(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.Linker#getName()Ljava/lang/String;

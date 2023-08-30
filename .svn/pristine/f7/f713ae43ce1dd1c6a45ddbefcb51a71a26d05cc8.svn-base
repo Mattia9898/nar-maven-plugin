@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#prepareResponseFile(Ljava/io/File;[Ljava/lang/String;)[Ljava/lang/String;
+java.io.FileWriter#instance-init#
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+java.lang.String#charAt(I)C
+java.io.File#instance-init#
+java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V
+java.io.FileWriter#<init>(Ljava/io/File;)V
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

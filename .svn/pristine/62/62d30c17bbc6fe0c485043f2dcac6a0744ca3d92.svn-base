@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.DependencyTable#writeDependencyInfo(Ljava/io/BufferedWriter;Ljava/lang/StringBuffer;Lcom/github/maven_nar/cpptasks/DependencyInfo;)V
+com.github.maven_nar.cpptasks.DependencyInfo#getIncludes()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyInfo#getSource()Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyInfo#getSysIncludes()[Ljava/lang/String;
+java.lang.Long#toHexString(J)Ljava/lang/String;
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.CUtil#xmlAttribEncode(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyInfo#getSourceLastModified()J

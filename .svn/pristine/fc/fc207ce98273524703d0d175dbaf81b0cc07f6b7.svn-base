@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCompiler#addWarningSwitch(Ljava/util/Vector;I)V
+com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor#addWarningSwitch(Ljava/util/Vector;I)V

@@ -1,0 +1,4 @@
+com.github.maven_nar.Msvc#getPathVariable()Lorg/apache/tools/ant/types/Environment$Variable;
+org.apache.tools.ant.types.Environment$Variable#instance-init#
+org.codehaus.plexus.util.StringUtils#join(Ljava/util/Iterator;Ljava/lang/String;)Ljava/lang/String;
+org.apache.tools.ant.types.Environment$Variable#<init>()V

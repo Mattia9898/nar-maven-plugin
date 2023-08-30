@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.compiler.AbstractLinker#getLibraryKey(Ljava/io/File;)Ljava/lang/String;

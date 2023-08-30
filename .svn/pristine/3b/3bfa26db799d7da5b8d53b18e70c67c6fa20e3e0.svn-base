@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.PrecompileDef#setPrototype(Ljava/io/File;)V
+java.lang.NullPointerException#<init>(Ljava/lang/String;)V
+java.lang.NullPointerException#instance-init#

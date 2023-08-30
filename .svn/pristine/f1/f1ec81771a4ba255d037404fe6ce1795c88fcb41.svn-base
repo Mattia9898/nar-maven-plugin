@@ -1,0 +1,2 @@
+com.github.maven_nar.NarInfo#exists(Ljava/util/jar/JarFile;)Z
+com.github.maven_nar.NarInfo#getNarPropertiesEntry(Ljava/util/jar/JarFile;)Ljava/util/jar/JarEntry;

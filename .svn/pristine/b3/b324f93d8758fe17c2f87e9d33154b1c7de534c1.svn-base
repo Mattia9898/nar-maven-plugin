@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.gcc.GccProcessor#getOutputFileSwitch(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.StringBuffer#<init>()V
+java.lang.String#replace(CC)Ljava/lang/String;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.String#indexOf(I)I

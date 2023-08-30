@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.CompilerDef#setClassname(Ljava/lang/String;)V
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+org.apache.tools.ant.BuildException#instance-init#
+com.github.maven_nar.cpptasks.CompilerDef#getProcessor()Lcom/github/maven_nar/cpptasks/compiler/Processor;

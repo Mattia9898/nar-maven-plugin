@@ -1,0 +1,11 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getPreprocessorDefinitions(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Z)Ljava/lang/String;
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#<init>()V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getPreArguments()[Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#length()I
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.String#startsWith(Ljava/lang/String;)Z

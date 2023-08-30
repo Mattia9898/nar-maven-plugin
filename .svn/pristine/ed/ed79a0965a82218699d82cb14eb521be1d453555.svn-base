@@ -1,0 +1,136 @@
+
+Pcom.github.maven_nar.NarSystemMojo#getNativeLibLoaderVersion()Ljava/lang/String;n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaí í(*"9*Œ
+2n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaìN ì(U◊‘
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaìN ì(a+
+%5%org.apache.maven.project.MavenProject"Xorg.apache.maven.project.MavenProject#getParent()Lorg/apache/maven/project/MavenProject;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getParent()ˆ
+Û
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaìD ì(a0
+project%org.apache.maven.project.MavenProject"__id*I
+
+__unknown_file (-
++
+%5%org.apache.maven.project.MavenProject*
+7
+1*·
+3n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaï ï(&Œ
+À
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaï ï(&/
+
+dependency!org.apache.maven.model.Dependency"__id*"
+
+__unknown_file (
+""í
+è
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaï ï(&/
+
+dependency!org.apache.maven.model.Dependency"
+__arrayGet*<
+
+__unknown_file ( 
+
+dependenciesjava.util.List*"
+
+__unknown_file (
+""*
+2
+5*≠
+4n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaò ò(™ß
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaò ò((
+%4java.lang.String"@org.apache.maven.model.Dependency#getVersion()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+dependency!org.apache.maven.model.Dependency2getVersion()"ä
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaò
+ ò()
+
+%4java.lang.String*¿
+5n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javañ" ñ(,∞≠
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javañ" ñ(<
+%2java.lang.String"Corg.apache.maven.model.Dependency#getArtifactId()Ljava/lang/String;*M
+
+__unknown_file (1
+/
+
+dependency!org.apache.maven.model.Dependency2getArtifactId()œ
+Ã
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javañ ñ(=
+
+artifactIdjava.lang.String"__id*4
+
+__unknown_file (
+
+%2java.lang.StringΩ∫
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaó ó(2
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*1
+
+__unknown_file (
+native-lib-loader*<
+
+__unknown_file ( 
+
+
+artifactIdjava.lang.String2equals(Ljava/lang/Object;)*
+3
+4*Ä
+7n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaî, î(3µ≤
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaî, î(E
+%1java.util.List"Gorg.apache.maven.project.MavenProject#getDependencies()Ljava/util/List;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getDependencies()Õ
+ 
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaî î(F
+dependenciesjava.util.List"__id*2
+
+__unknown_file (
+
+%1java.util.List*
+3*Õ
+9n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaì  ì(/÷”
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaì  ì(1+
+%0%org.apache.maven.project.MavenProject"]com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;*B
+
+__unknown_file (&$
+"com.github.maven_nar.NarSystemMojo2getMavenProject()ˆ
+Û
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaì	 ì(10
+project%org.apache.maven.project.MavenProject"__id*I
+
+__unknown_file (-
++
+%0%org.apache.maven.project.MavenProject*
+7
+1*Ì
+1n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaú ú("x
+n
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarSystemMojo.javaú ú(
+""B&$
+"com.github.maven_nar.NarSystemMojo

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter#getSources(Ljava/util/List;)[Ljava/io/File;
+java.util.Arrays#sort([Ljava/lang/Object;Ljava/util/Comparator;)V

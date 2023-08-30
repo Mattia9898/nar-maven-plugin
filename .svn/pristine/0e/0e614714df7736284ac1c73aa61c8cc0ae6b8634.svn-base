@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.types.LibrarySet#setLibs(Lcom/github/maven_nar/cpptasks/CUtil$StringArrayBuilder;)V
+com.github.maven_nar.cpptasks.CUtil$StringArrayBuilder#getValue()[Ljava/lang/String;

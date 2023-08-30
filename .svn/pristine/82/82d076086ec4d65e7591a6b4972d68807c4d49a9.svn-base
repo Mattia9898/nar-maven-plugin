@@ -1,0 +1,3 @@
+com.github.maven_nar.AbstractCompileMojo#getC()Lcom/github/maven_nar/C;
+com.github.maven_nar.C#<init>()V
+com.github.maven_nar.C#instance-init#

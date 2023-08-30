@@ -1,0 +1,47 @@
+
+|com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarian#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java: :('"startingBlock*•
+startingBlockå
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java:' :(Aó
+î
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java9 9(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*=
+
+__unknown_file (!
+
+commandFilejava.lang.StringÂ
+‚
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java:5 :(@
+commandFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*È
+1å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java; ;(®
+•
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java; ;(:
+%0java.lang.String"kcom.github.maven_nar.cpptasks.msvc.MsvcProcessor#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0com.github.maven_nar.cpptasks.msvc.MsvcProcessor*=
+
+__unknown_file (!
+
+commandFilejava.lang.String"©
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java; ;(;
+
+%0java.lang.String:∞
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.java:( :(@
+commandFilejava.lang.StringBEC
+Acom.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarian

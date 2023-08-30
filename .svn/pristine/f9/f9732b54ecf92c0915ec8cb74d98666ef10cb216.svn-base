@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandCCompiler#addWarningSwitch(Ljava/util/Vector;I)V
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#addWarningSwitch(Ljava/util/Vector;I)V

@@ -1,0 +1,9 @@
+com.github.maven_nar.Compiler#getIncludes(Ljava/lang/String;)Ljava/util/Set;
+com.github.maven_nar.Compiler#getPrefix()Ljava/lang/String;
+java.util.HashSet#<init>()V
+com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;
+java.lang.String#split(Ljava/lang/String;)[Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+java.lang.String#trim()Ljava/lang/String;
+java.util.HashSet#instance-init#

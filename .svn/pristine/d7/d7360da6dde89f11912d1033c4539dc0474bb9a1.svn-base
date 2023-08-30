@@ -1,0 +1,17 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getAdditionalDependencies(Lcom/github/maven_nar/cpptasks/TargetInfo;Ljava/util/List;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.CUtil#isSystemPath(Ljava/io/File;)Z
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#<init>()V
+com.github.maven_nar.cpptasks.ide.DependencyDef#getName()Ljava/lang/String;
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#indexOf(Ljava/lang/String;)I
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.String#compareToIgnoreCase(Ljava/lang/String;)I
+com.github.maven_nar.cpptasks.TargetInfo#getAllSources()[Ljava/io/File;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#length()I
+com.github.maven_nar.cpptasks.CUtil#getRelativePath(Ljava/lang/String;Ljava/io/File;)Ljava/lang/String;
+java.lang.String#indexOf(I)I
+com.github.maven_nar.cpptasks.CUtil#toWindowsPath(Ljava/lang/String;)Ljava/lang/String;

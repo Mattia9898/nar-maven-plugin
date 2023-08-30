@@ -1,0 +1,362 @@
+
+Œcom.github.maven_nar.NarManager#unpackAttachedNars(Ljava/util/List;Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/NarLayout;Ljava/io/File;Z)Vk
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaô ô(&"8*π!
+2k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java§- §(8Á
+‰
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java§ §(90
+
+dependency"org.apache.maven.artifact.Artifact"__id*=
+
+__unknown_file (!
+
+dependency1java.lang.ObjectÏ
+È
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(*
+%12#org.apache.maven.plugin.logging.Log"__id*H
+
+__unknown_file (,**!
+com.github.maven_nar.NarManager"
+log≥
+∞
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(+
+%13java.lang.String"__concat*z
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(	
+Unpack *°
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java•! •(+2
+0
+
+dependency"org.apache.maven.artifact.Artifactó
+î
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(4
+%14java.lang.String"__concat*à
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(+
+
+%13java.lang.String*w
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java•. •(4
+ to ´
+®
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(@
+%15java.lang.String"__concat*à
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(4
+
+%14java.lang.String*ä
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java•7 •(@
+
+	unpackDirjava.io.FileÂ‚
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java• •(A
+%16void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*H
+
+__unknown_file (,
+*
+%12#org.apache.maven.plugin.logging.Log*5
+
+__unknown_file (
+
+%15java.lang.String2debug(Ljava/lang/CharSequence;)®•
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java¶ ¶(.
+%17java.io.File"^com.github.maven_nar.NarManager#getNarFile(Lorg/apache/maven/artifact/Artifact;)Ljava/io/File;*?
+
+__unknown_file (#!
+com.github.maven_nar.NarManager*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact20getNarFile(Lorg/apache/maven/artifact/Artifact;)ø
+º
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java¶ ¶(/
+filejava.io.File"__id*1
+
+__unknown_file (
+
+%17java.io.File‡
+›
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java®= ®(L
+%18java.lang.String"__id*O
+
+__unknown_file (3*1!
+com.github.maven_nar.NarManager"
+
+linkerNameË
+Â
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java®N ®(]
+%19com.github.maven_nar.AOL"__id*O
+
+__unknown_file (3*1!
+com.github.maven_nar.NarManager"
+
+defaultAOL«ƒ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java® ®(j
+%20void"ºcom.github.maven_nar.NarLayout#unpackNar(Ljava/io/File;Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/AOL;Z)V*F
+
+__unknown_file (*
+(
+layoutcom.github.maven_nar.NarLayout*7
+
+__unknown_file (
+
+	unpackDirjava.io.File*e
+
+__unknown_file (I
+G
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManager*2
+
+__unknown_file (
+
+filejava.io.File*4
+
+__unknown_file (
+
+osjava.lang.String*5
+
+__unknown_file (
+
+%18java.lang.String*=
+
+__unknown_file (!
+
+%19com.github.maven_nar.AOL*"
+
+__unknown_file (
+""2úunpackNar(Ljava/io/File;Lorg/codehaus/plexus/archiver/manager/ArchiverManager;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/AOL;Z)*
+1*˚
+
+4k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java† †(Î
+Ë
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java† †()
+%9#org.apache.maven.plugin.logging.Log"__id*H
+
+__unknown_file (,**!
+com.github.maven_nar.NarManager"
+log–Õ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java† †(
+%10void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*G
+
+__unknown_file (+
+)
+%9#org.apache.maven.plugin.logging.Log*!
+
+__unknown_file (
+}2debug(Ljava/lang/CharSequence;)ÙÒ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java¢ ¢(R
+%11java.util.List"ncom.github.maven_nar.NarManager#getAttachedNarDependencies(Ljava/util/List;Ljava/lang/String;)Ljava/util/List;*?
+
+__unknown_file (#!
+com.github.maven_nar.NarManager*<
+
+__unknown_file ( 
+
+narArtifactsjava.util.List*<
+
+__unknown_file ( 
+
+
+classifierjava.lang.String2>getAttachedNarDependencies(Ljava/util/List;Ljava/lang/String;)À
+»
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java¢ ¢(S
+dependenciesjava.util.List"__id*3
+
+__unknown_file (
+
+%11java.util.List*
+1*∏
+5k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaù	 ù(!ª
+∏
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaù	 ù(!
+narArtifactjava.lang.Object"__id*"
+
+__unknown_file (
+""ˇ
+¸
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaù	 ù(!
+narArtifactjava.lang.Object"
+__arrayGet*<
+
+__unknown_file ( 
+
+narArtifactsjava.util.List*"
+
+__unknown_file (
+""*
+4
+6*È
+6k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û(
+Î
+Ë
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û()
+%6#org.apache.maven.plugin.logging.Log"__id*H
+
+__unknown_file (,**!
+com.github.maven_nar.NarManager"
+logû
+õ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û()
+%7java.lang.String"__concat*w
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û(
+  - *ê
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û()!
+
+narArtifactjava.lang.Object‚ﬂ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û(*
+
+%8void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*G
+
+__unknown_file (+
+)
+%6#org.apache.maven.plugin.logging.Log*4
+
+__unknown_file (
+
+%7java.lang.String2debug(Ljava/lang/CharSequence;)*
+5*Ô
+8k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(Î
+Ë
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú()
+%0#org.apache.maven.plugin.logging.Log"__id*H
+
+__unknown_file (,**!
+com.github.maven_nar.NarManager"
+log®
+•
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(0
+%1java.lang.String"__concat*â
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(+
+Unpack called for OS: *á
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú. ú(0
+
+osjava.lang.String†
+ù
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(C
+%2java.lang.String"__concat*á
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(0
+
+%1java.lang.String*Å
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú3 ú(C
+, classifier: Æ
+´
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(P
+%3java.lang.String"__concat*á
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(C
+
+%2java.lang.String*è
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaúF ú(P 
+
+
+classifierjava.lang.String•
+¢
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(h
+%4java.lang.String"__concat*á
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(P
+
+%3java.lang.String*Ü
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaúS ú(h
+ for NarArtifacts {‚ﬂ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaú ú(i
+
+%5void"Dorg.apache.maven.plugin.logging.Log#debug(Ljava/lang/CharSequence;)V*G
+
+__unknown_file (+
+)
+%0#org.apache.maven.plugin.logging.Log*4
+
+__unknown_file (
+
+%4java.lang.String2debug(Ljava/lang/CharSequence;)*
+5*ä
+0 "Ç
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java™ ™(
+implicit return*∏
+1k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java£	 £(!ª
+∏
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java£	 £(!
+dependency1java.lang.Object"__id*"
+
+__unknown_file (
+""ˇ
+¸
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java£	 £(!
+dependency1java.lang.Object"
+__arrayGet*<
+
+__unknown_file ( 
+
+dependenciesjava.util.List*"
+
+__unknown_file (
+""*
+2
+0:ç
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaô' ô(R
+narArtifactsjava.util.List:∂
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaö ö(,G
+archiverManager4org.codehaus.plexus.archiver.manager.ArchiverManager:ç
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaö- ö(E
+
+classifierjava.lang.String:Ö
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaöF ö(V
+osjava.lang.String:ó
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaöW ö(n(
+layoutcom.github.maven_nar.NarLayout:à
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaõ õ(
+	unpackDirjava.io.File: 
+
+__unknown_file (
+""B#!
+com.github.maven_nar.NarManagerH

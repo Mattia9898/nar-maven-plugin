@@ -1,0 +1,49 @@
+
+Wcom.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker#getLibraryPath()[Ljava/io/File;ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java­ ­("1*ë
+1ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java® ®(‘
+Ž
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java® ®(
+%0java.util.ArrayList"__id*e
+
+__unknown_file (I*G9
+7com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker"
+
+libPaths‘
+Ž
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java®% ®(-
+%1java.util.ArrayList"__id*e
+
+__unknown_file (I*G9
+7com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker"
+
+libPathsòï
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java®% ®(4	
+%2int"java.util.ArrayList#size()I*7
+
+__unknown_file (
+
+%1java.util.ArrayList2size()¯¬
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java® ®(5
+%3java.io.File[]"java.io.File[]ïì
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java® ®(6
+%4java.io.File[]"Cjava.util.ArrayList#toArray([Ljava/lang/Object;)[Ljava/lang/Object;*7
+
+__unknown_file (
+
+%0java.util.ArrayList*2
+
+__unknown_file (
+
+%3java.io.File[]2toArray([Ljava/lang/Object;)"ž
+ƒ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java® ®(7
+
+%4java.io.File[]B;9
+7com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinkerH

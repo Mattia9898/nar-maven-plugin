@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.LinkerDef#instance-init#
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#
+java.util.LinkedHashSet#instance-init#
+java.util.LinkedHashSet#<init>()V

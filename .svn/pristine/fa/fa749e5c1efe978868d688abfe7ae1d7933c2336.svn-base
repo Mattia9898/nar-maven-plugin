@@ -1,0 +1,83 @@
+
+âcom.github.maven_nar.cpptasks.borland.BorlandLinker#getStartupObject(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Ljava/lang/String;
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java≠ ≠(#"startingBlock*ó
+2
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaµ µ("ê
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaµ µ(
+	c0x32.obj*⁄
+3
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¥ ¥(À»
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¥ ¥(%
+%2boolean"Ecom.github.maven_nar.cpptasks.compiler.LinkType#isSubsystemConsole()Z*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType2isSubsystemConsole()*
+2
+1*≥
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java≠# ≠(<•
+¢
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java¨ ¨(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeÛ
+
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java≠3 ≠(;;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%3*
+7*ó
+4
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java≤ ≤("ê
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java≤ ≤(
+	c0w32.obj*“
+5
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java± ±(√¿
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java± ±(!
+%1boolean"Acom.github.maven_nar.cpptasks.compiler.LinkType#isSubsystemGUI()Z*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType2isSubsystemGUI()*
+3
+4*ó
+6
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaØ Ø("ê
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaØ Ø(
+	c0d32.obj*‘
+7
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaÆ Æ(≈¬
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaÆ Æ("
+%0boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+5
+6*ê
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java∑ ∑("â
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java∑ ∑(
+"":æ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java≠$ ≠(;;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeB75
+3com.github.maven_nar.cpptasks.borland.BorlandLinker

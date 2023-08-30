@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#getIncludeDirSwitch(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#quoteFile(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V

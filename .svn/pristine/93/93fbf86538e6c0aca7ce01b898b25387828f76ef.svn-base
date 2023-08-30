@@ -1,0 +1,91 @@
+
+ùcom.github.maven_nar.cpptasks.ibm.VisualAgeLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaS S("startingBlock*°
+2{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaX X(„
+‡
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaX X(7
+%31com.github.maven_nar.cpptasks.ibm.VisualAgeLinker"__id*"
+
+__unknown_file (
+"""∏
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaX X(9
+7
+%31com.github.maven_nar.cpptasks.ibm.VisualAgeLinker*»
+3{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaW W(Ω∫
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaW W(
+%2boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+2
+1*ü
+startingBlock{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaS S(.ù
+ö
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaR R(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeÎ
+Ë
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaS) S(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%5*
+5*Ø
+4{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaU U(Ù
+Ò
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaU U('4
+%1.com.github.maven_nar.cpptasks.gcc.GccLibrarian"lcom.github.maven_nar.cpptasks.gcc.GccLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/gcc/GccLibrarian;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccLibrarian"µ
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaU U((6
+4
+%1.com.github.maven_nar.cpptasks.gcc.GccLibrarian*»
+5{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaT T(Ω∫
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaT T(
+%0boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isStaticLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isStaticLibrary()*
+3
+4*°
+1{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaZ Z(„
+‡
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaZ Z(7
+%41com.github.maven_nar.cpptasks.ibm.VisualAgeLinker"__id*"
+
+__unknown_file (
+"""∏
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaZ Z(9
+7
+%41com.github.maven_nar.cpptasks.ibm.VisualAgeLinker:∂
+{
+qC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/VisualAgeLinker.javaS S(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB53
+1com.github.maven_nar.cpptasks.ibm.VisualAgeLinkerH

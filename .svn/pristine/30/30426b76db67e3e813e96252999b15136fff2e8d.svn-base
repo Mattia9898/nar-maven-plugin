@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler#getIdentifier()Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtool()Z
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessor#getVersion()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessor#getMachine()Ljava/lang/String;

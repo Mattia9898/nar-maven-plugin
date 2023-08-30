@@ -53,9 +53,11 @@ public class TestDependencyTable extends TestXMLConsumer {
       copyResourceToTmpDir("openshore/dependencies.xml", "dependencies.xml");
       final DependencyTable dependencies = new DependencyTable(new File(tmpDir));
       dependencies.load();
+      assertFalse(dependencies.isDirty());
     } finally {
       deleteTmpFile("dependencies.xml");
     }
+    
   }
 
   /**
@@ -69,6 +71,7 @@ public class TestDependencyTable extends TestXMLConsumer {
       copyResourceToTmpDir("xerces-c/dependencies.xml", "dependencies.xml");
       final DependencyTable dependencies = new DependencyTable(new File(tmpDir));
       dependencies.load();
+      assertFalse(dependencies.isDirty());
     } finally {
       deleteTmpFile("dependencies.xml");
     }

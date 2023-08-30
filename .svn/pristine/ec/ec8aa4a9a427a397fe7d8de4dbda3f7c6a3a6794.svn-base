@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandLinker#addBase(JLjava/util/Vector;)V
+java.lang.Long#toHexString(J)Ljava/lang/String;

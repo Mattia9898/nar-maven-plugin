@@ -1,0 +1,3 @@
+com.github.maven_nar.Msvc#setToolPath(Lcom/github/maven_nar/cpptasks/CompilerDef;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.CompilerDef#setToolPath(Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z

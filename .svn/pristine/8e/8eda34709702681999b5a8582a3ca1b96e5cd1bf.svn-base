@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.borland.BorlandLibrarian#quoteFilename(Ljava/lang/StringBuffer;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#quoteFile(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;

@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.os400.IccCompiler#getDefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.String#length()I
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

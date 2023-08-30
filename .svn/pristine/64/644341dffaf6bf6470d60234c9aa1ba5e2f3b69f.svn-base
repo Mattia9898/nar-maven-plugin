@@ -1,0 +1,2 @@
+com.github.maven_nar.Javah#getTimestampDirectory()Ljava/io/File;
+com.github.maven_nar.Javah#getJniDirectory()Ljava/io/File;

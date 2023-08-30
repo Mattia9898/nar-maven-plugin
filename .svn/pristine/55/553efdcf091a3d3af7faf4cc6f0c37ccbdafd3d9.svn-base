@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.ide.ProjectWriterEnum#getProjectWriter()Lcom/github/maven_nar/cpptasks/ide/ProjectWriter;
+org.apache.tools.ant.types.EnumeratedAttribute#getIndex()I

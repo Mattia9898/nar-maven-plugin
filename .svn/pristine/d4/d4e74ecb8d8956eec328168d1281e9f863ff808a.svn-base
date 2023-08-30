@@ -1,0 +1,90 @@
+
+<com.github.maven_nar.Javah#getClassDirectory()Ljava/io/File;f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaß ß(("3*ª
+2f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá% á()ã
+à
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá% á(.*
+%1$com.github.maven_nar.AbstractNarMojo"__id*D
+
+__unknown_file ((*&
+com.github.maven_nar.Javah"
+mojoÔÑ
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá% á(@+
+%2%org.apache.maven.project.MavenProject"]com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;*H
+
+__unknown_file (,
+*
+%1$com.github.maven_nar.AbstractNarMojo2getMavenProject()¶³
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá% á(K"
+%3org.apache.maven.model.Build"Norg.apache.maven.project.MavenProject#getBuild()Lorg/apache/maven/model/Build;*I
+
+__unknown_file (-
++
+%2%org.apache.maven.project.MavenProject2
+getBuild()˜•
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá% á(Z
+%4java.lang.String"Aorg.apache.maven.model.BuildBase#getDirectory()Ljava/lang/String;*@
+
+__unknown_file ($
+"
+%3org.apache.maven.model.Build2getDirectory()Š
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá  á($
+%5java.io.File"java.io.File¾
+»
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá á(f
+%6":java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%5java.io.File*4
+
+__unknown_file (
+
+%4java.lang.String*'
+
+__unknown_file (	
+classesÕ
+Ò
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaá á(f0
+com.github.maven_nar.Javah"
+classDirectory"__id*0
+
+__unknown_file (
+
+%5java.io.File*
+1*Ë
+3f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaà à(Õ
+Ò
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaà à(
+%0java.io.File"__id*N
+
+__unknown_file (2*0
+com.github.maven_nar.Javah"
+classDirectory*
+2
+1*Ã
+1f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaã ã(Õ
+Ò
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaã ã(
+%7java.io.File"__id*N
+
+__unknown_file (2*0
+com.github.maven_nar.Javah"
+classDirectory"~
+f
+ZC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Javah.javaã ã(
+
+%7java.io.FileB
+com.github.maven_nar.Javah

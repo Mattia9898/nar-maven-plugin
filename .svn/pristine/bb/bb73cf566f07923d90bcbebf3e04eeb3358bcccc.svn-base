@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#parseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;Ljava/io/File;)Lcom/github/maven_nar/cpptasks/DependencyInfo;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getIncludePathIdentifier()Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.AbstractCompiler#parseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;[Ljava/io/File;[Ljava/io/File;[Ljava/io/File;Ljava/io/File;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/DependencyInfo;

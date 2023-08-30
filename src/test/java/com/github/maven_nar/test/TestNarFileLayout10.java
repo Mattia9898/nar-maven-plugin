@@ -21,11 +21,14 @@ package com.github.maven_nar.test;
 
 import java.io.File;
 
-import junit.framework.Assert;
+import org.junit.Assert;
+
 import junit.framework.TestCase;
 
 import com.github.maven_nar.Library;
+
 import com.github.maven_nar.NarFileLayout;
+
 import com.github.maven_nar.NarFileLayout10;
 
 /**

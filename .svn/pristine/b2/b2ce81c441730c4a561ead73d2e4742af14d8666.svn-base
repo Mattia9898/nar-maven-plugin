@@ -1,0 +1,412 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar.cpptasks.gcc;
+
+import java.io.File;
+
+import java.util.ArrayList;
+
+import com.github.maven_nar.cpptasks.CCTask;
+
+import com.github.maven_nar.cpptasks.CUtil;
+
+import com.github.maven_nar.cpptasks.VersionInfo;
+
+import com.github.maven_nar.cpptasks.compiler.CommandLineLinker;
+
+import com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration;
+
+import com.github.maven_nar.cpptasks.compiler.LinkType;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+import com.github.maven_nar.cpptasks.types.LibraryTypeEnum;
+
+/**
+ * Abstract adapter for ld-like linkers
+ *
+ * @author Curt Arnold
+ */
+public abstract class AbstractLdLinker extends CommandLineLinker {
+	
+  private static final String STATIC = "static";
+
+  private static final String FRAMEWORK = "framework";
+  
+  private final String outputPrefix;
+
+  protected AbstractLdLinker(final String command, final String identifierArg, final String[] extensions,
+      final String[] ignoredExtensions, final String outputPrefix, final String outputSuffix, final boolean isLibtool,
+      final AbstractLdLinker libtoolLinker) {
+	  
+    super(command, identifierArg, extensions, ignoredExtensions, outputSuffix, isLibtool, libtoolLinker);
+    
+    this.outputPrefix = outputPrefix;
+    
+  }
+
+  
+  protected void addBase(final long base, final ArrayList<String> args) {
+	  
+    if (base >= 0) {
+    	
+      args.add("--image-base");
+      
+      args.add(Long.toHexString(base));
+      
+    }
+  }
+
+  
+  protected void addEntry(final String entry, final ArrayList<String> args) {
+	  
+    if (entry != null) {
+      args.add("-e");
+      args.add(entry);
+    }
+    
+  }
+
+  
+  protected void addImpliedArgs(final boolean debug, final LinkType linkType,
+      final ArrayList<String> args) {
+	  
+    if (debug) {
+    	
+      args.add("-g");
+      
+    }
+    
+    if (isDarwin()) {
+    	
+      if (linkType.isPluginModule()) {
+    	  
+        args.add("-bundle");
+        
+        // BEGINFREEHEP
+        
+      } else if (linkType.isJNIModule()) {
+    	  
+        args.add("-dynamic");
+        
+        args.add("-bundle");
+        
+        // ENDFREEHEP
+        
+      }
+      
+    } else {
+    	
+      if (linkType.isStaticRuntime()) {
+    	  
+        args.add("-static");
+        
+      }
+      
+      if (linkType.isPluginModule()) {
+    	  
+        args.add("-shared");
+        
+      }
+      
+    }
+    
+  }
+
+  
+  protected void addIncremental(final boolean incremental, final ArrayList<String> args) {
+    if (incremental) {
+      args.add("-i");
+    }
+  }
+
+  
+  protected void addLibraryPath(final ArrayList<String> preargs, final String path) {
+    preargs.add("-L" + path);
+  }
+
+  protected int addLibraryPatterns(final String[] libnames, final StringBuffer buf, final String prefix,
+      final String extension, final String[] patterns, final int offset) {
+	  
+    for (int i = 0; i < libnames.length; i++) {
+    	
+      buf.setLength(0);
+      buf.append(prefix);
+      buf.append(libnames[i]);
+      buf.append(extension);
+      patterns[offset + i] = buf.toString();
+      
+    }
+    
+    return offset + libnames.length;
+    
+  }
+
+  
+  protected String[] addLibrarySets(final ArrayList<String> endargs) {
+	  
+    final ArrayList<String> libnames = new ArrayList<>();
+        
+    final StringBuffer buf = new StringBuffer("-l");
+    
+    buf.setLength(0);
+    
+    // FREEHEP, added as endarg w/o trailing space to avoid quoting!
+    endargs.add("-framework");
+      
+    final String rc[] = new String[libnames.size()];
+    
+    return rc;
+    
+  }
+
+  
+  protected void addMap(final boolean map, final ArrayList<String> args) {
+    if (map) {
+      args.add("-M");
+    }
+  }
+
+  
+  protected void addStack(final int stack, final ArrayList<String> args) {
+	  
+    if (stack > 0) {
+    	
+      args.add("--stack");
+      args.add(Integer.toString(stack));
+      
+    }
+    
+  }
+
+  @Override
+  public String getCommandFileSwitch(final String commandFile) {
+    throw new IllegalStateException("ld does not support command files");
+  }
+
+  protected String getDynamicLibFlag() {
+    return "-Bdynamic";
+  }
+
+  /**
+   * Returns library path.
+   *
+   */
+  protected File[] getEnvironmentIncludePath() {
+    return CUtil.getPathFromEnvironment("LIB", ":");
+  }
+
+  @Override
+  public String getLibraryKey(final File libfile) {
+	  
+    final String libname = libfile.getName();
+    final int lastDot = libname.lastIndexOf('.');
+    
+    if (lastDot >= 0) {
+      return libname.substring(0, lastDot);
+    }
+    
+    return libname;
+    
+  }
+
+  /**
+   * Returns library path.
+   *
+   */
+  @Override
+  public File[] getLibraryPath() {
+    return new File[0];
+  }
+
+  @Override
+  public String[] getLibraryPatterns(final String[] libnames, final LibraryTypeEnum libType) {
+	  
+    final StringBuffer buf = new StringBuffer();
+    int patternCount = libnames.length;
+    
+    if (libType == null) {
+      patternCount *= 2;
+    }
+    
+    final String[] patterns = new String[patternCount];
+    int offset = 0;
+    
+    if (libType == null || STATIC.equals(libType.getValue())) {
+      offset = addLibraryPatterns(libnames, buf, "lib", ".a", patterns, 0);
+    }
+    
+    if (libType != null && FRAMEWORK.equals(libType.getValue()) && isDarwin()) {
+    	
+      for (final String libname : libnames) {
+    	  
+        buf.setLength(0);
+        buf.append(libname);
+        buf.append(".framework/");
+        buf.append(libname);
+        patterns[offset++] = buf.toString();
+        
+      }
+      
+    } else {
+    	
+      if (libType == null || !STATIC.equals(libType.getValue())) {
+    	  
+        if (isHPUX()) {
+        	
+          offset = addLibraryPatterns(libnames, buf, "lib", ".sl", patterns, offset);
+          
+        } else {
+        	
+          offset = addLibraryPatterns(libnames, buf, "lib", ".so", patterns, offset);
+          
+        }
+        
+      }
+      
+    }
+    
+    return patterns;
+    
+  }
+
+  @Override
+  public int getMaximumCommandLength() {
+    // FREEHEP
+    return isWindows() ? 20000 : Integer.MAX_VALUE;
+  }
+
+  @Override
+  public String[] getOutputFileNames(final String baseName, final VersionInfo versionInfo) {
+    final String[] baseNames = super.getOutputFileNames(baseName, versionInfo);
+    if (this.outputPrefix.length() > 0) {
+      for (int i = 0; i < baseNames.length; i++) {
+        baseNames[i] = this.outputPrefix + baseNames[i];
+      }
+    }
+    return baseNames;
+  }
+
+  @Override
+  public String[] getOutputFileSwitch(final String outputFile) {
+    return GccProcessor.getOutputFileSwitch("-o", outputFile);
+  }
+
+  protected String getStaticLibFlag() {
+    return "-Bstatic";
+  }
+
+  @Override
+  public boolean isCaseSensitive() {
+    return true;
+  }
+
+  protected boolean isHPUX() {
+	  
+    final String osname = System.getProperty("os.name").toLowerCase();
+    
+    if (osname.contains("hp") && osname.contains("ux")) {
+      return true;
+    }
+    
+    return false;
+    
+  }
+
+  /**
+   * Prepares argument list for exec command. Will return null if command
+   * line would exceed allowable command line buffer.
+   *
+   * @param outputFile
+   *          linker output file
+   * @param sourceFiles
+   *          linker input files (.obj, .o, .res)
+   * @param config
+   *          linker configuration
+   * @return arguments for runTask
+   */
+  @Override
+  public String[] prepareArguments(final CCTask task, final String outputDir, final String outputFile,
+      final String[] sourceFiles, final CommandLineLinkerConfiguration config) {
+	  
+    //
+    // need to suppress sources that correspond to
+    // library set entries since they are already
+    // in the argument list
+	  
+    final String[] libnames = config.getLibraryNames();
+    
+    if (libnames == null || libnames.length == 0) {
+    	
+      return super.prepareArguments(task, outputDir, outputFile, sourceFiles, config);
+      
+    }
+    
+    //
+    //
+    // null out any sources that correspond to library names
+    //
+    
+    final String[] localSources = sourceFiles.clone();
+    
+    int extra = 0;
+    
+    for (int j = 0; j < localSources.length; j++) {
+          
+        localSources[j] = null;
+        extra++;
+    }           
+    
+    if (extra == 0) {
+    	
+      return super.prepareArguments(task, outputDir, outputFile, sourceFiles, config);
+      
+    }
+    
+    final String[] finalSources = new String[localSources.length - extra];
+    
+    return super.prepareArguments(task, outputDir, outputFile, finalSources, config);
+    
+  }
+
+
+  public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, 
+		  ArrayList<String> preargs, 
+		  ArrayList<String> midargs,
+		  ArrayList<String> endargs) {
+	  
+	// TODO Auto-generated method stub
+	return getHeaderExtensions();
+	
+  }
+  
+}

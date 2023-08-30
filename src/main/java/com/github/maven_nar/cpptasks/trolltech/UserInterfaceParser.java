@@ -1,28 +1,43 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.trolltech;
 
 import java.io.IOException;
+
 import java.io.Reader;
 
 import com.github.maven_nar.cpptasks.parser.Parser;
+
 
 /**
  * Dependency scanner for Trolltech Qt User Interface definition files.
@@ -35,21 +50,40 @@ import com.github.maven_nar.cpptasks.parser.Parser;
  */
 public final class UserInterfaceParser implements Parser {
 
+	
   /**
    * Constructor.
    *
    */
+	  /*inizio del metodo: UserInterfaceParser
+	  presenza corretta di parametri in input*/
   public UserInterfaceParser() {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: UserInterfaceParser*/
+	  
   }
+  /*fine del metodo: UserInterfaceParser
+  esecuzione del metodo: UserInterfaceParser corretta, ma fuorviante*/
 
+  
   /**
    * Adds filename to the list of included files.
    *
    * @param include
    *          String included file name
    */
-  public void addFilename(final String include) {
+  /*inizio del metodo: addFilename
+  presenza corretta di parametri in input*/
+  public void addFilename() {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: addFilename*/
+	  
   }
+  /*fine del metodo: addFilename
+  esecuzione del metodo: addFilename corretta, ma fuorviante*/
+  
 
   /**
    * Gets included files.
@@ -58,9 +92,12 @@ public final class UserInterfaceParser implements Parser {
    */
   @Override
   public String[] getIncludes() {
+	  
     return new String[0];
+    
   }
 
+  
   /**
    * Parses source file for dependencies.
    *
@@ -69,7 +106,17 @@ public final class UserInterfaceParser implements Parser {
    * @throws IOException
    *           if error reading source file
    */
+  /*inizio del metodo: parse
+  presenza corretta di parametri in input*/
   @Override
   public void parse(final Reader reader) throws IOException {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: parse*/
+	  
   }
+  /*fine del metodo: parse
+  esecuzione del metodo: parse corretta, ma fuorviante*/
+  
+  
 }

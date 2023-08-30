@@ -1,0 +1,6 @@
+com.github.maven_nar.NarManager#getAttachedNarDependencies(Ljava/util/List;Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+com.github.maven_nar.NarInfo#getBinding(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarManager#getNarInfo(Lorg/apache/maven/artifact/Artifact;)Lcom/github/maven_nar/NarInfo;
+com.github.maven_nar.NarManager#getAttachedNarDependencies(Lorg/apache/maven/artifact/Artifact;Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/util/List;

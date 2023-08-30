@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.CCTask#getLinkHistory(Lcom/github/maven_nar/cpptasks/TargetHistoryTable;)Lcom/github/maven_nar/cpptasks/TargetHistoryTable;
+java.io.File#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.TargetHistoryTable#<init>(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;)V
+com.github.maven_nar.cpptasks.TargetHistoryTable#instance-init#
+java.io.File#instance-init#

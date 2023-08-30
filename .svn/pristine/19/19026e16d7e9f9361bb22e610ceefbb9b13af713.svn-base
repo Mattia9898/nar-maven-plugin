@@ -1,0 +1,47 @@
+
+icom.github.maven_nar.cpptasks.ti.ClxxLibrarian#getCommandFileSwitch(Ljava/lang/String;)Ljava/lang/String;x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaS S('"startingBlock*Ê
+startingBlockx
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaS' S(AÇ
+ˇ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaR R(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*=
+
+__unknown_file (!
+
+commandFilejava.lang.String–
+Õ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaS5 S(@
+commandFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*⁄
+1x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaT T(√
+¿
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaT T(
+%0java.lang.String"__concat*Å
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaT T(
+@*ù
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaT T(!
+
+commandFilejava.lang.String"î
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaT T(
+
+%0java.lang.String:õ
+x
+nC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLibrarian.javaS( S(@
+commandFilejava.lang.StringB20
+.com.github.maven_nar.cpptasks.ti.ClxxLibrarian

@@ -1,0 +1,91 @@
+
+œcom.github.maven_nar.cpptasks.gcc.cross.LdLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaD D("startingBlock*œ
+2z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaI I(á
+Þ
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaI I(6
+%30com.github.maven_nar.cpptasks.gcc.cross.LdLinker"__id*"
+
+__unknown_file (
+"""¶
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaI I(8
+6
+%30com.github.maven_nar.cpptasks.gcc.cross.LdLinker*Æ
+3z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaH H(¼¹
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaH H(
+%2boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+2
+1*œ
+startingBlockz
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaD D(.œ
+™
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaC C(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeê
+ç
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaD) D(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%5*
+5*Ê
+4z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaF F(‹
+ˆ
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaF F(':
+%14com.github.maven_nar.cpptasks.gcc.cross.GccLibrarian"xcom.github.maven_nar.cpptasks.gcc.cross.GccLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/gcc/cross/GccLibrarian;*T
+
+__unknown_file (8"6
+4com.github.maven_nar.cpptasks.gcc.cross.GccLibrarian"º
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaF F((<
+:
+%14com.github.maven_nar.cpptasks.gcc.cross.GccLibrarian*Æ
+5z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaE E(¼¹
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaE E(
+%0boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isStaticLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isStaticLibrary()*
+3
+4*œ
+1z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaK K(á
+Þ
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaK K(6
+%40com.github.maven_nar.cpptasks.gcc.cross.LdLinker"__id*"
+
+__unknown_file (
+"""¶
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaK K(8
+6
+%40com.github.maven_nar.cpptasks.gcc.cross.LdLinker:µ
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/LdLinker.javaD D(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB42
+0com.github.maven_nar.cpptasks.gcc.cross.LdLinkerH

@@ -1,0 +1,161 @@
+
+êcom.github.maven_nar.Linker#getTestLinker(Lcom/github/maven_nar/AbstractCompileMojo;Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/github/maven_nar/cpptasks/LinkerDef;g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java” ”(&"5* 
+2g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java˜ ˜("¶
+³
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java˜ ˜("
+
+testOptionjava.lang.Object"__id*"
+
+__unknown_file (
+""ğ
+í
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java˜ ˜("
+
+testOptionjava.lang.Object"
+__arrayGet*2
+
+__unknown_file (
+
+%2java.util.List*"
+
+__unknown_file (
+""*
+3
+1*Ò
+3g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java™# ™(7Ú×
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java™' ™(58
+%32com.github.maven_nar.cpptasks.types.LinkerArgument"2com.github.maven_nar.cpptasks.types.LinkerArgumentˆ
+…
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java™# ™(7
+%4"<com.github.maven_nar.cpptasks.types.LinkerArgument#<init>()V*V
+
+__unknown_file (:
+8
+%32com.github.maven_nar.cpptasks.types.LinkerArgument…
+‚
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java™ ™(89
+arg2com.github.maven_nar.cpptasks.types.LinkerArgument"__id*V
+
+__unknown_file (:
+8
+%32com.github.maven_nar.cpptasks.types.LinkerArgument„
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.javaš š()
+
+%5void"Ucom.github.maven_nar.cpptasks.types.CommandLineArgument#setValue(Ljava/lang/String;)V*W
+
+__unknown_file (;
+9
+arg2com.github.maven_nar.cpptasks.types.LinkerArgument*<
+
+__unknown_file ( 
+
+
+testOptionjava.lang.Object2setValue(Ljava/lang/String;)çä
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java› ›(*
+
+%6void"ucom.github.maven_nar.cpptasks.LinkerDef#addConfiguredLinkerArg(Lcom/github/maven_nar/cpptasks/types/LinkerArgument;)V*O
+
+__unknown_file (3
+1
+linker'com.github.maven_nar.cpptasks.LinkerDef*W
+
+__unknown_file (;
+9
+arg2com.github.maven_nar.cpptasks.types.LinkerArgument2LaddConfiguredLinkerArg(Lcom/github/maven_nar/cpptasks/types/LinkerArgument;)*
+2*Ê
+4g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java˜% ˜()Ö
+Ó
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java˜% ˜(5
+%2java.util.List"__id*L
+
+__unknown_file (0*.
+com.github.maven_nar.Linker"
+testOptions*
+2*©
+5g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java– –(&äá
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java– –(O-
+%0'com.github.maven_nar.cpptasks.LinkerDef"æcom.github.maven_nar.Linker#getLinker(Lcom/github/maven_nar/AbstractCompileMojo;Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)Lcom/github/maven_nar/cpptasks/LinkerDef;*;
+
+__unknown_file (
+com.github.maven_nar.Linker*N
+
+__unknown_file (2
+0
+mojo(com.github.maven_nar.AbstractCompileMojo*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTask*4
+
+__unknown_file (
+
+osjava.lang.String*8
+
+__unknown_file (
+
+prefixjava.lang.String*6
+
+__unknown_file (
+
+typejava.lang.String*9
+
+__unknown_file (
+
+	linkPathsjava.util.List2¡getLinker(Lcom/github/maven_nar/AbstractCompileMojo;Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/List;)ò
+ï
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java– –(P1
+linker'com.github.maven_nar.cpptasks.LinkerDef"__id*K
+
+__unknown_file (/
+-
+%0'com.github.maven_nar.cpptasks.LinkerDefÖ
+Ó
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java— —(
+%1java.util.List"__id*L
+
+__unknown_file (0*.
+com.github.maven_nar.Linker"
+testOptions*
+4
+1*
+1g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java ("
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java (3
+1
+linker'com.github.maven_nar.cpptasks.LinkerDef:›
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java”' ”(F0
+mojo(com.github.maven_nar.AbstractCompileMojo:—
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java”G ”(Y,
+task$com.github.maven_nar.cpptasks.CCTask:
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java”Z ”(j
+osjava.lang.String:…
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java• •(
+prefixjava.lang.String:ƒ
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java• •(-
+typejava.lang.String:†
+g
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Linker.java•. •(J
+	linkPathsjava.util.ListB
+com.github.maven_nar.LinkerH

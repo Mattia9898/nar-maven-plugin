@@ -1,0 +1,8 @@
+com.github.maven_nar.NarUtil#quoteReplacement(Ljava/lang/String;)Ljava/lang/String;
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+java.lang.String#length()I
+java.lang.StringBuffer#<init>()V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.String#charAt(I)C
+java.lang.String#indexOf(I)I

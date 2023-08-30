@@ -1,0 +1,35 @@
+
+‰com.github.maven_nar.NarDownloadDependenciesMojo#getArtifactScopeFilter()Lorg/apache/maven/shared/artifact/filter/collection/ScopeFilter;z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarDownloadDependenciesMojo.java6 6(."1*Æ	
+1z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarDownloadDependenciesMojo.java7 7($Á
+¾
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarDownloadDependenciesMojo.java7 7(/
+%0java.lang.String"__id*"
+
+__unknown_file (
+""…‚
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarDownloadDependenciesMojo.java7 7(D
+%1>org.apache.maven.shared.artifact.filter.collection.ScopeFilter">org.apache.maven.shared.artifact.filter.collection.ScopeFilter±
+®
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarDownloadDependenciesMojo.java7 7(7
+%2"lorg.apache.maven.shared.artifact.filter.collection.ScopeFilter#<init>(Ljava/lang/String;Ljava/lang/String;)V*b
+
+__unknown_file (F
+D
+%1>org.apache.maven.shared.artifact.filter.collection.ScopeFilter*4
+
+__unknown_file (
+
+%0java.lang.String*"
+
+__unknown_file (
+"""Ä
+z
+pC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarDownloadDependenciesMojo.java7 7(8F
+D
+%1>org.apache.maven.shared.artifact.filter.collection.ScopeFilterB42
+0com.github.maven_nar.NarDownloadDependenciesMojo

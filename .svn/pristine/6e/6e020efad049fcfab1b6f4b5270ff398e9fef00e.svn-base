@@ -1,0 +1,114 @@
+
+\com.github.maven_nar.Msvc#getPathVariable()Lorg/apache/tools/ant/types/Environment$Variable;c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaZ Z(!"3*◊
+2c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java\ \("m
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java\ \(
+""*é
+3c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java[ [(…
+∆
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java[ [(
+%0java.util.Set"__id*D
+
+__unknown_file ((*&
+com.github.maven_nar.Msvc"
+pathsœÃ
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java[ [(
+%1boolean"java.util.Set#isEmpty()Z*1
+
+__unknown_file (
+
+%0java.util.Set2	isEmpty()*
+2
+1*”
+1c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java]" ](0–Õ
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java]& ](.5
+%2/org.apache.tools.ant.types.Environment$Variable"/org.apache.tools.ant.types.Environment$Variable˛
+˚
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java]" ](0
+%3"9org.apache.tools.ant.types.Environment$Variable#<init>()V*S
+
+__unknown_file (7
+5
+%2/org.apache.tools.ant.types.Environment$VariableÑ
+Å
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java] ](1?
+pathVariable/org.apache.tools.ant.types.Environment$Variable"__id*S
+
+__unknown_file (7
+5
+%2/org.apache.tools.ant.types.Environment$Variable‚ﬂ
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java^ ^(
+
+%4void"Korg.apache.tools.ant.types.Environment$Variable#setKey(Ljava/lang/String;)V*]
+
+__unknown_file (A
+?
+pathVariable/org.apache.tools.ant.types.Environment$Variable*$
+
+__unknown_file (
+PATH2setKey(Ljava/lang/String;)…
+∆
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java_+ _(0
+%5java.util.Set"__id*D
+
+__unknown_file ((*&
+com.github.maven_nar.Msvc"
+pathsÔÏ
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java_+ _(;
+%6java.util.Iterator",java.util.Set#iterator()Ljava/util/Iterator;*1
+
+__unknown_file (
+
+%5java.util.Set2
+iterator()™
+ß
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java_= _(O
+%7java.lang.String"__id*"
+
+__unknown_file (
+""ô
+ñ
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java_ _(P
+%8java.lang.String"corg.codehaus.plexus.util.StringUtils#join(Ljava/util/Iterator;Ljava/lang/String;)Ljava/lang/String;*D
+
+__unknown_file (("&
+$org.codehaus.plexus.util.StringUtils*6
+
+__unknown_file (
+
+%6java.util.Iterator*4
+
+__unknown_file (
+
+%7java.lang.StringˆÛ
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java_ _(Q
+
+%9void"Morg.apache.tools.ant.types.Environment$Variable#setValue(Ljava/lang/String;)V*]
+
+__unknown_file (A
+?
+pathVariable/org.apache.tools.ant.types.Environment$Variable*4
+
+__unknown_file (
+
+%8java.lang.String2setValue(Ljava/lang/String;)"®
+c
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java` `(A
+?
+pathVariable/org.apache.tools.ant.types.Environment$VariableB
+com.github.maven_nar.MsvcH

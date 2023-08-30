@@ -1,0 +1,44 @@
+
+bcom.github.maven_nar.NarUtil#getBcelClass(Ljava/lang/String;)Lorg/apache/bcel/classfile/JavaClass;h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java§ §(&"1*Ä
+
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¨/ ¨(7Á¾
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¨# ¨(.+
+%0%org.apache.bcel.classfile.ClassParser"%org.apache.bcel.classfile.ClassParser½
+º
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¨ ¨(8
+%1"Aorg.apache.bcel.classfile.ClassParser#<init>(Ljava/lang/String;)V*I
+
+__unknown_file (-
++
+%0%org.apache.bcel.classfile.ClassParser*:
+
+__unknown_file (
+
+filenamejava.lang.Stringï
+ì
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java¨ ¨(9/
+parser%org.apache.bcel.classfile.ClassParser"__id*I
+
+__unknown_file (-
++
+%0%org.apache.bcel.classfile.ClassParserÄÁ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java© ©()
+%2#org.apache.bcel.classfile.JavaClass"Rorg.apache.bcel.classfile.ClassParser#parse()Lorg/apache/bcel/classfile/JavaClass;*M
+
+__unknown_file (1
+/
+parser%org.apache.bcel.classfile.ClassParser2parse()"—
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java© ©(+
+)
+%2#org.apache.bcel.classfile.JavaClass:ˆ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java§' §(<
+filenamejava.lang.StringB "
+com.github.maven_nar.NarUtilH

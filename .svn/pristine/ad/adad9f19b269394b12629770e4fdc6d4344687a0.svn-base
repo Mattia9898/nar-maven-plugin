@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#runCommand(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;[Ljava/lang/String;)I
+com.github.maven_nar.cpptasks.CUtil#runCommand(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;[Ljava/lang/String;ZLorg/apache/tools/ant/types/Environment;)I

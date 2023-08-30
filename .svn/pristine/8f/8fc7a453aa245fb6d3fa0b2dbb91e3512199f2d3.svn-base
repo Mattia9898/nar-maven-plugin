@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.AbstractProcessor#isWindows()Z
+java.lang.String#startsWith(Ljava/lang/String;)Z

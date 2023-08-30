@@ -1,0 +1,12 @@
+com.github.maven_nar.cpptasks.DependencyTable#walkDependencies(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/DependencyInfo;Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;[Lcom/github/maven_nar/cpptasks/DependencyInfo;Lcom/github/maven_nar/cpptasks/DependencyTable$DependencyVisitor;)V
+com.github.maven_nar.cpptasks.DependencyInfo#getIncludes()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyInfo#setTag(Ljava/lang/Object;)V
+com.github.maven_nar.cpptasks.DependencyInfo#hasTag(Ljava/lang/Object;)Z
+java.io.File#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.DependencyInfo#getSource()Ljava/lang/String;
+com.github.maven_nar.cpptasks.DependencyTable#walkDependencies(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/DependencyInfo;Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;[Lcom/github/maven_nar/cpptasks/DependencyInfo;Lcom/github/maven_nar/cpptasks/DependencyTable$DependencyVisitor;)V
+com.github.maven_nar.cpptasks.DependencyTable#parseIncludes(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;Ljava/io/File;)Lcom/github/maven_nar/cpptasks/DependencyInfo;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+com.github.maven_nar.cpptasks.DependencyTable#getDependencyInfo(Ljava/lang/String;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/DependencyInfo;
+java.io.File#instance-init#

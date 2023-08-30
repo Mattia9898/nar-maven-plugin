@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.DistributerMap#setRemoteSeparator(Ljava/lang/String;)V
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+java.lang.String#length()I
+java.lang.String#charAt(I)C
+org.apache.tools.ant.BuildException#instance-init#

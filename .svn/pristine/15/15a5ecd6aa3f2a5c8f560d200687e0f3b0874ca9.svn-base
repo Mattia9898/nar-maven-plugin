@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.gcc.GccCCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtool()Z
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;
+com.github.maven_nar.cpptasks.gcc.GccCCompiler#<init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLcom/github/maven_nar/cpptasks/gcc/GccCCompiler;ZLorg/apache/tools/ant/types/Environment;)V
+com.github.maven_nar.cpptasks.gcc.GccCCompiler#instance-init#
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtoolCompiler()Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompiler;

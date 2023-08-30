@@ -1,0 +1,51 @@
+
+mcom.github.maven_nar.cpptasks.mozilla.XpidlCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java¿ ¿(&"startingBlock*ù
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java¿& ¿(?ˆ
+…
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java¾ ¾(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.StringÖ
+Ó
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java¿4 ¿(>
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ý
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaÀ À(Ø
+Õ
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaÀ À(
+%0java.lang.String"__concat*‰
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaÀ À(
+-I*£
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaÀ À( 
+
+
+includeDirjava.lang.String"›
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.javaÀ À(
+
+%0java.lang.String:¡
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/mozilla/XpidlCompiler.java¿' ¿(>
+
+includeDirjava.lang.StringB75
+3com.github.maven_nar.cpptasks.mozilla.XpidlCompiler

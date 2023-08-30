@@ -1,0 +1,12 @@
+com.github.maven_nar.NarLayout20#prepareNarInfo(Ljava/io/File;Lorg/apache/maven/project/MavenProject;Lcom/github/maven_nar/NarInfo;Lcom/github/maven_nar/AbstractCompileMojo;)V
+com.github.maven_nar.NarInfo#setNar(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.AOL#<init>(Ljava/lang/String;)V
+com.github.maven_nar.AOL#instance-init#
+com.github.maven_nar.NarLayout20#getIncludeDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;
+com.github.maven_nar.NarInfo#setLibs(Lcom/github/maven_nar/AOL;Ljava/lang/String;)V
+com.github.maven_nar.AbstractNarMojo#getLibsName()Ljava/lang/String;
+com.github.maven_nar.NarInfo#setBinding(Lcom/github/maven_nar/AOL;Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.NarInfo#getBinding(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#

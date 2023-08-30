@@ -1,0 +1,117 @@
+
+›com.github.maven_nar.cpptasks.ti.ClxxLinker#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javai i($"startingBlock*ß
+3u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javao o(€
+ý
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javao o(
+%1java.lang.String"
+__arrayGet*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]*"
+
+__unknown_file (
+""±
+®
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javao o(%
+%2java.lang.String"__concat*‘
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javao o(
+
+%1java.lang.String*
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javao! o(%
+.o£
+ 
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javao o(%
+%3"
+__arraySet*;
+
+__unknown_file (
+
+libpatsjava.lang.String[]*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%2java.lang.String*
+3
+1*ë
+startingBlocku
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javai$ i(\þ
+û
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javah h(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]Ì
+É
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javai4 i(<
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%4ž
+›
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javah h(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumì
+é
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javaiT i([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%5*
+5*‡
+5u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javam( m(0¨¥
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javam m(8
+%0java.lang.String[]"java.lang.String[]×
+Ô
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javam m(9
+libpatsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%0java.lang.String[]*
+3
+1*•
+1u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javaq q("˜
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javaq q(
+
+libpatsjava.lang.String[]:—
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javai% i(=
+libnamesjava.lang.String[]:·
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ti/ClxxLinker.javai> i([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumB/-
++com.github.maven_nar.cpptasks.ti.ClxxLinkerH

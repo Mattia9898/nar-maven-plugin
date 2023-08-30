@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.TargetHistoryTable#markForRebuild(Ljava/util/Map;)V
+com.github.maven_nar.cpptasks.TargetHistoryTable#markForRebuild(Lcom/github/maven_nar/cpptasks/TargetInfo;)V

@@ -1,0 +1,47 @@
+
+com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterState#consume(C)Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaA A($"2"4"7"1*ý
+2†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaI I(­ª
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaI I(9
+%13com.github.maven_nar.cpptasks.parser.AbstractParser"ycom.github.maven_nar.cpptasks.parser.AbstractParserState#getParser()Lcom/github/maven_nar/cpptasks/parser/AbstractParser;*\
+
+__unknown_file (@>
+<com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterState2getParser()¹¶
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaI I(#>
+%28com.github.maven_nar.cpptasks.parser.AbstractParserState"com.github.maven_nar.cpptasks.parser.AbstractParser#getNewLineState()Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;*W
+
+__unknown_file (;
+9
+%13com.github.maven_nar.cpptasks.parser.AbstractParser2getNewLineState()*
+1*Ú
+4†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaF F("Ë
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaF F(@>
+<com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterState*œ
+7†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaC C(¿
+¼
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaC C(>
+%08com.github.maven_nar.cpptasks.parser.AbstractParserState"__id*k
+
+__unknown_file (O*M>
+<com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterState"
+	nextState"Ë
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaC C(@
+>
+%08com.github.maven_nar.cpptasks.parser.AbstractParserState* 
+1†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaK K("‘
+†
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/parser/WhitespaceOrLetterState.javaK K(
+"": 
+
+__unknown_file (
+""B@>
+<com.github.maven_nar.cpptasks.parser.WhitespaceOrLetterStateH

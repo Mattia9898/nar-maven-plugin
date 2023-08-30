@@ -1,0 +1,64 @@
+
+Dcom.github.maven_nar.AbstractNarMojo#getLibsName()Ljava/lang/String;p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javaï ï($"4*î
+2p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javañ ñ(ç
+ä
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javañ ñ(
+%4java.lang.String"__id*R
+
+__unknown_file (6*4&
+$com.github.maven_nar.AbstractNarMojo"
+
+libsName"Œ
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javañ ñ(
+
+%4java.lang.String*Å
+3p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javað" ð(&ç
+ä
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javað" ð(/
+%1java.lang.String"__id*R
+
+__unknown_file (6*4&
+$com.github.maven_nar.AbstractNarMojo"
+
+libsNameöó
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javað" ð(6
+%2java.lang.String")java.lang.String#trim()Ljava/lang/String;*4
+
+__unknown_file (
+
+%1java.lang.String2trim()âß
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javað" ð(@
+%3boolean"java.lang.String#isEmpty()Z*4
+
+__unknown_file (
+
+%2java.lang.String2	isEmpty()*
+2
+1*ç
+4p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javað ð(ç
+ä
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javað ð(
+%0java.lang.String"__id*R
+
+__unknown_file (6*4&
+$com.github.maven_nar.AbstractNarMojo"
+
+libsName*
+3
+1*ñ
+1p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javaó ó("z
+p
+dC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractNarMojo.javaó ó(
+""B(&
+$com.github.maven_nar.AbstractNarMojo

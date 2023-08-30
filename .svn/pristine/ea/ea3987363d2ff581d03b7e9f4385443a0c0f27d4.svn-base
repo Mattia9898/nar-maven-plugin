@@ -1,0 +1,9 @@
+
+Scom.github.maven_nar.cpptasks.ibm.xlC_rLinker#getDynamicLibFlag()Ljava/lang/String;w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaC C($"1*‡
+1w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaD D("ˆ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaD D(
+	-bdynamicB1/
+-com.github.maven_nar.cpptasks.ibm.xlC_rLinker

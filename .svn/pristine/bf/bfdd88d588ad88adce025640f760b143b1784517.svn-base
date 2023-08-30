@@ -1,0 +1,2 @@
+com.github.maven_nar.Compiler#getSourceDirectories()Ljava/util/List;
+com.github.maven_nar.Compiler#getSourceDirectories(Ljava/lang/String;)Ljava/util/List;

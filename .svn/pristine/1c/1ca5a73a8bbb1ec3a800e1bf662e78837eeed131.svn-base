@@ -1,0 +1,13 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#createConfiguration(Lcom/github/maven_nar/cpptasks/CCTask;Lcom/github/maven_nar/cpptasks/compiler/LinkType;[Lcom/github/maven_nar/cpptasks/ProcessorDef;Lcom/github/maven_nar/cpptasks/LinkerDef;Lcom/github/maven_nar/cpptasks/TargetDef;Lcom/github/maven_nar/cpptasks/VersionInfo;)Lcom/github/maven_nar/cpptasks/compiler/LinkerConfiguration;
+java.util.Vector#<init>()V
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#instance-init#
+java.util.Vector#instance-init#
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#<init>(Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinker;Ljava/lang/String;[[Ljava/lang/String;[Lcom/github/maven_nar/cpptasks/ProcessorParam;ZZZ[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.util.LinkedHashSet#instance-init#
+java.util.Collections#addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+java.util.LinkedHashSet#<init>()V

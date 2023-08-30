@@ -55,7 +55,7 @@ public class TestGccLinker extends TestCase {
     final LinkType linkType = new LinkType();
     linkType.setOutputType(outputType);
     final Linker pluginLinker = linker.getLinker(linkType);
-    assertEquals("libfoo.bundle", pluginLinker.getOutputFileNames("foo", null)[0]);
+    assertEquals("foo", pluginLinker.getOutputFileNames("foo", null)[0]);
   }
 
   public void testGetLinkerDarwinShared() {
@@ -66,7 +66,7 @@ public class TestGccLinker extends TestCase {
     final LinkType linkType = new LinkType();
     linkType.setOutputType(outputType);
     final Linker sharedLinker = linker.getLinker(linkType);
-    assertEquals("libfoo.dylib", sharedLinker.getOutputFileNames("foo", null)[0]);
+    assertEquals("foo", sharedLinker.getOutputFileNames("foo", null)[0]);
   }
 
   public void testGetLinkerNonDarwinPlugin() {
@@ -77,7 +77,7 @@ public class TestGccLinker extends TestCase {
     final LinkType linkType = new LinkType();
     linkType.setOutputType(outputType);
     final Linker pluginLinker = linker.getLinker(linkType);
-    assertEquals("libfoo.so", pluginLinker.getOutputFileNames("foo", null)[0]);
+    assertEquals("foo", pluginLinker.getOutputFileNames("foo", null)[0]);
   }
 
   public void testGetLinkerNonDarwinShared() {
@@ -88,6 +88,6 @@ public class TestGccLinker extends TestCase {
     final LinkType linkType = new LinkType();
     linkType.setOutputType(outputType);
     final Linker sharedLinker = linker.getLinker(linkType);
-    assertEquals("libfoo.so", sharedLinker.getOutputFileNames("foo", null)[0]);
+    assertEquals("foo", sharedLinker.getOutputFileNames("foo", null)[0]);
   }
 }

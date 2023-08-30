@@ -1,0 +1,3 @@
+com.github.maven_nar.Javah#getToolchain()Lorg/apache/maven/toolchain/Toolchain;
+com.github.maven_nar.NarJavahMojo#getToolchainManager()Lorg/apache/maven/toolchain/ToolchainManager;
+com.github.maven_nar.NarJavahMojo#getSession()Lorg/apache/maven/execution/MavenSession;

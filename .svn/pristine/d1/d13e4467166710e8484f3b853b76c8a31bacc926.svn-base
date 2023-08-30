@@ -1,0 +1,187 @@
+
+Ëcom.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker#addLibrarySets(Lcom/github/maven_nar/cpptasks/CCTask;[Lcom/github/maven_nar/cpptasks/types/LibrarySet;Ljava/util/Vector;Ljava/util/Vector;Ljava/util/Vector;)[Ljava/lang/String;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javax x(#"startingBlock*∆
+2Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaz	 z(Ë
+Â
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaz	 z(5
+set.com.github.maven_nar.cpptasks.types.LibrarySet"__id*"
+
+__unknown_file (
+""…
+∆
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaz	 z(5
+set.com.github.maven_nar.cpptasks.types.LibrarySet"
+__arrayGet*Y
+
+__unknown_file (=
+;
+libsets0com.github.maven_nar.cpptasks.types.LibrarySet[]*"
+
+__unknown_file (
+""*
+3
+1*í
+
+3Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java{ {(°û
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java{ {(*
+%0java.io.File"ccom.github.maven_nar.cpptasks.types.LibrarySet#getDir(Lorg/apache/tools/ant/Project;)Ljava/io/File;*S
+
+__unknown_file (7
+5
+set.com.github.maven_nar.cpptasks.types.LibrarySet*"
+
+__unknown_file (
+""2&getDir(Lorg/apache/tools/ant/Project;)◊
+‘
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java{ {(+
+libdirjava.io.File"__id*0
+
+__unknown_file (
+
+%0java.io.FileÖÇ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java| |(*
+
+%1void"ocom.github.maven_nar.cpptasks.compiler.CommandLineLinker#addLibraryDirectory(Ljava/io/File;Ljava/util/Vector;)V*W
+
+__unknown_file (;9
+7com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker*4
+
+__unknown_file (
+
+libdirjava.io.File*9
+
+__unknown_file (
+
+preargsjava.util.Vector25addLibraryDirectory(Ljava/io/File;Ljava/util/Vector;)*
+2*Ó
+startingBlockÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javax# y(Aô
+ñ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaw w(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTaskÁ
+‰
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javax1 x(5,
+task$com.github.maven_nar.cpptasks.CCTask"__annotation*"
+
+__unknown_file (
+
+%2®
+•
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaw w(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+libsets0com.github.maven_nar.cpptasks.types.LibrarySet[]ˆ
+Û
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaxJ x(Q;
+libsets0com.github.maven_nar.cpptasks.types.LibrarySet[]"__annotation*"
+
+__unknown_file (
+
+%3à
+Ö
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaw w(
+%4"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+preargsjava.util.Vector÷
+”
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaxh x(o
+preargsjava.util.Vector"__annotation*"
+
+__unknown_file (
+
+%4à
+Ö
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaw w(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+midargsjava.util.Vector÷
+”
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javay y("
+midargsjava.util.Vector"__annotation*"
+
+__unknown_file (
+
+%5à
+Ö
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaw w(
+%6"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+endargsjava.util.Vector÷
+”
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javay9 y(@
+endargsjava.util.Vector"__annotation*"
+
+__unknown_file (
+
+%6*
+2*ñ
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java~ ~("å
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.java~ ~(
+"":≤
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javax$ x(6,
+task$com.github.maven_nar.cpptasks.CCTask:¡
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javax7 x(R;
+libsets0com.github.maven_nar.cpptasks.types.LibrarySet[]:°
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javaxS x(p
+preargsjava.util.Vector:°
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javay y(#
+midargsjava.util.Vector:°
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcCompatibleLinker.javay$ y(@
+endargsjava.util.VectorB;9
+7com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker

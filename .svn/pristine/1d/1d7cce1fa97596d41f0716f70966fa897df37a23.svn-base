@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeIlinkArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#charAt(I)C
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#indexOf(I)I
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

@@ -1,0 +1,38 @@
+
+§com.github.maven_nar.cpptasks.compiler.AbstractProcessor#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javac c($"startingBlock*£
+startingBlock‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javac$ c(Y›
+˜
+‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javab b(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmenté
+æ
+‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javacU c(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%0*
+1*Î
+1‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javad d("Ã
+‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javad d(<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessor: 
+
+__unknown_file (
+"":´
+‚
+xC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractProcessor.javacC c(X-
+env&org.apache.tools.ant.types.EnvironmentB<:
+8com.github.maven_nar.cpptasks.compiler.AbstractProcessorH

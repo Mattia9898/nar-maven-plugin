@@ -1,0 +1,8 @@
+com.github.maven_nar.Msvc#addWindowsSDKPaths()V
+com.github.maven_nar.AbstractNarMojo#getArchitecture()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.NarUtil#getArchitecture(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.Msvc#addPath(Ljava/io/File;Ljava/lang/String;)Z
+java.lang.String#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

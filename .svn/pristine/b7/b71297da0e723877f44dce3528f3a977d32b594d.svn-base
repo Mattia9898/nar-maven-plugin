@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#setWarnings(Lcom/github/maven_nar/cpptasks/WarningLevelEnum;)V
+com.github.maven_nar.cpptasks.CompilerDef#setWarnings(Lcom/github/maven_nar/cpptasks/WarningLevelEnum;)V

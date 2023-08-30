@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.PrecompileDef#getExceptFiles()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.PrecompileDef#getRef()Lcom/github/maven_nar/cpptasks/PrecompileDef;
+com.github.maven_nar.cpptasks.PrecompileDef#getExceptFiles()[Ljava/lang/String;
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

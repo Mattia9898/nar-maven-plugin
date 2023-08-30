@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandLinker#addStack(ILjava/util/Vector;)V
+java.lang.Integer#toHexString(I)Ljava/lang/String;

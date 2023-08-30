@@ -1,0 +1,62 @@
+
+±com.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaD D($"startingBlock*„	
+startingBlockå
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaD$ D(\ñ
+ì
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaC C(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]‰
+·
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaD4 D(<
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%1∂
+≥
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaC C(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumÑ
+Å
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaDT D([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%2*
+1*É
+1å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaE E(¿Ω
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaE E(
+%0java.lang.String[]"java.lang.String[]"´
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaE E(
+
+%0java.lang.String[]:Ø
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaD% D(=
+libnamesjava.lang.String[]:œ
+å
+ÅC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compaq/CompaqVisualFortranLibrarian.javaD> D([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumBEC
+Acom.github.maven_nar.cpptasks.compaq.CompaqVisualFortranLibrarianH

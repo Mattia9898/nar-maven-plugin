@@ -1,0 +1,74 @@
+
+›com.github.maven_nar.cpptasks.sun.C89Linker#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javaw w($"startingBlock*ë
+startingBlocku
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javaw$ w(\þ
+û
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javav v(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]Ì
+É
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javaw4 w(<
+libnamesjava.lang.String[]"__annotation*"
+
+__unknown_file (
+
+%1ž
+›
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javav v(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumì
+é
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javawT w([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"__annotation*"
+
+__unknown_file (
+
+%2*
+1*´
+1u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javax x(¡
+ž
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javax x(=
+%0java.lang.String[]"žcom.github.maven_nar.cpptasks.sun.C89Processor#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.sun.C89Processor*<
+
+__unknown_file ( 
+
+libnamesjava.lang.String[]*\
+
+__unknown_file (@
+>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnum"“
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javax x(>
+
+%0java.lang.String[]:—
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javaw% w(=
+libnamesjava.lang.String[]:·
+u
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/sun/C89Linker.javaw> w([>
+libType3com.github.maven_nar.cpptasks.types.LibraryTypeEnumB/-
++com.github.maven_nar.cpptasks.sun.C89LinkerH

@@ -21,19 +21,27 @@ package com.github.maven_nar.test;
 
 import java.io.File;
 
-import junit.framework.Assert;
 import junit.framework.TestCase;
 
 import org.apache.maven.plugin.MojoExecutionException;
+
 import org.apache.maven.plugin.MojoFailureException;
+
 import org.apache.maven.plugin.logging.Log;
+
 import org.apache.maven.plugin.logging.SystemStreamLog;
+import org.junit.Assert;
 
 import com.github.maven_nar.AbstractNarLayout;
+
 import com.github.maven_nar.Library;
+
 import com.github.maven_nar.NarFileLayout;
+
 import com.github.maven_nar.NarFileLayout10;
+
 import com.github.maven_nar.NarLayout;
+
 import com.github.maven_nar.NarLayout20;
 
 /**
@@ -92,8 +100,10 @@ public class TestNarLayout20 extends TestCase {
         this.layout.getIncludeDirectory(this.baseDir, null, null));
   }
 
-  public final void testGetLayout() throws MojoExecutionException {
+  public final void testGetLayout() throws MojoExecutionException, MojoFailureException {
     AbstractNarLayout.getLayout("NarLayout20", this.log);
+    Assert.assertEquals(new File(this.baseDir, this.fileLayout.getBinDirectory(this.aol)),
+            this.layout.getBinDirectory(this.baseDir, null, null, this.aol));
   }
 
   /**

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#getEnvironmentIncludePath()[Ljava/io/File;
+com.github.maven_nar.cpptasks.CUtil#getPathFromEnvironment(Ljava/lang/String;Ljava/lang/String;)[Ljava/io/File;

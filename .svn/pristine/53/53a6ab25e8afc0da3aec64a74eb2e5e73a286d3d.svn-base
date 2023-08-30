@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#getInputFileArgument(Ljava/io/File;Ljava/lang/String;I)Ljava/lang/String;
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;

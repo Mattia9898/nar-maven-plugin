@@ -1,0 +1,74 @@
+
+Dcom.github.maven_nar.NarArtifact#getBaseFilename()Ljava/lang/String;j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java' '("1*Ë
+1j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((ß§
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((
+%0java.lang.String"Korg.apache.maven.artifact.DefaultArtifact#getArtifactId()Ljava/lang/String;*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarArtifact2getArtifactId()è
+å
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( (( 
+%1java.lang.String"__concat*Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((
+
+%0java.lang.String*s
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( (( 
+-©¶
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java(# ((3
+%2java.lang.String"Lorg.apache.maven.artifact.DefaultArtifact#getBaseVersion()Ljava/lang/String;*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarArtifact2getBaseVersion()£
+†
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((3
+%3java.lang.String"__concat*Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( (( 
+
+%1java.lang.String*Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java(# ((3
+
+%2java.lang.Stringè
+å
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((9
+%4java.lang.String"__concat*Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((3
+
+%3java.lang.String*s
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java(6 ((9
+-ß§
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java(< ((K
+%5java.lang.String"Korg.apache.maven.artifact.DefaultArtifact#getClassifier()Ljava/lang/String;*@
+
+__unknown_file ($"
+ com.github.maven_nar.NarArtifact2getClassifier()£
+†
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((K
+%6java.lang.String"__concat*Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((9
+
+%4java.lang.String*Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java(< ((K
+
+%5java.lang.String"Ü
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarArtifact.java( ((L
+
+%6java.lang.StringB$"
+ com.github.maven_nar.NarArtifactH

@@ -1,0 +1,7 @@
+com.github.maven_nar.AbstractDependencyMojo#getAllAttachedNarArtifacts(Ljava/util/List;Ljava/util/List;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+com.github.maven_nar.AbstractDependencyMojo#getAttachedNarArtifacts(Lcom/github/maven_nar/NarArtifact;Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/util/List;
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

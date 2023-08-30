@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandLinker#isCaseSensitive()Z
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#isCaseSensitive()Z

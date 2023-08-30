@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandLibrarian#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#getLibraryPatterns([Ljava/lang/String;Lcom/github/maven_nar/cpptasks/types/LibraryTypeEnum;)[Ljava/lang/String;

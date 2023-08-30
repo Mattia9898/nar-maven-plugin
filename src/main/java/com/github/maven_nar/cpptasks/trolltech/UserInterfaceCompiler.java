@@ -1,41 +1,73 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.trolltech;
 
 import java.io.File;
-import java.util.Vector;
+
+import java.util.ArrayList;
 
 import org.apache.tools.ant.BuildException;
+
 import org.apache.tools.ant.types.Environment;
 
 import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.OptimizationEnum;
+
+import com.github.maven_nar.cpptasks.ProcessorDef;
+
+import com.github.maven_nar.cpptasks.TargetDef;
+
 import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.compiler.CommandLineCompiler;
-import com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration;
+
 import com.github.maven_nar.cpptasks.compiler.LinkType;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
+
 import com.github.maven_nar.cpptasks.compiler.Processor;
+
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+
 import com.github.maven_nar.cpptasks.compiler.ProgressMonitor;
+
 import com.github.maven_nar.cpptasks.gcc.LdLinker;
+
 import com.github.maven_nar.cpptasks.parser.Parser;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
 
 /**
  * Adapter for the Trolltech Qt UIC Compiler.
@@ -43,19 +75,27 @@ import com.github.maven_nar.cpptasks.parser.Parser;
  * @author Curt Arnold
  */
 public final class UserInterfaceCompiler extends CommandLineCompiler {
+	
+	
   /**
    * Singleton instance.
    */
-  private static final UserInterfaceCompiler INSTANCE = new UserInterfaceCompiler(false, null);
+  private static final UserInterfaceCompiler INSTANCE = new UserInterfaceCompiler(null);
 
+  private static final ProcessorConfiguration ProcessorConfiguration = null;
+
+  
   /**
    * Gets singleton instance of compiler.
    * 
    * @return MetaObjectCompiler singleton instance
    */
   public static UserInterfaceCompiler getInstance() {
+	  
     return INSTANCE;
+    
   }
+  
 
   /**
    * Constructor.
@@ -65,12 +105,15 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    * @param env
    *          Environment environment.
    */
-  private UserInterfaceCompiler(final boolean newEnvironment, final Environment env) {
-    super("uic", "-version", new String[] {
+  private UserInterfaceCompiler(final Environment env) {
+	  
+    super("uic", new String[] {
       ".ui"
-    }, new String[0], ".h", false, null, newEnvironment, env);
+    }, false, null, env);
+    
   }
 
+  
   /**
    * Add arguments for debug, etc.
    * 
@@ -89,11 +132,19 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    * @param optimization
    *          OptimizationEnum optimization
    */
-  @Override
-  protected void addImpliedArgs(final Vector<String> args, final boolean debug, final boolean multithreaded,
-      final boolean exceptions, final LinkType linkType, final Boolean rtti, final OptimizationEnum optimization) {
+  //inizio del metodo: addImpliedArgs
+  //presenza corretta di parametri in input
+  
+  protected void addImpliedArgs() {
+	  
+	  //implementazione mancante
+	  //implementazione necessaria per il raggiungimento dello scopo del metodo: addImpliedArgs
+	  
   }
+  //fine del metodo: addImpliedArgs
+  //esecuzione del metodo: addImpliedArgs corretta, ma fuorviante
 
+  
   /**
    * Add arguments for specified warning level.
    * 
@@ -102,9 +153,19 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    * @param level
    *          int warning level value
    */
-  @Override
-  protected void addWarningSwitch(final Vector<String> args, final int level) {
+  /*inizio del metodo: addWarningSwitch
+  presenza corretta di parametri in input*/
+  
+  
+  protected void addWarningSwitch() {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: addWarningSwitch*/
+	  
   }
+  /*fine del metodo: addWarningSwitch
+  esecuzione del metodo: addWarningSwitch corretta, ma fuorviante*/
+  
 
   /**
    * Change enviroment (deprecated).
@@ -117,8 +178,11 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   public Processor changeEnvironment(final boolean newEnvironment, final Environment env) {
+	  
     return this;
+    
   }
+  
 
   /**
    * Compiles an .ui file into the corresponding .h, .cpp and moc_*.cpp files.
@@ -140,88 +204,104 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    * @param monitor
    *          progress monitor
    */
-  @Override
   public void compile(final CCTask task, final File outputDir, final String[] sourceFiles, final String[] args,
-      final String[] endArgs, final boolean relentless, final CommandLineCompilerConfiguration config,
-      final ProgressMonitor monitor) {
+      final String[] endArgs, final boolean relentless, final ProgressMonitor monitor) {
 
     BuildException exc = null;
+    
     final String[] thisSource = new String[1];
+    
     final String[] uicCommand = new String[args.length + endArgs.length + 4];
+    
     uicCommand[0] = "uic";
+    
     final String[] uicImplCommand = new String[args.length + endArgs.length + 6];
+    
     uicImplCommand[0] = "uic";
+    
     final String[] mocCommand = new String[args.length + endArgs.length + 4];
+    
     mocCommand[0] = "moc";
-    for (int i = 0; i < args.length; i++) {
-      uicCommand[i + 1] = args[i];
-      uicImplCommand[i + 1] = args[i];
-      mocCommand[i + i] = args[i];
-    }
+    
     uicCommand[args.length + 1] = "-o";
+    
     uicImplCommand[args.length + 1] = "-o";
+    
     mocCommand[args.length + 1] = "-o";
 
     int uicIndex = args.length + 4;
+    
     int uicImplIndex = args.length + 6;
+    
     int mocIndex = args.length + 4;
+    
     for (final String endArg : endArgs) {
+    	
       uicCommand[uicIndex++] = endArg;
+      
       uicImplCommand[uicImplIndex++] = endArg;
+      
       mocCommand[mocIndex++] = endArg;
+      
     }
+    
     for (final String sourceFile : sourceFiles) {
-      uicIndex = args.length + 2;
-      uicImplIndex = args.length + 2;
-      mocIndex = args.length + 2;
-      final String[] outputFileNames = getOutputFileNames(sourceFile, null);
-
-      uicCommand[uicIndex++] = outputFileNames[0];
-      uicCommand[uicIndex++] = sourceFile;
-
-      uicImplCommand[uicImplIndex++] = outputFileNames[1];
-      uicImplCommand[uicImplIndex++] = "-impl";
-      uicImplCommand[uicImplIndex++] = outputFileNames[0];
-      uicImplCommand[uicImplIndex++] = sourceFile;
-
-      mocCommand[mocIndex++] = outputFileNames[2];
-      mocCommand[mocIndex++] = outputFileNames[0];
-
+    	            
       int retval = runCommand(task, outputDir, uicCommand);
+      
       if (retval == 0) {
+    	  
         retval = runCommand(task, outputDir, uicImplCommand);
-        if (retval == 0) {
-          retval = runCommand(task, outputDir, mocCommand);
-        }
+        
       }
+      
       if (monitor != null) {
+    	  
         thisSource[0] = sourceFile;
+        
         monitor.progress(thisSource);
+        
       }
+      
       //
       // if the process returned a failure code and
       // we aren't holding an exception from an earlier
       // interation
-      if (retval != 0 && exc == null) {
+      
+      if (retval != 0) {
+    	  
         //
         // construct the exception
         //
-        exc = new BuildException(this.getCommand() + " failed with return code " + retval, task.getLocation());
+    	  
+        exc = new BuildException(this.getIdentifier() + " failed with return code " + retval, task.getLocation());
+        
         //
         // and throw it now unless we are relentless
         //
+        
         if (!relentless) {
+        	
           throw exc;
+          
         }
+        
       }
+      
     }
+    
     //
     // if the compiler returned a failure value earlier
     // then throw an exception
+    
     if (exc != null) {
+    	
       throw exc;
+      
     }
+    
   }
+  
 
   /**
    * The include parser for C will work just fine, but we didn't want to
@@ -231,21 +311,13 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    *          source file to be parsed
    * @return parser
    */
-  @Override
-  protected Parser createParser(final File source) {
+  protected Parser createParser() {
+	  
     return new UserInterfaceParser();
+    
   }
 
-  /**
-   * Gets number of command line arguments per input file.
-   * 
-   * @return int number of command line arguments per input file.
-   */
-  @Override
-  protected int getArgumentCountPerInputFile() {
-    return 3;
-  }
-
+  
   /**
    * Gets switch to define preprocessor macro.
    * 
@@ -256,10 +328,18 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    * @param value
    *          String macro value, may be null.
    */
-  @Override
-  protected void getDefineSwitch(final StringBuffer buffer, final String define, final String value) {
+  //inizio del metodo: getDefineSwitch
+  //presenza corretta di parametri in input
+  protected void getDefineSwitch() {
+	  
+	  //implementazione mancante
+	  //implementazione necessaria per il raggiungimento dello scopo del metodo: getDefineSwitch
+	  
   }
+  //fine del metodo: getDefineSwitch
+  //esecuzione del metodo: getDefineSwitch eseguita, ma fuorviante
 
+  
   /**
    * Gets standard include paths.
    * 
@@ -267,8 +347,11 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   protected File[] getEnvironmentIncludePath() {
+	  
     return new File[0];
+    
   }
+  
 
   /**
    * Gets include directory switch.
@@ -279,8 +362,11 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   protected String getIncludeDirSwitch(final String includeDir) {
+	  
     return "";
+    
   }
+  
 
   /**
    * Gets input file arguments.
@@ -294,23 +380,32 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    *          0 to getNumberOfArgumentsPerInputFile() -1
    * @return String input file argument
    */
-  @Override
-  protected String getInputFileArgument(final File outputDir, final String filename, final int index) {
+  public String getInputFileArgument(final File outputDir, final String filename, final int index) {
+	  
     switch (index) {
+    
       case 0:
+    	  
         return "-o";
 
       case 1:
+    	  
         final String outputFileName = getOutputFileNames(filename, null)[0];
+        
         return new File(outputDir, outputFileName).toString();
 
       case 2:
+    	  
         return filename;
 
       default:
+    	  
         return null;
+        
     }
+    
   }
+  
 
   /**
    * Gets linker associated with this type.
@@ -321,8 +416,11 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   public Linker getLinker(final LinkType type) {
+	  
     return LdLinker.getInstance();
+    
   }
+  
 
   /**
    * Gets maximum length of command line.
@@ -331,8 +429,11 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   public int getMaximumCommandLength() {
+	  
     return 1024;
+    
   }
+  
 
   /**
    * Gets maximum number of input files processed per command.
@@ -341,8 +442,11 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   protected int getMaximumInputFilesPerCommand() {
+	  
     return 1;
+    
   }
+  
 
   /**
    * Gets output file names.
@@ -355,15 +459,19 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    */
   @Override
   public String[] getOutputFileNames(final String inputFile, final VersionInfo versionInfo) {
+	  
     //
     // if a recognized input file
     //
     final String baseName = getBaseOutputName(inputFile);
+    
     return new String[] {
         baseName + ".h", baseName + ".cpp", "moc_" + baseName + ".cpp"
     };
+    
   }
 
+  
   /**
    * Gets switch to undefine preprocessor macro.
    * 
@@ -372,7 +480,127 @@ public final class UserInterfaceCompiler extends CommandLineCompiler {
    * @param define
    *          String macro name
    */
-  @Override
-  protected void getUndefineSwitch(final StringBuffer buffer, final String define) {
+  //inizio del metodo: getUndefineSwitch
+  //presenza corretta di parametri in input
+  
+ public void getUndefineSwitch() {
+	 
+	  //implementazione mancante
+	  //implementazione necessaria per il raggiungimento dello scopo del metodo: getUndefineSwitch
+	 
   }
+  //fine del metodo: getUndefineSwitch
+  //esecuzione del metodo: getUndefineSwitch eseguita, ma fuorviante
+ 
+	
+	@Override
+	public int bid(String inputFile) {
+	
+		return 0;
+		
+	}
+	
+	
+	@Override
+	public String getIdentifier() {
+	
+		return null;
+		
+	}
+	
+	
+	/*inizio del metodo: addImpliedArgs
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addImpliedArgs*/			
+		
+	}
+	/*fine del metodo: addImpliedArgs
+	esecuzione del metodo: addImpliedArgs 
+	corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: addWarningSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addWarningSwitch(ArrayList<String> args, int warnings) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addWarningSwitch*/		
+		
+	}
+	/*fine del metodo: addWarningSwitch
+	esecuzione del metodo: addWarningSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+			ArrayList<String> endargs) {
+	
+		return getHeaderExtensions();
+		
+	}
+	
+	
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/		
+		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: getDefineSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/	
+		
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: getUndefineSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+	
+		return ProcessorConfiguration;
+
+	}
+	
+	
+	@Override
+	protected String getOutputSuffix() {
+	
+		return identifier;
+		
+	}
+	
+	
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+	
+		return inputFile;
+		
+	}
+
 }

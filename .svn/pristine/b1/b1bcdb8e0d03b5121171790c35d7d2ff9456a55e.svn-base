@@ -1,0 +1,54 @@
+
+³com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaù ù("startingBlock*õ
+startingBlock”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaù ù(2»
+¸
+”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaø ø(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType‰
+†
+”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaù) ù(1;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ý
+1”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaú ú(ç
+ä
+”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaú ú("J
+%0Dcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccLinker"˜com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccLinker#getInstance()Lcom/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccLinker;*d
+
+__unknown_file (H"F
+Dcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccLinker…‚
+”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaú ú(63
+%1-com.github.maven_nar.cpptasks.compiler.Linker"°com.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*h
+
+__unknown_file (L
+J
+%0Dcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccLinker*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"Î
+”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaú ú(75
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:Ô
+”
+‡C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaù ù(1;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeBKI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompilerH

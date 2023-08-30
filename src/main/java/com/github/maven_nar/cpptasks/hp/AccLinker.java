@@ -1,0 +1,188 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar.cpptasks.hp;
+
+import java.io.File;
+
+import java.util.ArrayList;
+
+import com.github.maven_nar.cpptasks.CCTask;
+
+import com.github.maven_nar.cpptasks.CUtil;
+
+import com.github.maven_nar.cpptasks.compiler.LinkType;
+
+import com.github.maven_nar.cpptasks.compiler.Linker;
+
+import com.github.maven_nar.cpptasks.gcc.AbstractLdLinker;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+
+/**
+ * Adapter for Sun (r) Forte(tm) C++ Linker
+ *
+ * @author Curt Arnold
+ */
+public final class AccLinker extends AbstractLdLinker {
+	
+  private static final String[] discardFiles = new String[0];
+  
+  private static final String[] objFiles = new String[] {
+      ".o", ".a", ".lib", ".dll", ".so", ".sl"
+  };
+  
+  private static final AccLinker arLinker = new AccLinker("aCC", objFiles, "");
+  
+  private static final AccLinker dllLinker = new AccLinker("aCC", objFiles, "lib");
+  
+  private static final AccLinker instance = new AccLinker("aCC", objFiles, "");
+
+  
+  public static AccLinker getInstance() {
+	  
+    return instance;
+    
+  }
+  
+
+  private File[] libDirs;
+
+  
+  private AccLinker(final String command, final String[] extensions,
+      final String outputPrefix) {
+	  
+    super(command, "-help", extensions, outputPrefix, false, null);
+    
+  }
+  
+
+  @Override
+  public void addImpliedArgs(final boolean debug, final LinkType linkType, final ArrayList<String> args) {
+	  
+    if (debug) {
+    	
+      args.add("-g");
+      
+    }
+    
+    if (linkType.isSharedLibrary()) {
+    	
+      args.add("-b");
+      
+    }
+    
+  }
+
+  
+  /*inizio del metodo: addIncremental
+  presenza corretta di parametri in input*/
+  @Override
+  public void addIncremental(final boolean incremental, final ArrayList<String> args) {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento
+	   dello scopo del metodo: addIncremental*/
+	  
+  }
+  /*fine del metodo: addIncremental
+  esecuzione del metodo: addIncremental 
+  corretta, ma fuorviante*/
+  
+
+  /**
+   * Returns library path.
+   * 
+   */
+  @Override
+  public File[] getLibraryPath() {
+	  
+    if (this.libDirs == null) {
+    	
+      final File cCloc = CUtil.getExecutableLocation("aCC");
+      
+      if (cCloc != null) {
+    	  
+        final File compilerLib = new File(new File(cCloc, "../lib").getAbsolutePath());
+        
+        if (compilerLib.exists()) {
+        	
+          this.libDirs = new File[2];
+          
+          this.libDirs[0] = compilerLib;
+          
+        }
+        
+      }
+      
+      if (this.libDirs == null) {
+    	  
+        this.libDirs = new File[1];
+        
+      }
+      
+    }
+    
+    return this.libDirs;
+    
+  }
+
+  
+  @Override
+  public Linker getLinker(final LinkType type) {
+	  
+    if (type.isStaticLibrary()) {
+    	
+      return arLinker;
+      
+    }
+    
+    if (type.isSharedLibrary()) {
+    	
+      return dllLinker;
+      
+    }
+    
+    return instance;
+    
+  }
+
+  
+  @Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+		ArrayList<String> endargs) {
+
+	return discardFiles;
+	
+  }
+
+}

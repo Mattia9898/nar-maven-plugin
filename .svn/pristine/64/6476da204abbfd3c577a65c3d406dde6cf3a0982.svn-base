@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.CCTask#addConfiguredDistributer(Lcom/github/maven_nar/cpptasks/DistributerDef;)V
+java.lang.NullPointerException#<init>(Ljava/lang/String;)V
+java.lang.NullPointerException#instance-init#

@@ -1,0 +1,4 @@
+com.github.maven_nar.NarUtil#getBcelClass(Ljava/lang/String;)Lorg/apache/bcel/classfile/JavaClass;
+org.apache.bcel.classfile.ClassParser#parse()Lorg/apache/bcel/classfile/JavaClass;
+org.apache.bcel.classfile.ClassParser#<init>(Ljava/lang/String;)V
+org.apache.bcel.classfile.ClassParser#instance-init#

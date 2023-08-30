@@ -1,0 +1,13 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#compile(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Lcom/github/maven_nar/cpptasks/compiler/ProgressMonitor;)V
+java.util.ArrayList#<init>()V
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+java.lang.String#length()I
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;Lorg/apache/tools/ant/Location;)V
+com.google.common.collect.ObjectArrays#concat(Ljava/lang/Object;[Ljava/lang/Object;)[Ljava/lang/Object;
+java.util.ArrayList#instance-init#
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.util.ArrayList#<init>(Ljava/util/Collection;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#isUseCcache()Z
+org.apache.tools.ant.BuildException#instance-init#
+java.util.Collections#addAll(Ljava/util/Collection;[Ljava/lang/Object;)Z
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

@@ -1,0 +1,47 @@
+
+*com.github.maven_nar.IncludePath#exists()Zj
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java6
+ 6("3*«
+2j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7! 7(%Õ
+Ò
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7! 7(*
+%2java.io.File"__id*J
+
+__unknown_file (.*,"
+ com.github.maven_nar.IncludePath"
+fileÜÙ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7! 7(8
+%3boolean"java.io.File#isDirectory()Z*0
+
+__unknown_file (
+
+%2java.io.File2isDirectory()*
+1*¤
+3j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7 7(Õ
+Ò
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7 7(
+%0java.io.File"__id*J
+
+__unknown_file (.*,"
+ com.github.maven_nar.IncludePath"
+fileÒÏ
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7 7(
+%1boolean"java.io.File#exists()Z*0
+
+__unknown_file (
+
+%0java.io.File2exists()*
+2
+1*å
+1j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7 7(9"t
+j
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/IncludePath.java7 7(9
+""B$"
+ com.github.maven_nar.IncludePath

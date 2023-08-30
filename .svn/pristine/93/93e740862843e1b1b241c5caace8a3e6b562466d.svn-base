@@ -1,0 +1,279 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar;
+
+import java.io.File;
+
+import org.apache.maven.artifact.Artifact;
+
+import org.apache.maven.plugin.MojoExecutionException;
+
+import org.apache.maven.plugin.MojoFailureException;
+
+import org.apache.maven.plugins.annotations.LifecyclePhase;
+
+import org.apache.maven.plugins.annotations.Mojo;
+
+import org.apache.maven.plugins.annotations.Parameter;
+
+import org.apache.maven.plugins.annotations.ResolutionScope;
+
+import org.apache.maven.shared.artifact.filter.collection.ScopeFilter;
+
+import org.apache.tools.ant.BuildException;
+
+import org.apache.tools.ant.Project;
+
+import com.github.maven_nar.cpptasks.CCTask;
+
+import com.github.maven_nar.cpptasks.CUtil;
+
+import com.github.maven_nar.cpptasks.OutputTypeEnum;
+
+import com.github.maven_nar.cpptasks.RuntimeType;
+
+import com.github.maven_nar.cpptasks.SubsystemEnum;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+import com.github.maven_nar.cpptasks.types.LibraryTypeEnum;
+
+/**
+ * Compiles native test source files.
+ * 
+ * @author Mark Donszelmann
+ */
+@Mojo(name = "nar-testCompile", defaultPhase = LifecyclePhase.TEST_COMPILE,
+  requiresDependencyResolution = ResolutionScope.TEST)
+public class NarTestCompileMojo extends AbstractCompileMojo {
+	
+  /**
+   * Skip running of NAR integration test plugins.
+   */
+	
+  @Parameter(property = "skipNar")
+  protected boolean skipNar;
+
+  private void createTest(final Project antProject, final Test test)
+      throws MojoExecutionException, MojoFailureException {
+	  
+    // configure task
+    final CCTask task = new CCTask();
+    
+    task.setProject(antProject);
+
+    // subsystem
+    final SubsystemEnum subSystem = new SubsystemEnum();
+    
+    subSystem.setValue("console");
+    task.setSubsystem(subSystem);
+
+    // outtype
+    final OutputTypeEnum outTypeEnum = new OutputTypeEnum();
+    
+    outTypeEnum.setValue(test.getType());
+    task.setOuttype(outTypeEnum);
+
+    // outDir
+    File outDir = new File(getTestTargetDirectory(), "bin");
+    
+    outDir = new File(outDir, getAOL().toString());
+    
+    outDir.mkdirs();
+
+    // outFile
+    final File outFile = new File(outDir, test.getName());
+    
+    getLog().debug("NAR - output: '" + outFile + "'");
+    
+    task.setOutfile(outFile);
+
+    // object directory
+    File objDir = new File(getTestTargetDirectory(), "obj");
+    
+    objDir = new File(objDir, getAOL().toString());
+    
+    objDir.mkdirs();
+    
+    task.setObjdir(objDir);
+
+    // failOnError, libtool
+    task.setFailonerror(failOnError(getAOL()));
+    
+    task.setLibtool(useLibtool(getAOL()));
+
+    // runtime
+    final RuntimeType runtimeType = new RuntimeType();
+    
+    runtimeType.setValue(getRuntime(getAOL()));
+    
+    task.setRuntime(runtimeType);
+
+    // add java include paths
+    getJava().addIncludePaths(task);
+
+    getMsvc().configureCCTask(task);
+
+    // If we're restricting deps to direct deps ONLY then trim transitive deps
+
+    // add javah generated include path
+    
+    final File jniIncludeDir = getJavah().getJniDirectory();
+    
+    if (jniIncludeDir.exists()) {
+    	
+      task.createIncludePath().setPath(jniIncludeDir.getPath());
+      
+    }
+
+    // add linker
+    
+    final File includeDir = getLayout().getIncludeDirectory(getTargetDirectory(), getMavenProject().getArtifactId(),
+        getMavenProject().getVersion());
+
+    String linkType = test.getLink( getLibraries() );
+    
+    final File libDir = getLayout().getLibDirectory(getTargetDirectory(), getMavenProject().getArtifactId(),
+        getMavenProject().getVersion(), getAOL().toString(), linkType);
+
+    // copy shared library
+
+    
+    // add include of this package
+    
+    if (includeDir.exists()) {
+    	
+      task.createIncludePath().setLocation(includeDir);
+      
+    }
+
+    // add library of this package
+    if (libDir.exists()) {
+    	
+      final LibrarySet libSet = new LibrarySet();
+      
+      libSet.setProject(antProject);
+
+      final String libs = getNarInfo().getProperty(getAOL(), "libs.names", getOutput(true));
+
+      getLog().debug("Searching for parent to link with " + libs);
+      
+      libSet.setLibs(new CUtil.StringArrayBuilder(libs));
+      
+      final LibraryTypeEnum libType = new LibraryTypeEnum();
+      
+      libType.setValue(linkType);
+      
+      libSet.setType(libType);
+      
+      libSet.setDir(libDir);
+      
+      task.addLibset(libSet);
+      
+    }
+
+    // add dependency libraries
+    // reorder the libraries that come from the nar dependencies
+    // to comply with the order specified by the user
+    // Add JVM to linker
+    
+    getJava().addRuntime(task, getJavaHome(getAOL()), getOS(), getAOL().getKey() + ".java.");
+
+    // execute
+    try {
+    	
+      task.execute();
+      
+    } catch (final BuildException e) {
+    	
+      throw new MojoExecutionException("NAR: Test-Compile failed", e);
+      
+    }
+    
+  }
+
+  /**
+   * List the dependencies needed for tests compilations, those dependencies are
+   * used to get the include paths needed
+   * for compilation and to get the libraries paths and names needed for
+   * linking.
+   */
+  @Override
+  protected ScopeFilter getArtifactScopeFilter() {
+	  
+    // Was Artifact.SCOPE_TEST  - runtime??
+    return new ScopeFilter( Artifact.SCOPE_TEST, null );
+    
+  }
+
+  @Override
+  protected File getUnpackDirectory() {
+	  
+    return getTestUnpackDirectory() == null ? super.getUnpackDirectory() : getTestUnpackDirectory();
+    
+  }
+
+  @Override
+  public final void narExecute() throws MojoExecutionException, MojoFailureException {
+	  
+    if (this.skipTests) {
+    	
+      getLog().info("Not compiling test sources");
+      
+    } else {
+
+      // make sure destination is there
+      getTestTargetDirectory().mkdirs();
+
+      for (final Object o : getTests()) {
+    	  
+        createTest(getAntProject(), (Test) o);
+        
+      }
+      
+      if (replay != null) {
+    	  
+        File compileCommandFile = new File(replay.getOutputDirectory(), NarConstants.REPLAY_TEST_COMPILE_NAME);
+        
+        NarUtil.writeCommandFile(compileCommandFile, testCompileCommands);
+        
+        File linkCommandFile = new File(replay.getOutputDirectory(), NarConstants.REPLAY_TEST_LINK_NAME);
+        
+        NarUtil.writeCommandFile(linkCommandFile, testLinkCommands);
+        
+      }
+      
+    }
+    
+  }
+
+}

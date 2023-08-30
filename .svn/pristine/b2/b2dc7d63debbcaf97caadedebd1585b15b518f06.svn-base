@@ -1,0 +1,38 @@
+
+™com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;á
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÉ É(*"startingBlock*≤
+startingBlocká
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÉ* É(_†
+ù
+á
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÇ Ç(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.EnvironmentÓ
+Î
+á
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÉ[ É(^-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%0*
+1*€
+1á
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÑ Ñ("À
+á
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÑ Ñ(?=
+;com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCompiler: 
+
+__unknown_file (
+"":π
+á
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.javaÉI É(^-
+env&org.apache.tools.ant.types.EnvironmentB?=
+;com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCompilerH

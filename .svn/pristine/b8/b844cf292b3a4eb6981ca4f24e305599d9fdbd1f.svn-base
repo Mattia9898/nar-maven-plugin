@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#prepareArguments(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getEndArguments()[Ljava/lang/String;
+java.lang.StringBuffer#<init>()V
+java.lang.StringBuffer#instance-init#
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getPreArguments()[Ljava/lang/String;

@@ -1,0 +1,7 @@
+com.github.maven_nar.NarIntegrationTestMojo#resolveArtifact(Lorg/apache/maven/artifact/Artifact;Lorg/apache/maven/artifact/Artifact;)Lorg/apache/maven/artifact/resolver/ArtifactResolutionResult;
+org.apache.maven.artifact.resolver.filter.ExcludesArtifactFilter#instance-init#
+java.util.Collections#singleton(Ljava/lang/Object;)Ljava/util/Set;
+com.github.maven_nar.AbstractDependencyMojo#getLocalRepository()Lorg/apache/maven/artifact/repository/ArtifactRepository;
+com.github.maven_nar.AbstractDependencyMojo#getRemoteRepositories()Ljava/util/List;
+java.util.Collections#singletonList(Ljava/lang/Object;)Ljava/util/List;
+org.apache.maven.artifact.resolver.filter.ExcludesArtifactFilter#<init>(Ljava/util/List;)V

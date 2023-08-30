@@ -1,37 +1,62 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
 package com.github.maven_nar.cpptasks.compiler;
 
+
+import java.io.File;
+
+import java.util.ArrayList;
+
 import org.apache.tools.ant.types.Environment;
 
 import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.ProcessorDef;
+
 import com.github.maven_nar.cpptasks.TargetDef;
+
 import com.github.maven_nar.cpptasks.VersionInfo;
 
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+
 /**
- * A processor. Base interface for Compiler and Linker
+ * A processor. Base interface for Compiler aand Linker
  *
  * @author Curt Arnold
  */
 public interface Processor {
+	
+	
   /**
    * Returns a bid indicating the desire of this compiler to process the
    * file.
@@ -43,6 +68,7 @@ public interface Processor {
   int bid(String inputFile);
 
   Processor changeEnvironment(boolean newEnvironment, Environment env);
+  
 
   /**
    * Returns the compiler configuration for <cc>or <compiler>element.
@@ -59,6 +85,7 @@ public interface Processor {
    */
   ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
       ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo);
+  
 
   /**
    * Retrieve an identifier that identifies the specific version of the
@@ -66,11 +93,13 @@ public interface Processor {
    * output files for the same input files and command line switches.
    */
   String getIdentifier();
+  
 
   /**
    * Gets the linker that is associated with this processors
    */
   Linker getLinker(LinkType type);
+  
 
   /**
    * Output file name (no path components) corresponding to source file
@@ -81,4 +110,23 @@ public interface Processor {
    *         determined by input file
    */
   String[] getOutputFileNames(String inputFile, VersionInfo versionInfo);
+
+  String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+		ArrayList<String> endargs);
+
+/**
+ *  Empty Implementation
+ * @param baseDirPath Base directory path.
+ * @param includeDirs
+ *            Array of include directory paths
+ * @param args
+ *            Vector of command line arguments used to execute the task
+ * @param relativeArgs
+ *            Vector of command line arguments used to build the
+ * @param includePathId
+ * @param isSystem
+ */
+void addIncludes(String baseDirPath, File[] includeDirs, ArrayList<String> args, ArrayList<String> relativeArgs,
+		StringBuilder includePathId, boolean isSystem);
+
 }

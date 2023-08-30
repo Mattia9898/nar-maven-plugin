@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.LinkerDef#getIncremental([Lcom/github/maven_nar/cpptasks/LinkerDef;I)Z
+java.lang.Boolean#booleanValue()Z

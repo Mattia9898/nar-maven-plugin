@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.TargetDef#getArch()Lcom/github/maven_nar/cpptasks/ArchEnum;
+com.github.maven_nar.cpptasks.TargetDef#getArch()Lcom/github/maven_nar/cpptasks/ArchEnum;

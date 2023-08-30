@@ -1,0 +1,2 @@
+com.github.maven_nar.NarSystemMojo#hasNativeLibLoaderAsDependency()Z
+com.github.maven_nar.NarSystemMojo#getNativeLibLoaderVersion()Ljava/lang/String;

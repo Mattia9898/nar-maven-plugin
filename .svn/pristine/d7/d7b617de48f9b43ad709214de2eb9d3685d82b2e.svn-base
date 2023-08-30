@@ -1,0 +1,38 @@
+
+¤com.github.maven_nar.cpptasks.compiler.AbstractLinker#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javal l($"startingBlock*—
+startingBlock
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javal$ l(Y—
+”
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javak k(
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*K
+
+__unknown_file (/
+-
+env&org.apache.tools.ant.types.Environmentå
+â
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javalU l(X-
+env&org.apache.tools.ant.types.Environment"__annotation*"
+
+__unknown_file (
+
+%0*
+1*Ã
+1
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javam m("¼
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javam m(97
+5com.github.maven_nar.cpptasks.compiler.AbstractLinker: 
+
+__unknown_file (
+"":°
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.javalC l(X-
+env&org.apache.tools.ant.types.EnvironmentB97
+5com.github.maven_nar.cpptasks.compiler.AbstractLinkerH

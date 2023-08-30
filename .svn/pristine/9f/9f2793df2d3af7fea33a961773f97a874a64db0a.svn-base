@@ -1,0 +1,289 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar.cpptasks.borland;
+
+import java.io.File;
+
+import java.util.ArrayList;
+
+import org.apache.tools.ant.types.Environment;
+
+import com.github.maven_nar.cpptasks.CCTask;
+
+import com.github.maven_nar.cpptasks.OptimizationEnum;
+
+import com.github.maven_nar.cpptasks.ProcessorDef;
+
+import com.github.maven_nar.cpptasks.TargetDef;
+
+import com.github.maven_nar.cpptasks.VersionInfo;
+
+import com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration;
+
+import com.github.maven_nar.cpptasks.compiler.CompilerConfiguration;
+
+import com.github.maven_nar.cpptasks.compiler.LinkType;
+
+import com.github.maven_nar.cpptasks.compiler.Linker;
+
+import com.github.maven_nar.cpptasks.compiler.PrecompilingCommandLineCCompiler;
+
+import com.github.maven_nar.cpptasks.compiler.Processor;
+
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
+
+/**
+ * Adapter for the Borland(r) C/C++ compiler.
+ *
+ * @author Curt Arnold
+ */
+public class BorlandCCompiler extends PrecompilingCommandLineCCompiler {
+  
+  private static final String[] sourceExtensions = new String[] {
+      ".c", ".cc", ".cpp", ".cxx", ".c++"
+  };
+  
+  private static final BorlandCCompiler instance = new BorlandCCompiler(null);
+
+  public static BorlandCCompiler getInstance() {
+    return instance;
+  }
+
+  private BorlandCCompiler(final Environment env) {
+    super("bcc32", ".obj", sourceExtensions, new String[]{"--version"}, false, null, env);
+  }
+
+  
+  protected void addImpliedArgs(final ArrayList<String> args, final boolean debug, final boolean multithreaded,
+      final boolean exceptions, final OptimizationEnum optimization) {
+	  
+    args.add("-c");
+    //
+    // turn off compiler autodependency since
+    // we do it ourselves
+    args.add("-X");
+    
+    if (exceptions) {
+      args.add("-x");
+    } 
+    else {
+      args.add("-x-");
+    }
+    
+    if (multithreaded) {
+      args.add("-tWM");
+    }
+    
+    if (debug) {
+      args.add("-Od");
+      args.add("-v");
+    }
+    	
+    if (optimization != null && optimization.isSpeed()) {
+    	  
+      args.add("-O1");
+      args.add("-O2");
+      args.add("-Od");
+        
+    }    
+    
+  }
+
+  
+  protected void addWarningSwitch1(final ArrayList<String> args, final int level) {
+    BorlandProcessor.addWarningSwitch(args, level);
+  }
+
+  @Override
+  public Processor changeEnvironment(final boolean newEnvironment, final Environment env) {
+    if (newEnvironment || env != null) {
+      return new BorlandCCompiler(env);
+    }
+    return this;
+  }
+
+  @Override
+  protected CompilerConfiguration createPrecompileGeneratingConfig(final CommandLineCompilerConfiguration baseConfig,
+      final File prototype, final String lastInclude) {
+    final String[] additionalArgs = new String[] {
+        "-H=" + lastInclude, "-Hc"
+    };
+    return new CommandLineCompilerConfiguration(baseConfig, additionalArgs, null, true);
+  }
+
+  @Override
+  protected CompilerConfiguration createPrecompileUsingConfig(final CommandLineCompilerConfiguration baseConfig,
+      final File prototype, final String lastInclude, final String[] exceptFiles) {
+	  
+    final String[] additionalArgs = new String[] {
+    		
+      "-Hu"
+    		
+    };
+    
+    return new CommandLineCompilerConfiguration(baseConfig, additionalArgs, exceptFiles, false);
+    
+  }
+
+  @Override
+  protected int getArgumentCountPerInputFile() {
+    return 3;
+  }
+
+  @Override
+  public String getInputFileArgument(final String filename) {
+    
+    String relative="";
+    
+    if (relative.isEmpty()) {
+    	
+      return filename;
+      
+    } else {
+    	
+      return relative;
+      
+    }
+    
+  }
+
+  
+  
+  protected void getDefineSwitch1(final StringBuilder buffer, final String define, final String value) {
+    BorlandProcessor.getDefineSwitch(buffer, define, value);
+  }
+
+  @Override
+  protected File[] getEnvironmentIncludePath() {
+	  
+    return BorlandProcessor.getEnvironmentPath("bcc32", 'I', new String[] {
+      "..\\include"
+    });
+    
+  }
+
+  @Override
+  protected String getIncludeDirSwitch(final String includeDir) {
+    return BorlandProcessor.getIncludeDirSwitch("-I", includeDir);
+  }
+
+  @Override
+  public Linker getLinker(final LinkType type) {
+    return BorlandLinker.getInstance().getLinker(type);
+  }
+
+  @Override
+  public int getMaximumCommandLength() {
+    return 1024;
+  }
+
+  
+  protected void getUndefineSwitch1(final StringBuilder buffer, final String define) {
+    BorlandProcessor.getUndefineSwitch(buffer, define);
+  }
+
+  @Override
+  public String getIdentifier() {
+
+	return getOSName();
+  }
+	
+	@Override
+	protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+	
+		
+	}
+	
+	@Override
+	protected void addWarningSwitch(ArrayList<String> args, int warnings) {
+	
+		
+	}
+	
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+			ArrayList<String> endargs) {
+	
+		return sourceExtensions;
+	}
+	
+	
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/			
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/	
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: addBase corretta, ma fuorviante*/
+	
+	
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+	
+		ProcessorConfiguration processorConfiguration = null;
+		return processorConfiguration;
+	}
+	
+	@Override
+	protected String getOutputSuffix() {
+	
+		return identifier;
+	}
+	
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+	
+		return inputFile;
+	}
+
+  
+}

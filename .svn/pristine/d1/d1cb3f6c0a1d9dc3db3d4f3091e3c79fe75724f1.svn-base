@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.types.DefineSet#addDefines([Ljava/lang/String;Z)V
+com.github.maven_nar.cpptasks.types.UndefineArgument#<init>()V
+com.github.maven_nar.cpptasks.types.UndefineArgument#setName(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.types.UndefineArgument#instance-init#
+com.github.maven_nar.cpptasks.types.DefineArgument#<init>()V
+com.github.maven_nar.cpptasks.types.DefineArgument#instance-init#

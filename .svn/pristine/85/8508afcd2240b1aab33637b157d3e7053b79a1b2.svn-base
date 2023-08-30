@@ -1,0 +1,4 @@
+com.github.maven_nar.Msvc#isMSVC(Lcom/github/maven_nar/AbstractNarMojo;)Z
+com.github.maven_nar.Msvc#isMSVC(Ljava/lang/String;)Z
+com.github.maven_nar.AbstractNarMojo#getLinker()Lcom/github/maven_nar/Linker;
+com.github.maven_nar.Linker#getName()Ljava/lang/String;

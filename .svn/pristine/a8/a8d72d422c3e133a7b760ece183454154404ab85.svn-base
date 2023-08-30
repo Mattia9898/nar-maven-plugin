@@ -1,0 +1,6 @@
+com.github.maven_nar.Javah#generateArgs(Ljava/util/Set;)[Ljava/lang/String;
+java.util.ArrayList#<init>()V
+com.github.maven_nar.Javah#getJniDirectory()Ljava/io/File;
+com.github.maven_nar.Javah#getClassPaths()Ljava/util/List;
+org.codehaus.plexus.util.StringUtils#join(Ljava/util/Iterator;Ljava/lang/String;)Ljava/lang/String;
+java.util.ArrayList#instance-init#

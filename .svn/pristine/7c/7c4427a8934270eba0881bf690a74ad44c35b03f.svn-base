@@ -1,0 +1,7 @@
+com.github.maven_nar.NarProperties#getKnownAOLs()Ljava/util/Collection;
+java.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;
+java.util.regex.Matcher#matches()Z
+java.util.LinkedHashSet#instance-init#
+java.util.LinkedHashSet#<init>()V
+java.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;
+java.util.regex.Matcher#group(I)Ljava/lang/String;

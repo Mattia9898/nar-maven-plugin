@@ -21,13 +21,13 @@ package com.github.maven_nar.test;
 
 import java.io.File;
 
-import junit.framework.Assert;
 import junit.framework.TestCase;
 
 import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugin.logging.Log;
 import org.apache.maven.plugin.logging.SystemStreamLog;
+import org.junit.Assert;
 
 import com.github.maven_nar.AbstractNarLayout;
 import com.github.maven_nar.Library;
@@ -102,8 +102,11 @@ public class TestNarLayout21 extends TestCase {
         this.layout.getIncludeDirectory(this.baseDir, this.artifactId, this.version));
   }
 
-  public final void testGetLayout() throws MojoExecutionException {
+  public final void testGetLayout() throws MojoExecutionException, MojoFailureException {
     AbstractNarLayout.getLayout("NarLayout21", this.log);
+    Assert.assertEquals(new File(this.baseDir, this.artifactId + "-" + this.version + "-" + NarConstants.NAR_NO_ARCH
+            + File.separator + this.fileLayout.getIncludeDirectory()),
+            this.layout.getIncludeDirectory(this.baseDir, this.artifactId, this.version));
   }
 
   /**

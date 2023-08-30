@@ -1,0 +1,2 @@
+com.github.maven_nar.StringTextStream#println(Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

@@ -1,0 +1,55 @@
+
+©com.github.maven_nar.cpptasks.borland.BorlandResourceCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java† †("startingBlock*Ì
+startingBlock‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java† †(.¬
+©
+‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java… …(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeú
+÷
+‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java†) †(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Æ
+
+1‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java‡ ‡(—
+”
+‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java‡ ‡(&9
+%03com.github.maven_nar.cpptasks.borland.BorlandLinker"vcom.github.maven_nar.cpptasks.borland.BorlandLinker#getInstance()Lcom/github/maven_nar/cpptasks/borland/BorlandLinker;*S
+
+__unknown_file (7"5
+3com.github.maven_nar.cpptasks.borland.BorlandLinkerÔÑ
+‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java‡ ‡(63
+%1-com.github.maven_nar.cpptasks.compiler.Linker"Ÿcom.github.maven_nar.cpptasks.borland.BorlandLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;*W
+
+__unknown_file (;
+9
+%03com.github.maven_nar.cpptasks.borland.BorlandLinker*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2<getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)"Ã
+‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java‡ ‡(75
+3
+%1-com.github.maven_nar.cpptasks.compiler.Linker:Å
+‰
+}C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandResourceCompiler.java† †(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeBA?
+=com.github.maven_nar.cpptasks.borland.BorlandResourceCompilerH

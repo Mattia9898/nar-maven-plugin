@@ -1,34 +1,64 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
 package com.github.maven_nar.cpptasks.arm;
 
 import java.io.File;
-import java.util.Vector;
+
+import java.util.ArrayList;
 
 import org.apache.tools.ant.types.Environment;
 
+import com.github.maven_nar.cpptasks.CCTask;
+
 import com.github.maven_nar.cpptasks.CUtil;
+
 import com.github.maven_nar.cpptasks.OptimizationEnum;
+
+import com.github.maven_nar.cpptasks.ProcessorDef;
+
+import com.github.maven_nar.cpptasks.TargetDef;
+
+import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.compiler.CommandLineCCompiler;
+
 import com.github.maven_nar.cpptasks.compiler.LinkType;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
+
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
 
 /**
  * Adapter for the ARM C Compilers
@@ -40,72 +70,100 @@ import com.github.maven_nar.cpptasks.compiler.Linker;
  *
  */
 public class ADSCCompiler extends CommandLineCCompiler {
-  /**
-   * Header file extensions
-   */
-  private static final String[] headerExtensions = new String[] {
-      ".h", ".hpp", ".inl"
-  };
+	
+  
   /**
    * Source file extensions
    */
   private static final String[] sourceExtensions = new String[] {
       ".c", ".cc", ".cpp", ".cxx", ".c++"
   };
+  
+  
   /**
    * Singleton for ARM 32-bit C compiler
    */
-  private static final ADSCCompiler armcc = new ADSCCompiler("armcc", false, null);
+  private static final ADSCCompiler armcc = new ADSCCompiler("armcc", null);
+  
+  
   /**
    * Singleton for ARM 32-bit C++ compiler
    */
-  private static final ADSCCompiler armcpp = new ADSCCompiler("armcpp", false, null);
+  private static final ADSCCompiler armcpp = new ADSCCompiler("armcpp", null);
+  
+  
   /**
    * Singleton for ARM 16-bit C compiler
    */
-  private static final ADSCCompiler tcc = new ADSCCompiler("tcc", false, null);
+  private static final ADSCCompiler tcc = new ADSCCompiler("tcc", null);
+  
+  
   /**
    * Singleton for ARM 16-bit C++ compiler
    */
-  private static final ADSCCompiler tcpp = new ADSCCompiler("tcpp", false, null);
+  private static final ADSCCompiler tcpp = new ADSCCompiler("tcpp", null);
+
+  private static final ProcessorConfiguration PROCESSOR_CONFIGURATION = null;
+  
 
   /**
    * Singleton for ARM 32-bit C compiler
    */
   public static ADSCCompiler getArmCC() {
+	  
     return armcc;
+    
   }
+  
 
   /**
    * Singleton for ARM 32-bit C++ compiler
    */
   public static ADSCCompiler getArmCpp() {
+	  
     return armcpp;
+    
   }
+  
 
   /**
    * Singleton for ARM 16-bit C compiler
    */
   public static ADSCCompiler getThumbCC() {
+	  
     return tcc;
+    
   }
+  
 
   /**
    * Singleton for ARM 16-bit C++ compiler
    */
   public static ADSCCompiler getThumbCpp() {
+	  
     return tcpp;
+    
   }
+  
 
-  private static void quoteFile(final StringBuffer buf, final String outPath) {
+  private static void quoteFile(final StringBuilder buf, final String outPath) {
+	  
     if (outPath.indexOf(' ') >= 0) {
+    	
       buf.append('\"');
+      
       buf.append(outPath);
+      
       buf.append('\"');
+      
     } else {
+    	
       buf.append(outPath);
+      
     }
+    
   }
+  
 
   /**
    * Private constructor
@@ -117,26 +175,27 @@ public class ADSCCompiler extends CommandLineCCompiler {
    * @param env
    *          New environment
    */
-  private ADSCCompiler(final String command, final boolean newEnvironment, final Environment env) {
-    super(command, "-vsn", sourceExtensions, headerExtensions, ".o", false, null, newEnvironment, env);
+  private ADSCCompiler(final String command, final Environment env) {
+	  
+    super(command, sourceExtensions, false, null, env);
+    
   }
+  
 
   /**
    * {@inheritDoc}
    */
-  @Override
-  protected void addImpliedArgs(final Vector<String> args, final boolean debug, final boolean multithreaded,
-      final boolean exceptions, final LinkType linkType, final Boolean rtti, final OptimizationEnum optimization) {
+  
+  protected void addImpliedArgs(final ArrayList<String> args, final boolean debug) {
+	  
     if (debug) {
-      args.addElement("-g");
+    	
+      args.add("-g");
+      
     }
-    //
-    // didn't see anything about producing
-    // anything other than executables in the docs
-    if (linkType.isExecutable()) {
-    } else if (linkType.isSharedLibrary()) {
-    }
+    
   }
+  
 
   /**
    * Adds flags that customize the warnings reported
@@ -145,28 +204,45 @@ public class ADSCCompiler extends CommandLineCCompiler {
    * specific errors by explicit switches, could fabricate levels by
    * prioritizing errors.
    * 
-   * @see com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#addWarningSwitch(java.util.Vector,
+   * @see com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#addWarningSwitch1(java.util.Vector,
    *      int)
    */
-  @Override
-  protected void addWarningSwitch(final Vector<String> args, final int warnings) {
+  
+  //inizio del metodo
+  //presenza corretta di argomenti in input
+  protected void addWarningSwitch1(final ArrayList<String> args, final int warnings) {
+	  
+	  //implementazione mancante
+	  //implementazione necessaria per il raggiungimento dello scopo del metodo
+	  
   }
+  //fine del metodo
+  //esecuzione metodo riuscita, ma fuorviante
 
+  
   /**
    * Add command line options for preprocessor macro
    * 
-   * @see com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getDefineSwitch(java.lang.StringBuffer,
+   * @see com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getDefineSwitch1(java.lang.StringBuffer,
    *      java.lang.String, java.lang.String)
    */
-  @Override
-  protected void getDefineSwitch(final StringBuffer buffer, final String define, final String value) {
+  
+  protected void getDefineSwitch1(final StringBuilder buffer, final String define, final String value) {
+	  
     buffer.append("-D");
+    
     buffer.append(define);
+    
     if (value != null) {
+    	
       buffer.append('=');
+      
       buffer.append(value);
+      
     }
+    
   }
+  
 
   /**
    * ARMINC environment variable contains the default include path
@@ -175,8 +251,11 @@ public class ADSCCompiler extends CommandLineCCompiler {
    */
   @Override
   protected File[] getEnvironmentIncludePath() {
-    return CUtil.getPathFromEnvironment("ARMINC", ";");
+	  
+    return CUtil.getPathFromEnvironment();
+    
   }
+  
 
   /**
    * Returns command line option to specify include directory
@@ -184,21 +263,35 @@ public class ADSCCompiler extends CommandLineCCompiler {
    */
   @Override
   protected String getIncludeDirSwitch(final String source) {
-    final StringBuffer buf = new StringBuffer("-I");
+	  
+    final StringBuilder buf = new StringBuilder("-I");
+    
     quoteFile(buf, source);
+    
     return buf.toString();
+    
   }
+  
 
   @Override
   public Linker getLinker(final LinkType type) {
+	  
     if (type.isStaticLibrary()) {
-      return ADSLibrarian.getInstance();
+    	
+      return (Linker) ADSLibrarian.getInstance();
+      
     }
+    
     if (type.isSharedLibrary()) {
+    	
       return ADSLinker.getDllInstance();
+      
     }
+    
     return ADSLinker.getInstance();
+    
   }
+  
 
   /**
    * Maximum command line length
@@ -207,13 +300,145 @@ public class ADSCCompiler extends CommandLineCCompiler {
    */
   @Override
   public int getMaximumCommandLength() {
+	  
     return 1000;
+    
   }
+  
 
   /** Adds command to undefine preprocessor macro. */
-  @Override
-  protected void getUndefineSwitch(final StringBuffer buffer, final String define) {
+  public void getUndefineSwitch1(final StringBuilder buffer, final String define) {
+	  
     buffer.append("-U");
+    
     buffer.append(define);
+    
   }
+  
+
+  @Override
+  public String getIdentifier() {
+
+	return getOutputSuffix();
+	
+  }
+	
+  
+	/*inizio del metodo: addImpliedArgs
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addImpliedArgs*/			
+		
+	}
+	/*fine del metodo: addImpliedArgs
+	esecuzione del metodo: addImpliedArgs 
+	corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: addWarningSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void addWarningSwitch(ArrayList<String> args, int warnings) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addWarningSwitch*/			
+		
+	}
+	/*fine del metodo: addWarningSwitch
+	esecuzione del metodo: addWarningSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	protected void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/		
+		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: getDefineSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		
+			/*implementazione mancante
+			implementazione necessaria per il raggiungimento
+			 dello scopo del metodo: getUndefineSwitch*/
+		
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: getUndefineSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	public String getInputFileArgument() {
+	
+		return identifier;
+		
+	}
+	
+	
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs, ArrayList<String> midargs,
+			ArrayList<String> endargs) {
+	
+		return sourceExtensions;
+		
+	}
+	
+	
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+		
+		return PROCESSOR_CONFIGURATION;
+		
+	}
+	
+	
+	@Override
+	protected String getOutputSuffix() {
+	
+		return getInputFileArgument(identifier);
+		
+	}
+	
+	
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+	
+		return getInputFileArgument();
+		
+	}
+	
+
+	@Override
+	public int bid(String inputFile) {
+
+		return 1;
+		
+	}
+
+
+	@Override
+	public String[] getOutputFileNames(String inputFile, VersionInfo versionInfo) {
+
+		return getSourceExtensions();
+		
+	}
+	  
 }

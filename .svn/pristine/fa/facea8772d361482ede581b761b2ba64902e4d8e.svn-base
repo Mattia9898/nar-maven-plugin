@@ -1,0 +1,55 @@
+
+âcom.github.maven_nar.cpptasks.types.ConditionalFileSet#getRef(Lorg/apache/tools/ant/Project;)Lorg/apache/tools/ant/types/AbstractFileSet;Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java2 2(""startingBlock*Ö
+startingBlockÄ
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java2" 2(3ç
+ä
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java1 1(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*?
+
+__unknown_file (#
+!
+porg.apache.tools.ant.Project€
+ÿ
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java21 2(2!
+porg.apache.tools.ant.Project"__annotation*"
+
+__unknown_file (
+
+%2*
+1*è
+1Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java3 3(!ô
+ñ
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java3 3(%*
+%0$org.apache.tools.ant.types.Reference"__id*_
+
+__unknown_file (C*A8
+6com.github.maven_nar.cpptasks.types.ConditionalFileSet"
+ref «
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java3 3(<
+%1java.lang.Object"jorg.apache.tools.ant.types.Reference#getReferencedObject(Lorg/apache/tools/ant/Project;)Ljava/lang/Object;*H
+
+__unknown_file (,
+*
+%0$org.apache.tools.ant.types.Reference*?
+
+__unknown_file (#
+!
+porg.apache.tools.ant.Project23getReferencedObject(Lorg/apache/tools/ant/Project;)"ù
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java3 3(=
+
+%1java.lang.Object:¶
+Ä
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/types/ConditionalFileSet.java2# 2(2!
+porg.apache.tools.ant.ProjectB:8
+6com.github.maven_nar.cpptasks.types.ConditionalFileSet

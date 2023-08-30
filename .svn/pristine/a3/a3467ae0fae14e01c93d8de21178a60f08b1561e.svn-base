@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker#instance-init#
+java.util.ArrayList#instance-init#
+java.util.ArrayList#<init>(Ljava/util/Collection;)V
+com.github.maven_nar.cpptasks.CUtil#getPathFromEnvironment(Ljava/lang/String;Ljava/lang/String;)[Ljava/io/File;
+java.util.Arrays#asList([Ljava/lang/Object;)Ljava/util/List;

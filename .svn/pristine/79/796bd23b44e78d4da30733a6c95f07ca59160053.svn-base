@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#changeEnvironment(ZLorg/apache/tools/ant/types/Environment;)Lcom/github/maven_nar/cpptasks/compiler/Processor;
+com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#instance-init#
+com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#<init>(ZLorg/apache/tools/ant/types/Environment;)V

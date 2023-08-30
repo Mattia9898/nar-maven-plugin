@@ -1,0 +1,63 @@
+
+Icom.github.maven_nar.cpptasks.DistributerDef#getHosts()Ljava/lang/String;v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javae e("3*ã
+
+2v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javag= g(Jïì
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javag= g(r2
+%1,com.github.maven_nar.cpptasks.DistributerDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*L
+
+__unknown_file (0.
+,com.github.maven_nar.cpptasks.DistributerDef*"
+
+__unknown_file (
+""*.
+
+__unknown_file (
+DistributerDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)“
+
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javag g(s>
+refDistributer,com.github.maven_nar.cpptasks.DistributerDef"__id*P
+
+__unknown_file (4
+2
+%1,com.github.maven_nar.cpptasks.DistributerDefÈÅ
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javah h(&
+%2java.lang.String"Icom.github.maven_nar.cpptasks.DistributerDef#getHosts()Ljava/lang/String;*\
+
+__unknown_file (@
+>
+refDistributer,com.github.maven_nar.cpptasks.DistributerDef2
+getHosts()"’
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javah h('
+
+%2java.lang.String*¡
+3v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javaf f(›˜
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javaf f(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*L
+
+__unknown_file (0.
+,com.github.maven_nar.cpptasks.DistributerDef2isReference()*
+2
+1*…
+1v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javaj j(ò
+ï
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javaj j(
+%3java.lang.String"__id*W
+
+__unknown_file (;*9.
+,com.github.maven_nar.cpptasks.DistributerDef"
+hosts"’
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javaj j(
+
+%3java.lang.StringB0.
+,com.github.maven_nar.cpptasks.DistributerDefH

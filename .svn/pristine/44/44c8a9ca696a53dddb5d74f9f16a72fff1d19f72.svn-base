@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.borland.BorlandCCompiler#createPrecompileGeneratingConfig(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Ljava/io/File;Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/compiler/CompilerConfiguration;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#instance-init#
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#<init>(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;[Ljava/lang/String;[Ljava/lang/String;Z)V

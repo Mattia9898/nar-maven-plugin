@@ -1,35 +1,72 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
 /*
  * FREEHEP
  */
+
 package com.github.maven_nar.cpptasks.sun;
 
 import java.io.File;
-import java.util.Vector;
+
+import java.util.ArrayList;
+
+import java.util.List;
+
+import org.apache.tools.ant.types.Environment;
+
+import com.github.maven_nar.cpptasks.CCTask;
 
 import com.github.maven_nar.cpptasks.CUtil;
+
 import com.github.maven_nar.cpptasks.OptimizationEnum;
+
+import com.github.maven_nar.cpptasks.ProcessorDef;
+
+import com.github.maven_nar.cpptasks.TargetDef;
+
+import com.github.maven_nar.cpptasks.VersionInfo;
+
 import com.github.maven_nar.cpptasks.compiler.LinkType;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
+
+import com.github.maven_nar.cpptasks.compiler.Processor;
+
+import com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration;
+
 import com.github.maven_nar.cpptasks.gcc.GccCompatibleCCompiler;
+
+import com.github.maven_nar.cpptasks.types.LibrarySet;
+
 
 /**
  * Adapter for the Sun (r) Forte (tm) F77 compiler
@@ -37,91 +74,279 @@ import com.github.maven_nar.cpptasks.gcc.GccCompatibleCCompiler;
  * @author Mark Donszelmann
  */
 public final class ForteF77Compiler extends GccCompatibleCCompiler {
+	
   private static final ForteF77Compiler instance = new ForteF77Compiler("f77");
 
+  private static final ProcessorConfiguration PROCESSOR_CONFIGURATION = null;
+
+  
   /**
    * Gets singleton instance of this class
    */
   public static ForteF77Compiler getInstance() {
+	  
     return instance;
+    
   }
+  
 
-  private String identifier;
   private File[] includePath;
 
+  
   /**
    * Private constructor. Use ForteF77Compiler.getInstance() to get singleton
    * instance of this class.
    */
   private ForteF77Compiler(final String command) {
-    super(command, "-V", false, null, false, null);
+	  
+    super(command, new String[]{"-V"}, false, null, null);
+    
   }
+  
 
-  @Override
-  public void addImpliedArgs(final Vector<String> args, final boolean debug, final boolean multithreaded,
-      final boolean exceptions, final LinkType linkType, final Boolean rtti, final OptimizationEnum optimization) {
-    args.addElement("-c");
+  public void addImpliedArgs(final List<String> args, final boolean debug, final boolean multithreaded,
+      final LinkType linkType, final OptimizationEnum optimization) {
+	  
+    args.add("-c");
+    
     if (debug) {
-      args.addElement("-g");
+    	
+      args.add("-g");
+      
     }
+    
     if (optimization != null) {
-      if (optimization.isSpeed()) {
-        args.addElement("-xO2");
-      }
+    	
+      args.add("-xO2");
+        
     }
+    
     if (multithreaded) {
-      args.addElement("-mt");
+    	
+      args.add("-mt");
+      
     }
+    
     if (linkType.isSharedLibrary()) {
-      args.addElement("-KPIC");
+    	
+      args.add("-KPIC");
+      
     }
 
   }
 
-  @Override
-  public void addWarningSwitch(final Vector<String> args, final int level) {
+  
+  public void addWarningSwitch1(final List<String> args, final int level) {
+	  
     switch (level) {
+    
       case 0:
-        args.addElement("-w");
+    	  
+        args.add("-w");
+        
         break;
+        
       case 1:
+    	  
       case 2:
-        args.addElement("+w");
+    	  
+        args.add("+w");
+        
         break;
+        
       case 3:
+      
       case 4:
+      
       case 5:
-        args.addElement("+w2");
+    	  
+        args.add("+w2");
+        
         break;
+        
+      default: 
+    	  
+    	throw new IllegalArgumentException("unreachable");
+    	
     }
+    
   }
+  
 
   @Override
   public File[] getEnvironmentIncludePath() {
+	  
     if (this.includePath == null) {
+    	
       final File f77Loc = CUtil.getExecutableLocation("f77");
+      
       if (f77Loc != null) {
+    	  
         final File compilerIncludeDir = new File(new File(f77Loc, "../include").getAbsolutePath());
+        
         if (compilerIncludeDir.exists()) {
+        	
           this.includePath = new File[2];
+          
           this.includePath[0] = compilerIncludeDir;
+          
         }
+        
       }
+      
       if (this.includePath == null) {
+    	  
         this.includePath = new File[1];
+        
       }
-      this.includePath[this.includePath.length - 1] = new File("/usr/include");
+
     }
+    
     return this.includePath;
+    
   }
 
+  
   @Override
   public Linker getLinker(final LinkType linkType) {
+	  
     return ForteCCLinker.getInstance().getLinker(linkType);
+    
   }
+  
 
   @Override
   public int getMaximumCommandLength() {
+	  
     return Integer.MAX_VALUE;
+    
   }
+  
+
+  @Override
+  public int bid(String inputFile) {
+
+	return GETARGUMENTCOUNTPERINPUTFILE;
+	
+  }
+  
+
+  @Override
+  public Processor changeEnvironment(boolean newEnvironment, Environment env) {
+
+	return getLibtoolCompiler();
+	
+  }
+  
+
+  @Override
+  public String getIdentifier() {
+
+	return identifier;
+	
+  }
+	
+  
+  	  /*inizio del metodo: addImpliedArgs
+	  presenza corretta di parametri in input*/
+	  @Override
+	  protected void addImpliedArgs(ArrayList<String> args, boolean debug, boolean multithreaded, boolean exceptions,
+			LinkType linkType, Boolean rtti, OptimizationEnum optimization) {
+		  
+			/*implementazione mancante
+			implementazione necessaria per il raggiungimento
+			 dello scopo del metodo: addImpliedArgs*/				  
+		  
+	  }
+	  /*fine del metodo: addImpliedArgs
+		esecuzione del metodo: addImpliedArgs 
+		corretta, ma fuorviante*/
+
+  
+	/*inizio del metodo: addWarningSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void addWarningSwitch(ArrayList<String> args, int warnings) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: addWarningSwitch*/		
+		
+	}
+	/*fine del metodo: addWarningSwitch
+	esecuzione del metodo: addWarningSwitch 
+	corretta, ma fuorviante*/
+	
+
+	@Override
+	public String[] addLibrarySets(CCTask task, LibrarySet[] libsets, ArrayList<String> preargs,
+			ArrayList<String> midargs, ArrayList<String> endargs) {
+
+		return getSourceExtensions();
+		
+	}
+
+	
+	/*inizio del metodo: getDefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getDefineSwitch(StringBuilder buffer, String define, String value) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getDefineSwitch*/		
+		
+	}
+	/*fine del metodo: getDefineSwitch
+	esecuzione del metodo: getDefineSwitch 
+	corretta, ma fuorviante*/
+
+	
+	/*inizio del metodo: getUndefineSwitch
+	presenza corretta di parametri in input*/
+	@Override
+	public void getUndefineSwitch(StringBuilder buf, String define) {
+		
+		/*implementazione mancante
+		implementazione necessaria per il raggiungimento
+		 dello scopo del metodo: getUndefineSwitch*/		
+		
+	}
+	/*fine del metodo: getUndefineSwitch
+	esecuzione del metodo: getUndefineSwitch 
+	corretta, ma fuorviante*/
+	
+	
+	@Override
+	public ProcessorConfiguration createConfiguration(CCTask task, LinkType linkType, ProcessorDef[] defaultProviders,
+			ProcessorDef specificConfig, TargetDef targetPlatform, VersionInfo versionInfo) {
+
+		return PROCESSOR_CONFIGURATION;
+		
+	}
+
+	
+	@Override
+	protected String getOutputSuffix() {
+
+		return getIdentifier(getHeaderExtensions(), identifier);
+		
+	}
+	
+
+	@Override
+	protected String getBaseOutputName(String inputFile) {
+
+		return COMMAND;
+		
+	}
+
+
+	@Override
+	public String[] getOutputFileNames(String inputFile, VersionInfo versionInfo) {
+
+		return getSourceExtensions();
+		
+	}
+  
 }

@@ -1,0 +1,26 @@
+
+scom.github.maven_nar.cpptasks.msvc.Assembler64bitCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javaV V(("1*Ã
+1É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javaW W(ù
+ö
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javaW W(<
+%0java.lang.String"jcom.github.maven_nar.cpptasks.msvc.MsvcProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0com.github.maven_nar.cpptasks.msvc.MsvcProcessor*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String"†
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javaW W(=
+
+%0java.lang.String:¶
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/Assembler64bitCompiler.javaV) V(:
+
+includeDirjava.lang.StringB=;
+9com.github.maven_nar.cpptasks.msvc.Assembler64bitCompiler

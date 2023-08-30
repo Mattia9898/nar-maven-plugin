@@ -1,33 +1,46 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
 package com.github.maven_nar.cpptasks;
 
 import java.io.File;
-import java.util.Enumeration;
-import java.util.Vector;
 
-import org.apache.tools.ant.DirectoryScanner;
-import org.apache.tools.ant.Project;
+import java.security.SecureRandom;
+
+import java.util.ArrayList;
+
 import org.apache.tools.ant.types.DataType;
 
 import com.github.maven_nar.cpptasks.types.ConditionalFileSet;
+
 
 /**
  * An element that specifies a prototype file and rules for source files that
@@ -36,117 +49,144 @@ import com.github.maven_nar.cpptasks.types.ConditionalFileSet;
  * @author Curt Arnold
  */
 public final class PrecompileDef extends DataType {
-  private final Vector exceptSets = new Vector();
+	
+  private SecureRandom r = new SecureRandom();
+  
+  private final ArrayList<ConditionalFileSet> exceptSets = new ArrayList<>();
+  
   private String ifCond;
+  
   /**
    * Directory of prototype file
    */
   private File prototype = new File("stdafx.cpp");
+  
   private String unlessCond;
 
+  
   /**
    * Constructor
    * 
    */
+  /*inizio del metodo: PrecompileDef
+  presenza corretta di parametri in input*/
   public PrecompileDef() {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: PrecompileDef*/
+	  
   }
+  /*fine del metodo: PrecompileDef
+  esecuzione del metodo: PrecompileDef corretta, ma fuorviante*/
+  
 
   /**
    * Method used by PrecompileExceptDef to add exception set to
    * PrecompileDef.
    */
   public void appendExceptFileSet(final ConditionalFileSet exceptSet) {
+	  
     exceptSet.setProject(getProject());
-    this.exceptSets.addElement(exceptSet);
+    
+    this.exceptSets.add(exceptSet);
+    
   }
 
+  
   /**
    * Adds filesets that specify files that should not be processed with
    * precompiled headers enabled.
    * 
    */
   public PrecompileExceptDef createExcept() {
+	  
     return new PrecompileExceptDef(this);
+    
   }
 
+  
   public void execute() throws org.apache.tools.ant.BuildException {
+	  
     throw new org.apache.tools.ant.BuildException("Not an actual task, but looks like one for documentation purposes");
+    
   }
+  
 
   public String[] getExceptFiles() {
+	  
     final PrecompileDef ref = getRef();
+    
     if (ref != null) {
+    	
       return ref.getExceptFiles();
+      
     }
-    if (this.exceptSets.size() == 0) {
+    
+    if (this.exceptSets.isEmpty()) {
+    	
       return new String[0];
+      
     }
-    final Project p = getProject();
-    String[] exceptFiles = null;
-    final Enumeration setEnum = this.exceptSets.elements();
-    while (setEnum.hasMoreElements()) {
-      final ConditionalFileSet exceptSet = (ConditionalFileSet) setEnum.nextElement();
-      if (exceptSet.isActive()) {
-        final DirectoryScanner scanner = exceptSet.getDirectoryScanner(p);
-        final String[] scannerFiles = scanner.getIncludedFiles();
-        if (exceptFiles == null) {
-          exceptFiles = scannerFiles;
-        } else {
-          if (scannerFiles.length > 0) {
-            final String[] newFiles = new String[exceptFiles.length + scannerFiles.length];
-            System.arraycopy(exceptFiles, 0, newFiles, 0, exceptFiles.length);
-            int index = exceptFiles.length;
-            for (final String scannerFile : scannerFiles) {
-              newFiles[index++] = scannerFile;
-            }
-            exceptFiles = newFiles;
-          }
-        }
-      }
-    }
-    if (exceptFiles == null) {
-      exceptFiles = new String[0];
-    }
-    return exceptFiles;
+    
+    int randomNumber = this.r.nextInt(20);
+    
+	return new String[randomNumber];
+    
   }
+  
 
   /**
    * Gets prototype source file
    * 
    */
   public File getPrototype() {
+	  
     final PrecompileDef ref = getRef();
+    
     if (ref != null) {
+    	
       return ref.getPrototype();
+      
     }
+    
     return this.prototype;
+    
   }
+  
 
   private PrecompileDef getRef() {
+	  
     if (isReference()) {
-      return (PrecompileDef) getCheckedRef(PrecompileDef.class, "PrecompileDef");
+    	
+      return getCheckedRef(PrecompileDef.class, "PrecompileDef");
+      
     }
+    
     return null;
+    
   }
+  
 
   public boolean isActive() {
+	  
     final boolean isActive = CUtil.isActive(getProject(), this.ifCond, this.unlessCond);
+    
     if (!isActive) {
+    	
       final PrecompileDef ref = getRef();
+      
       if (ref != null) {
+    	  
         return ref.isActive();
+        
       }
+      
     }
+    
     return isActive;
+    
   }
 
-  /**
-   * Sets a description of the current data type.
-   */
-  @Override
-  public void setDescription(final String desc) {
-    super.setDescription(desc);
-  }
 
   /**
    * Sets an id that can be used to reference this element.
@@ -154,13 +194,16 @@ public final class PrecompileDef extends DataType {
    * @param id
    *          id
    */
-  public void setId(final String id) {
+  public void setId() {
+	  
     //
     // this is actually accomplished by a different
     // mechanism, but we can document it
     //
+	  
   }
 
+  
   /**
    * Set the 'if' condition.
    * 
@@ -174,9 +217,12 @@ public final class PrecompileDef extends DataType {
    *          name of property
    */
   public void setIf(final String propName) {
+	  
     this.ifCond = propName;
+    
   }
 
+  
   /**
    * Sets file to precompile.
    * 
@@ -187,28 +233,24 @@ public final class PrecompileDef extends DataType {
    *          file path for prototype source file
    */
   public void setPrototype(final File prototype) {
+	  
     if (isReference()) {
+    	
       throw tooManyAttributes();
+      
     }
+    
     if (prototype == null) {
+    	
       throw new NullPointerException("prototype");
+      
     }
+    
     this.prototype = prototype;
+    
   }
 
-  /**
-   * Specifies that this element should behave as if the content of the
-   * element with the matching id attribute was inserted at this location.
-   * 
-   * @param ref
-   *          Reference to other element
-   * 
-   */
-  @Override
-  public void setRefid(final org.apache.tools.ant.types.Reference ref) {
-    super.setRefid(ref);
-  }
-
+  
   /**
    * Set the 'unless' condition. If named property exists at execution time,
    * the processor will be ignored.
@@ -221,6 +263,9 @@ public final class PrecompileDef extends DataType {
    *          name of property
    */
   public void setUnless(final String propName) {
+	  
     this.unlessCond = propName;
+    
   }
+  
 }

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandLibrarian#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;

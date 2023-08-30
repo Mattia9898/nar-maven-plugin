@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter#writeComments(Ljava/io/Writer;Ljava/util/List;)V
+java.lang.String#substring(II)Ljava/lang/String;
+java.lang.String#indexOf(I)I
+com.github.maven_nar.cpptasks.ide.CommentDef#getText()Ljava/lang/String;

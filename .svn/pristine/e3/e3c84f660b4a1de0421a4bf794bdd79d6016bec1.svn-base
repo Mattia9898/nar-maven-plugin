@@ -1,0 +1,328 @@
+
+Ωcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLdArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)Và
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaü ü("7*∆
+13à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¶ ¶(Á
+‰
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¶ ¶(=
+%1java.lang.String"__concat*û
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¶ ¶(,
+option.o.arg.*ì
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¶/ ¶(=
+""¡æ
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¶? ¶(R
+%2java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*8
+
+__unknown_file (
+
+preArgjava.lang.String* 
+
+__unknown_file (22substring(I)Å˛
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¶ ¶(S
+
+%3void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*4
+
+__unknown_file (
+
+%1java.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+7*È
+14à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java•
+ •(Õ 
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java•
+ •(!
+%0boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*8
+
+__unknown_file (
+
+preArgjava.lang.String*"
+
+__unknown_file (
+-o2startsWith(Ljava/lang/String;)*
+13
+12*Ñ
+3à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java∂ ∂(ÎË
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java∂ ∂(3
+%17void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*0
+
+__unknown_file (
+option.l.enabled*!
+
+__unknown_file (
+12=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+0
+1*á
+5à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java≥ ≥(ÎË
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java≥ ≥(3
+%16void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*0
+
+__unknown_file (
+option.o.enabled*!
+
+__unknown_file (
+12=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*	
+3
+0
+1*ë
+7à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java§	 §(‘
+—
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java§	 §(
+preArgjava.lang.String"__id*"
+
+__unknown_file (
+""ó
+î
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java§	 §(
+preArgjava.lang.String"
+__arrayGet*;
+
+__unknown_file (
+
+preArgsjava.lang.String[]*"
+
+__unknown_file (
+""*
+14
+3
+5
+0
+1*º
+8à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(¬ø
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ) Ø(<
+%12java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*8
+
+__unknown_file (
+
+preArgjava.lang.String* 
+
+__unknown_file (22substring(I)ı
+Ú
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(<
+%13java.lang.String"__concat*ò
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(&	
+option.*¶
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ) Ø(<
+
+%12java.lang.Stringˆ
+Û
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(I
+%14java.lang.String"__concat*¶
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(<
+
+%13java.lang.String*ô
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ? Ø(I
+
+.enabledÌ
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaØ Ø(O
+%15void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*5
+
+__unknown_file (
+
+%14java.lang.String*!
+
+__unknown_file (
+12=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+7*»
+9à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java™ ™(Á
+‰
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java™ ™(=
+%9java.lang.String"__concat*û
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java™ ™(,
+option.L.arg.*ì
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java™/ ™(=
+""¬ø
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java™? ™(R
+%10java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*8
+
+__unknown_file (
+
+preArgjava.lang.String* 
+
+__unknown_file (22substring(I)ÉÄ
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java™ ™(S
+%11void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String*5
+
+__unknown_file (
+
+%10java.lang.String2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+7*Á
+10à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java© ©(Õ 
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java© ©((
+%8boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*8
+
+__unknown_file (
+
+preArgjava.lang.String*"
+
+__unknown_file (
+-L2startsWith(Ljava/lang/String;)*
+8
+9*®
+0 "†
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaª ª(
+implicit return*∆
+11à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java® ®(Á
+‰
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java® ®(=
+%5java.lang.String"__concat*û
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java® ®(,
+option.l.arg.*ì
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java®/ ®(=
+""¡æ
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java®? ®(R
+%6java.lang.String"/java.lang.String#substring(I)Ljava/lang/String;*8
+
+__unknown_file (
+
+preArgjava.lang.String* 
+
+__unknown_file (22substring(I)Å˛
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java® ®(S
+
+%7void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String*4
+
+__unknown_file (
+
+%6java.lang.String2=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+7*È
+12à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaß ß(Õ 
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaß ß((
+%4boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*8
+
+__unknown_file (
+
+preArgjava.lang.String*"
+
+__unknown_file (
+-l2startsWith(Ljava/lang/String;)*
+10
+11*Å
+1à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaπ π(ÎË
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaπ π(3
+%18void"äcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V*s
+
+__unknown_file (W
+U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter*8
+
+__unknown_file (
+
+linkIDjava.lang.String*0
+
+__unknown_file (
+option.L.enabled*!
+
+__unknown_file (
+12=write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)*
+0:‚
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaü ü(7U
+writerKcom.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter:ß
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaü8 ü(L
+linkIDjava.lang.String:™
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaüM ü(c
+preArgsjava.lang.String[]B@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter

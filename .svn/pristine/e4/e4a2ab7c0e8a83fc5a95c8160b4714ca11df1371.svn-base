@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.gcc.GppLinker#isClang()Z
+com.github.maven_nar.cpptasks.compiler.CaptureStreamHandler#execute([Ljava/lang/String;)Lcom/github/maven_nar/cpptasks/compiler/CaptureStreamHandler;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#getCommand()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+java.lang.String#startsWith(Ljava/lang/String;)Z

@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#getProductTypeIndex(Lcom/github/maven_nar/cpptasks/TargetInfo;)I
+com.github.maven_nar.cpptasks.TargetInfo#getOutput()Ljava/io/File;
+java.lang.String#substring(I)Ljava/lang/String;
+java.lang.String#lastIndexOf(I)I
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.CompilerDef#getMultithreaded([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Z
+com.github.maven_nar.cpptasks.CompilerDef#getMultithreaded([Lcom/github/maven_nar/cpptasks/CompilerDef;I)Z
+java.lang.Boolean#booleanValue()Z

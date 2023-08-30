@@ -1,0 +1,3 @@
+com.github.maven_nar.NarUtil#getLinker(Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Lcom/github/maven_nar/Linker;
+com.github.maven_nar.Linker#instance-init#
+com.github.maven_nar.Linker#<init>(Lorg/apache/maven/plugin/logging/Log;)V

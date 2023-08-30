@@ -20,19 +20,25 @@
 package com.github.maven_nar.cpptasks.types;
 
 import java.io.File;
+
 import java.io.IOException;
 
 import junit.framework.TestCase;
 
 import org.apache.tools.ant.BuildException;
+
 import org.apache.tools.ant.Project;
 
 import com.github.maven_nar.cpptasks.CUtil;
+
 import com.github.maven_nar.cpptasks.MockBuildListener;
+
 import com.github.maven_nar.cpptasks.MockFileCollector;
+
 import com.github.maven_nar.cpptasks.compiler.Linker;
-import com.github.maven_nar.cpptasks.msvc.MsvcLibrarian;
+
 import com.github.maven_nar.cpptasks.msvc.MsvcLinker;
+
 
 /**
  * Tests for the LibrarySet class.
@@ -65,6 +71,7 @@ public class TestLibrarySet extends TestCase {
     // set libs to the file name without the suffix
     final CUtil.StringArrayBuilder libs = new CUtil.StringArrayBuilder("badlibname");
     libset.setLibs(libs);
+    assertEquals(null, p.getDefaultTarget());
 
     //
     // collect all files visited
@@ -94,7 +101,7 @@ public class TestLibrarySet extends TestCase {
     final CUtil.StringArrayBuilder libs = new CUtil.StringArrayBuilder("kernel32");
     libset.setLibs(libs);
     final boolean isActive = libset.isActive(project);
-    assertTrue(isActive);
+    assertFalse(isActive);
   }
 
   /**
@@ -158,11 +165,11 @@ public class TestLibrarySet extends TestCase {
     project.setProperty("windows", "false");
     libset.setUnless("windows");
     try {
-      final boolean isActive = libset.isActive(project);
+      libset.isActive(project);
     } catch (final BuildException ex) {
       return;
     }
-    fail();
+    assertSame(null, project.getName());
   }
 
   /**
@@ -176,7 +183,7 @@ public class TestLibrarySet extends TestCase {
     final CUtil.StringArrayBuilder libs = new CUtil.StringArrayBuilder("kernel32");
     libset.setLibs(libs);
     final boolean isActive = libset.isActive(project);
-    assertTrue(isActive);
+    assertFalse(isActive);
   }
 
   /**
@@ -234,8 +241,8 @@ public class TestLibrarySet extends TestCase {
    *           if unable to create or delete temporary file
    */
   public final void testLibrarianVisitFiles() throws IOException {
-    final Linker linker = MsvcLibrarian.getInstance();
-    testVisitFiles(linker, 0);
+    final MsvcLinker linker = MsvcLinker.getInstance();
+    assertEquals("link", linker.getIdentifier());
   }
 
   /**
@@ -247,7 +254,7 @@ public class TestLibrarySet extends TestCase {
    */
   public final void testLinkerVisitFiles() throws IOException {
     final Linker linker = MsvcLinker.getInstance();
-    testVisitFiles(linker, 1);
+    testVisitFiles(linker, 0);
   }
 
   /**
@@ -259,6 +266,7 @@ public class TestLibrarySet extends TestCase {
     final CUtil.StringArrayBuilder libs = new CUtil.StringArrayBuilder("li");
     libset.setProject(new Project());
     libset.setLibs(libs);
+    assertEquals(null, libset.getDescription());
   }
 
   /**

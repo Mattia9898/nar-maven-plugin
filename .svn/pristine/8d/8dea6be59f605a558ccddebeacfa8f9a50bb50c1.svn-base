@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#addConfiguredDefineset(Lcom/github/maven_nar/cpptasks/types/DefineSet;)V
+com.github.maven_nar.cpptasks.CompilerDef#addConfiguredDefineset(Lcom/github/maven_nar/cpptasks/types/DefineSet;)V

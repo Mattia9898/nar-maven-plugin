@@ -19,6 +19,7 @@
  */
 package com.github.maven_nar.cpptasks.borland;
 
+import com.github.maven_nar.cpptasks.CCTask;
 import com.github.maven_nar.cpptasks.compiler.AbstractProcessor;
 import com.github.maven_nar.cpptasks.compiler.TestAbstractCompiler;
 
@@ -44,5 +45,11 @@ public class TestBorlandCCompiler extends TestAbstractCompiler {
 
   @Override
   public void testGetIdentfier() {
+	  
+	  final CCTask task = new CCTask();
+	  task.setFailonerror(false);
+	  boolean failOnError = task.getFailonerror();
+	  assertFalse(failOnError);
+	  
   }
 }

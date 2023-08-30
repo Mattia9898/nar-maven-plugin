@@ -1,0 +1,62 @@
+
+qcom.github.maven_nar.cpptasks.DistributerDef#getProtocol()Lcom/github/maven_nar/cpptasks/DistributerProtocolEnum;v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javas! s(,"3*Ø
+2v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javau= u(Jïì
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javau= u(r2
+%1,com.github.maven_nar.cpptasks.DistributerDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*L
+
+__unknown_file (0.
+,com.github.maven_nar.cpptasks.DistributerDef*"
+
+__unknown_file (
+""*.
+
+__unknown_file (
+DistributerDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)“
+
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javau u(s>
+refDistributer,com.github.maven_nar.cpptasks.DistributerDef"__id*P
+
+__unknown_file (4
+2
+%1,com.github.maven_nar.cpptasks.DistributerDef˜•
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javav v();
+%25com.github.maven_nar.cpptasks.DistributerProtocolEnum"qcom.github.maven_nar.cpptasks.DistributerDef#getProtocol()Lcom/github/maven_nar/cpptasks/DistributerProtocolEnum;*\
+
+__unknown_file (@
+>
+refDistributer,com.github.maven_nar.cpptasks.DistributerDef2getProtocol()"·
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javav v(*=
+;
+%25com.github.maven_nar.cpptasks.DistributerProtocolEnum*¡
+3v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javat t(›˜
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javat t(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*L
+
+__unknown_file (0.
+,com.github.maven_nar.cpptasks.DistributerDef2isReference()*
+2
+1*Ò
+1v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javax x(š
+—
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javax x(;
+%35com.github.maven_nar.cpptasks.DistributerProtocolEnum"__id*Z
+
+__unknown_file (>*<.
+,com.github.maven_nar.cpptasks.DistributerDef"
+
+protocol"·
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DistributerDef.javax x(=
+;
+%35com.github.maven_nar.cpptasks.DistributerProtocolEnumB0.
+,com.github.maven_nar.cpptasks.DistributerDefH

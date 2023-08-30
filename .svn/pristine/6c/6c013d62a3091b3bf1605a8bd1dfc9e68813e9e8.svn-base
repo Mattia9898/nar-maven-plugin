@@ -1,0 +1,217 @@
+
+7com.github.maven_nar.SysLib#equals(Ljava/lang/Object;)Ze
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaG G("startingBlock*å
+13e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaL L(øõ
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaL L(
+%0java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*;
+
+__unknown_file (
+com.github.maven_nar.SysLib2
+getClass()òï
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaL L($
+%1java.lang.Class",java.lang.Object#getClass()Ljava/lang/Class;*5
+
+__unknown_file (
+
+objjava.lang.Object2
+getClass()*
+11
+12*Ü
+14e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaK K("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaK K(
+""*Ü
+16e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaI I("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaI I(
+""*Û
+1e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaY Y("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaY Y(
+""*Û
+2e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaX X("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaX X(
+""*Ò
+3e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaW W(Ï
+Ì
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaW W(
+%9java.lang.String"__id*E
+
+__unknown_file ()*'
+com.github.maven_nar.SysLib"
+type×
+Ô
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaW W(&
+%10java.lang.String"__id*L
+
+__unknown_file (0*.
+$
+othercom.github.maven_nar.SysLib"
+type±®
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaW W('
+%11boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%9java.lang.String*5
+
+__unknown_file (
+
+%10java.lang.String2equals(Ljava/lang/Object;)*
+2
+1*¨
+startingBlocke
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaG G(#è
+å
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaF F(
+%12"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+objjava.lang.Object¶
+³
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaG G("
+objjava.lang.Object"__annotation*#
+
+__unknown_file (
+
+%12*
+13
+14
+16*Û
+4e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaV V("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaV V(
+""*Ë
+5e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaU
+ U(Ö
+Ó
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaU
+ U(
+%8java.lang.String"__id*L
+
+__unknown_file (0*.
+$
+othercom.github.maven_nar.SysLib"
+type*
+4
+1*Ä
+6e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaT T(Ï
+Ì
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaT T(
+%7java.lang.String"__id*E
+
+__unknown_file ()*'
+com.github.maven_nar.SysLib"
+type*
+3
+5*Û
+7e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaS S("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaS S(
+""*Ï
+8e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaR R(Ï
+Ì
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaR R(
+%4java.lang.String"__id*E
+
+__unknown_file ()*'
+com.github.maven_nar.SysLib"
+nameÖ
+Ó
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaR R(&
+%5java.lang.String"__id*L
+
+__unknown_file (0*.
+$
+othercom.github.maven_nar.SysLib"
+name¯¬
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaR R('
+%6boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%4java.lang.String*4
+
+__unknown_file (
+
+%5java.lang.String2equals(Ljava/lang/Object;)*
+6
+7*Û
+9e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaQ Q("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaQ Q(
+""*Ì
+10e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaP
+ P(Ö
+Ó
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaP
+ P(
+%3java.lang.String"__id*L
+
+__unknown_file (0*.
+$
+othercom.github.maven_nar.SysLib"
+name*
+6
+9*–
+11e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaN N(Í
+Ê
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaN N( $
+othercom.github.maven_nar.SysLib"__id*5
+
+__unknown_file (
+
+objjava.lang.ObjectÏ
+Ì
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaO O(
+%2java.lang.String"__id*E
+
+__unknown_file ()*'
+com.github.maven_nar.SysLib"
+name*
+8
+10*Ü
+12e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaM M("o
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaM M(
+"":€
+e
+[C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/SysLib.javaG G("
+objjava.lang.ObjectB
+com.github.maven_nar.SysLibH

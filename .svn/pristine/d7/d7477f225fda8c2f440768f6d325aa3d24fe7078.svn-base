@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTaskProgressMonitor#start(Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;)V
+java.lang.System#currentTimeMillis()J

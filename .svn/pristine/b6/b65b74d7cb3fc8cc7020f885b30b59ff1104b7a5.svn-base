@@ -1,0 +1,195 @@
+
+icom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler#getIdentifier()Ljava/lang/String;î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÊ Ê("6*ü
+2î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÓ Ó(	ÑÅ
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÓ Ó(
+%6java.lang.String"Ycom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;*g
+
+__unknown_file (KI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler2getCommand()íè
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÓ Ó(
+%7java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*4
+
+__unknown_file (
+
+%6java.lang.String2append(Ljava/lang/String;)›⁄
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÔ Ô(
+%8java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*!
+
+__unknown_file (
+ 2	append(C)É
+Ä
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.java (*
+%9java.lang.String"fcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessor#getVersion()Ljava/lang/String;*g
+
+__unknown_file (K"I
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessorìê
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.java (+
+%10java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*4
+
+__unknown_file (
+
+%9java.lang.String2append(Ljava/lang/String;)ﬁ€
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÒ Ò(
+%11java.lang.StringBuffer"8java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*!
+
+__unknown_file (
+ 2	append(C)Ñ
+Å
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÚ Ú(*
+%12java.lang.String"fcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessor#getMachine()Ljava/lang/String;*g
+
+__unknown_file (K"I
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccProcessorîë
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÚ Ú(+
+%13java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*5
+
+__unknown_file (
+
+%12java.lang.String2append(Ljava/lang/String;)±Æ
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÛ Û(&
+%14java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer2
+toString()≤
+Ø
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÛ Û(&YI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler"
+
+identifier"__id*5
+
+__unknown_file (
+
+%14java.lang.String*
+1*¶
+3î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÏ Ï("–Õ
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÏ Ï(
+%4java.lang.StringBuffer"java.lang.StringBuffer≥
+∞
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÏ Ï(#
+%5"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%4java.lang.StringBuffer*!
+
+__unknown_file (
+ ˚
+¯
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÏ Ï(#
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%4java.lang.StringBuffer*
+2*≠
+4î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÍ Í()–Õ
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÍ Í(
+%2java.lang.StringBuffer"java.lang.StringBuffer∫
+∑
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÍ Í(*
+%3"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%2java.lang.StringBuffer*(
+
+__unknown_file (
+
+libtool ˚
+¯
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÍ Í(*
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%2java.lang.StringBuffer*
+2*ı
+5î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaË Ë(„
+‡
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaË Ë(
+bufjava.lang.StringBuffer"__id*"
+
+__unknown_file (
+""ÍÁ
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÈ
+ È(
+%1boolean"Hcom.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtool()Z*g
+
+__unknown_file (KI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler2getLibtool()*
+3
+4*÷
+6î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÁ Á(±
+Æ
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaÁ Á(
+%0java.lang.String"__id*w
+
+__unknown_file ([*YI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler"
+
+identifier*
+5
+1*Ñ
+1î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaı ı(≤
+Ø
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaı ı(
+%15java.lang.String"__id*w
+
+__unknown_file ([*YI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompiler"
+
+identifier"≤
+î
+áC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/cross/sparc_sun_solaris2/GccCCompiler.javaı ı(
+
+%15java.lang.StringBKI
+Gcom.github.maven_nar.cpptasks.gcc.cross.sparc_sun_solaris2.GccCCompilerH

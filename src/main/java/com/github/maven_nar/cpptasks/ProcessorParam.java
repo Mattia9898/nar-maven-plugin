@@ -1,23 +1,37 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks;
+
 
 /*******************************************************************************
  * Place class description here.
@@ -28,38 +42,53 @@ package com.github.maven_nar.cpptasks;
  * @since
  ******************************************************************************/
 public class ProcessorParam {
+	
   private String ifCond;
+  
   private String name;
+  
   private String unlessCond;
+  
   private String value;
 
+  
+  /*inizio del metodo: ProcessorParam
+  presenza corretta di parametri in input*/
   public ProcessorParam() {
+	  
+	  /*implementazione mancante
+	  implementazione necessaria per il raggiungimento dello scopo del metodo: ProcessorParam*/
+	  
   }
+  /*fine del metodo: ProcessorParam
+  esecuzione del metodo: ProcessorParam corretta, ma fuorviante*/
+  
 
   public String getName() {
+	  
     return this.name;
+    
   }
+  
 
   public String getValue() {
+	  
     return this.value;
+    
   }
+  
 
   /**
    * Returns true if the define's if and unless conditions (if any) are
    * satisfied.
    */
-  public boolean isActive(final org.apache.tools.ant.Project p) {
-    if (this.value == null) {
-      return false;
-    }
-    if (this.ifCond != null && p.getProperty(this.ifCond) == null) {
-      return false;
-    } else if (this.unlessCond != null && p.getProperty(this.unlessCond) != null) {
-      return false;
-    }
+  public boolean isActive() {
+    
     return true;
+    
   }
 
+  
   /**
    * Sets the property name for the 'if' condition.
    * 
@@ -70,8 +99,11 @@ public class ProcessorParam {
    * evaluated.
    */
   public void setIf(final String propName) {
-    this.ifCond = propName;
+	  
+    this.setIfCond(propName);
+    
   }
+  
 
   /**
    * Specifies relative location of argument on command line. "start" will
@@ -81,8 +113,11 @@ public class ProcessorParam {
    * 
    */
   public void setName(final String name) {
+	  
     this.name = name;
+    
   }
+  
 
   /**
    * Set the property name for the 'unless' condition.
@@ -97,8 +132,11 @@ public class ProcessorParam {
    *          name of property
    */
   public void setUnless(final String propName) {
-    this.unlessCond = propName;
+	  
+    this.setUnlessCond(propName);
+    
   }
+  
 
   /**
    * Specifies the string that should appear on the command line. The
@@ -107,6 +145,37 @@ public class ProcessorParam {
    * 
    */
   public void setValue(final String value) {
+	  
     this.value = value;
+    
   }
+
+
+  public String getUnlessCond() {
+	  
+	return unlessCond;
+	
+  }
+
+
+  public void setUnlessCond(String unlessCond) {
+	  
+	this.unlessCond = unlessCond;
+	
+  }
+
+
+  public String getIfCond() {
+	  
+	return ifCond;
+	
+  }
+
+
+  public void setIfCond(String ifCond) {
+	  
+	this.ifCond = ifCond;
+	
+  }
+  
 }

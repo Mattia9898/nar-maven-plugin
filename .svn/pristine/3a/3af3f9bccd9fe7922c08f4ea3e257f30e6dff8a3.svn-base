@@ -1,0 +1,429 @@
+
+¥com.github.maven_nar.Lib#addMultipleLibSets(Lcom/github/maven_nar/AbstractDependencyMojo;Lcom/github/maven_nar/cpptasks/LinkerDef;Lorg/apache/tools/ant/Project;Ljava/lang/String;)Vb
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaU U(!"10*ù
+2b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java^ ^(#≤
+Ø
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java^ ^(#
+dependency1java.lang.Object"__id*"
+
+__unknown_file (
+""ˆ
+Û
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java^ ^(#
+dependency1java.lang.Object"
+__arrayGet*<
+
+__unknown_file ( 
+
+dependenciesjava.util.List*"
+
+__unknown_file (
+""*
+5
+1*Ë0
+3b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javab' b(1ìê
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javab' b(;
+%11java.io.File":org.apache.maven.artifact.Artifact#getFile()Ljava/io/File;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2	getFile()ÏÈ
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javab' b(K
+%12java.io.File"*java.io.File#getParentFile()Ljava/io/File;*1
+
+__unknown_file (
+
+%11java.io.File2getParentFile()Æ´
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c((
+%13com.github.maven_nar.AOL"Gcom.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;*Q
+
+__unknown_file (5
+3
+mojo+com.github.maven_nar.AbstractDependencyMojo2getAOL()à
+Ö
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c((
+%14java.lang.String"__concat*r
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c(
+
+nar/lib/*á
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c((!
+
+%13com.github.maven_nar.AOL¯
+ı
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c(.
+%15java.lang.String"__concat*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c((
+
+%14java.lang.String*k
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac+ c(.
+/œ
+Ã
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac1 c(9
+%16java.lang.String"__id*G
+
+__unknown_file (+*)
+
+libcom.github.maven_nar.Lib"
+typeå
+â
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c(9
+%17java.lang.String"__concat*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac c(.
+
+%15java.lang.String*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javac1 c(9
+
+%16java.lang.Stringäá
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javab" b(&
+%18java.io.File"java.io.File√
+¿
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javab c(:
+%19"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%18java.io.File*1
+
+__unknown_file (
+
+%12java.io.File*5
+
+__unknown_file (
+
+%17java.lang.String∏
+µ
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javab
+ c(;
+narDirjava.io.File"__id*1
+
+__unknown_file (
+
+%18java.io.Fileß§
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(;
+%20java.lang.String"Dorg.apache.maven.artifact.Artifact#getArtifactId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getArtifactId()¯
+ı
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(A
+%21java.lang.String"__concat*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(;
+
+%20java.lang.String*k
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad> d(A
+-œ
+Ã
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javadD d(L
+%22java.lang.String"__id*G
+
+__unknown_file (+*)
+
+libcom.github.maven_nar.Lib"
+nameå
+â
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(L
+%23java.lang.String"__concat*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(A
+
+%21java.lang.String*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javadD d(L
+
+%22java.lang.String¯
+ı
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(R
+%24java.lang.String"__concat*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(L
+
+%23java.lang.String*k
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javadO d(R
+-©¶
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javadU d(p
+%25java.lang.String"Eorg.apache.maven.artifact.Artifact#getBaseVersion()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getBaseVersion()å
+â
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(p
+%26java.lang.String"__concat*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad! d(R
+
+%24java.lang.String*
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javadU d(p
+
+%25java.lang.String¡
+æ
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javad
+ d(q
+narNamejava.lang.String"__id*5
+
+__unknown_file (
+
+%26java.lang.StringŒ
+À
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javae
+ e(B
+%27void"πcom.github.maven_nar.Lib#addLibSet(Lcom/github/maven_nar/AbstractDependencyMojo;Lcom/github/maven_nar/cpptasks/LinkerDef;Lorg/apache/tools/ant/Project;Ljava/lang/String;Ljava/io/File;)V*=
+
+__unknown_file (!
+
+libcom.github.maven_nar.Lib*Q
+
+__unknown_file (5
+3
+mojo+com.github.maven_nar.AbstractDependencyMojo*O
+
+__unknown_file (3
+1
+linker'com.github.maven_nar.cpptasks.LinkerDef*H
+
+__unknown_file (,
+*
+
+antProjectorg.apache.tools.ant.Project*9
+
+__unknown_file (
+
+narNamejava.lang.String*4
+
+__unknown_file (
+
+narDirjava.io.File*
+2*±
+4b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java`6 `(@¶£
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java`6 `(P
+%8java.lang.String"Dorg.apache.maven.artifact.Artifact#getArtifactId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getArtifactId()Ê
+„
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java`X `(^
+%9java.lang.String"
+__arrayGet*7
+
+__unknown_file (
+
+idsjava.lang.String[]* 
+
+__unknown_file (2≠™
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java`6 `(_
+%10boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%8java.lang.String*4
+
+__unknown_file (
+
+%9java.lang.String2equals(Ljava/lang/Object;)*
+2
+3*â	
+5b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java_/ _(:ﬁ
+€
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java_ _(;0
+
+dependency"org.apache.maven.artifact.Artifact"__id*=
+
+__unknown_file (!
+
+dependency1java.lang.Object†ù
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java` `(#
+%5java.lang.String"Aorg.apache.maven.artifact.Artifact#getGroupId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getGroupId()‰
+·
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java`+ `(1
+%6java.lang.String"
+__arrayGet*7
+
+__unknown_file (
+
+idsjava.lang.String[]*
+
+__unknown_file (2 ¨©
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java` `(2
+%7boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%5java.lang.String*4
+
+__unknown_file (
+
+%6java.lang.String2equals(Ljava/lang/Object;)*
+2
+4*∞
+7b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java\' \(s…∆
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java\ \(&2
+%3,org.apache.maven.plugin.MojoFailureException",org.apache.maven.plugin.MojoFailureExceptionı
+Ú
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.java\ \(t
+%4"Horg.apache.maven.plugin.MojoFailureException#<init>(Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+%3,org.apache.maven.plugin.MojoFailureException*j
+
+__unknown_file (NL
+JNAR: Please specify <Name> as part of <Lib> in format 'groupId:artifactId'*
+0*ÿ
+8b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaY Y( ∆
+√
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaY Y(!
+libcom.github.maven_nar.Lib"__id*6
+
+__unknown_file (
+
+lib1java.lang.Object⁄◊
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaZ Z(-
+%2java.lang.String[]">java.lang.String#split(Ljava/lang/String;I)[Ljava/lang/String;*6
+
+__unknown_file (
+
+namejava.lang.String*!
+
+__unknown_file (
+:* 
+
+__unknown_file (22split(Ljava/lang/String;I)¿
+Ω
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaZ Z(.
+idsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%2java.lang.String[]*
+2
+7*∂
+9b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaX X(!«
+ƒ
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaX X(&
+%1java.util.List"__id*B
+
+__unknown_file (&*$
+com.github.maven_nar.Lib"
+libs*
+1*Ê
+10b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaW W("≤Ø
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaW W(4
+%0java.util.List"Mcom.github.maven_nar.AbstractDependencyMojo#getNarArtifacts()Ljava/util/List;*Q
+
+__unknown_file (5
+3
+mojo+com.github.maven_nar.AbstractDependencyMojo2getNarArtifacts()¡
+æ
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaW W(5
+dependenciesjava.util.List"__id*2
+
+__unknown_file (
+
+%0java.util.List*
+9*Ä
+0 "y
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javai i(
+implicit return*Ö
+1b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaX	 X(´
+®
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaX	 X(
+lib1java.lang.Object"__id*"
+
+__unknown_file (
+""Â
+‚
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaX	 X(
+lib1java.lang.Object"
+__arrayGet*2
+
+__unknown_file (
+
+%1java.util.List*"
+
+__unknown_file (
+""*
+8
+0:ô
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaU" U(D3
+mojo+com.github.maven_nar.AbstractDependencyMojo:ó
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaUE U(\1
+linker'com.github.maven_nar.cpptasks.LinkerDef:ê
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaU] U(v*
+
+antProjectorg.apache.tools.ant.Project:~
+b
+XC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Lib.javaV V(
+namejava.lang.StringB
+com.github.maven_nar.Lib

@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.LinkerDef#getActiveLibrarySets([Lcom/github/maven_nar/cpptasks/LinkerDef;I)[Lcom/github/maven_nar/cpptasks/types/LibrarySet;
+com.github.maven_nar.cpptasks.LinkerDef#addActiveUserLibrarySets(Lorg/apache/tools/ant/Project;Ljava/util/Vector;)V
+java.util.Vector#<init>()V
+java.util.Vector#instance-init#
+com.github.maven_nar.cpptasks.LinkerDef#addActiveSystemLibrarySets(Lorg/apache/tools/ant/Project;Ljava/util/Vector;)V

@@ -1,0 +1,5 @@
+com.github.maven_nar.Library#getBinding(Lcom/github/maven_nar/NarArtifact;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#isEmpty()Z
+java.lang.String#trim()Ljava/lang/String;
+java.lang.String#split(Ljava/lang/String;I)[Ljava/lang/String;

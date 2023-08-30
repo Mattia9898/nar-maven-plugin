@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.gcc.GccCompatibleCCompiler#addImpliedArgs(Ljava/util/Vector;ZZZLcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/lang/Boolean;Lcom/github/maven_nar/cpptasks/OptimizationEnum;)V
+org.apache.tools.ant.types.EnumeratedAttribute#getValue()Ljava/lang/String;
+com.github.maven_nar.cpptasks.OptimizationEnum#isSpeed()Z
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+com.github.maven_nar.cpptasks.OptimizationEnum#isSize()Z

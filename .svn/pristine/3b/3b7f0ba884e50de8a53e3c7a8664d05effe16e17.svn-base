@@ -1,0 +1,122 @@
+
+≥com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#getBaseCompilerConfiguration(Ljava/util/Map;)Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÖ+ Ö(G"8*º
+2à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaç	 ç($
+Ì
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaç	 ç($6
+
+targetInfo(com.github.maven_nar.cpptasks.TargetInfo"__id*"
+
+__unknown_file (
+""∞
+≠
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaç	 ç($6
+
+targetInfo(com.github.maven_nar.cpptasks.TargetInfo"
+__arrayGet*8
+
+__unknown_file (
+
+%0java.util.Collection*"
+
+__unknown_file (
+""*
+6
+1*˘
+3à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaó ó("Ë
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaó
+ ó( [
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration*Ô
+4à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaïD ï(R÷”
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaïD ñ(5
+%4/com.github.maven_nar.cpptasks.compiler.Compiler"Ücom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;*w
+
+__unknown_file ([
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration2getCompiler()*
+2
+3*»
+5à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaî< î(B÷
+”
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaî î(BY
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration"__id*e
+
+__unknown_file (I
+G
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration÷”
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaï ï((5
+%3/com.github.maven_nar.cpptasks.compiler.Compiler"Ücom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;*w
+
+__unknown_file ([
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration2getCompiler()*
+3
+4*ó
+
+6à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaé, é(6π∂
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaé, é(IC
+%1=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration"zcom.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;*T
+
+__unknown_file (8
+6
+
+targetInfo(com.github.maven_nar.cpptasks.TargetInfo2getConfiguration()¿
+Ω
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaé é(JG
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration"__id*a
+
+__unknown_file (E
+C
+%1=com.github.maven_nar.cpptasks.compiler.ProcessorConfigurationˇ¸
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaè  è(6
+%2java.lang.String"_com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration#getIdentifier()Ljava/lang/String;*e
+
+__unknown_file (I
+G
+config=com.github.maven_nar.cpptasks.compiler.ProcessorConfiguration2getIdentifier()*
+2
+5*∞
+7à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaç' ç(.öó
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaç' ç(7
+%0java.util.Collection",java.util.Map#values()Ljava/util/Collection;*6
+
+__unknown_file (
+
+targetsjava.util.Map2values()*
+2*©
+8à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaâ6 â(:ì
+ê
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaâ â(;Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration"__id*"
+
+__unknown_file (
+""*
+7*§
+1à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaõ õ("ì
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaõ õ(
+"":•
+à
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.javaÖH Ö(m
+targetsjava.util.MapB@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter

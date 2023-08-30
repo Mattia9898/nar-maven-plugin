@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#createSysIncludePath()Lcom/github/maven_nar/cpptasks/types/SystemIncludePath;
+com.github.maven_nar.cpptasks.CompilerDef#createSysIncludePath()Lcom/github/maven_nar/cpptasks/types/SystemIncludePath;

@@ -1,0 +1,122 @@
+
+Ëcom.github.maven_nar.NarUtil#getLinkerName(Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Ljava/lang/String;h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaê ê($"1*Ø
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaì ì(ç
+ä
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaì ì(!!
+%0com.github.maven_nar.Linker"‡com.github.maven_nar.NarUtil#getLinker(Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Lcom/github/maven_nar/Linker;*<
+
+__unknown_file ( "
+com.github.maven_nar.NarUtil*C
+
+__unknown_file ('
+%
+linkercom.github.maven_nar.Linker*H
+
+__unknown_file (,
+*
+log#org.apache.maven.plugin.logging.Log¨
+¥
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaì* ì(L(
+%1"com.github.maven_nar.NarProperties"{com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;*B
+
+__unknown_file (&"$
+"com.github.maven_nar.NarProperties*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject×
+Ô
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(%
+%2java.lang.String"Rcom.github.maven_nar.NarUtil#getArchitecture(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( "
+com.github.maven_nar.NarUtil*>
+
+__unknown_file ("
+ 
+architecturejava.lang.String‰
+†
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(+
+%3java.lang.String"__concat*„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(%
+
+%2java.lang.String*q
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí( í(+
+.Ã
+À
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí. í(7
+%4java.lang.String"Hcom.github.maven_nar.NarUtil#getOS(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( "
+com.github.maven_nar.NarUtil*4
+
+__unknown_file (
+
+osjava.lang.String
+š
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(7
+%5java.lang.String"__concat*„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(+
+
+%3java.lang.String*„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí. í(7
+
+%4java.lang.String‰
+†
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(=
+%6java.lang.String"__concat*„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí í(7
+
+%5java.lang.String*q
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaí: í(=
+.ôñ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaì í(>
+%7java.lang.String"mcom.github.maven_nar.Linker#getName(Lcom/github/maven_nar/NarProperties;Ljava/lang/String;)Ljava/lang/String;*?
+
+__unknown_file (#
+!
+%0com.github.maven_nar.Linker*F
+
+__unknown_file (*
+(
+%1"com.github.maven_nar.NarProperties*4
+
+__unknown_file (
+
+%6java.lang.String2?getName(Lcom/github/maven_nar/NarProperties;Ljava/lang/String;)"„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaì í(?
+
+%7java.lang.String:œ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaê% ê(@0
+project%org.apache.maven.project.MavenProject:Œ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaêA ê([ 
+architecturejava.lang.String:‚
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaê\ ê(l
+osjava.lang.String:‘
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaë ë(%
+linkercom.github.maven_nar.Linker:–
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaë ë((*
+log#org.apache.maven.plugin.logging.LogB "
+com.github.maven_nar.NarUtilH

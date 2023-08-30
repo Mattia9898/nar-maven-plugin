@@ -1,0 +1,91 @@
+
+ôcom.github.maven_nar.cpptasks.ibm.xlC_rLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaS S("startingBlock*ç
+2w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaX X(€
+ÿ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaX X(3
+%3-com.github.maven_nar.cpptasks.ibm.xlC_rLinker"__id*"
+
+__unknown_file (
+"""∞
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaX X(5
+3
+%3-com.github.maven_nar.cpptasks.ibm.xlC_rLinker*¿
+3w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaW W(π∂
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaW W(
+%2boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+2
+1*ì
+startingBlockw
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaS S(.ô
+ñ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaR R(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeÁ
+‰
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaS) S(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%5*
+5*£
+4w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaU U(
+Ì
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaU U('4
+%1.com.github.maven_nar.cpptasks.gcc.GccLibrarian"lcom.github.maven_nar.cpptasks.gcc.GccLibrarian#getInstance()Lcom/github/maven_nar/cpptasks/gcc/GccLibrarian;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccLibrarian"±
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaU U((6
+4
+%1.com.github.maven_nar.cpptasks.gcc.GccLibrarian*¿
+5w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaT T(π∂
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaT T(
+%0boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isStaticLibrary()Z*U
+
+__unknown_file (9
+7
+type/com.github.maven_nar.cpptasks.compiler.LinkType2isStaticLibrary()*
+3
+4*ç
+1w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaZ Z(€
+ÿ
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaZ Z(3
+%4-com.github.maven_nar.cpptasks.ibm.xlC_rLinker"__id*"
+
+__unknown_file (
+"""∞
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaZ Z(5
+3
+%4-com.github.maven_nar.cpptasks.ibm.xlC_rLinker:≤
+w
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/ibm/xlC_rLinker.javaS S(-7
+type/com.github.maven_nar.cpptasks.compiler.LinkTypeB1/
+-com.github.maven_nar.cpptasks.ibm.xlC_rLinkerH

@@ -1,0 +1,91 @@
+
+Lcom.github.maven_nar.cpptasks.TargetInfo#getSourcePaths()[Ljava/lang/String;r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javao o( "5*˜
+3r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javar r(Í
+Á
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javar r(
+%3java.io.File[]"__id*U
+
+__unknown_file (9*7*
+(com.github.maven_nar.cpptasks.TargetInfo"	
+sourcesÔ
+Ï
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javar r( 
+%4java.io.File"
+__arrayGet*2
+
+__unknown_file (
+
+%3java.io.File[]*"
+
+__unknown_file (
+""¯ı
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javar r(+
+%5java.lang.String")java.io.File#toString()Ljava/lang/String;*0
+
+__unknown_file (
+
+%4java.io.File2
+toString()û
+õ
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javar r(+
+%6"
+__arraySet*9
+
+__unknown_file (
+
+pathsjava.lang.String[]*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%5java.lang.String*
+4*Ï
+4r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javaq q(Í
+Á
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javaq q($
+%2java.io.File[]"__id*U
+
+__unknown_file (9*7*
+(com.github.maven_nar.cpptasks.TargetInfo"	
+sources*
+3
+1*Ê
+5r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javap& p(*Í
+Á
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javap& p(2
+%0java.io.File[]"__id*U
+
+__unknown_file (9*7*
+(com.github.maven_nar.cpptasks.TargetInfo"	
+sources•¢
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javap p(:
+%1java.lang.String[]"java.lang.String[]“
+œ
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javap p(;
+pathsjava.lang.String[]"__id*6
+
+__unknown_file (
+
+%1java.lang.String[]*
+4*ç
+1r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javat t("ì
+r
+hC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetInfo.javat t(
+
+pathsjava.lang.String[]B,*
+(com.github.maven_nar.cpptasks.TargetInfoH

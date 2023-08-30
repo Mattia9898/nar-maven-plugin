@@ -1,0 +1,9 @@
+com.github.maven_nar.Msvc#configureCCTask(Lcom/github/maven_nar/cpptasks/CCTask;)V
+org.apache.tools.ant.types.Environment$Variable#instance-init#
+com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.Msvc#isMSVC(Lcom/github/maven_nar/AbstractNarMojo;)Z
+com.github.maven_nar.Msvc#addIncludePathToTask(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;)Z
+org.apache.tools.ant.types.Environment$Variable#<init>()V
+com.github.maven_nar.Msvc#addIncludePath(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;Ljava/lang/String;)Z
+com.github.maven_nar.Msvc#getTempPath()Ljava/lang/String;

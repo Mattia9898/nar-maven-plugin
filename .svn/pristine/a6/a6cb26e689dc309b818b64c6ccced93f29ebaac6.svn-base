@@ -1,0 +1,7 @@
+com.github.maven_nar.cpptasks.CompilerDef#getActiveDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+java.util.Vector#<init>()V
+com.github.maven_nar.cpptasks.types.UndefineArgument#isActive(Lorg/apache/tools/ant/Project;)Z
+java.util.Vector#instance-init#
+java.lang.IllegalStateException#instance-init#
+java.lang.IllegalStateException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.CompilerDef#getActiveDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;

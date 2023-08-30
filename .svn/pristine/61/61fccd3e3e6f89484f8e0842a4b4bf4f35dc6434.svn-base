@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.trolltech.UserInterfaceCompiler#compile(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ZLcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;Lcom/github/maven_nar/cpptasks/compiler/ProgressMonitor;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;Lorg/apache/tools/ant/Location;)V
+org.apache.tools.ant.BuildException#instance-init#
+com.github.maven_nar.cpptasks.trolltech.UserInterfaceCompiler#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;

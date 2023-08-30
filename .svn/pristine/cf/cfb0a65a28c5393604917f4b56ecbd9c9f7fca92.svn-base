@@ -1,0 +1,83 @@
+
+™com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javav v($"startingBlock*È	
+startingBlockê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javav$ v([ô
+ñ
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javau u(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*;
+
+__unknown_file (
+
+	inputFilejava.lang.StringÁ
+‰
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javav2 v(;
+	inputFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2¥
+±
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javau u(
+%3"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfoÇ
+ˇ
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javavO v(Z8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo"__annotation*"
+
+__unknown_file (
+
+%3*
+1*≥
+
+1ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaw w(œ
+Ã
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaw w(>
+%08com.github.maven_nar.cpptasks.compiler.CommandLineLinker"__id*q
+
+__unknown_file (U*SG
+Ecom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration"
+linkerñì
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaw w(A
+%1java.lang.String[]"ùcom.github.maven_nar.cpptasks.compiler.CommandLineLinker#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;*\
+
+__unknown_file (@
+>
+%08com.github.maven_nar.cpptasks.compiler.CommandLineLinker*;
+
+__unknown_file (
+
+	inputFilejava.lang.String*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo2QgetOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)"Ø
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaw w(B
+
+%1java.lang.String[]:≤
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javav% v(<
+	inputFilejava.lang.String:Õ
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javav= v(Z8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfoBIG
+Ecom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfigurationH

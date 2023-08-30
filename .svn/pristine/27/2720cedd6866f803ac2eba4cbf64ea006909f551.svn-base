@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.CUtil#toUnixPath(Ljava/lang/String;)Ljava/lang/String;
+org.apache.tools.ant.util.StringUtils#replace(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#indexOf(I)I

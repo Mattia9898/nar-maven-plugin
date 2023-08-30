@@ -1,0 +1,30 @@
+
+ccom.github.maven_nar.NarInfo#getNarPropertiesEntry(Ljava/util/jar/JarFile;)Ljava/util/jar/JarEntry;f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java (("1*‹
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java€ €(ž›
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java€ €(/
+%0java.lang.String"Ccom.github.maven_nar.NarInfo#getNarInfoFileName()Ljava/lang/String;*<
+
+__unknown_file ( 
+com.github.maven_nar.NarInfo2getNarInfoFileName()íê
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java€ €(0
+%1java.util.jar.JarEntry"Mjava.util.jar.JarFile#getJarEntry(Ljava/lang/String;)Ljava/util/jar/JarEntry;*:
+
+__unknown_file (
+
+jarjava.util.jar.JarFile*4
+
+__unknown_file (
+
+%0java.lang.String2getJarEntry(Ljava/lang/String;)"Š
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java€ €(1
+
+%1java.util.jar.JarEntry:†
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java) (:
+jarjava.util.jar.JarFileB 
+com.github.maven_nar.NarInfo

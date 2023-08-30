@@ -1,0 +1,336 @@
+
+{com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java6 6()"13*þ
+13l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java7 7(&ß
+Ü
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java7 7(&
+%0java.util.Map"__id*Q
+
+__unknown_file (5*3$
+"com.github.maven_nar.NarProperties"
+	instances¨
+¥
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java7 7(3(
+%1"com.github.maven_nar.NarProperties"__mapGet*1
+
+__unknown_file (
+
+%0java.util.Map*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProjectï
+ì
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java7 7(4.
+instance"com.github.maven_nar.NarProperties"__id*F
+
+__unknown_file (*
+(
+%1"com.github.maven_nar.NarProperties*
+10
+11
+1*Ô
+2l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaJ J(à
+Ý
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaJ J(
+%22java.util.Map"__id*Q
+
+__unknown_file (5*3$
+"com.github.maven_nar.NarProperties"
+	instancesø
+õ
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaJ J(%)
+%23"com.github.maven_nar.NarProperties"__mapSet*2
+
+__unknown_file (
+
+%22java.util.Map*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject*L
+
+__unknown_file (0
+.
+instance"com.github.maven_nar.NarProperties*
+1*î
+3l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaG G( ÖÓ
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaG! G(4,
+%20%org.apache.maven.project.MavenProject"Xorg.apache.maven.project.MavenProject#getParent()Lorg/apache/maven/project/MavenProject;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getParent()©
+¦
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaG G(5)
+%21"com.github.maven_nar.NarProperties"{com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;*B
+
+__unknown_file (&"$
+"com.github.maven_nar.NarProperties*J
+
+__unknown_file (.
+,
+%20%org.apache.maven.project.MavenProjectð
+í
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaG
+ G(5.
+instance"com.github.maven_nar.NarProperties"__id*G
+
+__unknown_file (+
+)
+%21"com.github.maven_nar.NarProperties*
+2*¶
+4l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaD' D(.À½
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaD D(&)
+%18"com.github.maven_nar.NarProperties""com.github.maven_nar.NarProperties‡
+„
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaD D(P
+%19"scom.github.maven_nar.NarProperties#<init>(Lorg/apache/maven/project/MavenProject;Ljava/io/File;Ljava/lang/String;)V*G
+
+__unknown_file (+
+)
+%18"com.github.maven_nar.NarProperties*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject*5
+
+__unknown_file (
+
+narFilejava.io.File*H
+
+__unknown_file (,
+*
+customPropertyLocationjava.lang.Stringð
+í
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaD
+ D(P.
+instance"com.github.maven_nar.NarProperties"__id*G
+
+__unknown_file (+
+)
+%18"com.github.maven_nar.NarProperties*
+2*œ
+5l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaA B(;Ã
+À
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaA B(;
+narFilejava.io.File"__id*1
+
+__unknown_file (
+
+%10java.io.FileÚ×
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaC C(
+%17boolean"java.io.File#exists()Z*5
+
+__unknown_file (
+
+narFilejava.io.File2exists()*
+3
+4*ÿ	
+6l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaB B(¦£
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaB B()
+%14java.io.File"@org.apache.maven.project.MavenProject#getBasedir()Ljava/io/File;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getBasedir()´
+±
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaB+ B(9
+%15java.lang.String"__id*"
+
+__unknown_file (
+""”‘
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaB B(
+%12java.io.File"java.io.FileÍ
+Ê
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaB B(:
+%16"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%12java.io.File*1
+
+__unknown_file (
+
+%14java.io.File*5
+
+__unknown_file (
+
+%15java.lang.String¿
+¼
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaB B(:
+%10java.io.File"__id*1
+
+__unknown_file (
+
+%12java.io.File*
+5*ñ
+7l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaAC A(Y”‘
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaA> A(B
+%11java.io.File"java.io.FileŸ
+œ
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaA: A(Z
+%13"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%11java.io.File*H
+
+__unknown_file (,
+*
+customPropertyLocationjava.lang.String¿
+¼
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaA: A(Z
+%10java.io.File"__id*1
+
+__unknown_file (
+
+%11java.io.File*
+5*ê
+9l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java?# ?()÷
+ô
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java?# ?(9
+%7java.util.Properties"6java.lang.System#getProperties()Ljava/util/Properties;*0
+
+__unknown_file ("
+java.lang.System³
+°
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java?F ?(]
+%8java.lang.String"__id*"
+
+__unknown_file (
+""âß
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java?# ?(^
+%9java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%7java.util.Properties*4
+
+__unknown_file (
+
+%8java.lang.String2getProperty(Ljava/lang/String;)Ù
+Ö
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java?
+ ?(^*
+customPropertyLocationjava.lang.String"__id*4
+
+__unknown_file (
+
+%9java.lang.String*
+6
+7*²	
+10l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java<( <(/»¸
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java<( <(?
+%4java.util.Properties"Korg.apache.maven.project.MavenProject#getProperties()Ljava/util/Properties;*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject2getProperties()³
+°
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java<L <(c
+%5java.lang.String"__id*"
+
+__unknown_file (
+""âß
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java<( <(d
+%6java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*8
+
+__unknown_file (
+
+%4java.util.Properties*4
+
+__unknown_file (
+
+%5java.lang.String2getProperty(Ljava/lang/String;)Ù
+Ö
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java< <(e*
+customPropertyLocationjava.lang.String"__id*4
+
+__unknown_file (
+
+%6java.lang.String*	
+6
+7
+9*ú
+11l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java:' :(.¿¼
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java: :(&(
+%2"com.github.maven_nar.NarProperties""com.github.maven_nar.NarPropertiesÌ
+É
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java: :(;
+%3"scom.github.maven_nar.NarProperties#<init>(Lorg/apache/maven/project/MavenProject;Ljava/io/File;Ljava/lang/String;)V*F
+
+__unknown_file (*
+(
+%2"com.github.maven_nar.NarProperties*N
+
+__unknown_file (2
+0
+project%org.apache.maven.project.MavenProject*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""ï
+ì
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java:
+ :(;.
+instance"com.github.maven_nar.NarProperties"__id*F
+
+__unknown_file (*
+(
+%2"com.github.maven_nar.NarProperties*
+2*”
+1l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaL L(" 
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.javaL L(0
+.
+instance"com.github.maven_nar.NarProperties: 
+l
+bC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarProperties.java6* 6(D0
+project%org.apache.maven.project.MavenProjectB&"$
+"com.github.maven_nar.NarPropertiesH

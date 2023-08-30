@@ -1,0 +1,91 @@
+
+›com.github.maven_nar.cpptasks.os390.OS390Linker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¨ ¨("startingBlock*
+2{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java­ ­(á
+Ş
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java­ ­(5
+%3/com.github.maven_nar.cpptasks.os390.OS390Linker"__id*"
+
+__unknown_file (
+"""¶
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java­ ­(7
+5
+%3/com.github.maven_nar.cpptasks.os390.OS390Linker*Ì
+3{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¬ ¬(Á¾
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¬ ¬("
+%2boolean"Bcom.github.maven_nar.cpptasks.compiler.LinkType#isSharedLibrary()Z*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType2isSharedLibrary()*
+2
+1*§
+startingBlock{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¨ ¨(2¡
+
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java§ §(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeï
+ì
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¨) ¨(1;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType"__annotation*"
+
+__unknown_file (
+
+%5*
+5*
+4{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.javaª ª(á
+Ş
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.javaª ª(5
+%1/com.github.maven_nar.cpptasks.os390.OS390Linker"__id*"
+
+__unknown_file (
+"""¶
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.javaª ª(7
+5
+%1/com.github.maven_nar.cpptasks.os390.OS390Linker*ì
+5{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java© ©(á
+Ş
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java© ©(5
+%0/com.github.maven_nar.cpptasks.os390.OS390Linker"__id*"
+
+__unknown_file (
+""*
+3
+4*
+1{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¯ ¯(á
+Ş
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¯ ¯(5
+%4/com.github.maven_nar.cpptasks.os390.OS390Linker"__id*"
+
+__unknown_file (
+"""¶
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¯ ¯(7
+5
+%4/com.github.maven_nar.cpptasks.os390.OS390Linker:º
+{
+oC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/os390/OS390Linker.java¨ ¨(1;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeB31
+/com.github.maven_nar.cpptasks.os390.OS390LinkerH

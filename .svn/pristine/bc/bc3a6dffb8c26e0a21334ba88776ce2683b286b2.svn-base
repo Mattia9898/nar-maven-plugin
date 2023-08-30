@@ -1,0 +1,345 @@
+
+Rcom.github.maven_nar.Substitution#substitute(Ljava/lang/String;)Ljava/lang/String;k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaF F("11*´
+2k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(ﬂ
+‹
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(
+%21java.lang.String"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+replaceìê
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(
+%22java.io.File"java.io.Fileã
+à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(
+%23"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%22java.io.File*5
+
+__unknown_file (
+
+%21java.lang.StringÅ˛
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(0
+%24java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*1
+
+__unknown_file (
+
+%22java.io.File2getAbsolutePath()≥
+∞
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS3 S(A
+%25java.lang.String"__id*"
+
+__unknown_file (
+""©
+¶
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(A
+%26java.lang.String"__concat*à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(0
+
+%24java.lang.String*à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS3 S(A
+
+%25java.lang.String«
+ƒ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaS S(A
+tempjava.lang.String"__id*5
+
+__unknown_file (
+
+%26java.lang.String*
+1*â
+3k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaR R(‹
+Ÿ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaR R(
+%19java.lang.String"__id*K
+
+__unknown_file (/*-#
+!com.github.maven_nar.Substitution"
+typeØ¨
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaR R((
+%20boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%19java.lang.String*,
+
+__unknown_file (
+absolutePath2equals(Ljava/lang/Object;)*
+2
+1*õ
+4k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P(ﬂ
+‹
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P(
+%13java.lang.String"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+replaceìê
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P(
+%14java.io.File"java.io.Fileã
+à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P(
+%15"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%14java.io.File*5
+
+__unknown_file (
+
+%13java.lang.StringÒÓ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P((
+%16java.lang.String"(java.io.File#getPath()Ljava/lang/String;*1
+
+__unknown_file (
+
+%14java.io.File2	getPath()≥
+∞
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP+ P(9
+%17java.lang.String"__id*"
+
+__unknown_file (
+""©
+¶
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P(9
+%18java.lang.String"__concat*à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P((
+
+%16java.lang.String*à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP+ P(9
+
+%17java.lang.String«
+ƒ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaP P(9
+tempjava.lang.String"__id*5
+
+__unknown_file (
+
+%18java.lang.String*
+1*â
+5k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaO O(‹
+Ÿ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaO O(
+%11java.lang.String"__id*K
+
+__unknown_file (/*-#
+!com.github.maven_nar.Substitution"
+typeØ¨
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaO O((
+%12boolean",java.lang.String#equals(Ljava/lang/Object;)Z*5
+
+__unknown_file (
+
+%11java.lang.String*,
+
+__unknown_file (
+relativePath2equals(Ljava/lang/Object;)*
+3
+4*Ø
+6k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaL L(Â
+‚
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaL L(
+%7java.util.regex.Pattern"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+pattern˚¯
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaL L("
+%8java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*;
+
+__unknown_file (
+
+%7java.util.regex.Pattern*6
+
+__unknown_file (
+
+linejava.lang.String2!matcher(Ljava/lang/CharSequence;)‚
+ﬂ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaL. L(9
+%9java.lang.String"__id*R
+
+__unknown_file (6*4#
+!com.github.maven_nar.Substitution"
+replaceWithÊ„
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaL L(:
+%10java.lang.String"Hjava.util.regex.Matcher#replaceAll(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+%8java.util.regex.Matcher*4
+
+__unknown_file (
+
+%9java.lang.String2replaceAll(Ljava/lang/String;)"à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaL L(;
+
+%10java.lang.String*ç
+7k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaK% K(,ﬁ
+€
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaK5 K(<
+%5java.lang.String"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+replaceÃ
+…
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaK% K(=
+%6java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*7
+
+__unknown_file ("
+java.util.regex.Pattern*4
+
+__unknown_file (
+
+%5java.lang.StringÂ
+‚
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaK K(=0#
+!com.github.maven_nar.Substitution"	
+pattern"__id*;
+
+__unknown_file (
+
+%6java.util.regex.Pattern*
+6*‡
+8k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaK
+ K(Â
+‚
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaK
+ K(
+%4java.util.regex.Pattern"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+pattern*
+6
+7*©
+9k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaI I(ﬁ
+€
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaI I(
+%1java.lang.String"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+replace∆
+√
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaI I(
+tempjava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String€
+ÿ
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaJ J(
+%2java.lang.String"__id*K
+
+__unknown_file (/*-#
+!com.github.maven_nar.Substitution"
+type¶£
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaJ J(
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*4
+
+__unknown_file (
+
+%2java.lang.String*%
+
+__unknown_file (	
+regex2equals(Ljava/lang/Object;)*
+5
+8*˝
+10k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaG  G($"â
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaG G(%
+
+linejava.lang.String*€
+11k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaG G(ﬁ
+€
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaG G(
+%0java.lang.String"__id*N
+
+__unknown_file (2*0#
+!com.github.maven_nar.Substitution"	
+replace*
+9
+10*≠
+1k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaU U(„
+‡
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaU U()
+%27java.lang.String"__id*R
+
+__unknown_file (6*4#
+!com.github.maven_nar.Substitution"
+replaceWith…∆
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaU U(*
+%28java.lang.String"\java.lang.String#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;*6
+
+__unknown_file (
+
+linejava.lang.String*6
+
+__unknown_file (
+
+tempjava.lang.String*5
+
+__unknown_file (
+
+%27java.lang.String29replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)"à
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaU U(+
+
+%28java.lang.String:á
+k
+aC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Substitution.javaF F(&
+linejava.lang.StringB%#
+!com.github.maven_nar.SubstitutionH

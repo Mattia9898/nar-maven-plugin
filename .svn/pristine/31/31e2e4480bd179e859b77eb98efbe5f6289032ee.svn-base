@@ -1,0 +1,15 @@
+com.github.maven_nar.AbstractResourcesMojo#copyLibraries(Ljava/io/File;Ljava/lang/String;)I
+com.github.maven_nar.AOL#<init>(Ljava/lang/String;)V
+com.github.maven_nar.AbstractNarMojo#getTargetDirectory()Ljava/io/File;
+com.github.maven_nar.NarUtil#copyDirectoryStructure(Ljava/io/File;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)I
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+java.io.File#instance-init#
+com.github.maven_nar.AbstractNarMojo#getLayout()Lcom/github/maven_nar/NarLayout;
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+com.github.maven_nar.Library#getType()Ljava/lang/String;
+com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;
+com.github.maven_nar.AOL#instance-init#
+com.github.maven_nar.AOL#getOS()Ljava/lang/String;
+com.github.maven_nar.NarUtil#getAOLKey(Ljava/lang/String;)Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.AbstractNarMojo#getLibraries()Ljava/util/List;

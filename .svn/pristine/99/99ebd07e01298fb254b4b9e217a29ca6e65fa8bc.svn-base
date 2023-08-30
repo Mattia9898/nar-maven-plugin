@@ -1,0 +1,4 @@
+com.github.maven_nar.Javah#getJniDirectory()Ljava/io/File;
+java.io.File#instance-init#
+java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;

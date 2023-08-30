@@ -1,0 +1,81 @@
+
+qcom.github.maven_nar.Msvc#addIncludePath(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;Ljava/lang/String;)Ze
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java½ ½( "3"4*ù
+2e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÄ Ä(!›
+˜
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÄ Ä(-
+%3boolean"ecom.github.maven_nar.Msvc#addIncludePathToTask(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/io/File;)Z*9
+
+__unknown_file (
+com.github.maven_nar.Msvc*J
+
+__unknown_file (.
+,
+task$com.github.maven_nar.cpptasks.CCTask*2
+
+__unknown_file (
+
+filejava.io.File"o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÄ Ä(.
+""*ß
+3e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÂ Â(#Œ‰
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÂ Â(
+%0java.io.File"java.io.FileÎ
+Ë
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÂ Â(2
+%1"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%0java.io.File*2
+
+__unknown_file (
+
+basejava.io.File*>
+
+__unknown_file ("
+ 
+subDirectoryjava.lang.String¸
+µ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÂ Â(3
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%0java.io.FileÏÌ
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÃ Ã(
+%2boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+2
+1*Û
+4e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÀ À("o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÀ À(
+""*Û
+1e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÆ Æ("o
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.javaÆ Æ(
+"":•
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java½! ½(3,
+task$com.github.maven_nar.cpptasks.CCTask:}
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java½4 ½(D
+basejava.io.File:‰
+e
+YC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/Msvc.java½E ½(^ 
+subDirectoryjava.lang.StringB
+com.github.maven_nar.Msvc

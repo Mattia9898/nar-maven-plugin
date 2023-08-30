@@ -1,0 +1,3 @@
+com.github.maven_nar.NarManager#<init>(Lorg/apache/maven/plugin/logging/Log;Lorg/apache/maven/artifact/repository/ArtifactRepository;Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;)V
+com.github.maven_nar.NarUtil#getLinkerName(Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#getAOL(Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)Lcom/github/maven_nar/AOL;

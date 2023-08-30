@@ -1,0 +1,12 @@
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#buildDefineArguments([Lcom/github/maven_nar/cpptasks/CompilerDef;Ljava/util/Vector;)V
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.types.UndefineArgument#isDefine()Z
+java.lang.String#length()I
+java.lang.StringBuffer#<init>(I)V
+java.lang.StringBuffer#setLength(I)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.CompilerDef#getActiveDefines()[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+com.github.maven_nar.cpptasks.types.UndefineArgument#merge([Lcom/github/maven_nar/cpptasks/types/UndefineArgument;[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;)[Lcom/github/maven_nar/cpptasks/types/UndefineArgument;
+com.github.maven_nar.cpptasks.types.UndefineArgument#getName()Ljava/lang/String;

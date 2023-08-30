@@ -1,0 +1,3 @@
+com.github.maven_nar.cpptasks.sun.ForteCCCompiler#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.sun.ForteCCLinker#getInstance()Lcom/github/maven_nar/cpptasks/sun/ForteCCLinker;
+com.github.maven_nar.cpptasks.sun.ForteCCLinker#getLinker(Lcom/github/maven_nar/cpptasks/compiler/LinkType;)Lcom/github/maven_nar/cpptasks/compiler/Linker;

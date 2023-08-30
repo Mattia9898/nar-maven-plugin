@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCommand()Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;

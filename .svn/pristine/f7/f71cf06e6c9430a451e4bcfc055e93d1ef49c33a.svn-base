@@ -1,0 +1,8 @@
+com.github.maven_nar.cpptasks.gcc.cross.GccCCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;
+com.github.maven_nar.cpptasks.parser.FortranParser#instance-init#
+com.github.maven_nar.cpptasks.parser.FortranParser#<init>()V
+java.lang.String#length()I
+java.lang.String#lastIndexOf(I)I
+java.lang.String#charAt(I)C
+com.github.maven_nar.cpptasks.parser.CParser#instance-init#
+com.github.maven_nar.cpptasks.parser.CParser#<init>()V

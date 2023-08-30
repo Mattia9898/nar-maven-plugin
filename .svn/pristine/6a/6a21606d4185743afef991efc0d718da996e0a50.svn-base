@@ -1,0 +1,5 @@
+com.github.maven_nar.NarCompileMojo#copyInclude(Lcom/github/maven_nar/Compiler;)V
+com.github.maven_nar.AbstractNarMojo#getTargetDirectory()Ljava/io/File;
+com.github.maven_nar.Compiler#copyIncludeFiles(Lorg/apache/maven/project/MavenProject;Ljava/io/File;)V
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+com.github.maven_nar.AbstractNarMojo#getLayout()Lcom/github/maven_nar/NarLayout;

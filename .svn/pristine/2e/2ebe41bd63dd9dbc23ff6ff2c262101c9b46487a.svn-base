@@ -1,0 +1,3 @@
+com.github.maven_nar.NarSystemMojo#getNativeLibLoaderVersion()Ljava/lang/String;
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;

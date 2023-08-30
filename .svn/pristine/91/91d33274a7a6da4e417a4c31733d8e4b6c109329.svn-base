@@ -1,0 +1,6 @@
+com.github.maven_nar.NarUtil#getLinkerName(Lorg/apache/maven/project/MavenProject;Ljava/lang/String;Ljava/lang/String;Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Ljava/lang/String;
+com.github.maven_nar.Linker#getName(Lcom/github/maven_nar/NarProperties;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarProperties#getInstance(Lorg/apache/maven/project/MavenProject;)Lcom/github/maven_nar/NarProperties;
+com.github.maven_nar.NarUtil#getOS(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarUtil#getLinker(Lcom/github/maven_nar/Linker;Lorg/apache/maven/plugin/logging/Log;)Lcom/github/maven_nar/Linker;
+com.github.maven_nar.NarUtil#getArchitecture(Ljava/lang/String;)Ljava/lang/String;

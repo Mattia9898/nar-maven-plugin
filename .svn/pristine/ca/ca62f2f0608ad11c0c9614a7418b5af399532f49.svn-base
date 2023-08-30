@@ -1,0 +1,67 @@
+
+ecom.github.maven_nar.AbstractDependencyMojo#getAttachedNarArtifacts(Ljava/util/List;)Ljava/util/List;w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÑ& Ñ(="1*û
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÓ Ó(
+ÒÏ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÓ Ó()
+%0#org.apache.maven.plugin.logging.Log"Rorg.apache.maven.plugin.AbstractMojo#getLog()Lorg/apache/maven/plugin/logging/Log;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getLog()ðí
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÓ Ó(-
+
+%1void"Corg.apache.maven.plugin.logging.Log#info(Ljava/lang/CharSequence;)V*G
+
+__unknown_file (+
+)
+%0#org.apache.maven.plugin.logging.Log*8
+
+__unknown_file (
+Getting Nar dependencies2info(Ljava/lang/CharSequence;)Á¾
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÔ+ Ô(<
+%2java.util.List"Mcom.github.maven_nar.AbstractDependencyMojo#getNarArtifacts()Ljava/util/List;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo2getNarArtifacts()Ö
+Ó
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÔ Ô(=
+narArtifactsjava.util.List"__id*2
+
+__unknown_file (
+
+%2java.util.List
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÕ; Õ(n
+%3java.util.List"xcom.github.maven_nar.AbstractDependencyMojo#getAllAttachedNarArtifacts(Ljava/util/List;Ljava/util/List;)Ljava/util/List;*K
+
+__unknown_file (/-
++com.github.maven_nar.AbstractDependencyMojo*<
+
+__unknown_file ( 
+
+narArtifactsjava.util.List*9
+
+__unknown_file (
+
+	librariesjava.util.List2<getAllAttachedNarArtifacts(Ljava/util/List;Ljava/util/List;)Þ
+Û
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÕ Õ(o&
+attachedNarArtifactsjava.util.List"__id*2
+
+__unknown_file (
+
+%3java.util.List"£
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÖ Ö( (
+&
+attachedNarArtifactsjava.util.List:–
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/AbstractDependencyMojo.javaÑ> Ñ(b
+	librariesjava.util.ListB/-
++com.github.maven_nar.AbstractDependencyMojo

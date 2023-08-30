@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.msvc.MsvcCompatibleCCompiler#addImpliedArgs(Ljava/util/Vector;ZZZLcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/lang/Boolean;Lcom/github/maven_nar/cpptasks/OptimizationEnum;)V
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.OptimizationEnum#isSpeed()Z
+java.lang.Boolean#booleanValue()Z
+org.apache.tools.ant.BuildException#instance-init#
+com.github.maven_nar.cpptasks.OptimizationEnum#isSize()Z

@@ -1,0 +1,2 @@
+com.github.maven_nar.Msvc#isMSVC(Ljava/lang/String;)Z
+java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z

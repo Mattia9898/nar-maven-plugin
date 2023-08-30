@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.borland.BorlandLibrarian#prepareResponseFile(Ljava/io/File;[Ljava/lang/String;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.BorlandProcessor#prepareResponseFile(Ljava/io/File;[Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcCompatibleLinker#addStack(Lcom/github/maven_nar/cpptasks/CCTask;ILjava/util/Vector;)V
+java.lang.Integer#toHexString(I)Ljava/lang/String;

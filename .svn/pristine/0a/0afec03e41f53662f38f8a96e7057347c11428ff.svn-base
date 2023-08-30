@@ -1,0 +1,115 @@
+
+<com.github.maven_nar.NarIntegrationTestMojo#testJNIModule()Zw
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java‹	 ‹	("6*Ê
+2w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŒ		 Œ	(Ã
+À
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŒ		 Œ	(
+elementjava.lang.Object"__id*"
+
+__unknown_file (
+""ý
+ú
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŒ		 Œ	(
+elementjava.lang.Object"
+__arrayGet*2
+
+__unknown_file (
+
+%0java.util.List*"
+
+__unknown_file (
+""*
+5
+1*€
+3w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	 	("
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	 	(
+""*‹
+4w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	& 	(*¾
+»
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	2 	(@
+%4java.lang.String"__id*"
+
+__unknown_file (
+""ÃÀ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	& 	(A
+%5boolean",java.lang.String#equals(Ljava/lang/Object;)Z*6
+
+__unknown_file (
+
+typejava.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String2equals(Ljava/lang/Object;)*
+2
+3*ä
+
+5w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	$ 	(+â
+ß
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	 	(,#
+libcom.github.maven_nar.Library"__id*9
+
+__unknown_file (
+
+elementjava.lang.Objectœ™
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŽ	 Ž	('
+%1java.lang.String"8com.github.maven_nar.Library#getType()Ljava/lang/String;*A
+
+__unknown_file (%
+#
+libcom.github.maven_nar.Library2	getType()Ò
+Ï
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŽ	 Ž	((
+typejava.lang.String"__id*4
+
+__unknown_file (
+
+%1java.lang.String¾
+»
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	 	(!
+%2java.lang.String"__id*"
+
+__unknown_file (
+""ÃÀ
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java	
+ 	("
+%3boolean",java.lang.String#equals(Ljava/lang/Object;)Z*6
+
+__unknown_file (
+
+typejava.lang.String*4
+
+__unknown_file (
+
+%2java.lang.String2equals(Ljava/lang/Object;)*
+3
+4*¸
+6w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŒ	  Œ	(,´±
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.javaŒ	  Œ	(.
+%0java.util.List"Ccom.github.maven_nar.AbstractNarMojo#getLibraries()Ljava/util/List;*K
+
+__unknown_file (/-
++com.github.maven_nar.NarIntegrationTestMojo2getLibraries()*
+2*€
+1w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java“	 “	("
+w
+kC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarIntegrationTestMojo.java“	 “	(
+""B/-
++com.github.maven_nar.NarIntegrationTestMojo

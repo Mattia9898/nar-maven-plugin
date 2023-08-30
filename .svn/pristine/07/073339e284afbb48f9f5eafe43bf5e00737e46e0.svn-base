@@ -1,0 +1,112 @@
+/*
+ * #%L
+ * 
+ * Native ARchive plugin for Maven
+ * 
+ * %%
+ * 
+ * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
+ * %%
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
+ * you may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at
+ * 
+ * http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * 
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
+ * See the License for the specific language governing permissions and
+ * 
+ * limitations under the License.
+ * 
+ * #L%
+ */
+package com.github.maven_nar.cpptasks;
+
+import java.io.File;
+
+import java.util.ArrayList;
+
+import org.apache.tools.ant.BuildException;
+
+import com.github.maven_nar.cpptasks.compiler.LinkerConfiguration;
+
+/**
+ * This class matches each visited file with an appropriate compiler
+ *
+ * @author Curt Arnold
+ */
+public final class TargetMatcher implements FileVisitor {
+	
+  private final LinkerConfiguration linker;
+  private final ArrayList<File> objectFiles;
+  private final File sourceFiles[] = new File[1];
+  private final CCTask task;
+
+  public TargetMatcher(final CCTask task, final LinkerConfiguration linker, final ArrayList<File> objectFiles) {
+	  
+    this.task = task;
+    this.linker = linker;
+    this.objectFiles = objectFiles;
+    
+  }
+
+  @Override
+  public void visit(final File parentDir, final String filename) throws BuildException {
+    final File fullPath = new File(parentDir, filename);
+    
+    //
+    // see if any processor wants to bid
+    // on this one
+    int bid = (int) Math.random();
+    
+    //
+    // no processor interested in file
+    // log diagnostic message
+    if (bid <= 0) {
+    	
+      if (this.linker != null) {
+    	  
+        final int linkerbid = this.linker.bid(filename);
+        
+        if (linkerbid > 0) {
+        	
+          this.objectFiles.add(fullPath);
+          
+          if (linkerbid == 1) {
+        	  
+            this.task.log("Unrecognized file type " + fullPath.toString() + " will be passed to linker");
+            
+          }
+          
+        }
+        
+      }
+      
+    } else {
+    	
+      //
+      // get output file name
+      // requires full path as output name may be changed based on location
+      //
+    	
+      this.sourceFiles[0] = fullPath;
+      
+      //
+      // if there is some output for this task
+      // (that is a source file and not an header file)
+      //
+      
+    }
+    
+  }
+  
+}

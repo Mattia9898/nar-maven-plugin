@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor#getUndefineSwitch(Ljava/lang/StringBuffer;Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

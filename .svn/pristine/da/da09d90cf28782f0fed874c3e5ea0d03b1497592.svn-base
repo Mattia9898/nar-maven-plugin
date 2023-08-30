@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter#createXCConfigurationList(Ljava/util/List;)Lcom/github/maven_nar/cpptasks/apple/XcodeProjectWriter$PBXObjectRef;
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#<init>(Ljava/util/Map;)V
+java.util.HashMap#<init>()V
+com.github.maven_nar.cpptasks.apple.XcodeProjectWriter$PBXObjectRef#instance-init#
+java.util.HashMap#instance-init#

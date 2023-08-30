@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractNarMojo#getJavah()Lcom/github/maven_nar/Javah;
+com.github.maven_nar.Javah#<init>()V
+com.github.maven_nar.Javah#setAbstractCompileMojo(Lcom/github/maven_nar/AbstractNarMojo;)V
+com.github.maven_nar.Javah#instance-init#

@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#writeLinkerElement(Lorg/xml/sax/ContentHandler;ZLjava/util/List;Ljava/lang/String;Lcom/github/maven_nar/cpptasks/TargetInfo;Ljava/util/Map;)V
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getTargetMachine(Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration;)Ljava/lang/String;
+org.xml.sax.helpers.AttributesImpl#instance-init#
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getLinkIncremental(Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getSubsystem(Lcom/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#addAttribute(Lorg/xml/sax/helpers/AttributesImpl;Ljava/lang/String;Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.msvc.VisualStudioNETProjectWriter#getAdditionalDependencies(Lcom/github/maven_nar/cpptasks/TargetInfo;Ljava/util/List;Ljava/util/Map;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getLinker()Lcom/github/maven_nar/cpptasks/compiler/Linker;
+org.xml.sax.helpers.AttributesImpl#<init>()V

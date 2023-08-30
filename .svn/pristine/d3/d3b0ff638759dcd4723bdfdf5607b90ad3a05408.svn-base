@@ -1,0 +1,2 @@
+com.github.maven_nar.NarUtil#getArchitecture(Ljava/lang/String;)Ljava/lang/String;
+java.lang.System#getProperty(Ljava/lang/String;)Ljava/lang/String;

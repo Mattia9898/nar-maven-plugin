@@ -1,0 +1,47 @@
+
+ncom.github.maven_nar.cpptasks.borland.BorlandLinker#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java® ®(%"startingBlock*Û
+startingBlock
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java®% ®(;Ö
+Ç
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.javaß ß(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+outFilejava.lang.String”
+–
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java®3 ®(:
+outFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*À
+1
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java© ©(§
+°
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java© ©(8
+%0java.lang.String[]"qcom.github.maven_nar.cpptasks.borland.BorlandProcessor#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;*V
+
+__unknown_file (:"8
+6com.github.maven_nar.cpptasks.borland.BorlandProcessor*9
+
+__unknown_file (
+
+outFilejava.lang.String"ù
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java© ©(9
+
+%0java.lang.String[]:û
+
+sC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandLinker.java®& ®(:
+outFilejava.lang.StringB75
+3com.github.maven_nar.cpptasks.borland.BorlandLinkerH

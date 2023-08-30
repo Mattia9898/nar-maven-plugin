@@ -1,0 +1,8 @@
+com.github.maven_nar.Javah#getJavah()Ljava/lang/String;
+com.github.maven_nar.AbstractNarMojo#getJavaHome(Lcom/github/maven_nar/AOL;)Ljava/io/File;
+com.github.maven_nar.Javah#getToolchain()Lorg/apache/maven/toolchain/Toolchain;
+org.apache.maven.plugin.MojoExecutionException#<init>(Ljava/lang/String;)V
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+com.github.maven_nar.AbstractNarMojo#getAOL()Lcom/github/maven_nar/AOL;
+java.io.File#instance-init#
+org.apache.maven.plugin.MojoExecutionException#instance-init#

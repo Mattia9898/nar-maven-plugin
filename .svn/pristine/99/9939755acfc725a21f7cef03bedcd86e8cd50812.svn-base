@@ -1,0 +1,9 @@
+com.github.maven_nar.cpptasks.VersionInfo#merge()Lcom/github/maven_nar/cpptasks/VersionInfo;
+java.util.Vector#<init>(I)V
+java.util.Vector#instance-init#
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.VersionInfo#instance-init#
+com.github.maven_nar.cpptasks.VersionInfo#merge()Lcom/github/maven_nar/cpptasks/VersionInfo;
+org.apache.tools.ant.BuildException#instance-init#
+com.github.maven_nar.cpptasks.VersionInfo#getExtends()Lorg/apache/tools/ant/types/Reference;
+com.github.maven_nar.cpptasks.VersionInfo#<init>(Ljava/util/Vector;)V

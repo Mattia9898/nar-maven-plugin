@@ -1,0 +1,6 @@
+com.github.maven_nar.cpptasks.types.LibrarySet#isActive(Lorg/apache/tools/ant/Project;)Z
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+java.lang.String#equals(Ljava/lang/Object;)Z
+java.lang.NullPointerException#<init>(Ljava/lang/String;)V
+org.apache.tools.ant.BuildException#instance-init#
+java.lang.NullPointerException#instance-init#

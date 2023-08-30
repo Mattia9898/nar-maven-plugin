@@ -1,0 +1,54 @@
+
+^com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#bid(Ljava/lang/String;)Iê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaP P("startingBlock*´
+startingBlockê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaP P('ò
+ï
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaO O(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*:
+
+__unknown_file (
+
+filenamejava.lang.StringÊ
+„
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaP P(&
+filenamejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*≠
+1ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaQ Q(œ
+Ã
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaQ Q(>
+%08com.github.maven_nar.cpptasks.compiler.CommandLineLinker"__id*q
+
+__unknown_file (U*SG
+Ecom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration"
+linker§°
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaQ Q($	
+%1int"Ncom.github.maven_nar.cpptasks.compiler.AbstractLinker#bid(Ljava/lang/String;)I*\
+
+__unknown_file (@
+>
+%08com.github.maven_nar.cpptasks.compiler.CommandLineLinker*:
+
+__unknown_file (
+
+filenamejava.lang.String2bid(Ljava/lang/String;)"õ
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaQ Q(%
+"":±
+ê
+ÖC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/CommandLineLinkerConfiguration.javaP P(&
+filenamejava.lang.StringBIG
+Ecom.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfigurationH

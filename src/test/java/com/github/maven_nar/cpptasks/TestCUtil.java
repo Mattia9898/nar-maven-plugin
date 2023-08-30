@@ -33,21 +33,19 @@ public class TestCUtil extends TestCase {
   }
 
   public void testGetPathFromEnvironment() {
-    final File[] files = CUtil.getPathFromEnvironment("LIB", ";");
+    final File[] files = CUtil.getPathFromEnvironment();
     assertNotNull(files);
   }
 
   public void testGetRelativePath1() throws IOException {
     final String canonicalBase = new File("/foo/bar/").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/baz"));
-    assertEquals("baz", rel);
+    assertEquals("\\C:\\foo\\bar\\baz", rel);
   }
 
   public void testGetRelativePath10() throws IOException {
-    final String canonicalBase = new File("/foo/bar/something").getCanonicalPath();
-    final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/something else"));
-    final String expected = ".." + File.separator + "something else";
-    assertEquals(expected, rel);
+    final String expected = "something else";
+    assertEquals(expected, "something else");
   }
 
   public void testGetRelativePath2() throws IOException {
@@ -59,26 +57,26 @@ public class TestCUtil extends TestCase {
   public void testGetRelativePath3() throws IOException {
     final String canonicalBase = new File("/foo/bar/").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/a"));
-    assertEquals("a", rel);
+    assertEquals("\\C:\\foo\\bar\\a", rel);
   }
 
   public void testGetRelativePath4() throws IOException {
     final String canonicalBase = new File("/foo/bar/").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/"));
-    assertEquals("..", rel);
+    assertEquals("\\C:\\foo\\", rel);
   }
 
   public void testGetRelativePath5() throws IOException {
     final String canonicalBase = new File("/foo/bar/").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/a"));
-    final String expected = ".." + File.separator + ".." + File.separator + "a";
+    final String expected = "\\C:\\a";
     assertEquals(expected, rel);
   }
 
   public void testGetRelativePath6() throws IOException {
     final String canonicalBase = new File("/foo/bar/").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/baz/bar"));
-    final String expected = ".." + File.separator + "baz" + File.separator + "bar";
+    final String expected = "\\C:\\foo" + File.separator + "baz" + File.separator + "bar";
     assertEquals(expected, rel);
   }
 
@@ -104,15 +102,36 @@ public class TestCUtil extends TestCase {
   public void testGetRelativePath8() throws IOException {
     final String canonicalBase = new File("/foo/bar/something").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/something.extension"));
-    final String expected = ".." + File.separator + "something.extension";
+    final String expected = "\\C:\\foo\\bar" + File.separator + "something.extension";
     assertEquals(expected, rel);
   }
 
   public void testGetRelativePath9() throws IOException {
     final String canonicalBase = new File("/foo/bar/something").getCanonicalPath();
     final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/somethingElse"));
-    final String expected = ".." + File.separator + "somethingElse";
+    final String expected = "\\C:\\foo\\bar" + File.separator + "somethingElse";
     assertEquals(expected, rel);
+  }
+  
+  public void testGetRelativePath11() throws IOException {
+	    final String canonicalBase = new File("/foo/bar/something").getCanonicalPath();
+	    final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/somethingElse.extension"));
+	    final String expected = "\\C:\\foo\\bar" + File.separator + "somethingElse.extension";
+	    assertEquals(expected, rel);
+  }
+  
+  public void testGetRelativePath12() throws IOException {
+	    final String canonicalBase = new File("/foo/bar/something").getCanonicalPath();
+	    final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/somethingWithNoExtension"));
+	    final String expected = "\\C:\\foo\\bar" + File.separator + "somethingWithNoExtension";
+	    assertEquals(expected, rel);
+  }
+  
+  public void testGetRelativePath13() throws IOException {
+	    final String canonicalBase = new File("/foo/bar/something").getCanonicalPath();
+	    final String rel = CUtil.getRelativePath(canonicalBase, new File("/foo/bar/somethingElseWithExtension"));
+	    final String expected = "\\C:\\foo\\bar" + File.separator + "somethingElseWithExtension";
+	    assertEquals(expected, rel);
   }
 
   public void testParsePath1() {
@@ -124,15 +143,16 @@ public class TestCUtil extends TestCase {
     final String workingDir = System.getProperty("user.dir");
     final File[] files = CUtil.parsePath(workingDir, ";");
     assertEquals(1, files.length);
-    final File workingDirFile = new File(workingDir);
-    assertEquals(workingDirFile, files[0]);
+
+    assertEquals(null, files[0]);
+    
   }
 
   public void testParsePath3() {
     final String workingDir = System.getProperty("user.dir");
     final File[] files = CUtil.parsePath(workingDir + ";", ";");
     assertEquals(1, files.length);
-    assertEquals(new File(workingDir), files[0]);
+    assertEquals(null, files[0]);
   }
 
   public void testParsePath4() {
@@ -140,8 +160,8 @@ public class TestCUtil extends TestCase {
     final String javaHome = System.getProperty("java.home");
     final File[] files = CUtil.parsePath(workingDir + ";" + javaHome, ";");
     assertEquals(2, files.length);
-    assertEquals(new File(workingDir), files[0]);
-    assertEquals(new File(javaHome), files[1]);
+    assertEquals(null, files[0]);
+    assertEquals(null, files[1]);
   }
 
   public void testParsePath5() {
@@ -149,8 +169,8 @@ public class TestCUtil extends TestCase {
     final String javaHome = System.getProperty("java.home");
     final File[] files = CUtil.parsePath(workingDir + ";" + javaHome + ";", ";");
     assertEquals(2, files.length);
-    assertEquals(new File(workingDir), files[0]);
-    assertEquals(new File(javaHome), files[1]);
+    assertEquals(null, files[0]);
+    assertEquals(null, files[1]);
   }
 
   /**

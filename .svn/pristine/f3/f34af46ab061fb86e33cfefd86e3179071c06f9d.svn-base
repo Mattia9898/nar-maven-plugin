@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.gcc.GppLinker#addImpliedArgs(Lcom/github/maven_nar/cpptasks/CCTask;ZLcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/util/Vector;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+com.github.maven_nar.cpptasks.compiler.CaptureStreamHandler#run([Ljava/lang/String;)[Ljava/lang/String;
+java.lang.String#indexOf(I)I
+com.github.maven_nar.cpptasks.gcc.GppLinker#isClang()Z

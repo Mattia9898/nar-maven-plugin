@@ -1,0 +1,97 @@
+
+¦com.github.maven_nar.cpptasks.DependencyTable$TimestampChecker#preview(Lcom/github/maven_nar/cpptasks/DependencyInfo;[Lcom/github/maven_nar/cpptasks/DependencyInfo;)Zy
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÂ Â("startingBlock*±
+2y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÇ Ç('á
+Þ
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÇ Ç('7
+element,com.github.maven_nar.cpptasks.DependencyInfo"__id*"
+
+__unknown_file (
+""Á
+¾
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÇ Ç('7
+element,com.github.maven_nar.cpptasks.DependencyInfo"
+__arrayGet*X
+
+__unknown_file (<
+:
+children.com.github.maven_nar.cpptasks.DependencyInfo[]*"
+
+__unknown_file (
+""*	
+2
+3
+1*ø
+3y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÍ
+ Í(òï
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÍ
+ Í(
+%0boolean"ucom.github.maven_nar.cpptasks.DependencyTable$TimestampChecker#visit(Lcom/github/maven_nar/cpptasks/DependencyInfo;)Z*^
+
+__unknown_file (B@
+>com.github.maven_nar.cpptasks.DependencyTable$TimestampChecker*U
+
+__unknown_file (9
+7
+element,com.github.maven_nar.cpptasks.DependencyInfo25visit(Lcom/github/maven_nar/cpptasks/DependencyInfo;)*
+2*§	
+startingBlocky
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÂ Â(Xš
+—
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÁ Á(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*T
+
+__unknown_file (8
+6
+parent,com.github.maven_nar.cpptasks.DependencyInfoè
+å
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÂ0 Â(66
+parent,com.github.maven_nar.cpptasks.DependencyInfo"__annotation*"
+
+__unknown_file (
+
+%1ž
+›
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÁ Á(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*X
+
+__unknown_file (<
+:
+children.com.github.maven_nar.cpptasks.DependencyInfo[]ì
+é
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÂO Â(W:
+children.com.github.maven_nar.cpptasks.DependencyInfo[]"__annotation*"
+
+__unknown_file (
+
+%2*
+2*„
+1y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaâ â("ƒ
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaâ â("
+"":³
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÂ Â(76
+parent,com.github.maven_nar.cpptasks.DependencyInfo:·
+y
+mC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyTable.javaÂ8 Â(W:
+children.com.github.maven_nar.cpptasks.DependencyInfo[]BB@
+>com.github.maven_nar.cpptasks.DependencyTable$TimestampCheckerH

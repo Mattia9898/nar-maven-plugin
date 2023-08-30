@@ -1,0 +1,33 @@
+
+Ocom.github.maven_nar.cpptasks.LinkerDef#getLibraryDirectories()Ljava/util/List;s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java‘ ‘()"1*Ñ
+1s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java’ ’(ô
+ñ
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java’ ’(2
+%0java.util.Set"__id*_
+
+__unknown_file (C*A)
+'com.github.maven_nar.cpptasks.LinkerDef"
+libraryDirectories¨¥
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java’ ’(
+%1java.util.ArrayList"java.util.ArrayListŸ
+œ
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java’ ’(3
+%2"3java.util.ArrayList#<init>(Ljava/util/Collection;)V*7
+
+__unknown_file (
+
+%1java.util.ArrayList*1
+
+__unknown_file (
+
+%0java.util.Set"’
+s
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/LinkerDef.java’ ’(4
+
+%1java.util.ArrayListB+)
+'com.github.maven_nar.cpptasks.LinkerDefH

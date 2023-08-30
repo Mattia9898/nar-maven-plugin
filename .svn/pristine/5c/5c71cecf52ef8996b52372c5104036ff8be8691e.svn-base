@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.gcc.GccCCompiler#getIdentifier()Ljava/lang/String;
+com.github.maven_nar.cpptasks.gcc.GccProcessor#getVersion()Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getLibtool()Z
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getCommand()Ljava/lang/String;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+com.github.maven_nar.cpptasks.gcc.GccProcessor#getMachine()Ljava/lang/String;
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

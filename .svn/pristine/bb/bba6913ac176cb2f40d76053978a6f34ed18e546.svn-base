@@ -1,0 +1,62 @@
+
+Ycom.github.maven_nar.cpptasks.TargetDef#getArch()Lcom/github/maven_nar/cpptasks/ArchEnum;q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaO O("3*·
+
+2q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaQ0 Q(=€ÿ
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaQ0 Q([-
+%1'com.github.maven_nar.cpptasks.TargetDef"horg.apache.tools.ant.types.DataType#getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Ljava/lang/Object;*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.TargetDef*"
+
+__unknown_file (
+""*)
+
+__unknown_file (
+	TargetDef22getCheckedRef(Ljava/lang/Class;Ljava/lang/String;)Å
+˛
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaQ Q(\6
+refPlatform'com.github.maven_nar.cpptasks.TargetDef"__id*K
+
+__unknown_file (/
+-
+%1'com.github.maven_nar.cpptasks.TargetDef‡›
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaR R(",
+%2&com.github.maven_nar.cpptasks.ArchEnum"Ycom.github.maven_nar.cpptasks.TargetDef#getArch()Lcom/github/maven_nar/cpptasks/ArchEnum;*T
+
+__unknown_file (8
+6
+refPlatform'com.github.maven_nar.cpptasks.TargetDef2	getArch()"£
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaR R(#.
+,
+%2&com.github.maven_nar.cpptasks.ArchEnum*í
+3q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaP P(ëé
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaP P(
+%0boolean"2org.apache.tools.ant.types.DataType#isReference()Z*G
+
+__unknown_file (+)
+'com.github.maven_nar.cpptasks.TargetDef2isReference()*
+2
+1*ú
+1q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaT T(˝
+˙
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaT T(,
+%3&com.github.maven_nar.cpptasks.ArchEnum"__id*Q
+
+__unknown_file (5*3)
+'com.github.maven_nar.cpptasks.TargetDef"
+arch"£
+q
+gC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/TargetDef.javaT T(.
+,
+%3&com.github.maven_nar.cpptasks.ArchEnumB+)
+'com.github.maven_nar.cpptasks.TargetDefH

@@ -1,0 +1,1 @@
+com.github.maven_nar.cpptasks.LinkerDef#addActiveLibrarySet(Lorg/apache/tools/ant/Project;Ljava/util/Vector;Ljava/util/Vector;)V

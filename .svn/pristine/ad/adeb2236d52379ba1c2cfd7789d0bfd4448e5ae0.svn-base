@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#createIncludePath()Lcom/github/maven_nar/cpptasks/types/IncludePath;
+com.github.maven_nar.cpptasks.CompilerDef#createIncludePath()Lcom/github/maven_nar/cpptasks/types/IncludePath;

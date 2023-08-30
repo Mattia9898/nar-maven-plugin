@@ -1,0 +1,464 @@
+
+com.github.maven_nar.cpptasks.platforms.WindowsPlatform#addVersionFiles(Lcom/github/maven_nar/cpptasks/VersionInfo;Lcom/github/maven_nar/cpptasks/compiler/LinkType;Ljava/io/File;ZLjava/io/File;Lcom/github/maven_nar/cpptasks/TargetMatcher;)VÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java@ @($"13"6"7"9"11*ö
+13Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaC% C(2Õ 
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaC C($$
+%0java.lang.NullPointerException"java.lang.NullPointerException∫
+∑
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaC C(3
+%1":java.lang.NullPointerException#<init>(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%0java.lang.NullPointerException*+
+
+__unknown_file (
+versionInfo*
+0*É
+3Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javan[ n(j¬ø
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javanJ n(Z
+%27java.io.FileOutputStream"java.io.FileOutputStreamæ
+ª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javanF n(k
+%28"0java.io.FileOutputStream#<init>(Ljava/io/File;)V*=
+
+__unknown_file (!
+
+%27java.io.FileOutputStream*=
+
+__unknown_file (!
+
+versionResourcejava.io.File∆√
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javan3 n(E!
+%29java.io.OutputStreamWriter"java.io.OutputStreamWriter 
+«
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javan/ n(l
+%30":java.io.OutputStreamWriter#<init>(Ljava/io/OutputStream;)V*?
+
+__unknown_file (#
+!
+%29java.io.OutputStreamWriter*=
+
+__unknown_file (!
+
+%27java.io.FileOutputStreamæª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javan  n(.
+%31java.io.BufferedWriter"java.io.BufferedWriteræ
+ª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javan n(m
+%32"0java.io.BufferedWriter#<init>(Ljava/io/Writer;)V*;
+
+__unknown_file (
+
+%31java.io.BufferedWriter*?
+
+__unknown_file (#
+!
+%29java.io.OutputStreamWriter‰
+·
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javan n(n
+writerjava.io.Writer"__id*;
+
+__unknown_file (
+
+%31java.io.BufferedWriter˚
+¯
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javao o(F
+%33void"√com.github.maven_nar.cpptasks.platforms.WindowsPlatform#writeResource(Ljava/io/Writer;Lcom/github/maven_nar/cpptasks/VersionInfo;Ljava/io/File;ZLcom/github/maven_nar/cpptasks/compiler/LinkType;)V*W
+
+__unknown_file (;"9
+7com.github.maven_nar.cpptasks.platforms.WindowsPlatform*6
+
+__unknown_file (
+
+writerjava.io.Writer*U
+
+__unknown_file (9
+7
+
+mergedInfo)com.github.maven_nar.cpptasks.VersionInfo*8
+
+__unknown_file (
+
+
+outputFilejava.io.File*"
+
+__unknown_file (
+""*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeÓÎ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javap p(
+%34void"java.io.Writer#close()V*6
+
+__unknown_file (
+
+writerjava.io.Writer2close()*
+0
+1*Û,
+5Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java[. [(IÃ…
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java[2 [(G$
+%12java.io.ByteArrayOutputStream"java.io.ByteArrayOutputStream˚
+¯
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java[. [(I
+%13"'java.io.ByteArrayOutputStream#<init>()V*B
+
+__unknown_file (&
+$
+%12java.io.ByteArrayOutputStream˝
+˙
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java[ [(J*
+	memStreamjava.io.ByteArrayOutputStream"__id*B
+
+__unknown_file (&
+$
+%12java.io.ByteArrayOutputStream∆√
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java\3 \(E!
+%14java.io.OutputStreamWriter"java.io.OutputStreamWriter’
+“
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java\/ \(P
+%15":java.io.OutputStreamWriter#<init>(Ljava/io/OutputStream;)V*?
+
+__unknown_file (#
+!
+%14java.io.OutputStreamWriter*H
+
+__unknown_file (,
+*
+	memStreamjava.io.ByteArrayOutputStreamæª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java\  \(.
+%16java.io.BufferedWriter"java.io.BufferedWriteræ
+ª
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java\ \(Q
+%17"0java.io.BufferedWriter#<init>(Ljava/io/Writer;)V*;
+
+__unknown_file (
+
+%16java.io.BufferedWriter*?
+
+__unknown_file (#
+!
+%14java.io.OutputStreamWriter‰
+·
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java\ \(R
+writerjava.io.Writer"__id*;
+
+__unknown_file (
+
+%16java.io.BufferedWriter˚
+¯
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java] ](F
+%18void"√com.github.maven_nar.cpptasks.platforms.WindowsPlatform#writeResource(Ljava/io/Writer;Lcom/github/maven_nar/cpptasks/VersionInfo;Ljava/io/File;ZLcom/github/maven_nar/cpptasks/compiler/LinkType;)V*W
+
+__unknown_file (;"9
+7com.github.maven_nar.cpptasks.platforms.WindowsPlatform*6
+
+__unknown_file (
+
+writerjava.io.Writer*U
+
+__unknown_file (9
+7
+
+mergedInfo)com.github.maven_nar.cpptasks.VersionInfo*8
+
+__unknown_file (
+
+
+outputFilejava.io.File*"
+
+__unknown_file (
+""*Y
+
+__unknown_file (=
+;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkTypeÓÎ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java^ ^(
+%19void"java.io.Writer#close()V*6
+
+__unknown_file (
+
+writerjava.io.Writer2close()ûõ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java_M _(d
+%20byte[]"-java.io.ByteArrayOutputStream#toByteArray()[B*H
+
+__unknown_file (,
+*
+	memStreamjava.io.ByteArrayOutputStream2toByteArray() «
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java_8 _(L#
+%21java.io.ByteArrayInputStream"java.io.ByteArrayInputStream®
+•
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java_4 _(e
+%22"(java.io.ByteArrayInputStream#<init>([B)V*A
+
+__unknown_file (%
+#
+%21java.io.ByteArrayInputStream*+
+
+__unknown_file (
+
+%20byte[]Ç
+ˇ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java_ _(f0
+proposedResourcejava.io.ByteArrayInputStream"__id*A
+
+__unknown_file (%
+#
+%21java.io.ByteArrayInputStream¿Ω
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaa/ a(>
+%23java.io.FileInputStream"java.io.FileInputStreamº
+π
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaa+ a(O
+%24"/java.io.FileInputStream#<init>(Ljava/io/File;)V*<
+
+__unknown_file ( 
+
+%23java.io.FileInputStream*=
+
+__unknown_file (!
+
+versionResourcejava.io.FileÙ
+Ò
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaa a(P'
+existingResourcejava.io.InputStream"__id*<
+
+__unknown_file ( 
+
+%23java.io.FileInputStream¸
+˘
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javae e(E
+%25boolean"scom.github.maven_nar.cpptasks.platforms.WindowsPlatform#hasSameContent(Ljava/io/InputStream;Ljava/io/InputStream;)Z*W
+
+__unknown_file (;"9
+7com.github.maven_nar.cpptasks.platforms.WindowsPlatform*N
+
+__unknown_file (2
+0
+proposedResourcejava.io.ByteArrayInputStream*E
+
+__unknown_file ()
+'
+existingResourcejava.io.InputStreamÇˇ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaf f(
+%26void"java.io.InputStream#close()V*E
+
+__unknown_file ()
+'
+existingResourcejava.io.InputStream2close()*	
+3
+0
+1*í
+6Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaR# R(.˜Ù
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaR# R(6/
+%8)com.github.maven_nar.cpptasks.VersionInfo"\com.github.maven_nar.cpptasks.VersionInfo#merge()Lcom/github/maven_nar/cpptasks/VersionInfo;*V
+
+__unknown_file (:
+8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo2merge()ï
+í
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaR R(77
+
+mergedInfo)com.github.maven_nar.cpptasks.VersionInfo"__id*M
+
+__unknown_file (1
+/
+%8)com.github.maven_nar.cpptasks.VersionInfo©¶
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaT% T()
+%9java.io.File"java.io.Fileﬁ
+€
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaT! T(C
+%10"6java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%9java.io.File*4
+
+__unknown_file (
+
+objDirjava.io.File*.
+
+__unknown_file (
+versioninfo.rc‡
+›
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaT T(D
+versionResourcejava.io.File"__id*0
+
+__unknown_file (
+
+%9java.io.File¯ı
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaZ Z( 
+%11boolean"java.io.File#exists()Z*=
+
+__unknown_file (!
+
+versionResourcejava.io.File2exists()*
+3
+5
+0
+1*î
+7Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaL% L(-Õ 
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaL L($$
+%6java.lang.NullPointerException"java.lang.NullPointerExceptionµ
+≤
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaL L(.
+%7":java.lang.NullPointerException#<init>(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%6java.lang.NullPointerException*&
+
+__unknown_file (
+
+objDir*
+0*ò
+9Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaI% I(1Õ 
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaI I($$
+%4java.lang.NullPointerException"java.lang.NullPointerExceptionπ
+∂
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaI I(2
+%5":java.lang.NullPointerException#<init>(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%4java.lang.NullPointerException**
+
+__unknown_file (
+
+outputFile*
+0*°
+0 "ô
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javav v(
+implicit return*ó
+11Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaF% F(/Õ 
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaF F($$
+%2java.lang.NullPointerException"java.lang.NullPointerException∑
+¥
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaF F(0
+%3":java.lang.NullPointerException#<init>(Ljava/lang/String;)V*B
+
+__unknown_file (&
+$
+%2java.lang.NullPointerException*(
+
+__unknown_file (
+
+linkType*
+0*Ê
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javas s(òï
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javas s(8
+%35java.lang.String"*java.io.File#getParent()Ljava/lang/String;*=
+
+__unknown_file (!
+
+versionResourcejava.io.File2getParent()™ß
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javas s(
+%36java.io.File"java.io.File¢
+ü
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javas s(9
+%37"(java.io.File#<init>(Ljava/lang/String;)V*1
+
+__unknown_file (
+
+%36java.io.File*5
+
+__unknown_file (
+
+%35java.lang.Stringîë
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javas; s(T
+%38java.lang.String"(java.io.File#getName()Ljava/lang/String;*=
+
+__unknown_file (!
+
+versionResourcejava.io.File2	getName()”–
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javas s(U
+%39void"Tcom.github.maven_nar.cpptasks.TargetMatcher#visit(Ljava/io/File;Ljava/lang/String;)V*T
+
+__unknown_file (8
+6
+matcher+com.github.maven_nar.cpptasks.TargetMatcher*1
+
+__unknown_file (
+
+%36java.io.File*5
+
+__unknown_file (
+
+%38java.lang.String2'visit(Ljava/io/File;Ljava/lang/String;)*
+0:æ
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java@% @(C8
+versionInfo)com.github.maven_nar.cpptasks.VersionInfo:¡
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java@D @(\;
+linkType/com.github.maven_nar.cpptasks.compiler.LinkType:†
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.java@] @(s
+
+outputFilejava.io.File: 
+
+__unknown_file (
+"":ú
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaA A(/
+objDirjava.io.File:º
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/platforms/WindowsPlatform.javaA0 A(K6
+matcher+com.github.maven_nar.cpptasks.TargetMatcherB;"9
+7com.github.maven_nar.cpptasks.platforms.WindowsPlatformH

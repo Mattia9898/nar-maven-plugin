@@ -1,0 +1,51 @@
+
+qcom.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javan n(&"startingBlock*Ç
+startingBlockÅ
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javan& n(?ã
+à
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javam m(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.StringŸ
+÷
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javan4 n(>
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*∆
+1Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javao o(õ
+ò
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javao o(8
+%0java.lang.String"jcom.github.maven_nar.cpptasks.msvc.MsvcProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;*P
+
+__unknown_file (4"2
+0com.github.maven_nar.cpptasks.msvc.MsvcProcessor*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String"û
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javao o(9
+
+%0java.lang.String:§
+Å
+wC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/msvc/MsvcResourceCompiler.javan' n(>
+
+includeDirjava.lang.StringB;9
+7com.github.maven_nar.cpptasks.msvc.MsvcResourceCompiler

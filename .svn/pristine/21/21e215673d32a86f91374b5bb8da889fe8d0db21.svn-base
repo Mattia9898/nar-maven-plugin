@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.types.LibrarySet#visitLibraries(Lorg/apache/tools/ant/Project;Lcom/github/maven_nar/cpptasks/compiler/Linker;[Ljava/io/File;Lcom/github/maven_nar/cpptasks/FileVisitor;)V
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;

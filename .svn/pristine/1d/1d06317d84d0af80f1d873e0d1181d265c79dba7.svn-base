@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcProjectWriter#writeMessage(Ljava/io/Writer;Ljava/lang/String;Ljava/lang/String;)V
+java.text.MessageFormat#format(Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;

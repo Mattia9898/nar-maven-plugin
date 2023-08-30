@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeString(Ljava/lang/String;Lorg/xml/sax/ContentHandler;)V
+com.github.maven_nar.cpptasks.apple.PropertyListSerialization#serializeElement(Ljava/lang/String;Ljava/lang/String;Lorg/xml/sax/ContentHandler;)V

@@ -1,0 +1,29 @@
+
+©com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#getWin32Toolset(Lcom/github/maven_nar/cpptasks/compiler/CommandLineCompilerConfiguration;)Ljava/lang/String;ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¯ ¯( "3"1*¨
+2ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java± ±("—
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java± ±(
+
+win32b*ï
+3ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java°" °(0ÖÓ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java°" °(>5
+%0/com.github.maven_nar.cpptasks.compiler.Compiler"†com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration#getCompiler()Lcom/github/maven_nar/cpptasks/compiler/Compiler;*w
+
+__unknown_file ([
+Y
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration2getCompiler()*
+2
+1*§
+1ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java³ ³("–
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java³ ³(	
+MinGW:æ
+ˆ
+|C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter.java¯! ¯(VY
+compilerConfigGcom.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfigurationB@>
+<com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter

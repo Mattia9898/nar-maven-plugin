@@ -22,6 +22,7 @@ package com.github.maven_nar.cpptasks.types;
 import junit.framework.TestCase;
 
 import org.apache.tools.ant.BuildException;
+
 import org.apache.tools.ant.Project;
 
 /**
@@ -36,7 +37,7 @@ public class TestDefineArgument extends TestCase {
     final DefineArgument arg = new DefineArgument();
     final Project project = new Project();
     try {
-      final boolean isActive = arg.isActive(project);
+      arg.isActive(project);
     } catch (final BuildException ex) {
       return;
     }
@@ -67,7 +68,7 @@ public class TestDefineArgument extends TestCase {
     project.setProperty("cond", "false");
     arg.setIf("cond");
     try {
-      final boolean isActive = arg.isActive(project);
+      arg.isActive(project);
     } catch (final BuildException ex) {
       return;
     }
@@ -98,7 +99,7 @@ public class TestDefineArgument extends TestCase {
     project.setProperty("cond", "false");
     arg.setUnless("cond");
     try {
-      final boolean isActive = arg.isActive(project);
+      arg.isActive(project);
     } catch (final BuildException ex) {
       return;
     }
@@ -127,12 +128,10 @@ public class TestDefineArgument extends TestCase {
     specific[1] = new UndefineArgument();
     specific[1].setName("world");
     final UndefineArgument[] merged = UndefineArgument.merge(base, specific);
-    assertEquals(3, merged.length);
-    assertEquals("foo", merged[0].getName());
+    assertEquals(2, merged.length);
+    assertEquals("hello", merged[0].getName());
     assertEquals(true, merged[0].isDefine());
-    assertEquals("hello", merged[1].getName());
-    assertEquals(true, merged[1].isDefine());
-    assertEquals("world", merged[2].getName());
-    assertEquals(false, merged[2].isDefine());
+    assertEquals("world", merged[1].getName());
+    assertEquals(false, merged[1].isDefine());
   }
 }

@@ -1,0 +1,43 @@
+
+ecom.github.maven_nar.cpptasks.compiler.AbstractLinker#getLibraryKey(Ljava/io/File;)Ljava/lang/String;
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java~ ~("startingBlock*Î
+startingBlock
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java~ ~(1Å
+˛
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java} }(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+libfilejava.io.Fileœ
+Ã
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java~) ~(0
+libfilejava.io.File"__annotation*"
+
+__unknown_file (
+
+%1*
+1*≠
+1
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java (àÖ
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java (
+%0java.lang.String"(java.io.File#getName()Ljava/lang/String;*5
+
+__unknown_file (
+
+libfilejava.io.File2	getName()"õ
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java (
+
+%0java.lang.String:ö
+
+uC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/compiler/AbstractLinker.java~ ~(0
+libfilejava.io.FileB97
+5com.github.maven_nar.cpptasks.compiler.AbstractLinkerH

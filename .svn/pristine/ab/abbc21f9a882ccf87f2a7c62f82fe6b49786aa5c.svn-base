@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.LinkerEnum#getValues()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.ProcessorEnumValue#getValues([Lcom/github/maven_nar/cpptasks/ProcessorEnumValue;)[Ljava/lang/String;

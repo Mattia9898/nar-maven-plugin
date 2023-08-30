@@ -1,0 +1,75 @@
+
+{com.github.maven_nar.cpptasks.borland.CfgFilenameState#consume(C)Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java# #($"3"4*˜
+
+2€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java2 2(¡ž
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java2 2(9
+%23com.github.maven_nar.cpptasks.parser.AbstractParser"ycom.github.maven_nar.cpptasks.parser.AbstractParserState#getParser()Lcom/github/maven_nar/cpptasks/parser/AbstractParser;*V
+
+__unknown_file (:8
+6com.github.maven_nar.cpptasks.borland.CfgFilenameState2getParser()³°
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java2 2(.>
+%38com.github.maven_nar.cpptasks.parser.AbstractParserState"com.github.maven_nar.cpptasks.parser.AbstractParser#getNewLineState()Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;*W
+
+__unknown_file (;
+9
+%23com.github.maven_nar.cpptasks.parser.AbstractParser2getNewLineState()°
+­
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java2 2(.D
+newState8com.github.maven_nar.cpptasks.parser.AbstractParserState"__id*\
+
+__unknown_file (@
+>
+%38com.github.maven_nar.cpptasks.parser.AbstractParserState*
+1*Ë
+3€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java-# -((‡
+„
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java-# -(4>
+%18com.github.maven_nar.cpptasks.parser.AbstractParserState"wcom.github.maven_nar.cpptasks.parser.FilenameState#consume(C)Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+""°
+­
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java- -(5D
+newState8com.github.maven_nar.cpptasks.parser.AbstractParserState"__id*\
+
+__unknown_file (@
+>
+%18com.github.maven_nar.cpptasks.parser.AbstractParserState*
+2
+1*Ò
+4€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java* *(‡
+„
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java* *($>
+%08com.github.maven_nar.cpptasks.parser.AbstractParserState"wcom.github.maven_nar.cpptasks.parser.FilenameState#consume(C)Lcom/github/maven_nar/cpptasks/parser/AbstractParserState;*"
+
+__unknown_file (
+""*"
+
+__unknown_file (
+"""¿
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java+ +(:8
+6com.github.maven_nar.cpptasks.borland.CfgFilenameState*Ô
+1€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java4 4("Ë
+€
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/CfgFilenameState.java4 4(F
+D
+newState8com.github.maven_nar.cpptasks.parser.AbstractParserState: 
+
+__unknown_file (
+""B:8
+6com.github.maven_nar.cpptasks.borland.CfgFilenameStateH

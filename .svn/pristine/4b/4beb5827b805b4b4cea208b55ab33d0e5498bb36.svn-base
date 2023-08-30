@@ -1,0 +1,2 @@
+com.github.maven_nar.NarInfo#getOutput(Lcom/github/maven_nar/AOL;Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.NarInfo#getExactProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,51 @@
+
+ucom.github.maven_nar.cpptasks.openwatcom.OpenWatcomCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java¨ ¨(,"startingBlock*”
+startingBlock‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java¨, ¨(E‘
+Ž
+‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java§ §(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.Stringß
+Ü
+‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java¨: ¨(D
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ð
+1‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java© ©(¹
+¶
+‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java© ©(>
+%0java.lang.String"vcom.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;*\
+
+__unknown_file (@">
+<com.github.maven_nar.cpptasks.openwatcom.OpenWatcomProcessor*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String"¤
+‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java© ©(?
+
+%0java.lang.String:ª
+‡
+{C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/openwatcom/OpenWatcomCompiler.java¨- ¨(D
+
+includeDirjava.lang.StringB?=
+;com.github.maven_nar.cpptasks.openwatcom.OpenWatcomCompiler

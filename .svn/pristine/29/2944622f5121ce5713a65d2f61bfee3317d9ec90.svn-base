@@ -1,0 +1,9 @@
+com.github.maven_nar.NarGnuConfigureMojo#runAutogen(Ljava/io/File;Ljava/io/File;[Ljava/lang/String;)V
+com.github.maven_nar.NarUtil#runCommand(Ljava/lang/String;[Ljava/lang/String;Ljava/io/File;[Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)I
+org.apache.maven.plugin.MojoExecutionException#<init>(Ljava/lang/String;)V
+java.io.File#<init>(Ljava/io/File;Ljava/lang/String;)V
+com.github.maven_nar.NarGnuConfigureMojo#arraysToString([Ljava/lang/Object;)Ljava/lang/String;
+java.io.File#instance-init#
+org.apache.maven.plugin.MojoExecutionException#instance-init#
+com.github.maven_nar.NarUtil#makeExecutable(Ljava/io/File;Lorg/apache/maven/plugin/logging/Log;)V
+java.lang.System#arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V

@@ -1,0 +1,4 @@
+com.github.maven_nar.Compiler#copyIncludeFiles(Lorg/apache/maven/project/MavenProject;Ljava/io/File;)V
+com.github.maven_nar.Compiler#getIncludePaths(Ljava/lang/String;)Ljava/util/List;
+com.github.maven_nar.NarUtil#copyDirectoryStructure(Ljava/io/File;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)I
+com.github.maven_nar.IncludePath#getIncludes()Ljava/lang/String;

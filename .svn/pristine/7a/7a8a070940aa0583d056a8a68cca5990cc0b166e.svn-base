@@ -1,0 +1,16 @@
+com.github.maven_nar.cpptasks.gcc.cross.GccLinker#getLibraryPath()[Ljava/io/File;
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#isCygwin()Z
+com.github.maven_nar.cpptasks.CUtil#checkDirectoryArray([Ljava/lang/String;)I
+java.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#parseSpecs([Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;)[[Ljava/lang/String;
+java.io.File#instance-init#
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#convertCygwinFilenames([Ljava/lang/String;)V
+java.io.File#<init>(Ljava/lang/String;)V
+java.lang.StringBuffer#append(C)Ljava/lang/StringBuffer;
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getMachine()Ljava/lang/String;
+java.lang.StringBuffer#toString()Ljava/lang/String;
+java.lang.StringBuffer#instance-init#
+java.lang.StringBuffer#<init>(Ljava/lang/String;)V
+java.lang.String#contains(Ljava/lang/CharSequence;)Z
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getSpecs()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.gcc.cross.GccProcessor#getVersion()Ljava/lang/String;

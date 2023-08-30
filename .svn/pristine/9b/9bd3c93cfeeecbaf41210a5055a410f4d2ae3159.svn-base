@@ -1,0 +1,10 @@
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLinkOptions(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Lcom/github/maven_nar/cpptasks/TargetInfo;)V
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeLdArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getEndArguments()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getLibraryNames()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getStartupObject()Ljava/lang/String;
+com.github.maven_nar.cpptasks.TargetInfo#getConfiguration()Lcom/github/maven_nar/cpptasks/compiler/ProcessorConfiguration;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getLinker()Lcom/github/maven_nar/cpptasks/compiler/Linker;
+com.github.maven_nar.cpptasks.compiler.CommandLineLinkerConfiguration#getPreArguments()[Ljava/lang/String;
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter#writeIlinkArgs(Lcom/github/maven_nar/cpptasks/borland/CBuilderXProjectWriter$PropertyWriter;Ljava/lang/String;[Ljava/lang/String;)V
+com.github.maven_nar.cpptasks.borland.CBuilderXProjectWriter$PropertyWriter#write(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V

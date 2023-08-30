@@ -1,0 +1,254 @@
+
+ncom.github.maven_nar.NarManager#getNarInfo(Lorg/apache/maven/artifact/Artifact;)Lcom/github/maven_nar/NarInfo;k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaø ø(!"19*¬
+13k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java†
+ †(²¯
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java†
+ †(%
+%12java.lang.String"Eorg.apache.maven.artifact.Artifact#getBaseVersion()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getBaseVersion()*
+12*ª
+14k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java…@ …(J°­
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java…@ …(Z
+%11java.lang.String"Dorg.apache.maven.artifact.Artifact#getArtifactId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getArtifactId()*
+13*ö
+15k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java„ „(Ï
+Ì
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java„ „(
+jarjava.util.jar.JarFile"__id*9
+
+__unknown_file (
+
+%8java.util.jar.JarFileª§
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java…' …(>
+%10java.lang.String"Aorg.apache.maven.artifact.Artifact#getGroupId()Ljava/lang/String;*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2getGroupId()*
+14*µ
+16k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java„ „(¤¡
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java„ „(
+%8java.util.jar.JarFile"java.util.jar.JarFile”
+‘
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java„ „(
+%9"-java.util.jar.JarFile#<init>(Ljava/io/File;)V*9
+
+__unknown_file (
+
+%8java.util.jar.JarFile*2
+
+__unknown_file (
+
+filejava.io.File*
+15*²
+17k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java‚ ‚(¸
+µ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java‚ ‚(
+jarjava.util.jar.JarFile"__id*"
+
+__unknown_file (
+""*
+16*è
+18k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaÿ ÿ("u
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaÿ ÿ(
+""*ˆ
+7k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java‹ ‹("•
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java‹ ‹(&
+$
+infocom.github.maven_nar.NarInfo*Ì
+19k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û(Œ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaû û(
+%0boolean"0org.apache.maven.artifact.Artifact#isSnapshot()Z*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2isSnapshot()†
+ƒ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı ı(.=
+%17org.apache.maven.artifact.repository.ArtifactRepository"__id*O
+
+__unknown_file (3*1!
+com.github.maven_nar.NarManager"
+
+repositoryËÈ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı ı(;
+%2java.lang.String"Vorg.apache.maven.artifact.repository.ArtifactRepository#getBasedir()Ljava/lang/String;*[
+
+__unknown_file (?
+=
+%17org.apache.maven.artifact.repository.ArtifactRepository2getBasedir()†
+ƒ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı= ı(L=
+%37org.apache.maven.artifact.repository.ArtifactRepository"__id*O
+
+__unknown_file (3*1!
+com.github.maven_nar.NarManager"
+
+repositoryÛØ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı= ı(_
+%4java.lang.String"vorg.apache.maven.artifact.repository.ArtifactRepository#pathOf(Lorg/apache/maven/artifact/Artifact;)Ljava/lang/String;*[
+
+__unknown_file (?
+=
+%37org.apache.maven.artifact.repository.ArtifactRepository*N
+
+__unknown_file (2
+0
+
+dependency"org.apache.maven.artifact.Artifact2,pathOf(Lorg/apache/maven/artifact/Artifact;)’
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı ı(
+%5java.io.File"java.io.FileĞ
+Í
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı ı(`
+%6":java.io.File#<init>(Ljava/lang/String;Ljava/lang/String;)V*0
+
+__unknown_file (
+
+%5java.io.File*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%4java.lang.String¾
+»
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaı ı(a
+filejava.io.File"__id*0
+
+__unknown_file (
+
+%5java.io.FileÕÒ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaş	 ş(
+%7boolean"java.io.File#exists()Z*2
+
+__unknown_file (
+
+filejava.io.File2exists()*
+17
+18*Ñ
+8k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaŠ Š(
+ÙÖ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaŠ Š(
+%17void";com.github.maven_nar.NarInfo#read(Ljava/util/jar/JarFile;)V*B
+
+__unknown_file (&
+$
+infocom.github.maven_nar.NarInfo*:
+
+__unknown_file (
+
+jarjava.util.jar.JarFile2read(Ljava/util/jar/JarFile;)*
+7*ç
+9k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaˆ ˆ("u
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaˆ ˆ(
+""*¾
+11k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java… †(1ß
+Ü
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java… †(1$
+infocom.github.maven_nar.NarInfo"__id*A
+
+__unknown_file (%
+#
+%14com.github.maven_nar.NarInfoàİ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java‡ ‡(
+%16boolean"=com.github.maven_nar.NarInfo#exists(Ljava/util/jar/JarFile;)Z*B
+
+__unknown_file (&
+$
+infocom.github.maven_nar.NarInfo*:
+
+__unknown_file (
+
+jarjava.util.jar.JarFile2exists(Ljava/util/jar/JarFile;)*
+8
+9*Ì
+12k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java†' †(+ì
+é
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java†' †(/*
+%13#org.apache.maven.plugin.logging.Log"__id*H
+
+__unknown_file (,**!
+com.github.maven_nar.NarManager"
+log³°
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java… …(&#
+%14com.github.maven_nar.NarInfo"com.github.maven_nar.NarInfo­
+ª
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.java… †(0
+%15"com.github.maven_nar.NarInfo#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/maven/plugin/logging/Log;)V*A
+
+__unknown_file (%
+#
+%14com.github.maven_nar.NarInfo*5
+
+__unknown_file (
+
+%10java.lang.String*5
+
+__unknown_file (
+
+%11java.lang.String*5
+
+__unknown_file (
+
+%12java.lang.String*H
+
+__unknown_file (,
+*
+%13#org.apache.maven.plugin.logging.Log*
+11:Ÿ
+k
+_C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarManager.javaø" ø(;0
+
+dependency"org.apache.maven.artifact.ArtifactB#!
+com.github.maven_nar.NarManagerH

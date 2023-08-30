@@ -1,0 +1,6 @@
+com.github.maven_nar.NarIntegrationTestMojo#processSystemProperties(Z)V
+java.util.Properties#instance-init#
+java.lang.System#setProperty(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+java.lang.System#getProperties()Ljava/util/Properties;
+com.github.maven_nar.AbstractDependencyMojo#getLocalRepository()Lorg/apache/maven/artifact/repository/ArtifactRepository;
+java.util.Properties#<init>()V

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.os390.OS390CCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;
+com.github.maven_nar.cpptasks.os390.OS390Processor#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;

@@ -1,0 +1,51 @@
+
+scom.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#getIncludeDirSwitch(Ljava/lang/String;)Ljava/lang/String;É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaq q(&"startingBlock*à
+startingBlockÉ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaq& q(?ç
+ä
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javap p(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.String€
+ÿ
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaq4 q(>
+
+includeDirjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ñ
+1É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javar r(Á
+‰
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javar r(
+%0java.lang.String"__concat*é
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javar r(
+-I*®
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javar r( 
+
+
+includeDirjava.lang.String"†
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javar r(
+
+%0java.lang.String:¶
+É
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaq' q(>
+
+includeDirjava.lang.StringB=;
+9com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler

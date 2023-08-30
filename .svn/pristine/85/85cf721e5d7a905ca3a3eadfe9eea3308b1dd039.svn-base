@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.msvc.MsvcMIDLCompiler#getOutputFileNames(Ljava/lang/String;Lcom/github/maven_nar/cpptasks/VersionInfo;)[Ljava/lang/String;
+com.github.maven_nar.cpptasks.compiler.AbstractCompiler#getOutputSuffix()Ljava/lang/String;

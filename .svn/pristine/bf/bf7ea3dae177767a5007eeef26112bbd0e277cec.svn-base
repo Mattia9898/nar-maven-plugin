@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#createPrecompile()Lcom/github/maven_nar/cpptasks/PrecompileDef;
+com.github.maven_nar.cpptasks.CompilerDef#createPrecompile()Lcom/github/maven_nar/cpptasks/PrecompileDef;

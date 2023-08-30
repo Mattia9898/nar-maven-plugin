@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractNarMojo#getOutput(Z)Ljava/lang/String;
+java.lang.String#isEmpty()Z
+com.github.maven_nar.AbstractNarMojo#getMavenProject()Lorg/apache/maven/project/MavenProject;
+java.lang.String#trim()Ljava/lang/String;

@@ -1,0 +1,85 @@
+
+ucom.github.maven_nar.NarLayout20#getNoArchDirectory(Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)Ljava/io/File;l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡ ¡( "startingBlock*¨
+startingBlockl
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡  ¡(cî
+ë
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java   (
+%0"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*5
+
+__unknown_file (
+
+baseDirjava.io.File¼
+¹
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡, ¡(3
+baseDirjava.io.File"__annotation*"
+
+__unknown_file (
+
+%0õ
+ò
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java   (
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+artifactIdjava.lang.StringÃ
+À
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡B ¡(L
+
+artifactIdjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1ò
+ï
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java   (
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*9
+
+__unknown_file (
+
+versionjava.lang.StringÀ
+½
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡[ ¡(b
+versionjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*
+1*ý
+1l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java£ £("‰
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java£ £(
+
+baseDirjava.io.File:‡
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡! ¡(4
+baseDirjava.io.File:Ž
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡5 ¡(M
+
+artifactIdjava.lang.String:‹
+l
+`C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarLayout20.java¡N ¡(b
+versionjava.lang.StringB$"
+ com.github.maven_nar.NarLayout20H

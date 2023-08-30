@@ -1,27 +1,39 @@
 /*
  * #%L
+ * 
  * Native ARchive plugin for Maven
+ * 
  * %%
+ * 
  * Copyright (C) 2002 - 2014 NAR Maven Plugin developers.
+ * 
  * %%
+ * 
  * Licensed under the Apache License, Version 2.0 (the "License");
+ * 
  * you may not use this file except in compliance with the License.
+ * 
  * You may obtain a copy of the License at
  * 
  * http://www.apache.org/licenses/LICENSE-2.0
  * 
  * Unless required by applicable law or agreed to in writing, software
+ * 
  * distributed under the License is distributed on an "AS IS" BASIS,
+ * 
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * 
  * See the License for the specific language governing permissions and
+ * 
  * limitations under the License.
+ * 
  * #L%
  */
+
 package com.github.maven_nar.cpptasks.openwatcom;
 
-import java.util.Vector;
+import java.util.List;
 
-import com.github.maven_nar.cpptasks.types.LibraryTypeEnum;
 
 /**
  * A add-in class for OpenWatcom processors.
@@ -29,6 +41,10 @@ import com.github.maven_nar.cpptasks.types.LibraryTypeEnum;
  *
  */
 public final class OpenWatcomProcessor {
+	
+  static final boolean TYPE_BOOLEAN = false;
+	
+	
   /**
    * Adds warning command line options.
    *
@@ -37,30 +53,54 @@ public final class OpenWatcomProcessor {
    * @param level
    *          int value of WarningLevelEnum
    */
-  public static void addWarningSwitch(final Vector<String> args, final int level) {
+  public static void addWarningSwitch(final List<String> args, final int level) {
+	  
     switch (level) {
+    
       case 0:
-        args.addElement("/w0");
+    	  
+        args.add("/w0");
+        
         break;
+        
       case 1:
-        args.addElement("/w1");
+    	  
+        args.add("/w1");
+        
         break;
+        
       case 2:
+    	  
         break;
+        
       case 3:
-        args.addElement("/w2");
+    	  
+        args.add("/w2");
+        
         break;
+        
       case 4:
-        args.addElement("/w3");
+    	  
+        args.add("/w3");
+        
         break;
+        
       case 5:
-        args.addElement("/we");
+    	  
+        args.add("/we");
+        
         break;
+        
       default:
-        args.addElement("/w1");
+    	  
+        args.add("/w1");
+        
         break;
+        
     }
+    
   }
+  
 
   /**
    * Gets command line option to read from an option file.
@@ -70,16 +110,27 @@ public final class OpenWatcomProcessor {
    * @return String Command line option
    */
   public static String getCommandFileSwitch(final String cmdFile) {
-    final StringBuffer buf = new StringBuffer("@");
+	  
+    final StringBuilder buf = new StringBuilder("@");
+    
     if (cmdFile.indexOf(' ') >= 0) {
+    	
       buf.append('\"');
+      
       buf.append(cmdFile.replace('/', '\\'));
+      
       buf.append('\"');
+      
     } else {
+    	
       buf.append(cmdFile);
+      
     }
+    
     return buf.toString();
+    
   }
+  
 
   /**
    * Creates a command line option to define a preprocessor macro.
@@ -91,14 +142,22 @@ public final class OpenWatcomProcessor {
    * @param value
    *          String value, may be null
    */
-  public static void getDefineSwitch(final StringBuffer buffer, final String define, final String value) {
+  public static void getDefineSwitch(final StringBuilder buffer, final String define, final String value) {
+	  
     buffer.append("/d");
+    
     buffer.append(define);
+    
     if (value != null && value.length() > 0) {
+    	
       buffer.append('=');
+      
       buffer.append(value);
+      
     }
+    
   }
+  
 
   /**
    * Create a command line option to add a directory to the include path.
@@ -108,8 +167,11 @@ public final class OpenWatcomProcessor {
    * @return String command line option
    */
   public static String getIncludeDirSwitch(final String includeDir) {
+	  
     return "/i=" + includeDir.replace('/', '\\');
+    
   }
+  
 
   /**
    * Get file selectors for specified libraries.
@@ -120,17 +182,28 @@ public final class OpenWatcomProcessor {
    *          library type
    * @return file selectors
    */
-  public static String[] getLibraryPatterns(final String[] libnames, final LibraryTypeEnum libType) {
-    final StringBuffer buf = new StringBuffer();
+  public static String[] getLibraryPatterns(final String[] libnames) {
+	  
+    final StringBuilder buf = new StringBuilder();
+    
     final String[] patterns = new String[libnames.length];
+    
     for (int i = 0; i < libnames.length; i++) {
+    	
       buf.setLength(0);
+      
       buf.append(libnames[i]);
+      
       buf.append(".lib");
+      
       patterns[i] = buf.toString();
+      
     }
+    
     return patterns;
+    
   }
+  
 
   /**
    * Builds command line options to specify the output file names.
@@ -140,19 +213,29 @@ public final class OpenWatcomProcessor {
    * @return String[] command line options
    */
   public static String[] getOutputFileSwitch(final String outPath) {
-    final StringBuffer buf = new StringBuffer("/fo=");
+	  
+    final StringBuilder buf = new StringBuilder("/fo=");
+    
     if (outPath.indexOf(' ') >= 0) {
+    	
       buf.append('\"');
+      
       buf.append(outPath);
+      
       buf.append('\"');
+      
     } else {
+    	
       buf.append(outPath);
+      
     }
-    final String[] retval = new String[] {
+    
+    return new String[] {
       buf.toString()
     };
-    return retval;
+
   }
+  
 
   /**
    * Builds a command line option to undefine a preprocessor macro.
@@ -162,24 +245,19 @@ public final class OpenWatcomProcessor {
    * @param define
    *          String macro to be undefined
    */
-  public static void getUndefineSwitch(final StringBuffer buffer, final String define) {
+  public static void getUndefineSwitch(final StringBuilder buffer, final String define) {
+	  
     buffer.append("/u");
+    
     buffer.append(define);
-  }
-
-  /**
-   * Gets whether processor tratement of file names is case-sensitive.
-   * 
-   * @return boolean true if case sensitive
-   */
-  public static boolean isCaseSensitive() {
-    return false;
+    
   }
 
   /**
    * Private constructor.
    */
   private OpenWatcomProcessor() {
+	  
   }
 
 }

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineCompiler#getTotalArgumentLengthForInputFile(Ljava/io/File;Ljava/lang/String;)I
+java.lang.String#length()I

@@ -1,0 +1,2 @@
+com.github.maven_nar.cpptasks.CCTask#addConfiguredCompilerArg(Lcom/github/maven_nar/cpptasks/types/CompilerArgument;)V
+com.github.maven_nar.cpptasks.CompilerDef#addConfiguredCompilerArg(Lcom/github/maven_nar/cpptasks/types/CompilerArgument;)V

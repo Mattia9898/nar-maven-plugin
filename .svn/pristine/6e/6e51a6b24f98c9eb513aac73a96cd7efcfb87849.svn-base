@@ -1,0 +1,4 @@
+com.github.maven_nar.AbstractNarMojo#getJavaHome(Lcom/github/maven_nar/AOL;)Ljava/io/File;
+com.github.maven_nar.AbstractNarMojo#getOS()Ljava/lang/String;
+com.github.maven_nar.NarInfo#getProperty(Lcom/github/maven_nar/AOL;Ljava/lang/String;Ljava/io/File;)Ljava/io/File;
+com.github.maven_nar.NarUtil#getJavaHome(Ljava/io/File;Ljava/lang/String;)Ljava/io/File;

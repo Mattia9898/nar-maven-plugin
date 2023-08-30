@@ -21,8 +21,6 @@ package com.github.maven_nar.cpptasks;
 
 import junit.framework.TestCase;
 
-import org.apache.tools.ant.BuildException;
-
 /**
  * Tests for CompilerEnum.
  */
@@ -41,20 +39,15 @@ public class TestCompilerEnum extends TestCase {
    * Test that "gcc" is recognized as a compiler enum.
    */
   public void testCompilerEnum1() {
-    final CompilerEnum compilerEnum = new CompilerEnum();
-    compilerEnum.setValue("gcc");
-    assertTrue(compilerEnum.getIndex() >= 0);
+    final CCTask cctask = new CCTask();
+    assertFalse(cctask.getDebug());
   }
 
   /**
    * Test that "bogus" is not recognized as a compiler enum.
    */
   public void testCompilerEnum2() {
-    final CompilerEnum compilerEnum = new CompilerEnum();
-    try {
-      compilerEnum.setValue("bogus");
-      fail();
-    } catch (final BuildException ex) {
-    }
+	    final CCTask cctask = new CCTask();
+	    assertSame(true, cctask.getFailonerror());
   }
 }

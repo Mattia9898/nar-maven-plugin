@@ -1,0 +1,91 @@
+
+Ccom.github.maven_nar.NarInfo#getNarInfoFileName()Ljava/lang/String;f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java{ {(""1*£
+1f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(‘
+—
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |()
+%0java.lang.String"__id*I
+
+__unknown_file (-*+
+com.github.maven_nar.NarInfo"	
+groupIdè
+å
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |()
+%1java.lang.String"__concat*{
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(
+META-INF/nar/*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |()
+
+%0java.lang.StringÉ
+Ä
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(/
+%2java.lang.String"__concat*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |()
+
+%1java.lang.String*o
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java|, |(/
+/◊
+‘
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java|2 |(A
+%3java.lang.String"__id*L
+
+__unknown_file (0*.
+com.github.maven_nar.NarInfo"
+
+artifactIdó
+î
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(A
+%4java.lang.String"__concat*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(/
+
+%2java.lang.String*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java|2 |(A
+
+%3java.lang.StringÉ
+Ä
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(G
+%5java.lang.String"__concat*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(A
+
+%4java.lang.String*o
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java|D |(G
+/≠
+™
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java|J |(X
+%6java.lang.String"__id*"
+
+__unknown_file (
+""ó
+î
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(X
+%7java.lang.String"__concat*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(G
+
+%5java.lang.String*Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java|J |(X
+
+%6java.lang.String"Ç
+f
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarInfo.java| |(Y
+
+%7java.lang.StringB 
+com.github.maven_nar.NarInfoH

@@ -1,0 +1,84 @@
+
+Dcom.github.maven_nar.NarPreparePackageMojo$1#accept(Ljava/io/File;)Zt
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java? ?("startingBlock*þ
+2t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@A @(Eú÷
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@A @(O
+%2java.lang.String"(java.io.File#getName()Ljava/lang/String;*2
+
+__unknown_file (
+
+filejava.io.File2	getName()»
+¸
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@Y @(q
+%3java.lang.String"__id*"
+
+__unknown_file (
+""Â¿
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@A @(r
+%4boolean".java.lang.String#endsWith(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%2java.lang.String*4
+
+__unknown_file (
+
+%3java.lang.String2endsWith(Ljava/lang/String;)*
+1*µ
+3t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@ @(ú÷
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@ @(
+%0java.lang.String"(java.io.File#getName()Ljava/lang/String;*2
+
+__unknown_file (
+
+filejava.io.File2	getName()´±
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@ @(;
+%1boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*4
+
+__unknown_file (
+
+%0java.lang.String*"
+
+__unknown_file (
+""2startsWith(Ljava/lang/String;)*
+2
+1*Ä
+startingBlockt
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java? ?(&ó
+ð
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java> >(
+%5"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*2
+
+__unknown_file (
+
+filejava.io.FileÁ
+¾
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java?! ?(%
+filejava.io.File"__annotation*"
+
+__unknown_file (
+
+%5*
+3*ù
+1t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@ @(t"~
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java@ @(t
+"":Œ
+t
+jC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarPreparePackageMojo.java? ?(%
+filejava.io.FileB0.
+,com.github.maven_nar.NarPreparePackageMojo$1H

@@ -1,0 +1,34 @@
+
+Mcom.github.maven_nar.cpptasks.DependencyInfo#getIncludes()[Ljava/lang/String;v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyInfo.javaK K("1*þ
+1v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyInfo.javaL# L('÷
+ô
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyInfo.javaL# L(0
+%0java.lang.String[]"__id*Z
+
+__unknown_file (>*<.
+,com.github.maven_nar.cpptasks.DependencyInfo"
+
+includesƒ€
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyInfo.javaL# L(8
+%1java.lang.String[]"+java.lang.Object#clone()[Ljava/lang/String;*6
+
+__unknown_file (
+
+%0java.lang.String[]2clone()Þ
+Û
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyInfo.javaL L(9#
+includesClonejava.lang.String[]"__id*6
+
+__unknown_file (
+
+%1java.lang.String[]"Ÿ
+v
+lC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/DependencyInfo.javaM M(%
+#
+includesClonejava.lang.String[]B0.
+,com.github.maven_nar.cpptasks.DependencyInfoH

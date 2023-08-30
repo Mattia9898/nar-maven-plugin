@@ -1,0 +1,54 @@
+
+mcom.github.maven_nar.cpptasks.gcc.AbstractLdLinker#getOutputFileSwitch(Ljava/lang/String;)[Ljava/lang/String;~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java¯ ¯(%"startingBlock*ö
+startingBlock~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java¯% ¯(>‡
+„
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java® ®(
+%1"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*<
+
+__unknown_file ( 
+
+
+outputFilejava.lang.StringÕ
+Ò
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java¯3 ¯(=
+
+outputFilejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*
+1*ñ
+1~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java° °(Ì
+É
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java° °(=
+%0java.lang.String[]"{com.github.maven_nar.cpptasks.gcc.GccProcessor#getOutputFileSwitch(Ljava/lang/String;Ljava/lang/String;)[Ljava/lang/String;*N
+
+__unknown_file (2"0
+.com.github.maven_nar.cpptasks.gcc.GccProcessor*"
+
+__unknown_file (
+-o*<
+
+__unknown_file ( 
+
+
+outputFilejava.lang.String"œ
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java° °(>
+
+%0java.lang.String[]: 
+~
+rC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/AbstractLdLinker.java¯& ¯(=
+
+outputFilejava.lang.StringB64
+2com.github.maven_nar.cpptasks.gcc.AbstractLdLinkerH

@@ -1,0 +1,5 @@
+com.github.maven_nar.NarTestMojo#narExecute()V
+com.github.maven_nar.AbstractCompileMojo#getTests()Ljava/util/List;
+com.github.maven_nar.AbstractNarMojo#getLibraries()Ljava/util/List;
+com.github.maven_nar.NarTestMojo#runExecutable(Lcom/github/maven_nar/Library;)V
+com.github.maven_nar.NarTestMojo#runTest(Lcom/github/maven_nar/Test;)V

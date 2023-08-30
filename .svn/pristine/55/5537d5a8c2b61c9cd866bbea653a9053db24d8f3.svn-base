@@ -1,0 +1,90 @@
+
+zcom.github.maven_nar.NarUtil#replace(Ljava/lang/CharSequence;Ljava/lang/CharSequence;Ljava/lang/String;)Ljava/lang/String;h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java„ „("1*Ð
+1h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java… …(†ƒ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java…! …(2
+%0java.lang.String"3java.lang.CharSequence#toString()Ljava/lang/String;*>
+
+__unknown_file ("
+ 
+targetjava.lang.CharSequence2
+toString()Ã
+À
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java… …(3
+%1java.lang.String"Hcom.github.maven_nar.NarUtil#quote(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( "
+com.github.maven_nar.NarUtil*4
+
+__unknown_file (
+
+%0java.lang.StringÉ
+Æ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java… ‡(7
+%2java.util.regex.Pattern"Ljava.util.regex.Pattern#compile(Ljava/lang/String;)Ljava/util/regex/Pattern;*7
+
+__unknown_file ("
+java.util.regex.Pattern*4
+
+__unknown_file (
+
+%1java.lang.Stringú÷
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java… ‡(G
+%3java.util.regex.Matcher"Rjava.util.regex.Pattern#matcher(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;*;
+
+__unknown_file (
+
+%2java.util.regex.Pattern*8
+
+__unknown_file (
+
+stringjava.lang.String2!matcher(Ljava/lang/CharSequence;)‹ˆ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaˆ+ ˆ(A
+%4java.lang.String"3java.lang.CharSequence#toString()Ljava/lang/String;*C
+
+__unknown_file ('
+%
+replacementjava.lang.CharSequence2
+toString()Î
+Ë
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.javaˆ ˆ(B
+%5java.lang.String"Scom.github.maven_nar.NarUtil#quoteReplacement(Ljava/lang/String;)Ljava/lang/String;*<
+
+__unknown_file ( "
+com.github.maven_nar.NarUtil*4
+
+__unknown_file (
+
+%4java.lang.Stringâß
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java… ˆ(C
+%6java.lang.String"Hjava.util.regex.Matcher#replaceAll(Ljava/lang/String;)Ljava/lang/String;*;
+
+__unknown_file (
+
+%3java.util.regex.Matcher*4
+
+__unknown_file (
+
+%5java.lang.String2replaceAll(Ljava/lang/String;)"„
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java… ˆ(D
+
+%6java.lang.String:Œ
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java„ „(9 
+targetjava.lang.CharSequence:‘
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java„: „(Y%
+replacementjava.lang.CharSequence:†
+h
+\C:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/NarUtil.java„Z „(m
+stringjava.lang.StringB "
+com.github.maven_nar.NarUtilH

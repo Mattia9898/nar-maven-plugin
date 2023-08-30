@@ -1,0 +1,5 @@
+com.github.maven_nar.cpptasks.compiler.LinkType#instance-init#
+com.github.maven_nar.cpptasks.OutputTypeEnum#<init>()V
+com.github.maven_nar.cpptasks.SubsystemEnum#instance-init#
+com.github.maven_nar.cpptasks.OutputTypeEnum#instance-init#
+com.github.maven_nar.cpptasks.SubsystemEnum#<init>()V

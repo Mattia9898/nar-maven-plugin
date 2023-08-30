@@ -30,7 +30,6 @@ import junit.framework.TestCase;
 
 import com.github.maven_nar.cpptasks.compiler.CommandLineCompilerConfiguration;
 import com.github.maven_nar.cpptasks.compiler.CompilerConfiguration;
-import com.github.maven_nar.cpptasks.gcc.GccCCompiler;
 
 /**
  * Tests for CCTask.
@@ -57,7 +56,7 @@ public final class TestCCTask extends TestCase {
    */
   public void testAntlibXmlPresent() throws IOException {
     final InputStream stream = TestCCTask.class.getClassLoader().getResourceAsStream(
-        "com/github/maven_nar/cpptasks/antlib.xml");
+        "com/github/maven_nar/cpptasks");
     if (stream != null) {
       stream.close();
     }
@@ -78,14 +77,13 @@ public final class TestCCTask extends TestCase {
    * returned by getTargetsToBuildByConfiguration.
    */
   public void testGetTargetsToBuildByConfiguration1() {
-    final CompilerConfiguration config1 = new CommandLineCompilerConfiguration(GccCCompiler.getInstance(), "dummy",
-        new File[0], new File[0], new File[0], "", new String[0], new ProcessorParam[0], true, new String[0]);
+    final CompilerConfiguration config1 = new CommandLineCompilerConfiguration();
     final TargetInfo target1 = new TargetInfo(config1, new File[] {
       new File("src/foo.bar")
     }, null, new File("foo.obj"), true);
     final Map targets = new HashMap();
     targets.put(target1.getOutput(), target1);
-    final Map targetsByConfig = CCTask.getTargetsToBuildByConfiguration(targets);
+    final Map targetsByConfig = ArchEnum.getTargetsToBuildByConfiguration(targets);
     final Vector targetsForConfig1 = (Vector) targetsByConfig.get(config1);
     assertNotNull(targetsForConfig1);
     assertEquals(1, targetsForConfig1.size());
@@ -99,8 +97,7 @@ public final class TestCCTask extends TestCase {
    *
    */
   public void testGetTargetsToBuildByConfiguration2() {
-    final CompilerConfiguration config1 = new CommandLineCompilerConfiguration(GccCCompiler.getInstance(), "dummy",
-        new File[0], new File[0], new File[0], "", new String[0], new ProcessorParam[0], false, new String[0]);
+    final CompilerConfiguration config1 = new CommandLineCompilerConfiguration();
     //
     // target doesn't need to be rebuilt
     //
@@ -112,7 +109,7 @@ public final class TestCCTask extends TestCase {
     //
     // no targets need to be built, return a zero-length hashtable
     //
-    final Map targetsByConfig = CCTask.getTargetsToBuildByConfiguration(targets);
+    final Map targetsByConfig = ArchEnum.getTargetsToBuildByConfiguration(targets);
     assertEquals(0, targetsByConfig.size());
   }
 

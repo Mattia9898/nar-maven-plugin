@@ -1,0 +1,65 @@
+
+‚com.github.maven_nar.cpptasks.borland.BorlandProcessor#getIncludeDirSwitch(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.java‰ ‰(*"1*“
+1‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.javaŠ. Š(;¾»
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.javaŠ! Š(-
+%0java.lang.StringBuffer"java.lang.StringBuffer¿
+¼
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.javaŠ Š(<
+%1"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*:
+
+__unknown_file (
+
+%0java.lang.StringBuffer*?
+
+__unknown_file (#
+!
+includeOptionjava.lang.Stringé
+æ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.javaŠ Š(=
+bufjava.lang.StringBuffer"__id*:
+
+__unknown_file (
+
+%0java.lang.StringBufferÖ
+Ó
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.java‹ ‹(
+
+%2void"mcom.github.maven_nar.cpptasks.borland.BorlandProcessor#quoteFile(Ljava/lang/StringBuffer;Ljava/lang/String;)V*V
+
+__unknown_file (:"8
+6com.github.maven_nar.cpptasks.borland.BorlandProcessor*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer*<
+
+__unknown_file ( 
+
+
+includeDirjava.lang.Stringž›
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.javaŒ Œ(
+%3java.lang.String"3java.lang.StringBuffer#toString()Ljava/lang/String;*;
+
+__unknown_file (
+
+bufjava.lang.StringBuffer2
+toString()"Ÿ
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.javaŒ Œ(
+
+%3java.lang.String:¨
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.java‰+ ‰(F!
+includeOptionjava.lang.String:¥
+‚
+vC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/borland/BorlandProcessor.java‰G ‰(^
+
+includeDirjava.lang.StringB:"8
+6com.github.maven_nar.cpptasks.borland.BorlandProcessorH

@@ -1,0 +1,4 @@
+com.github.maven_nar.cpptasks.compiler.CommandLineLinker#getOutputFileSwitch(Lcom/github/maven_nar/cpptasks/CCTask;Ljava/lang/String;)[Ljava/lang/String;
+org.apache.tools.ant.BuildException#<init>(Ljava/lang/String;)V
+java.lang.String#length()I
+org.apache.tools.ant.BuildException#instance-init#

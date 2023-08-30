@@ -1,0 +1,47 @@
+
+ƒcom.github.maven_nar.cpptasks.gcc.WindresResourceCompiler#createParser(Ljava/io/File;)Lcom/github/maven_nar/cpptasks/parser/Parser;ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaS S("startingBlock*ø
+startingBlockƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaS S(2…
+‚
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaR R(
+%2"
+__annotate*2
+
+__unknown_file (
+java.lang.Override*4
+
+__unknown_file (
+
+sourcejava.io.FileÓ
+Ð
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaS+ S(1
+sourcejava.io.File"__annotation*"
+
+__unknown_file (
+
+%2*
+1*Ò
+1ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaT T(ëè
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaT T(2
+%0,com.github.maven_nar.cpptasks.parser.CParser",com.github.maven_nar.cpptasks.parser.CParser™
+–
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaT T(
+%1"6com.github.maven_nar.cpptasks.parser.CParser#<init>()V*P
+
+__unknown_file (4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser"¼
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaT T(4
+2
+%0,com.github.maven_nar.cpptasks.parser.CParser:ž
+ƒ
+yC:/Users/readytouse/Desktop/nar-maven-plugin/src/main/java/com/github/maven_nar/cpptasks/gcc/WindresResourceCompiler.javaS  S(1
+sourcejava.io.FileB=;
+9com.github.maven_nar.cpptasks.gcc.WindresResourceCompiler
